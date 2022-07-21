@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="Barcode">/home/pi/git/BCUIDF/Barcode</file>
+</qresource>
+</RCC>
