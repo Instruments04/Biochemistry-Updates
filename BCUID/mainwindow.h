@@ -149,26 +149,6 @@ private slots:
     void slotEnter();
        void slotLinkClicked(QUrl url);
 
-       void on_downloadButton_clicked();
-
-       void on_quitButton_clicked();
-
-       void on_urlEdit_returnPressed();
-
-       // slot for readyRead() signal
-       void httpReadyRead();
-
-       // slot for finished() signal from reply
-       void httpDownloadFinished();
-
-       // slot for downloadProgress()
-       void updateDownloadProgress(qint64, qint64);
-
-       void enableDownloadButton();
-       void cancelDownload();
-
-
-       void on_Clear_clicked();
     void ShowTime();
     int readadc(int);
     int reading(int,int);
@@ -604,17 +584,6 @@ private slots:
     void on_timeEdit_userTimeChanged(const QTime &time);
 
     void on_calendarWidget_activated(const QDate &date);
-
-    void on_pushButton_132_clicked();
-    //void download(const qnetworkrequest &request);
-    //void unsupportedcontent(qnetworkreply * reply);
-
-    void on_toolButton_24_triggered(QAction *arg1);
-
-
-    int on_pushButton_133_clicked();
-
-    int on_toolButton_4_clicked();
 
 private:
 

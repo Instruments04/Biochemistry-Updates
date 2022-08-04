@@ -583,26 +583,12 @@ max-height: 200px;
        </size>
       </property>
      </widget>
-     <widget class="QToolButton" name="toolButton_4">
-      <property name="geometry">
-       <rect>
-        <x>680</x>
-        <y>210</y>
-        <width>101</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>...</string>
-      </property>
-     </widget>
      <zorder>Test_Btn_4</zorder>
      <zorder>frame_2</zorder>
      <zorder>QC_Btn_4</zorder>
      <zorder>DataHis_Btn_4</zorder>
      <zorder>TestConfig_Btn_5</zorder>
      <zorder>Logo_Btn_3</zorder>
-     <zorder>toolButton_4</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QLabel" name="Home_Lbl_2">
@@ -19425,8 +19411,8 @@ border-radius:30%;</string>
        <rect>
         <x>170</x>
         <y>100</y>
-        <width>481</width>
-        <height>141</height>
+        <width>551</width>
+        <height>131</height>
        </rect>
       </property>
       <property name="text">
@@ -19436,10 +19422,10 @@ border-radius:30%;</string>
      <widget class="QLabel" name="label_219">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>250</y>
-        <width>131</width>
-        <height>31</height>
+        <x>170</x>
+        <y>270</y>
+        <width>231</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="font">
@@ -19451,7 +19437,7 @@ border-radius:30%;</string>
        </font>
       </property>
       <property name="text">
-       <string/>
+       <string>LOADING...</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -19460,10 +19446,10 @@ border-radius:30%;</string>
      <widget class="QLabel" name="label_220">
       <property name="geometry">
        <rect>
-        <x>260</x>
-        <y>130</y>
-        <width>321</width>
-        <height>111</height>
+        <x>220</x>
+        <y>40</y>
+        <width>351</width>
+        <height>201</height>
        </rect>
       </property>
       <property name="text">
@@ -19476,8 +19462,8 @@ border-radius:30%;</string>
      <widget class="QLabel" name="label_221">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>260</y>
+        <x>480</x>
+        <y>300</y>
         <width>151</width>
         <height>31</height>
        </rect>
@@ -19492,6 +19478,43 @@ border-radius:30%;</string>
       </property>
       <property name="text">
        <string>RESTARTING...</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_132">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>340</y>
+        <width>83</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_222">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>280</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Liberation Sans</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>UPDATE FINISH....</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </widget>
