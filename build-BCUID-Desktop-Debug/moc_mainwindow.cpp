@@ -1566,7 +1566,7 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void, QMetaType::QTime,  394,
     QMetaType::Void, QMetaType::QDate,   40,
-    QMetaType::Void,
+    QMetaType::Int,
     QMetaType::Void, 0x80000000 | 398,  383,
     QMetaType::Int,
     QMetaType::Int,
@@ -1582,15 +1582,6 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->slotEnter(); break;
         case 1: _t->slotLinkClicked((*reinterpret_cast< QUrl(*)>(_a[1]))); break;
-        case 2: _t->on_downloadButton_clicked(); break;
-        case 3: _t->on_quitButton_clicked(); break;
-        case 4: _t->on_urlEdit_returnPressed(); break;
-        case 5: _t->httpReadyRead(); break;
-        case 6: _t->httpDownloadFinished(); break;
-        case 7: _t->updateDownloadProgress((*reinterpret_cast< qint64(*)>(_a[1])),(*reinterpret_cast< qint64(*)>(_a[2]))); break;
-        case 8: _t->enableDownloadButton(); break;
-        case 9: _t->cancelDownload(); break;
-        case 10: _t->on_Clear_clicked(); break;
         case 11: _t->ShowTime(); break;
         case 12: { int _r = _t->readadc((*reinterpret_cast< int(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
@@ -1980,12 +1971,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 384: _t->on_radioButton_4_clicked(); break;
         case 385: _t->on_timeEdit_userTimeChanged((*reinterpret_cast< const QTime(*)>(_a[1]))); break;
         case 386: _t->on_calendarWidget_activated((*reinterpret_cast< const QDate(*)>(_a[1]))); break;
-        case 387: _t->on_pushButton_132_clicked(); break;
-        case 388: _t->on_toolButton_24_triggered((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
-        case 389: { int _r = _t->on_pushButton_133_clicked();
-            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
-        case 390: { int _r = _t->on_toolButton_4_clicked();
-            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+
+
+
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {

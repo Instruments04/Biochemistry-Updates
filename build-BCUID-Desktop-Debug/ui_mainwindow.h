@@ -57,7 +57,6 @@ public:
     QPushButton *DataHis_Btn_4;
     QPushButton *TestConfig_Btn_5;
     QPushButton *Logo_Btn_3;
-    QToolButton *toolButton_4;
     QWidget *page_2;
     QLabel *Home_Lbl_2;
     QLabel *Status_Lbl;
@@ -935,6 +934,8 @@ public:
     QLabel *label_219;
     QLabel *label_220;
     QLabel *label_221;
+    QPushButton *pushButton_132;
+    QLabel *label_222;
     QWidget *page_19;
     QFrame *frame_4;
     QLabel *label_11;
@@ -1220,9 +1221,6 @@ public:
         icon8.addFile(QStringLiteral(":/img/LOGOS.png"), QSize(), QIcon::Normal, QIcon::Off);
         Logo_Btn_3->setIcon(icon8);
         Logo_Btn_3->setIconSize(QSize(100, 200));
-        toolButton_4 = new QToolButton(page_6);
-        toolButton_4->setObjectName(QStringLiteral("toolButton_4"));
-        toolButton_4->setGeometry(QRect(680, 210, 101, 31));
         stackedWidget->addWidget(page_6);
         Test_Btn_4->raise();
         frame_2->raise();
@@ -1230,7 +1228,6 @@ public:
         DataHis_Btn_4->raise();
         TestConfig_Btn_5->raise();
         Logo_Btn_3->raise();
-        toolButton_4->raise();
         page_2 = new QWidget();
         page_2->setObjectName(QStringLiteral("page_2"));
         Home_Lbl_2 = new QLabel(page_2);
@@ -6473,20 +6470,28 @@ public:
         toolButton_19->setIconSize(QSize(50, 50));
         statusLabel = new QLabel(page);
         statusLabel->setObjectName(QStringLiteral("statusLabel"));
-        statusLabel->setGeometry(QRect(170, 100, 481, 141));
+        statusLabel->setGeometry(QRect(170, 100, 551, 131));
         label_219 = new QLabel(page);
         label_219->setObjectName(QStringLiteral("label_219"));
-        label_219->setGeometry(QRect(350, 250, 131, 31));
+        label_219->setGeometry(QRect(170, 270, 231, 41));
         label_219->setFont(font11);
         label_219->setAlignment(Qt::AlignCenter);
         label_220 = new QLabel(page);
         label_220->setObjectName(QStringLiteral("label_220"));
-        label_220->setGeometry(QRect(260, 130, 321, 111));
+        label_220->setGeometry(QRect(220, 40, 351, 201));
         label_220->setAlignment(Qt::AlignCenter);
         label_221 = new QLabel(page);
         label_221->setObjectName(QStringLiteral("label_221"));
-        label_221->setGeometry(QRect(360, 260, 151, 31));
+        label_221->setGeometry(QRect(480, 300, 151, 31));
         label_221->setFont(font11);
+        pushButton_132 = new QPushButton(page);
+        pushButton_132->setObjectName(QStringLiteral("pushButton_132"));
+        pushButton_132->setGeometry(QRect(280, 340, 83, 25));
+        label_222 = new QLabel(page);
+        label_222->setObjectName(QStringLiteral("label_222"));
+        label_222->setGeometry(QRect(420, 280, 261, 61));
+        label_222->setFont(font11);
+        label_222->setAlignment(Qt::AlignCenter);
         stackedWidget->addWidget(page);
         page_19 = new QWidget();
         page_19->setObjectName(QStringLiteral("page_19"));
@@ -6862,7 +6867,6 @@ public:
 "         Test \n"
 "        Configuration", nullptr));
         Logo_Btn_3->setText(QString());
-        toolButton_4->setText(QApplication::translate("MainWindow", "...", nullptr));
         Home_Lbl_2->setText(QApplication::translate("MainWindow", "Select Test to Run", nullptr));
         Status_Lbl->setText(QString());
         Home_Btn_2->setText(QString());
@@ -7633,9 +7637,11 @@ public:
         toolButton_3->setText(QApplication::translate("MainWindow", "Set Value", nullptr));
         toolButton_19->setText(QString());
         statusLabel->setText(QString());
-        label_219->setText(QString());
+        label_219->setText(QApplication::translate("MainWindow", "LOADING...", nullptr));
         label_220->setText(QString());
         label_221->setText(QApplication::translate("MainWindow", "RESTARTING...", nullptr));
+        pushButton_132->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
+        label_222->setText(QApplication::translate("MainWindow", "UPDATE FINISH....", nullptr));
         label_11->setText(QApplication::translate("MainWindow", "USER LOGIN", nullptr));
         label_68->setText(QApplication::translate("MainWindow", "LAB NAME", nullptr));
         label_74->setText(QApplication::translate("MainWindow", "USER NAME", nullptr));
