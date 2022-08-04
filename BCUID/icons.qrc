@@ -30,5 +30,6 @@
         <file>img/amp.png</file>
         <file>img/add.png</file>
         <file>img/833.gif</file>
+        <file>img/refresh.gif</file>
     </qresource>
 </RCC>

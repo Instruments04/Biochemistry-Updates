@@ -614,6 +614,8 @@ private slots:
 
     int on_pushButton_133_clicked();
 
+    int on_toolButton_4_clicked();
+
 private:
 
     Ui::MainWindow *ui;

@@ -583,17 +583,17 @@ max-height: 200px;
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_228">
+     <widget class="QToolButton" name="toolButton_4">
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>220</y>
-        <width>83</width>
-        <height>25</height>
+        <x>680</x>
+        <y>210</y>
+        <width>101</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>...</string>
       </property>
      </widget>
      <zorder>Test_Btn_4</zorder>
@@ -602,7 +602,7 @@ max-height: 200px;
      <zorder>DataHis_Btn_4</zorder>
      <zorder>TestConfig_Btn_5</zorder>
      <zorder>Logo_Btn_3</zorder>
-     <zorder>pushButton_228</zorder>
+     <zorder>toolButton_4</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QLabel" name="Home_Lbl_2">
@@ -19420,138 +19420,23 @@ border-radius:30%;</string>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="downloadButton">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>310</y>
-        <width>151</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Liberation Sans</family>
-        <pointsize>14</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(12, 68, 145);
- border: 1px solid black;
-     border-radius: 15px;
-color: rgb(255, 255, 255);
-font-style:bold;</string>
-      </property>
-      <property name="text">
-       <string>Download</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="urlEdit">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>50</y>
-        <width>621</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Liberation Sans</family>
-        <pointsize>14</pointsize>
-        <weight>75</weight>
-        <italic>true</italic>
-        <bold>true</bold>
-       </font>
-      </property>
-     </widget>
      <widget class="QLabel" name="statusLabel">
       <property name="geometry">
        <rect>
         <x>170</x>
-        <y>120</y>
-        <width>441</width>
-        <height>121</height>
+        <y>100</y>
+        <width>481</width>
+        <height>141</height>
        </rect>
       </property>
       <property name="text">
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="quitButton">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>380</y>
-        <width>151</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(12, 68, 145);
- border: 1px solid black;
-     border-radius: 15px;
-color: rgb(255, 255, 255);
-font-style:bold;</string>
-      </property>
-      <property name="text">
-       <string>quitButton</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="Clear">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>250</y>
-        <width>151</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(12, 68, 145);
- border: 1px solid black;
-     border-radius: 15px;
-color: rgb(255, 255, 255);
-font-style:bold;</string>
-      </property>
-      <property name="text">
-       <string>clear</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_132">
-      <property name="geometry">
-       <rect>
-        <x>260</x>
-        <y>310</y>
-        <width>281</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Liberation Sans</family>
-        <pointsize>16</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(12, 68, 145);
- border: 1px solid black;
-     border-radius: 15px;
-color: rgb(255, 255, 255);
-font-style:bold;</string>
-      </property>
-      <property name="text">
-       <string>Update New Version</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_219">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>350</x>
         <y>250</y>
         <width>131</width>
         <height>31</height>
@@ -19566,7 +19451,7 @@ font-style:bold;</string>
        </font>
       </property>
       <property name="text">
-       <string>LOADING...</string>
+       <string/>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -19575,27 +19460,38 @@ font-style:bold;</string>
      <widget class="QLabel" name="label_220">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>140</y>
-        <width>361</width>
-        <height>81</height>
+        <x>260</x>
+        <y>130</y>
+        <width>321</width>
+        <height>111</height>
        </rect>
       </property>
       <property name="text">
        <string/>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_133">
+     <widget class="QLabel" name="label_221">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>360</x>
         <y>260</y>
-        <width>121</width>
-        <height>61</height>
+        <width>151</width>
+        <height>31</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Liberation Sans</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
-       <string>Update</string>
+       <string>RESTARTING...</string>
       </property>
      </widget>
     </widget>

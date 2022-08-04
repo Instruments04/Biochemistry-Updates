@@ -847,7 +847,15 @@ void MainWindow::on_pushButton_5_clicked()
 
 void MainWindow::on_Power_Btn_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(19);
+    if (QMessageBox::Yes == QMessageBox(QMessageBox::Information, "Power Off", "Are you sure you want to Power Off ", QMessageBox::Yes|QMessageBox::No).exec())
+       {
+           system("sudo poweroff");  //System Power Off Option
+       }
+       else
+       {
+
+           ui->stackedWidget->setCurrentIndex(0);
+       }//ui->stackedWidget->setCurrentIndex(19);
 }
 
 void MainWindow::on_pushButton_309_clicked()
@@ -4131,15 +4139,15 @@ void MainWindow::on_calendarWidget_activated(const QDate &date)
 void MainWindow::on_pushButton_132_clicked()
 {
 
-    ui->urlEdit->setText("https://github.com/Instruments04/Biochemistry-Updates/archive/refs/heads/main.zip");
+    //ui->urlEdit->setText("https://github.com/Instruments04/Biochemistry-Updates/archive/refs/heads/main.zip");
        ui->statusLabel->setWordWrap(true);
-       ui->downloadButton->setDefault(true);
-       ui->quitButton->setAutoDefault(false);
+       //ui->downloadButton->setDefault(true);
+      // ui->quitButton->setAutoDefault(false);
 
        progressDialog = new QProgressDialog(this);
 
-       connect(ui->urlEdit, SIGNAL(textChanged(QString)),
-                   this, SLOT(on_dowanloadButton_clicked()));
+      // connect(ui->urlEdit, SIGNAL(textChanged(QString)),
+               //    this, SLOT(on_dowanloadButton_clicked()));
        connect(progressDialog, SIGNAL(canceled()), this, SLOT(cancelDownload()));
 
        progressDialog->setVisible(false);
@@ -4150,7 +4158,7 @@ void MainWindow::on_pushButton_132_clicked()
            ui->label_220->setVisible(true);
            ui->label_219->setVisible(true);
            QMovie *movie = new QMovie("/home/pi/git/Biochemistry-Updates-main/BCUID/img/YVPG.gif");
-               QLabel *processLabel = ui->label_220;
+               QLabel *processLabel = ui->statusLabel;
                processLabel->setMovie(movie);
                movie->start();
        }
@@ -4170,7 +4178,7 @@ void MainWindow::on_downloadButton_clicked()
     manager = new QNetworkAccessManager(this);
 
     // get url
-    url = (ui->urlEdit->text());
+  //  url = (ui->urlEdit->text());
 
     QFileInfo fileInfo(url.path());
     QString fileName = fileInfo.fileName();
@@ -4206,7 +4214,7 @@ void MainWindow::on_downloadButton_clicked()
     progressDialog->setLabelText(tr("Downloading %1.").arg(fileName));
 
     // download button disabled after requesting download
-    ui->downloadButton->setEnabled(false);
+  //  ui->downloadButton->setEnabled(false);
 
     startRequest(url);
 }
@@ -4242,7 +4250,7 @@ void MainWindow::on_urlEdit_returnPressed()
 
 void MainWindow::enableDownloadButton()
 {
-    ui->downloadButton->setEnabled(!(ui->urlEdit->text()).isEmpty());
+  //  ui->downloadButton->setEnabled(!(ui->urlEdit->text()).isEmpty());
     on_downloadButton_clicked();
 }
 
@@ -4252,7 +4260,7 @@ void MainWindow::cancelDownload()
     ui->statusLabel->setText(tr("Download canceled."));
     httpRequestAborted = true;
     reply->abort();
-    ui->downloadButton->setEnabled(true);
+  //  ui->downloadButton->setEnabled(true);
 }
 
 // When download finished or canceled, this will be called
@@ -4283,7 +4291,7 @@ void MainWindow::httpDownloadFinished()
         QMessageBox::information(this, tr("HTTP"),
                                  tr("Download failed: %1.")
                                  .arg(reply->errorString()));
-        ui->downloadButton->setEnabled(true);
+      //  ui->downloadButton->setEnabled(true);
     } else if (!redirectionTarget.isNull()) {
         QUrl newUrl = url.resolved(redirectionTarget.toUrl());
         if (QMessageBox::question(this, tr("HTTP"),
@@ -4298,9 +4306,9 @@ void MainWindow::httpDownloadFinished()
         }
     } else {
 
-        QString fileName = QFileInfo(QUrl(ui->urlEdit->text()).path()).fileName();
-        ui->statusLabel->setText(tr("Downloaded %1 to %2.").arg(fileName).arg(QDir::currentPath()));
-        ui->downloadButton->setEnabled(true);
+   //     QString fileName = QFileInfo(QUrl(ui->urlEdit->text()).path()).fileName();
+        //ui->statusLabel->setText(tr("Downloaded %1 to %2.").arg(fileName).arg(QDir::currentPath()));
+   //     ui->downloadButton->setEnabled(true);
     }
 
     reply->deleteLater();
@@ -4370,18 +4378,68 @@ int MainWindow::on_pushButton_133_clicked()
 
 int MainWindow::on_pushButton_11_clicked()
 {
+    ui->stackedWidget->setCurrentIndex(22);
+    ui->label_220->setVisible(false);
+    ui->statusLabel->setVisible(true);
+    ui->label_219->setVisible(true);
+    ui->label_221->setVisible(false);
 
-    /*QDir pathDir("/home/pi/git/Biochemistry-Updates-main");
+    QMovie *movie = new QMovie("/home/pi/git/Biochemistry-Updates/BCUID/img/YVPG.gif");
+        QLabel *processLabel = ui->statusLabel;
+        processLabel->setMovie(movie);
+        movie->start();
+        ui->label_219->setText("LOADING...");
+
+    QDir pathDir("/home/pi/git/Biochemistry-Updates");
     if (pathDir.exists())
     {
 
-        QDir directory("/home/pi/git/Biochemistry-Updates-main");
+        QDir directory("/home/pi/git/Biochemistry-Updates");
         directory.removeRecursively();
+        QProcess *myprocess = new QProcess(this);
+        QDir Direct ("/home/pi/git/");
+        qDebug() << Direct ;
+        myprocess->start("git clone https://github.com/Instruments04/Biochemistry-Updates.git");
+
+            if (!myprocess->waitForStarted())
+            {
+                qDebug() << "Error : " << myprocess->errorString();
+                return 1;
+            }
+            qDebug() << "No Error ";
+            QDir search ("/home/pi/git/Biochemistry-Updates/BCUID");
+            if(search.exists())
+            {
+                movie->stop();
+                ui->statusLabel->setVisible(false);
+            }
+            myprocess->waitForFinished(-1);
+            ui->label_219->setText("UPDATED...");
+            ui->label_220->setVisible(true);
+            ui->statusLabel->setVisible(false);
+            ui->label_219->setVisible(false);
+            ui->label_221->setVisible(true);
+            QMovie *movie = new QMovie("/home/pi/git/Biochemistry-Updates/BCUID/img/refresh.gif");
+                QLabel *processLabel = ui->label_220;
+                processLabel->setMovie(movie);
+                movie->start();
+                ui->label_221->setText("RESTARTING...");
+
+                QString Reboot = ui->label_221->text();
+                if(Reboot=="RESTARTING...")
+                {
+                    system("sudo chmod +x home/pi/git/Biochemistry-Updates/build-BCUID-Desktop-Debug/BCUID");
+                    system("sudo shutdown -r now");
+
+                }
+                QThread::msleep(1000);
 
 
-        QDir direc("/main/ui");
-        file.setFileName(direc.absoluteFilePath("tmp.ui"));
-    }*/
+
+
+        //QDir direc("/main/ui");
+        //file.setFileName(direc.absoluteFilePath("tmp.ui"));
+    }
 
     /*QProcess *myprocess = new QProcess(this);
     qDebug() << QDir::current();
@@ -4426,3 +4484,20 @@ void copyFolder(QString sourceFolder, QString destFolder)
     }
 }
 
+
+int MainWindow::on_toolButton_4_clicked()
+{
+    QProcess *myprocess = new QProcess(this);
+    QDir Direct ("/home/pi/git/");
+    qDebug() << Direct ;
+    myprocess->start("git clone https://github.com/Instruments04/Biochemistry-Updates.git");
+
+        if (!myprocess->waitForStarted())
+        {
+            qDebug() << "Error : " << myprocess->errorString();
+            return 1;
+        }
+        qDebug() << "No Error ";
+
+        myprocess->waitForFinished(-1);
+}
