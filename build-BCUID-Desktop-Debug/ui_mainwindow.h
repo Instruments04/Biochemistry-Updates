@@ -5135,6 +5135,7 @@ public:
         label_220 = new QLabel(frame_7);
         label_220->setObjectName(QStringLiteral("label_220"));
         label_220->setGeometry(QRect(60, 170, 61, 51));
+        label_220->setStyleSheet(QStringLiteral("background-color: rgb(244, 255, 226);"));
         label_220->setPixmap(QPixmap(QString::fromUtf8("img/preview.gif")));
         stackedWidget->addWidget(page_10);
         page_11 = new QWidget();
