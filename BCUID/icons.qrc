@@ -31,5 +31,6 @@
         <file>img/add.png</file>
         <file>img/833.gif</file>
         <file>img/refresh.gif</file>
+        <file>img/preview.gif</file>
     </qresource>
 </RCC>

@@ -94,7 +94,7 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-    QString dateTime;
+    QDateTime dateTime;
     QString date;
     QString time;
 public:
@@ -144,10 +144,6 @@ public:
     }
 
 private slots:
-
-
-    void slotEnter();
-       void slotLinkClicked(QUrl url);
 
     void ShowTime();
     int readadc(int);
@@ -584,6 +580,12 @@ private slots:
     void on_timeEdit_userTimeChanged(const QTime &time);
 
     void on_calendarWidget_activated(const QDate &date);
+
+    void on_pushButton_132_clicked();
+
+    void on_dateTime_dateTimeChanged(const QDateTime &dateTime);
+
+    void on_toolButton_4_clicked();
 
 private:
 

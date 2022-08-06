@@ -71,6 +71,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     ui->tabWidget_2->setCurrentIndex(0);
     ui->tabWidget_4->setCurrentIndex(0);
     ui->tabWidget_5->setCurrentIndex(0);
+    ui->label_220->setVisible(false);
     wiringPiSetup () ;
     mcp3004Setup (ADC_BASE, SPI_CHAN) ;
     sr595Setup (LED_BASE, 8, dataPin, clockPin, latchPin) ;
@@ -115,6 +116,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     QScroller::grabGesture(ui->scrollArea_7, QScroller::LeftMouseButtonGesture);
 
     //Setting & Power Btn Hidden**************
+
+    QDateTime dateTime(QDateTime::fromString(date, "yyyy-MM-dd hh:mm:ss"));
 
     ui->frame->hide();
     ui->pushButton_23->hide();
@@ -251,9 +254,6 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent),
     ui->comboBox_12->setVisible(false);
     ui->Data_Select_Delete->setVisible(false);
     ui->Data_Delete_All->setVisible(false);
-
-    ui->label_219->setVisible(false);
-    ui->label_220->setVisible(false);
 
     // QObject::connect(&manager, SIGNAL(finished(QNetworkReply*)),this, SLOT(downloadFinished(QNetworkReply*)));
 
@@ -418,76 +418,14 @@ void MainWindow::ShowTime()
 
 void MainWindow::on_calendarWidget_clicked(const QDate &date)
 {
-    /*this->date = date.toString("dd/MM/yyyy");
-    QString string=date.toString("dd/MM/yyyy");
-    QString dateTimeString ("date -s ");
-    dateTimeString.append(string);
-    int systemDateTimeStatus= system(dateTimeString.toStdString().c_str());
-    qDebug()<<systemDateTimeStatus;
 
-    if (systemDateTimeStatus == -1)
-    {
-        qDebug() << "Failed to change date time";
-    }*/
 }
 
-void MainWindow::on_pushButton_6_clicked()
-{
-
-    /* QString string = dateTime.toStdString("\"yyyy-MM-dd hh:mm\"");
- QString string= ui->calendarWidget->selectedDate().toString("dd/MM/yyyy");
-    QString dateTimeString ("date -s ");
-    dateTimeString.append(string);
-    int systemDateTimeStatus= system(dateTimeString.toStdString().c_str());
-    if (systemDateTimeStatus == -1)
-    {
-        qDebug() << "Failed to change date time";
-    }*/
-
-    int systemHwClockStatus = system("/sbin/hwclock -r");
-    int systemHwClockStatus1 = system("/sbin/hwclock -w");
-    qDebug()<<systemHwClockStatus;
-    qDebug()<<systemHwClockStatus1;
-    //ui->label_89->setText(QString::number(systemHwClockStatus));
-    //ui->label_212->setText(QString::number(systemHwClockStatus1));
-    if (systemHwClockStatus == -1 )
-    {
-        qDebug() << "Failed to sync hardware clock";
-    }
-
-    /*ui->calendarWidget->selectedDate().toString("dd/MM/yyyy");
-    this->date = QString("%1").arg(this->date);
-    this->time = QString("%2").arg(this->time);
-    ui->SysDate_Lbl->setText(date);
-    ui->SysTime_Lbl->setText(time);
-    ui->stackedWidget->setCurrentIndex(12);*/
-}
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
-
-void MainWindow::slotEnter()
-{
-    // Load the page specified in the URL field lineEdit
-    //ui->webView->load(QUrl(ui->lineEdit_3->text()));
-}
-
-void MainWindow::slotLinkClicked(QUrl url)
-{
-    // Clicking on the link put the address in the field qlineEdit
-    //ui->lineEdit_3->setText(url.toString());
-    //ui->webView->load(url);     // Загружаем страницу по этой ссылке
-}
-/*void MainWindow::download(const qnetworkrequest &request)
-{
-  qdebug()<<"download requested: "<<request.url();
- }
- void MainWindow::unsupportedcontent(qnetworkreply * reply)
-{
-   qdebug()<<"unsupported content: "<<reply->url();
-}*/
 
 void MainWindow::on_Home_Btn_2_clicked()
 {
@@ -772,78 +710,10 @@ void MainWindow::on_toolButton_17_clicked()
 void MainWindow::on_pushButton_10_clicked()
 {
     ui->stackedWidget->setCurrentIndex(18);
-    ui->SysDate_Lbl->setText(date);
+
 }
 
-void MainWindow::on_pushButton_5_clicked()
-{
-    //    QSqlQuery query;
-    //    QStringList tables;
-    //    query.prepare("SELECT * FROM sqlite_master");
-    //    while (query.next())
-    //    {
-    //        qDebug() << query.value("sql").toString();
-    //        if (query.value("type").toString() == "table")
-    //            tables << query.value("name");
-    //    }
 
-    //    static const QString insert = QStringLiteral("INSERT INTO %1 (%2) VALUES (%3);");
-    //    QStringList columns;
-    //    QStringList values;
-    //    QSqlRecord record;
-    //    bool first = true;
-    //    foreach (const QString& table, tables)
-    //    {
-    //        first = true;
-    //        query.prepare(QString("SELECT * FROM [%1]").arg(table));
-    //        while (query.next())
-    //        {
-    //            record = query.record();
-    //            for (int i = 0; i < record.count(); i++)
-    //            {
-    //                if (first)
-    //                    columns << record.fieldName(i);
-
-    //                values << record.value(i);
-    //            }
-    //            first = false;
-
-    //            qDebug() << insert.arg(table).arg(columns.join(", ")).arg(values.join(", "));
-    //        }
-    //    }
-    //    Few not
-
-    QProcess dumpProcess(this);
-    QStringList args;
-    args << "-uroot" << "-pmysql" << "test";
-    dumpProcess.setStandardOutputFile("bc.db");
-    dumpProcess.start("/home/pi/git/Biochemistry-Updates-main/BCUIDF/bc.db", args);
-
-    /*QString filter = tr("Database Backup (*.db)");
-    QString fileName = QFileDialog::getSaveFileName(this,tr("Backup Database"),QDir::homePath(),filter);
-    if(!fileName.isEmpty()){
-        QString filePath = QDir::homePath();
-        filePath.append("/home/pi/git/BCUID/bc.db");
-        QFile sourceFile(filePath);
-        if(!sourceFile.open(QIODevice::ReadOnly))
-        {
-            return;
-        }
-        QFile destFile("bc.db");
-        if(!destFile.open(QIODevice::WriteOnly))
-        {
-            return;
-        }
-        QTextStream sourceStream(&sourceFile);
-        QTextStream destStream(&destFile);
-        QByteArray data;
-        sourceStream>>data;
-        data = qCompress(data);
-        destStream<<data;
-        sourceFile.close();
-        destFile.close();
-    }*/
-}
 
 void MainWindow::on_Power_Btn_clicked()
 {
@@ -2674,7 +2544,7 @@ void MainWindow::on_pushButton_231_clicked()
         msg.setDetailedText("ACCESS GRANTED");
         msg.setStyleSheet("font:16pt Arial;");
         msg.setText("Password is correct");
-        QPixmap p("/home/pi/git/Biochemistry-Updates-main/BCUIDF/img/check-mark.png");
+        QPixmap p("/home/pi/git/Biochemistry-Updates/BCUID/img/check-mark.png");
         auto newPixmap = p.scaled(80, 80);
         msg.setIconPixmap(newPixmap);
 
@@ -2708,7 +2578,7 @@ void MainWindow::on_pushButton_231_clicked()
         msg.setDetailedText("ACCESS DENIED");
         msg.setStyleSheet("font:16pt Arial;");
         msg.setText("Password is incorrect");
-        QPixmap p("/home/pi/git/Biochemistry-Updates-main/BCUIDF/img/cancel.png");
+        QPixmap p("/home/pi/git/Biochemistry-Updates/BCUID/img/cancel.png");
         auto newPixmap = p.scaled(80, 80);
         msg.setIconPixmap(newPixmap);
         msg.setStandardButtons(QMessageBox::Ok);
@@ -4138,39 +4008,149 @@ void MainWindow::on_calendarWidget_activated(const QDate &date)
 
 int MainWindow::on_pushButton_11_clicked()
 {
-    QDir pathDir("/home/pi/git/Biochemistry-Updates");
-    if (pathDir.exists())
-    {
-        QDir directory("/home/pi/git/Biochemistry-Updates");
-        directory.removeRecursively();
-    }
-    QThread::msleep(200);
-    QProcess *myprocess = new QProcess(this);
-    QDir Direct ("/home/pi/git/");
-    qDebug() << Direct ;
-    myprocess->setWorkingDirectory("/home/pi/git/");
-    myprocess->start("git clone https://github.com/Instruments04/Biochemistry-Updates.git");
-    if (!myprocess->waitForStarted())
-    {
-        qDebug() << "Error : " << myprocess->errorString();
-        return 1;
-    }
-    qDebug() << "No Error ";
-    myprocess->waitForFinished(-1);
-    QThread::msleep(200);
-    QDir search ("/home/pi/git/Biochemistry-Updates/BCUID");
-    if(search.exists())
-    {
 
-    }
-    QThread::msleep(200);
+    QMessageBox msg(this);
+    msg.setWindowModality(Qt::WindowModal);
+    msg.setWindowTitle(QLatin1String("Information"));
+    QPixmap p("/home/pi/git/Biochemistry-Updates/BCUID/img/check-mark.png");
+    auto newPixmap = p.scaled(80, 80);
+    msg.setIconPixmap(newPixmap);
+    msg.setStyleSheet("font:16pt Arial;");
+    msg.setText("Are you sure you want a Software Update");
+    msg.setStandardButtons(QMessageBox::Ok);
+    msg.setFixedWidth(500);
+    if(msg.exec() == QMessageBox::Ok)
 
-    QString Reboot = "Restart";
-    if(Reboot=="Restart")
     {
-        system("sudo chmod +x /home/pi/git/Biochemistry-Updates/build-BCUID-Desktop-Debug/BCUID");
-        system("sudo shutdown -r now");
+         ui->label_220->setVisible(true);
+         QMovie *movie = new QMovie("/home/pi/git/Biochemistry-Updates/BCUID/img/preview.gif");
+         QLabel *processLabel = ui->label_220;
+         movie->setScaledSize(ui->label_220->size());
+         processLabel->setMovie(movie);
+         movie->start();
 
+        QDir pathDir("/home/pi/git/Biochemistry-Updates");
+        if (pathDir.exists())
+        {
+            QDir directory("/home/pi/git/Biochemistry-Updates");
+            directory.removeRecursively();
+        }
+        QThread::msleep(100);
+        QProcess *myprocess = new QProcess(this);
+        QDir Direct ("/home/pi/git/");
+        qDebug() << Direct ;
+        myprocess->setWorkingDirectory("/home/pi/git/");
+        myprocess->start("git clone https://github.com/Instruments04/Biochemistry-Updates.git");
+        if (!myprocess->waitForStarted())
+        {
+            qDebug() << "Error : " << myprocess->errorString();
+            return 1;
+        }
+        qDebug() << "No Error ";
+        myprocess->waitForFinished(-1);
+        QThread::msleep(100);
+        QDir search ("/home/pi/git/Biochemistry-Updates/BCUID");
+        if(search.exists())
+        {
+
+        }
+        QThread::msleep(100);
+
+        QString Reboot = "Restart";
+        if(Reboot=="Restart")
+        {
+            system("sudo chmod +x /home/pi/git/Biochemistry-Updates/build-BCUID-Desktop-Debug/BCUID");
+            system("sudo shutdown -r now");
+
+        }
     }
+
 }
 
+void MainWindow::on_pushButton_5_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(22);
+}
+
+
+void MainWindow::on_pushButton_132_clicked()
+{
+
+    /*QProcess dump(this);
+    QStringList args;
+    QString path="/home/pi/git/Biochemistry-Updates/BCUID/bc.db";
+    args<<"-uroot"<<"-proot"<<"kopuz"<<">";
+    dump.setStandardOutputFile(path);
+    dump.start("mysqldump.exe",args);*/
+
+
+    QProcess dumpProcess(this);
+    QDir Directry ("/home/pi/git/");
+    qDebug() << Directry ;
+    dumpProcess.setWorkingDirectory("/home/pi/git/");
+    dumpProcess.setStandardOutputFile("bc.db");
+    dumpProcess.start("/home/pi/git/Biochemistry-Updates/BCUID/bc.db");
+    if(!dumpProcess.waitForStarted(1000))
+    {
+    qDebug()<<dumpProcess.errorString();
+    }
+
+   /* QProcess dumpProcess(this);
+    QDir Directry ("/home/pi/git/");
+    qDebug() << Directry ;
+    dumpProcess.setWorkingDirectory("/home/pi/git/");
+   // QStringList args;
+    //args << "-uroot" << "-pmysql" << "test";
+    dumpProcess.setStandardOutputFile("bc.db");
+    dumpProcess.start("");
+
+    /*QProcess * dumpProcess = new QProcess(this);
+    QDir Directry ("/home/pi/git/");
+    qDebug() << Directry ;
+    dumpProcess->setWorkingDirectory("/home/pi/git");
+    dumpProcess->setStandardOutputFile("bc.db");
+    dumpProcess->start("/home/pi/git/Biochemistry-Updates/BCUID/bc.db");*/
+}
+
+void MainWindow::on_dateTime_dateTimeChanged(const QDateTime &dateTime)
+{
+
+}
+
+void MainWindow::on_pushButton_6_clicked()
+{
+    QString string = dateTime.toString("\"yyyy-MM-dd hh:mm\"");
+    QString dateTimeString ("hwclock --set --date=2011-08-14 16:45:05");
+    dateTimeString.append(string);
+    int systemDateTimeStatus= system(dateTimeString.toStdString().c_str());
+    if (systemDateTimeStatus == -1)
+    {
+        qDebug() << "Failed to change date time";
+    }
+    int systemHwClockStatus = system("sudo hwclock -w");
+    if (systemHwClockStatus == -1 )
+    {
+        qDebug() << "Failed to sync hardware clock";
+    }
+
+//    ui->SysDate_Lbl->setText(QString::number(systemDateTimeStatus));
+
+  /* QString string = ui->dateTime->text("");
+
+    int systemHwClockStatus = system("sudo hwclock -w");
+    if (systemHwClockStatus == -1 )
+    {
+        qDebug() << "Failed to sync hardware clock";
+    }*/
+
+}
+
+void MainWindow::on_toolButton_4_clicked()
+{
+    QMovie *movie = new QMovie("/home/pi/git/Biochemistry-Updates/BCUID/img/preview.gif");
+    QLabel *processLabel = ui->label_220;
+    movie->setScaledSize(ui->label_220->size());
+    processLabel->setMovie(movie);
+    movie->start();
+
+}

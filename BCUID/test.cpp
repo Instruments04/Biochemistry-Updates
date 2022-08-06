@@ -433,9 +433,10 @@ void MainWindow::on_pushButton_227_clicked()
         if(query.exec())
         {
 
-            if (Blankval>=startval)
+            if (Blankval<=endval && Blankval>=startval)
             {
-                qDebug()<<w405<<Blankval<<"405 clicked";
+                qDebug()<<w340<<Blankval<<"405 clicked";
+                qDebug()<<startval<<Blankval<<endval;
                 QThread::msleep(1000);
                 // Open();
                 QMessageBox msg(this);
@@ -499,9 +500,10 @@ void MainWindow::on_pushButton_227_clicked()
         if(query.exec())
         {
 
-            if (Blankval>=startval)
+            if (Blankval<=endval && Blankval>=startval)
             {
-                qDebug()<<w507<<Blankval<<"507 clicked";
+                qDebug()<<w340<<Blankval<<"507 clicked";
+                qDebug()<<startval<<Blankval<<endval;
                 QThread::msleep(1000);
                 // Open();
                 QMessageBox msg(this);
@@ -563,9 +565,10 @@ void MainWindow::on_pushButton_227_clicked()
         query.prepare("update tests set blankval='"+Blankval+"' where sno=4");
         if(query.exec())
         {
-            if (Blankval>=startval)
+            if (Blankval<=endval && Blankval>=startval)
             {
-                qDebug()<<w545<<Blankval<<"545 clicked";
+                qDebug()<<w340<<Blankval<<"545 clicked";
+                qDebug()<<startval<<Blankval<<endval;
                 QThread::msleep(1000);
                 // Open();
                 QMessageBox msg(this);
@@ -625,9 +628,10 @@ void MainWindow::on_pushButton_227_clicked()
         if(query.exec())
         {
 
-            if (Blankval>=startval)
+            if (Blankval<=endval && Blankval>=startval)
             {
-                qDebug()<<w572<<Blankval<<"572 clicked";
+                qDebug()<<w340<<Blankval<<"572 clicked";
+                qDebug()<<startval<<Blankval<<endval;
                 QThread::msleep(1000);
                 // Open();
                 QMessageBox msg(this);
@@ -690,9 +694,10 @@ void MainWindow::on_pushButton_227_clicked()
         if(query.exec())
         {
 
-            if (Blankval>=startval)
+            if (Blankval<=endval && Blankval>=startval)
             {
-                qDebug()<<w628<<Blankval<<"628 clicked";
+                qDebug()<<w340<<Blankval<<"628 clicked";
+                qDebug()<<startval<<Blankval<<endval;
                 QThread::msleep(1000);
                 // Open();
                 QMessageBox msg(this);
@@ -755,9 +760,10 @@ void MainWindow::on_pushButton_227_clicked()
         if(query.exec())
         {
 
-            if (Blankval>=startval)
+            if (Blankval<=endval && Blankval>=startval)
             {
-                qDebug()<<w700<<Blankval<<"700 clicked";
+                qDebug()<<w340<<Blankval<<"700 clicked";
+                qDebug()<<startval<<Blankval<<endval;
                 QThread::msleep(1000);
                 // Open();
                 QMessageBox msg(this);
