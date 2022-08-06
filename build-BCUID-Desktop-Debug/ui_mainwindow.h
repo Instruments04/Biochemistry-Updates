@@ -705,6 +705,7 @@ public:
     QLineEdit *lineEdit_148;
     QPushButton *pushButton_230;
     QPushButton *pushButton_231;
+    QLabel *label_220;
     QWidget *page_11;
     QStackedWidget *stackedWidget_2;
     QWidget *page_14;
@@ -836,12 +837,13 @@ public:
     QPushButton *pushButton_6;
     QLabel *label_109;
     QCalendarWidget *calendarWidget;
-    QTimeEdit *timeEdit;
-    QDateTimeEdit *dateTimeEdit;
+    QDateTimeEdit *dateTime;
     QLabel *label_10;
     QLabel *label_89;
     QLabel *label_90;
     QLabel *label_212;
+    QTimeEdit *timeEdit;
+    QDateEdit *dateEdit_3;
     QWidget *page_25;
     QLabel *label_116;
     QToolButton *toolButton_20;
@@ -930,12 +932,8 @@ public:
     QToolButton *toolButton_3;
     QWidget *page;
     QToolButton *toolButton_19;
-    QLabel *statusLabel;
-    QLabel *label_219;
-    QLabel *label_220;
-    QLabel *label_221;
     QPushButton *pushButton_132;
-    QLabel *label_222;
+    QPushButton *pushButton_133;
     QWidget *page_19;
     QFrame *frame_4;
     QLabel *label_11;
@@ -4518,7 +4516,7 @@ public:
         toolButton_13->setIconSize(QSize(50, 50));
         Load_Btn = new QPushButton(page_9);
         Load_Btn->setObjectName(QStringLiteral("Load_Btn"));
-        Load_Btn->setGeometry(QRect(90, 170, 251, 81));
+        Load_Btn->setGeometry(QRect(90, 170, 271, 81));
         Load_Btn->setFont(font22);
         Load_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
@@ -5134,6 +5132,10 @@ public:
 "     border-radius: 10px;\n"
 "color: rgb(255, 255, 255);\n"
 "}"));
+        label_220 = new QLabel(frame_7);
+        label_220->setObjectName(QStringLiteral("label_220"));
+        label_220->setGeometry(QRect(60, 170, 61, 51));
+        label_220->setPixmap(QPixmap(QString::fromUtf8("img/preview.gif")));
         stackedWidget->addWidget(page_10);
         page_11 = new QWidget();
         page_11->setObjectName(QStringLiteral("page_11"));
@@ -5947,12 +5949,10 @@ public:
         calendarWidget->setGeometry(QRect(30, 220, 231, 191));
         calendarWidget->setStyleSheet(QLatin1String("\n"
 "color: rgb(0, 0, 0);"));
-        timeEdit = new QTimeEdit(page_21);
-        timeEdit->setObjectName(QStringLiteral("timeEdit"));
-        timeEdit->setGeometry(QRect(570, 100, 118, 26));
-        dateTimeEdit = new QDateTimeEdit(page_21);
-        dateTimeEdit->setObjectName(QStringLiteral("dateTimeEdit"));
-        dateTimeEdit->setGeometry(QRect(540, 70, 194, 26));
+        dateTime = new QDateTimeEdit(page_21);
+        dateTime->setObjectName(QStringLiteral("dateTime"));
+        dateTime->setGeometry(QRect(540, 70, 211, 51));
+        dateTime->setTime(QTime(0, 0, 0));
         label_10 = new QLabel(page_21);
         label_10->setObjectName(QStringLiteral("label_10"));
         label_10->setGeometry(QRect(40, 40, 64, 17));
@@ -5969,6 +5969,12 @@ public:
         label_212->setObjectName(QStringLiteral("label_212"));
         label_212->setGeometry(QRect(170, 90, 311, 17));
         label_212->setFont(font11);
+        timeEdit = new QTimeEdit(page_21);
+        timeEdit->setObjectName(QStringLiteral("timeEdit"));
+        timeEdit->setGeometry(QRect(300, 140, 151, 41));
+        dateEdit_3 = new QDateEdit(page_21);
+        dateEdit_3->setObjectName(QStringLiteral("dateEdit_3"));
+        dateEdit_3->setGeometry(QRect(100, 140, 161, 41));
         stackedWidget->addWidget(page_21);
         page_25 = new QWidget();
         page_25->setObjectName(QStringLiteral("page_25"));
@@ -6468,30 +6474,24 @@ public:
 "border-radius:30%;"));
         toolButton_19->setIcon(icon14);
         toolButton_19->setIconSize(QSize(50, 50));
-        statusLabel = new QLabel(page);
-        statusLabel->setObjectName(QStringLiteral("statusLabel"));
-        statusLabel->setGeometry(QRect(170, 100, 551, 131));
-        label_219 = new QLabel(page);
-        label_219->setObjectName(QStringLiteral("label_219"));
-        label_219->setGeometry(QRect(170, 270, 231, 41));
-        label_219->setFont(font11);
-        label_219->setAlignment(Qt::AlignCenter);
-        label_220 = new QLabel(page);
-        label_220->setObjectName(QStringLiteral("label_220"));
-        label_220->setGeometry(QRect(220, 40, 351, 201));
-        label_220->setAlignment(Qt::AlignCenter);
-        label_221 = new QLabel(page);
-        label_221->setObjectName(QStringLiteral("label_221"));
-        label_221->setGeometry(QRect(480, 300, 151, 31));
-        label_221->setFont(font11);
         pushButton_132 = new QPushButton(page);
         pushButton_132->setObjectName(QStringLiteral("pushButton_132"));
-        pushButton_132->setGeometry(QRect(280, 340, 83, 25));
-        label_222 = new QLabel(page);
-        label_222->setObjectName(QStringLiteral("label_222"));
-        label_222->setGeometry(QRect(420, 280, 261, 61));
-        label_222->setFont(font11);
-        label_222->setAlignment(Qt::AlignCenter);
+        pushButton_132->setGeometry(QRect(100, 180, 270, 80));
+        pushButton_132->setFont(font11);
+        pushButton_132->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
+" border: 1px solid black;\n"
+"     border-radius: 15px;\n"
+"color: rgb(255, 255, 255);\n"
+"font-style:bold;"));
+        pushButton_133 = new QPushButton(page);
+        pushButton_133->setObjectName(QStringLiteral("pushButton_133"));
+        pushButton_133->setGeometry(QRect(450, 180, 270, 80));
+        pushButton_133->setFont(font11);
+        pushButton_133->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
+" border: 1px solid black;\n"
+"     border-radius: 15px;\n"
+"color: rgb(255, 255, 255);\n"
+"font-style:bold;"));
         stackedWidget->addWidget(page);
         page_19 = new QWidget();
         page_19->setObjectName(QStringLiteral("page_19"));
@@ -6826,7 +6826,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(15);
         tabWidget->setCurrentIndex(1);
         tabWidget_2->setCurrentIndex(0);
         tabWidget_6->setCurrentIndex(0);
@@ -7452,6 +7452,7 @@ public:
 "               Login", nullptr));
         pushButton_230->setText(QString());
         pushButton_231->setText(QApplication::translate("MainWindow", "Access >>>", nullptr));
+        label_220->setText(QString());
         pushButton_13->setText(QApplication::translate("MainWindow", "q", nullptr));
         pushButton_14->setText(QApplication::translate("MainWindow", "w", nullptr));
         pushButton_18->setText(QApplication::translate("MainWindow", "\342\206\265", nullptr));
@@ -7571,6 +7572,7 @@ public:
         label_110->setText(QApplication::translate("MainWindow", "Minutes", nullptr));
         pushButton_6->setText(QApplication::translate("MainWindow", "OK", nullptr));
         label_109->setText(QApplication::translate("MainWindow", "Hours", nullptr));
+        dateTime->setDisplayFormat(QApplication::translate("MainWindow", "dd/MM/yy h:mm", nullptr));
         label_10->setText(QApplication::translate("MainWindow", "Read", nullptr));
         label_89->setText(QApplication::translate("MainWindow", "Read Time", nullptr));
         label_90->setText(QApplication::translate("MainWindow", "Write", nullptr));
@@ -7636,12 +7638,8 @@ public:
         pushButton_224->setText(QString());
         toolButton_3->setText(QApplication::translate("MainWindow", "Set Value", nullptr));
         toolButton_19->setText(QString());
-        statusLabel->setText(QString());
-        label_219->setText(QApplication::translate("MainWindow", "LOADING...", nullptr));
-        label_220->setText(QString());
-        label_221->setText(QApplication::translate("MainWindow", "RESTARTING...", nullptr));
-        pushButton_132->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
-        label_222->setText(QApplication::translate("MainWindow", "UPDATE FINISH....", nullptr));
+        pushButton_132->setText(QApplication::translate("MainWindow", "DATA BACKUP", nullptr));
+        pushButton_133->setText(QApplication::translate("MainWindow", "DATA RESTORE", nullptr));
         label_11->setText(QApplication::translate("MainWindow", "USER LOGIN", nullptr));
         label_68->setText(QApplication::translate("MainWindow", "LAB NAME", nullptr));
         label_74->setText(QApplication::translate("MainWindow", "USER NAME", nullptr));

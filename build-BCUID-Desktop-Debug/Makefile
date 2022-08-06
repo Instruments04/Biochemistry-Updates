@@ -426,6 +426,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/output-onlinepngtools \
 		../BCUID/img/refresh.gif \
 		../BCUID/img/hidden.png \
+		../BCUID/img/preview.gif \
 		../BCUID/img/YVPG.gif \
 		../BCUID/img/delete.png \
 		../BCUID/img/output-onlinepngtools \
