@@ -4060,6 +4060,7 @@ int MainWindow::on_pushButton_11_clicked()
         if(Reboot=="Restart")
         {
             system("sudo chmod +x /home/pi/git/Biochemistry-Updates/build-BCUID-Desktop-Debug/BCUID");
+            QThread::msleep(500);
             system("sudo shutdown -r now");
 
         }
