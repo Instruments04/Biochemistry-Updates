@@ -4029,6 +4029,8 @@ int MainWindow::on_pushButton_11_clicked()
          processLabel->setMovie(movie);
          movie->start();
 
+         QThread::msleep(5000);
+
         QDir pathDir("/home/pi/git/Biochemistry-Updates");
         if (pathDir.exists())
         {

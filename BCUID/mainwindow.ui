@@ -14399,6 +14399,9 @@ color: rgb(255, 255, 255);
          <height>51</height>
         </rect>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(244, 255, 226);</string>
+       </property>
        <property name="text">
         <string/>
        </property>
