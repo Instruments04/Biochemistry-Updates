@@ -51,8 +51,8 @@ double start=0;
 double end =0;
 int Enter=1;
 
-QString startval="1";
-QString endval="10";
+QString startval="2500";
+QString endval="3900";
 QString text;
 int Individual;
 int Individuals;
