@@ -54,7 +54,6 @@ SOURCES       = ../BCUID/main.cpp \
 		../BCUID/mainwindow.cpp \
 		../BCUID/printer.cpp \
 		../BCUID/endpoint.cpp \
-		../BCUID/keyboard.cpp \
 		../BCUID/kinetic.cpp \
 		../BCUID/pi2c.cpp \
 		../BCUID/qc.cpp \
@@ -62,7 +61,12 @@ SOURCES       = ../BCUID/main.cpp \
 		../BCUID/test.cpp \
 		../BCUID/testconfig.cpp \
 		../BCUID/twopoint.cpp \
-		../BCUID/wifi-setup.cpp qrc_icons.cpp \
+		../BCUID/wifi-setup.cpp \
+		../BCUID/keyboard.cpp \
+		../BCUID/adgain.cpp \
+		../BCUID/dbbackrest.cpp \
+		../BCUID/printingbtns.cpp \
+		../BCUID/datahistry.cpp qrc_icons.cpp \
 		moc_mainwindow.cpp \
 		moc_printer.cpp \
 		moc_qcustomplot.cpp
@@ -70,7 +74,6 @@ OBJECTS       = main.o \
 		mainwindow.o \
 		printer.o \
 		endpoint.o \
-		keyboard.o \
 		kinetic.o \
 		pi2c.o \
 		qc.o \
@@ -79,6 +82,11 @@ OBJECTS       = main.o \
 		testconfig.o \
 		twopoint.o \
 		wifi-setup.o \
+		keyboard.o \
+		adgain.o \
+		dbbackrest.o \
+		printingbtns.o \
+		datahistry.o \
 		qrc_icons.o \
 		moc_mainwindow.o \
 		moc_printer.o \
@@ -172,7 +180,6 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/mainwindow.cpp \
 		../BCUID/printer.cpp \
 		../BCUID/endpoint.cpp \
-		../BCUID/keyboard.cpp \
 		../BCUID/kinetic.cpp \
 		../BCUID/pi2c.cpp \
 		../BCUID/qc.cpp \
@@ -180,7 +187,12 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/test.cpp \
 		../BCUID/testconfig.cpp \
 		../BCUID/twopoint.cpp \
-		../BCUID/wifi-setup.cpp
+		../BCUID/wifi-setup.cpp \
+		../BCUID/keyboard.cpp \
+		../BCUID/adgain.cpp \
+		../BCUID/dbbackrest.cpp \
+		../BCUID/printingbtns.cpp \
+		../BCUID/datahistry.cpp
 QMAKE_TARGET  = BCUID
 DESTDIR       = 
 TARGET        = BCUID
@@ -392,7 +404,7 @@ distdir: FORCE
 	$(COPY_FILE) --parents ../BCUID/icons.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.h ../BCUID/printer.h ../BCUID/pi2c.h ../BCUID/qcustomplot.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/keyboard.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.ui $(DISTDIR)/
 
 
@@ -428,6 +440,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/hidden.png \
 		../BCUID/img/preview.gif \
 		../BCUID/img/YVPG.gif \
+		../BCUID/img/restore.png \
 		../BCUID/img/delete.png \
 		../BCUID/img/output-onlinepngtools \
 		../BCUID/img/output-onlinepngtools \
@@ -438,8 +451,10 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/add.png \
 		../BCUID/img/TEST.png \
 		../BCUID/img/output-onlinepngtools.png \
+		../BCUID/img/backu.png \
 		../BCUID/img/icons8-cancel-50.png \
 		../BCUID/img/delline.png \
+		../BCUID/img/backupdb.png \
 		../BCUID/img/UserLogin.png \
 		../BCUID/img/notification.png \
 		../BCUID/img/TESTCONFIG.png \
@@ -463,6 +478,9 @@ compiler_moc_header_make_all: moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp
 moc_mainwindow.cpp: ../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h \
 		../BCUID/mainwindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
@@ -501,11 +519,15 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_heade
 ####### Compile
 
 main.o: ../BCUID/main.cpp ../BCUID/mainwindow.h \
-		../BCUID/pi2c.h
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../BCUID/main.cpp
 
 mainwindow.o: ../BCUID/mainwindow.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/printer.h
@@ -516,19 +538,15 @@ printer.o: ../BCUID/printer.cpp ../BCUID/printer.h
 
 endpoint.o: ../BCUID/endpoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endpoint.o ../BCUID/endpoint.cpp
 
-keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
-		../BCUID/pi2c.h \
-		ui_mainwindow.h \
-		../BCUID/qcustomplot.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../BCUID/keyboard.cpp
-
 kinetic.o: ../BCUID/kinetic.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/printer.h
@@ -539,6 +557,7 @@ pi2c.o: ../BCUID/pi2c.cpp ../BCUID/pi2c.h
 
 qc.o: ../BCUID/qc.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qc.o ../BCUID/qc.cpp
@@ -548,18 +567,21 @@ qcustomplot.o: ../BCUID/qcustomplot.cpp ../BCUID/qcustomplot.h
 
 test.o: ../BCUID/test.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o test.o ../BCUID/test.cpp
 
 testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testconfig.o ../BCUID/testconfig.cpp
 
 twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/printer.h
@@ -567,9 +589,46 @@ twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
 
 wifi-setup.o: ../BCUID/wifi-setup.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
 		ui_mainwindow.h \
 		../BCUID/qcustomplot.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o wifi-setup.o ../BCUID/wifi-setup.cpp
+
+keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../BCUID/keyboard.cpp
+
+adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adgain.o ../BCUID/adgain.cpp
+
+dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dbbackrest.o ../BCUID/dbbackrest.cpp
+
+printingbtns.o: ../BCUID/printingbtns.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h \
+		../BCUID/printer.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o printingbtns.o ../BCUID/printingbtns.cpp
+
+datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datahistry.o ../BCUID/datahistry.cpp
 
 qrc_icons.o: qrc_icons.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_icons.o qrc_icons.cpp
