@@ -434,6 +434,7 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_icons.cpp
 qrc_icons.cpp: ../BCUID/icons.qrc \
 		/usr/lib/qt5/bin/rcc \
+		../BCUID/img/notify.png \
 		../BCUID/img/QC.png \
 		../BCUID/img/output-onlinepngtools \
 		../BCUID/img/refresh.gif \
@@ -452,6 +453,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/TEST.png \
 		../BCUID/img/output-onlinepngtools.png \
 		../BCUID/img/backu.png \
+		../BCUID/img/notificate.png \
 		../BCUID/img/icons8-cancel-50.png \
 		../BCUID/img/delline.png \
 		../BCUID/img/backupdb.png \
@@ -627,7 +629,8 @@ datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
 		../BCUID/kboard.h \
 		ui_mainwindow.h \
-		../BCUID/qcustomplot.h
+		../BCUID/qcustomplot.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datahistry.o ../BCUID/datahistry.cpp
 
 qrc_icons.o: qrc_icons.cpp 
