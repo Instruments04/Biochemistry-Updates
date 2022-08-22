@@ -443,6 +443,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/YVPG.gif \
 		../BCUID/img/restore.png \
 		../BCUID/img/delete.png \
+		../BCUID/img/info.png \
 		../BCUID/img/output-onlinepngtools \
 		../BCUID/img/output-onlinepngtools \
 		../BCUID/img/amp.png \

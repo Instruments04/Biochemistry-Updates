@@ -700,6 +700,10 @@ public:
     QPushButton *pushButton_7;
     QPushButton *pushButton_230;
     QLabel *label_219;
+    QPushButton *pushButton_228;
+    QPushButton *pushButton_229;
+    QPushButton *pushButton_240;
+    QPushButton *pushButton_241;
     QWidget *page_11;
     QStackedWidget *stackedWidget_2;
     QWidget *page_14;
@@ -1114,7 +1118,6 @@ public:
         Test_Btn_4->setStyleSheet(QLatin1String("QPushButton#Test_Btn_4\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
-"border:none;\n"
 "border-width: 1px;\n"
 "border-radius: 25px;\n"
 "padding: 3px;\n"
@@ -1122,6 +1125,7 @@ public:
 "padding-left:0px;\n"
 "padding-right: 5px;\n"
 "	color: rgb(255, 255, 255);\n"
+"border: 1px solid black;\n"
 "}\n"
 ""));
         QIcon icon4;
@@ -1137,7 +1141,7 @@ public:
 "{\n"
 "color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 68, 145);\n"
-"border:none;\n"
+"border: 1px solid black;\n"
 "border-width: 1px;\n"
 "border-radius: 25px;\n"
 "padding: 3px;\n"
@@ -1159,7 +1163,7 @@ public:
         DataHis_Btn_4->setStyleSheet(QLatin1String("QPushButton#DataHis_Btn_4\n"
 "{\n"
 "background-color: rgb(12, 68, 145);border-width: 1px;\n"
-"border:none;\n"
+"border: 1px solid black;\n"
 "border-radius: 25px;\n"
 "padding: 3px;\n"
 "text-align:top;\n"
@@ -1182,7 +1186,7 @@ public:
 "{\n"
 "color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 68, 145);\n"
-"border:none;\n"
+"border: 1px solid black;\n"
 "border-width: 1px;\n"
 "\n"
 "border-radius: 25px;\n"
@@ -1203,7 +1207,7 @@ public:
         Logo_Btn_3->setStyleSheet(QLatin1String("QPushButton#Logo_Btn_3\n"
 "{\n"
 "background-color: #f4f4fc;\n"
-"	border-radius: 100;\n"
+"border-radius: 100;	\n"
 "min-width: 200px;\n"
 "max-width: 200px;\n"
 "min-height: 200px;\n"
@@ -4973,9 +4977,8 @@ public:
         pushButton_10->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"     \n"
+"border: 1px solid black;\n"
+"border-radius: 15px;   \n"
 "color: rgb(255, 255, 255);\n"
 "}"));
         toolButton = new QToolButton(page_10);
@@ -5090,6 +5093,18 @@ public:
         label_219->setGeometry(QRect(220, 50, 371, 51));
         label_219->setFont(font24);
         label_219->setAlignment(Qt::AlignCenter);
+        pushButton_228 = new QPushButton(page_10);
+        pushButton_228->setObjectName(QStringLiteral("pushButton_228"));
+        pushButton_228->setGeometry(QRect(230, 10, 131, 61));
+        pushButton_229 = new QPushButton(page_10);
+        pushButton_229->setObjectName(QStringLiteral("pushButton_229"));
+        pushButton_229->setGeometry(QRect(450, 10, 131, 61));
+        pushButton_240 = new QPushButton(page_10);
+        pushButton_240->setObjectName(QStringLiteral("pushButton_240"));
+        pushButton_240->setGeometry(QRect(560, 310, 191, 61));
+        pushButton_241 = new QPushButton(page_10);
+        pushButton_241->setObjectName(QStringLiteral("pushButton_241"));
+        pushButton_241->setGeometry(QRect(560, 380, 191, 61));
         stackedWidget->addWidget(page_10);
         page_11 = new QWidget();
         page_11->setObjectName(QStringLiteral("page_11"));
@@ -7391,7 +7406,7 @@ public:
         radioButton_2->setText(QApplication::translate("MainWindow", "Maintenance && Service", nullptr));
         pushButton_10->setText(QApplication::translate("MainWindow", "Date and Time Change", nullptr));
         toolButton->setText(QApplication::translate("MainWindow", "Printer setup", nullptr));
-        pushButton_11->setText(QApplication::translate("MainWindow", "Software Update", nullptr));
+        pushButton_11->setText(QApplication::translate("MainWindow", "Software Upgrade", nullptr));
         pushButton_5->setText(QApplication::translate("MainWindow", "Data Backup", nullptr));
         pushButton_231->setText(QApplication::translate("MainWindow", "Access >>>", nullptr));
         pushButton_131->setText(QApplication::translate("MainWindow", "Multiplication Factor", nullptr));
@@ -7402,6 +7417,10 @@ public:
         pushButton_7->setText(QApplication::translate("MainWindow", "AD Gain", nullptr));
         pushButton_230->setText(QString());
         label_219->setText(QString());
+        pushButton_228->setText(QApplication::translate("MainWindow", "LED_ON", nullptr));
+        pushButton_229->setText(QApplication::translate("MainWindow", "LED_OFF", nullptr));
+        pushButton_240->setText(QApplication::translate("MainWindow", "Wave LED_ON", nullptr));
+        pushButton_241->setText(QApplication::translate("MainWindow", "Wave LED_OFF", nullptr));
         pushButton_13->setText(QApplication::translate("MainWindow", "q", nullptr));
         pushButton_14->setText(QApplication::translate("MainWindow", "w", nullptr));
         pushButton_18->setText(QApplication::translate("MainWindow", "\342\206\265", nullptr));
