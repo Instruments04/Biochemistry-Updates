@@ -460,6 +460,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/backupdb.png \
 		../BCUID/img/UserLogin.png \
 		../BCUID/img/notification.png \
+		../BCUID/img/Shield.png \
 		../BCUID/img/TESTCONFIG.png \
 		../BCUID/img/eye.png \
 		../BCUID/img/HISTORYDATA.png \
