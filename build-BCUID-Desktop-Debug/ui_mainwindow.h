@@ -616,6 +616,9 @@ public:
     QRadioButton *Export_CSV;
     QRadioButton *Export_Pendrive;
     QRadioButton *Data_Select_Delete;
+    QRadioButton *Internal_Print_All_data_2;
+    QRadioButton *Internal_Print_Individual_Data_2;
+    QRadioButton *Data_Print_Btn_2;
     QLabel *label_213;
     QLabel *label_214;
     QPushButton *pushButton_310;
@@ -625,7 +628,6 @@ public:
     QLabel *label_215;
     QLabel *label_216;
     QLabel *label_218;
-    QComboBox *comboBox_11;
     QLabel *PID_lbl;
     QLabel *PName_lbl;
     QLabel *PAge_lbl;
@@ -654,7 +656,9 @@ public:
     QLabel *Unit_lineEdit1lbl;
     QPushButton *Print_Individual_Btn_2;
     QPushButton *Delete_Individual_Btn;
+    QPushButton *pushButton_313;
     QComboBox *comboBox_12;
+    QComboBox *comboBox_11;
     QComboBox *comboBox_13;
     QWidget *page_28;
     QTabWidget *tabWidget_8;
@@ -4553,7 +4557,7 @@ public:
         Print_All_data->setFont(font11);
         Export_CSV = new QRadioButton(frame_8);
         Export_CSV->setObjectName(QStringLiteral("Export_CSV"));
-        Export_CSV->setGeometry(QRect(50, 200, 200, 40));
+        Export_CSV->setGeometry(QRect(50, 260, 200, 40));
         Export_CSV->setFont(font11);
         Export_Pendrive = new QRadioButton(frame_8);
         Export_Pendrive->setObjectName(QStringLiteral("Export_Pendrive"));
@@ -4563,6 +4567,18 @@ public:
         Data_Select_Delete->setObjectName(QStringLiteral("Data_Select_Delete"));
         Data_Select_Delete->setGeometry(QRect(50, 260, 221, 40));
         Data_Select_Delete->setFont(font11);
+        Internal_Print_All_data_2 = new QRadioButton(frame_8);
+        Internal_Print_All_data_2->setObjectName(QStringLiteral("Internal_Print_All_data_2"));
+        Internal_Print_All_data_2->setGeometry(QRect(40, 210, 200, 40));
+        Internal_Print_All_data_2->setFont(font11);
+        Internal_Print_Individual_Data_2 = new QRadioButton(frame_8);
+        Internal_Print_Individual_Data_2->setObjectName(QStringLiteral("Internal_Print_Individual_Data_2"));
+        Internal_Print_Individual_Data_2->setGeometry(QRect(40, 140, 221, 40));
+        Internal_Print_Individual_Data_2->setFont(font11);
+        Data_Print_Btn_2 = new QRadioButton(frame_8);
+        Data_Print_Btn_2->setObjectName(QStringLiteral("Data_Print_Btn_2"));
+        Data_Print_Btn_2->setGeometry(QRect(10, 80, 200, 40));
+        Data_Print_Btn_2->setFont(font11);
         Print_Individual_Data->raise();
         Filter_Btn->raise();
         Data_Print_Btn->raise();
@@ -4576,6 +4592,9 @@ public:
         Export_CSV->raise();
         Export_Pendrive->raise();
         Data_Select_Delete->raise();
+        Internal_Print_All_data_2->raise();
+        Internal_Print_Individual_Data_2->raise();
+        Data_Print_Btn_2->raise();
         label_213 = new QLabel(page_27);
         label_213->setObjectName(QStringLiteral("label_213"));
         label_213->setGeometry(QRect(120, 60, 221, 31));
@@ -4627,15 +4646,6 @@ public:
         label_218->setGeometry(QRect(600, 10, 141, 31));
         label_218->setFont(font22);
         label_218->setStyleSheet(QStringLiteral(""));
-        comboBox_11 = new QComboBox(page_27);
-        comboBox_11->setObjectName(QStringLiteral("comboBox_11"));
-        comboBox_11->setGeometry(QRect(80, 60, 71, 35));
-        comboBox_11->setFont(font11);
-        comboBox_11->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
         PID_lbl = new QLabel(page_27);
         PID_lbl->setObjectName(QStringLiteral("PID_lbl"));
         PID_lbl->setGeometry(QRect(20, 100, 64, 25));
@@ -4760,9 +4770,20 @@ public:
 "}"));
         Delete_Individual_Btn = new QPushButton(page_27);
         Delete_Individual_Btn->setObjectName(QStringLiteral("Delete_Individual_Btn"));
-        Delete_Individual_Btn->setGeometry(QRect(160, 55, 111, 40));
+        Delete_Individual_Btn->setGeometry(QRect(160, 50, 111, 40));
         Delete_Individual_Btn->setFont(font11);
         Delete_Individual_Btn->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background-color: rgb(12, 68, 145);\n"
+" border: 1px solid black;\n"
+"     border-radius: 5px;\n"
+"color: rgb(255, 255, 255);\n"
+"}"));
+        pushButton_313 = new QPushButton(page_27);
+        pushButton_313->setObjectName(QStringLiteral("pushButton_313"));
+        pushButton_313->setGeometry(QRect(160, 50, 191, 40));
+        pushButton_313->setFont(font11);
+        pushButton_313->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
 " border: 1px solid black;\n"
@@ -4778,9 +4799,18 @@ public:
 "border-radius: 5px;\n"
 "color: rgb(255, 255, 255);\n"
 ""));
+        comboBox_11 = new QComboBox(page_27);
+        comboBox_11->setObjectName(QStringLiteral("comboBox_11"));
+        comboBox_11->setGeometry(QRect(80, 60, 71, 35));
+        comboBox_11->setFont(font11);
+        comboBox_11->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
+"border: 1px solid black;\n"
+"border-radius: 5px;\n"
+"color: rgb(255, 255, 255);\n"
+""));
         comboBox_13 = new QComboBox(page_27);
         comboBox_13->setObjectName(QStringLiteral("comboBox_13"));
-        comboBox_13->setGeometry(QRect(150, 60, 71, 35));
+        comboBox_13->setGeometry(QRect(80, 60, 71, 35));
         comboBox_13->setFont(font11);
         comboBox_13->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
 "border: 1px solid black;\n"
@@ -6611,7 +6641,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(23);
+        stackedWidget->setCurrentIndex(13);
         tabWidget->setCurrentIndex(0);
         tabWidget_2->setCurrentIndex(0);
         tabWidget_6->setCurrentIndex(0);
@@ -7183,6 +7213,9 @@ public:
         Export_CSV->setText(QApplication::translate("MainWindow", "Export to CSV", nullptr));
         Export_Pendrive->setText(QApplication::translate("MainWindow", "Export to USB", nullptr));
         Data_Select_Delete->setText(QApplication::translate("MainWindow", "Data Select && Delete", nullptr));
+        Internal_Print_All_data_2->setText(QApplication::translate("MainWindow", "Print All-1", nullptr));
+        Internal_Print_Individual_Data_2->setText(QApplication::translate("MainWindow", "Print Individual Data-1", nullptr));
+        Data_Print_Btn_2->setText(QApplication::translate("MainWindow", "Print", nullptr));
         label_213->setText(QString());
         label_214->setText(QString());
         pushButton_310->setText(QApplication::translate("MainWindow", "Search", nullptr));
@@ -7207,6 +7240,7 @@ public:
         Unit_lineEdit1lbl->setText(QApplication::translate("MainWindow", "Unit", nullptr));
         Print_Individual_Btn_2->setText(QApplication::translate("MainWindow", "Print", nullptr));
         Delete_Individual_Btn->setText(QApplication::translate("MainWindow", "Delete", nullptr));
+        pushButton_313->setText(QApplication::translate("MainWindow", "Print", nullptr));
         tabWidget_8->setTabText(tabWidget_8->indexOf(tab_17), QApplication::translate("MainWindow", "Page 1", nullptr));
         tabWidget_8->setTabText(tabWidget_8->indexOf(tab_18), QApplication::translate("MainWindow", "Page 2", nullptr));
         label_211->setText(QApplication::translate("MainWindow", "Filter by TestName", nullptr));
