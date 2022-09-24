@@ -440,6 +440,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/refresh.gif \
 		../BCUID/img/hidden.png \
 		../BCUID/img/preview.gif \
+		../BCUID/img/databack.png \
 		../BCUID/img/YVPG.gif \
 		../BCUID/img/restore.png \
 		../BCUID/img/delete.png \
