@@ -53,7 +53,6 @@ public:
     QPushButton *DataHis_Btn_4;
     QPushButton *TestConfig_Btn_5;
     QPushButton *Logo_Btn_3;
-    QPushButton *pushButton_225;
     QWidget *page_2;
     QLabel *Home_Lbl_2;
     QLabel *Status_Lbl;
@@ -976,7 +975,7 @@ public:
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         stackedWidget = new QStackedWidget(centralWidget);
         stackedWidget->setObjectName(QStringLiteral("stackedWidget"));
-        stackedWidget->setGeometry(QRect(0, 0, 800, 450));
+        stackedWidget->setGeometry(QRect(0, 0, 800, 480));
         QFont font;
         font.setFamily(QStringLiteral("Liberation Sans"));
         font.setPointSize(12);
@@ -1204,9 +1203,6 @@ public:
         icon8.addFile(QStringLiteral(":/img/LOGOS.png"), QSize(), QIcon::Normal, QIcon::Off);
         Logo_Btn_3->setIcon(icon8);
         Logo_Btn_3->setIconSize(QSize(100, 200));
-        pushButton_225 = new QPushButton(page_6);
-        pushButton_225->setObjectName(QStringLiteral("pushButton_225"));
-        pushButton_225->setGeometry(QRect(370, 190, 121, 81));
         stackedWidget->addWidget(page_6);
         Test_Btn_4->raise();
         frame_2->raise();
@@ -1214,7 +1210,6 @@ public:
         DataHis_Btn_4->raise();
         TestConfig_Btn_5->raise();
         Logo_Btn_3->raise();
-        pushButton_225->raise();
         page_2 = new QWidget();
         page_2->setObjectName(QStringLiteral("page_2"));
         Home_Lbl_2 = new QLabel(page_2);
@@ -4308,6 +4303,7 @@ public:
         dateEdit->setFont(font);
         dateEdit->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 68, 145);"));
+        dateEdit->setCalendarPopup(true);
         label_49 = new QLabel(page_8);
         label_49->setObjectName(QStringLiteral("label_49"));
         label_49->setGeometry(QRect(238, 320, 31, 16));
@@ -4400,6 +4396,7 @@ public:
         dateEdit_2->setFont(font);
         dateEdit_2->setStyleSheet(QLatin1String("color: rgb(255, 255, 255);\n"
 "background-color: rgb(12, 68, 145);"));
+        dateEdit_2->setCalendarPopup(true);
         label_48 = new QLabel(page_8);
         label_48->setObjectName(QStringLiteral("label_48"));
         label_48->setGeometry(QRect(250, 270, 21, 16));
@@ -6899,7 +6896,7 @@ public:
         SysTime_Lbl->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_89 = new QLabel(frame_5);
         label_89->setObjectName(QStringLiteral("label_89"));
-        label_89->setGeometry(QRect(182, 6, 22, 21));
+        label_89->setGeometry(QRect(180, 6, 22, 21));
         QFont font37;
         font37.setFamily(QStringLiteral("Liberation Sans"));
         font37.setPointSize(12);
@@ -6908,7 +6905,7 @@ public:
         label_89->setFont(font37);
         label_90 = new QLabel(frame_5);
         label_90->setObjectName(QStringLiteral("label_90"));
-        label_90->setGeometry(QRect(392, 6, 21, 21));
+        label_90->setGeometry(QRect(390, 6, 22, 21));
         label_90->setFont(font37);
         MainWindow->setCentralWidget(centralWidget);
 #ifndef QT_NO_SHORTCUT
@@ -6984,7 +6981,6 @@ public:
 "         Test \n"
 "        Configuration", nullptr));
         Logo_Btn_3->setText(QString());
-        pushButton_225->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
         Home_Lbl_2->setText(QApplication::translate("MainWindow", "Select Test to Run", nullptr));
         Status_Lbl->setText(QString());
         Home_Btn_2->setText(QString());
