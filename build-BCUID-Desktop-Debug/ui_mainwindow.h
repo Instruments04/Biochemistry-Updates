@@ -53,6 +53,7 @@ public:
     QPushButton *DataHis_Btn_4;
     QPushButton *TestConfig_Btn_5;
     QPushButton *Logo_Btn_3;
+    QPushButton *pushButton_225;
     QWidget *page_2;
     QLabel *Home_Lbl_2;
     QLabel *Status_Lbl;
@@ -1203,6 +1204,9 @@ public:
         icon8.addFile(QStringLiteral(":/img/LOGOS.png"), QSize(), QIcon::Normal, QIcon::Off);
         Logo_Btn_3->setIcon(icon8);
         Logo_Btn_3->setIconSize(QSize(100, 200));
+        pushButton_225 = new QPushButton(page_6);
+        pushButton_225->setObjectName(QStringLiteral("pushButton_225"));
+        pushButton_225->setGeometry(QRect(370, 190, 121, 81));
         stackedWidget->addWidget(page_6);
         Test_Btn_4->raise();
         frame_2->raise();
@@ -1210,6 +1214,7 @@ public:
         DataHis_Btn_4->raise();
         TestConfig_Btn_5->raise();
         Logo_Btn_3->raise();
+        pushButton_225->raise();
         page_2 = new QWidget();
         page_2->setObjectName(QStringLiteral("page_2"));
         Home_Lbl_2 = new QLabel(page_2);
@@ -6938,7 +6943,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(13);
+        stackedWidget->setCurrentIndex(0);
         tabWidget->setCurrentIndex(0);
         tabWidget_2->setCurrentIndex(1);
         tabWidget_6->setCurrentIndex(0);
@@ -6979,6 +6984,7 @@ public:
 "         Test \n"
 "        Configuration", nullptr));
         Logo_Btn_3->setText(QString());
+        pushButton_225->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
         Home_Lbl_2->setText(QApplication::translate("MainWindow", "Select Test to Run", nullptr));
         Status_Lbl->setText(QString());
         Home_Btn_2->setText(QString());
