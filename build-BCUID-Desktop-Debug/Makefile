@@ -66,7 +66,8 @@ SOURCES       = ../BCUID/main.cpp \
 		../BCUID/adgain.cpp \
 		../BCUID/dbbackrest.cpp \
 		../BCUID/printingbtns.cpp \
-		../BCUID/datahistry.cpp qrc_icons.cpp \
+		../BCUID/datahistry.cpp \
+		../BCUID/datetimechange.cpp qrc_icons.cpp \
 		moc_mainwindow.cpp \
 		moc_printer.cpp \
 		moc_qcustomplot.cpp
@@ -87,6 +88,7 @@ OBJECTS       = main.o \
 		dbbackrest.o \
 		printingbtns.o \
 		datahistry.o \
+		datetimechange.o \
 		qrc_icons.o \
 		moc_mainwindow.o \
 		moc_printer.o \
@@ -192,7 +194,8 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/adgain.cpp \
 		../BCUID/dbbackrest.cpp \
 		../BCUID/printingbtns.cpp \
-		../BCUID/datahistry.cpp
+		../BCUID/datahistry.cpp \
+		../BCUID/datetimechange.cpp
 QMAKE_TARGET  = BCUID
 DESTDIR       = 
 TARGET        = BCUID
@@ -404,7 +407,7 @@ distdir: FORCE
 	$(COPY_FILE) --parents ../BCUID/icons.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.h ../BCUID/printer.h ../BCUID/pi2c.h ../BCUID/qcustomplot.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.ui $(DISTDIR)/
 
 
@@ -635,6 +638,13 @@ datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datahistry.o ../BCUID/datahistry.cpp
+
+datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h \
+		../BCUID/qcustomplot.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datetimechange.o ../BCUID/datetimechange.cpp
 
 qrc_icons.o: qrc_icons.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_icons.o qrc_icons.cpp
