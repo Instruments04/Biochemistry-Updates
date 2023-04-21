@@ -67,7 +67,13 @@ SOURCES       = ../BCUID/main.cpp \
 		../BCUID/dbbackrest.cpp \
 		../BCUID/printingbtns.cpp \
 		../BCUID/datahistry.cpp \
-		../BCUID/datetimechange.cpp qrc_icons.cpp \
+		../BCUID/datetimechange.cpp \
+		../BCUID/endqc1.cpp \
+		../BCUID/endqc2.cpp \
+		../BCUID/twoqc1.cpp \
+		../BCUID/twoqc2.cpp \
+		../BCUID/kineticqc1.cpp \
+		../BCUID/kineticqc2.cpp qrc_icons.cpp \
 		moc_mainwindow.cpp \
 		moc_printer.cpp \
 		moc_qcustomplot.cpp
@@ -89,6 +95,12 @@ OBJECTS       = main.o \
 		printingbtns.o \
 		datahistry.o \
 		datetimechange.o \
+		endqc1.o \
+		endqc2.o \
+		twoqc1.o \
+		twoqc2.o \
+		kineticqc1.o \
+		kineticqc2.o \
 		qrc_icons.o \
 		moc_mainwindow.o \
 		moc_printer.o \
@@ -195,7 +207,13 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/dbbackrest.cpp \
 		../BCUID/printingbtns.cpp \
 		../BCUID/datahistry.cpp \
-		../BCUID/datetimechange.cpp
+		../BCUID/datetimechange.cpp \
+		../BCUID/endqc1.cpp \
+		../BCUID/endqc2.cpp \
+		../BCUID/twoqc1.cpp \
+		../BCUID/twoqc2.cpp \
+		../BCUID/kineticqc1.cpp \
+		../BCUID/kineticqc2.cpp
 QMAKE_TARGET  = BCUID
 DESTDIR       = 
 TARGET        = BCUID
@@ -407,7 +425,7 @@ distdir: FORCE
 	$(COPY_FILE) --parents ../BCUID/icons.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.h ../BCUID/printer.h ../BCUID/pi2c.h ../BCUID/qcustomplot.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp ../BCUID/endqc1.cpp ../BCUID/endqc2.cpp ../BCUID/twoqc1.cpp ../BCUID/twoqc2.cpp ../BCUID/kineticqc1.cpp ../BCUID/kineticqc2.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.ui $(DISTDIR)/
 
 
@@ -637,6 +655,42 @@ datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
 		../BCUID/kboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datetimechange.o ../BCUID/datetimechange.cpp
+
+endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc1.o ../BCUID/endqc1.cpp
+
+endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc2.o ../BCUID/endqc2.cpp
+
+twoqc1.o: ../BCUID/twoqc1.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twoqc1.o ../BCUID/twoqc1.cpp
+
+twoqc2.o: ../BCUID/twoqc2.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twoqc2.o ../BCUID/twoqc2.cpp
+
+kineticqc1.o: ../BCUID/kineticqc1.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kineticqc1.o ../BCUID/kineticqc1.cpp
+
+kineticqc2.o: ../BCUID/kineticqc2.cpp ../BCUID/mainwindow.h \
+		../BCUID/pi2c.h \
+		../BCUID/kboard.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kineticqc2.o ../BCUID/kineticqc2.cpp
 
 qrc_icons.o: qrc_icons.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_icons.o qrc_icons.cpp
