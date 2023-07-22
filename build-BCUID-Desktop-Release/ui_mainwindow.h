@@ -10824,7 +10824,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(22);
+        stackedWidget->setCurrentIndex(14);
         tabWidget->setCurrentIndex(1);
         tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
