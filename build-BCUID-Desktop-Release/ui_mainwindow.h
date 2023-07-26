@@ -319,18 +319,11 @@ public:
     QLabel *Unit_Lbl_3;
     QLabel *Temp_Lbl_2;
     QLabel *label_23;
-    QLineEdit *lineEdit_24;
     QLineEdit *lineEdit_27;
     QLineEdit *lineEdit_30;
-    QComboBox *WaveLength_Combo_2;
-    QComboBox *ReactionType_Combo_2;
-    QComboBox *Temp_Combo_2;
-    QLineEdit *lineEdit_31;
     QLabel *label_36;
     QLabel *label_38;
-    QLineEdit *lineEdit_32;
     QLabel *label_42;
-    QComboBox *BlankType_Combo_2;
     QLabel *label_55;
     QLineEdit *lineEdit_33;
     QLineEdit *lineEdit_34;
@@ -339,20 +332,23 @@ public:
     QLabel *label_56;
     QLineEdit *lineEdit_36;
     QLabel *label_57;
-    QPushButton *pushButton_142;
     QPushButton *pushButton_143;
     QPushButton *pushButton_144;
     QPushButton *pushButton_145;
     QPushButton *pushButton_146;
-    QPushButton *pushButton_147;
-    QPushButton *pushButton_148;
-    QPushButton *pushButton_149;
     QLineEdit *lineEdit_35;
     QPushButton *pushButton_201;
     QLabel *TestName_Lbl_6;
-    QLineEdit *lineEdit_43;
-    QPushButton *pushButton_197;
     QLabel *label_413;
+    QLabel *label_439;
+    QLabel *label_441;
+    QLabel *label_442;
+    QLabel *label_443;
+    QLabel *label_444;
+    QLabel *label_445;
+    QLabel *label_446;
+    QLabel *label_447;
+    QPushButton *pushButton_147;
     QWidget *tab_10;
     QGroupBox *groupBox_3;
     QLabel *label_27;
@@ -3788,7 +3784,7 @@ public:
         page_12->setObjectName(QStringLiteral("page_12"));
         tabWidget_4 = new QTabWidget(page_12);
         tabWidget_4->setObjectName(QStringLiteral("tabWidget_4"));
-        tabWidget_4->setGeometry(QRect(0, 35, 691, 421));
+        tabWidget_4->setGeometry(QRect(0, 35, 691, 411));
         tabWidget_4->setFont(font);
         tabWidget_4->setStyleSheet(QStringLiteral(""));
         tab_9 = new QWidget();
@@ -3797,42 +3793,37 @@ public:
         tab_9->setStyleSheet(QStringLiteral(""));
         TestName_Lbl_3 = new QLabel(tab_9);
         TestName_Lbl_3->setObjectName(QStringLiteral("TestName_Lbl_3"));
-        TestName_Lbl_3->setGeometry(QRect(20, 10, 91, 30));
+        TestName_Lbl_3->setGeometry(QRect(20, 20, 91, 30));
         TestName_Lbl_3->setFont(font);
         TestName_Lbl_3->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_14 = new QLabel(tab_9);
         label_14->setObjectName(QStringLiteral("label_14"));
-        label_14->setGeometry(QRect(20, 130, 101, 30));
+        label_14->setGeometry(QRect(20, 140, 101, 30));
         label_14->setFont(font);
         label_14->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         ReactionType_Lbl_2 = new QLabel(tab_9);
         ReactionType_Lbl_2->setObjectName(QStringLiteral("ReactionType_Lbl_2"));
-        ReactionType_Lbl_2->setGeometry(QRect(20, 205, 111, 30));
+        ReactionType_Lbl_2->setGeometry(QRect(20, 200, 111, 30));
         ReactionType_Lbl_2->setFont(font);
         ReactionType_Lbl_2->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         Unit_Lbl_3 = new QLabel(tab_9);
         Unit_Lbl_3->setObjectName(QStringLiteral("Unit_Lbl_3"));
-        Unit_Lbl_3->setGeometry(QRect(20, 265, 61, 30));
+        Unit_Lbl_3->setGeometry(QRect(20, 260, 61, 30));
         Unit_Lbl_3->setFont(font);
         Unit_Lbl_3->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         Temp_Lbl_2 = new QLabel(tab_9);
         Temp_Lbl_2->setObjectName(QStringLiteral("Temp_Lbl_2"));
-        Temp_Lbl_2->setGeometry(QRect(20, 330, 111, 30));
+        Temp_Lbl_2->setGeometry(QRect(20, 320, 111, 30));
         Temp_Lbl_2->setFont(font);
         Temp_Lbl_2->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_23 = new QLabel(tab_9);
         label_23->setObjectName(QStringLiteral("label_23"));
-        label_23->setGeometry(QRect(300, 10, 111, 30));
+        label_23->setGeometry(QRect(320, 10, 81, 30));
         label_23->setFont(font);
         label_23->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        lineEdit_24 = new QLineEdit(tab_9);
-        lineEdit_24->setObjectName(QStringLiteral("lineEdit_24"));
-        lineEdit_24->setGeometry(QRect(150, 10, 121, 35));
-        lineEdit_24->setFont(font);
-        lineEdit_24->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         lineEdit_27 = new QLineEdit(tab_9);
         lineEdit_27->setObjectName(QStringLiteral("lineEdit_27"));
-        lineEdit_27->setGeometry(QRect(150, 265, 121, 35));
+        lineEdit_27->setGeometry(QRect(150, 260, 151, 35));
         lineEdit_27->setFont(font);
         lineEdit_27->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         lineEdit_30 = new QLineEdit(tab_9);
@@ -3840,118 +3831,24 @@ public:
         lineEdit_30->setGeometry(QRect(460, 10, 151, 35));
         lineEdit_30->setFont(font);
         lineEdit_30->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        WaveLength_Combo_2 = new QComboBox(tab_9);
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->addItem(QString());
-        WaveLength_Combo_2->setObjectName(QStringLiteral("WaveLength_Combo_2"));
-        WaveLength_Combo_2->setGeometry(QRect(150, 130, 121, 35));
-        WaveLength_Combo_2->setFont(font7);
-        WaveLength_Combo_2->setStyleSheet(QLatin1String("QComboBox\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"border-radius: 25px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
-"QComboBox QAbstractItemView\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-"color:white;\n"
-"}"));
-        ReactionType_Combo_2 = new QComboBox(tab_9);
-        ReactionType_Combo_2->addItem(QString());
-        ReactionType_Combo_2->addItem(QString());
-        ReactionType_Combo_2->addItem(QString());
-        ReactionType_Combo_2->addItem(QString());
-        ReactionType_Combo_2->setObjectName(QStringLiteral("ReactionType_Combo_2"));
-        ReactionType_Combo_2->setGeometry(QRect(150, 205, 121, 35));
-        ReactionType_Combo_2->setFont(font7);
-        ReactionType_Combo_2->setStyleSheet(QLatin1String("QComboBox\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 25px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
-"QComboBox QAbstractItemView\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-"color:white;\n"
-"}"));
-        Temp_Combo_2 = new QComboBox(tab_9);
-        Temp_Combo_2->addItem(QString());
-        Temp_Combo_2->addItem(QString());
-        Temp_Combo_2->setObjectName(QStringLiteral("Temp_Combo_2"));
-        Temp_Combo_2->setGeometry(QRect(150, 330, 121, 35));
-        Temp_Combo_2->setFont(font7);
-        Temp_Combo_2->setStyleSheet(QLatin1String("QComboBox\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
-"QComboBox QAbstractItemView\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-"color:white;\n"
-"}"));
-        lineEdit_31 = new QLineEdit(tab_9);
-        lineEdit_31->setObjectName(QStringLiteral("lineEdit_31"));
-        lineEdit_31->setGeometry(QRect(460, 130, 150, 35));
-        lineEdit_31->setFont(font);
-        lineEdit_31->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_36 = new QLabel(tab_9);
         label_36->setObjectName(QStringLiteral("label_36"));
-        label_36->setGeometry(QRect(300, 130, 111, 30));
+        label_36->setGeometry(QRect(320, 130, 111, 30));
         label_36->setFont(font);
         label_36->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_38 = new QLabel(tab_9);
         label_38->setObjectName(QStringLiteral("label_38"));
-        label_38->setGeometry(QRect(300, 185, 141, 30));
+        label_38->setGeometry(QRect(320, 185, 111, 30));
         label_38->setFont(font);
         label_38->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        lineEdit_32 = new QLineEdit(tab_9);
-        lineEdit_32->setObjectName(QStringLiteral("lineEdit_32"));
-        lineEdit_32->setGeometry(QRect(460, 185, 150, 35));
-        lineEdit_32->setFont(font);
-        lineEdit_32->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_42 = new QLabel(tab_9);
         label_42->setObjectName(QStringLiteral("label_42"));
-        label_42->setGeometry(QRect(300, 70, 91, 30));
+        label_42->setGeometry(QRect(320, 70, 91, 30));
         label_42->setFont(font);
         label_42->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        BlankType_Combo_2 = new QComboBox(tab_9);
-        BlankType_Combo_2->addItem(QString());
-        BlankType_Combo_2->addItem(QString());
-        BlankType_Combo_2->addItem(QString());
-        BlankType_Combo_2->addItem(QString());
-        BlankType_Combo_2->setObjectName(QStringLiteral("BlankType_Combo_2"));
-        BlankType_Combo_2->setGeometry(QRect(460, 70, 150, 35));
-        BlankType_Combo_2->setFont(font7);
-        BlankType_Combo_2->setStyleSheet(QLatin1String("QComboBox\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
-"QComboBox QAbstractItemView\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-"color:white;\n"
-"}"));
         label_55 = new QLabel(tab_9);
         label_55->setObjectName(QStringLiteral("label_55"));
-        label_55->setGeometry(QRect(300, 290, 111, 30));
+        label_55->setGeometry(QRect(320, 290, 111, 30));
         label_55->setFont(font);
         label_55->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         lineEdit_33 = new QLineEdit(tab_9);
@@ -3974,7 +3871,7 @@ public:
         To_Lbl_4->setFont(font);
         label_56 = new QLabel(tab_9);
         label_56->setObjectName(QStringLiteral("label_56"));
-        label_56->setGeometry(QRect(300, 340, 111, 30));
+        label_56->setGeometry(QRect(320, 340, 111, 30));
         label_56->setFont(font);
         label_56->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         lineEdit_36 = new QLineEdit(tab_9);
@@ -3984,14 +3881,9 @@ public:
         lineEdit_36->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_57 = new QLabel(tab_9);
         label_57->setObjectName(QStringLiteral("label_57"));
-        label_57->setGeometry(QRect(300, 240, 141, 30));
+        label_57->setGeometry(QRect(320, 240, 121, 30));
         label_57->setFont(font);
         label_57->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        pushButton_142 = new QPushButton(tab_9);
-        pushButton_142->setObjectName(QStringLiteral("pushButton_142"));
-        pushButton_142->setGeometry(QRect(150, 10, 121, 35));
-        pushButton_142->setFont(font);
-        pushButton_142->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
         pushButton_143 = new QPushButton(tab_9);
         pushButton_143->setObjectName(QStringLiteral("pushButton_143"));
         pushButton_143->setGeometry(QRect(460, 10, 150, 35));
@@ -4012,21 +3904,6 @@ public:
         pushButton_146->setGeometry(QRect(460, 340, 91, 35));
         pushButton_146->setFont(font);
         pushButton_146->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_147 = new QPushButton(tab_9);
-        pushButton_147->setObjectName(QStringLiteral("pushButton_147"));
-        pushButton_147->setGeometry(QRect(150, 265, 121, 35));
-        pushButton_147->setFont(font);
-        pushButton_147->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_148 = new QPushButton(tab_9);
-        pushButton_148->setObjectName(QStringLiteral("pushButton_148"));
-        pushButton_148->setGeometry(QRect(460, 130, 151, 35));
-        pushButton_148->setFont(font);
-        pushButton_148->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_149 = new QPushButton(tab_9);
-        pushButton_149->setObjectName(QStringLiteral("pushButton_149"));
-        pushButton_149->setGeometry(QRect(460, 185, 151, 35));
-        pushButton_149->setFont(font);
-        pushButton_149->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
         lineEdit_35 = new QLineEdit(tab_9);
         lineEdit_35->setObjectName(QStringLiteral("lineEdit_35"));
         lineEdit_35->setGeometry(QRect(590, 340, 91, 35));
@@ -4039,19 +3916,9 @@ public:
         pushButton_201->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
         TestName_Lbl_6 = new QLabel(tab_9);
         TestName_Lbl_6->setObjectName(QStringLiteral("TestName_Lbl_6"));
-        TestName_Lbl_6->setGeometry(QRect(20, 75, 91, 21));
+        TestName_Lbl_6->setGeometry(QRect(20, 85, 91, 21));
         TestName_Lbl_6->setFont(font19);
         TestName_Lbl_6->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        lineEdit_43 = new QLineEdit(tab_9);
-        lineEdit_43->setObjectName(QStringLiteral("lineEdit_43"));
-        lineEdit_43->setGeometry(QRect(150, 70, 121, 35));
-        lineEdit_43->setFont(font);
-        lineEdit_43->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        pushButton_197 = new QPushButton(tab_9);
-        pushButton_197->setObjectName(QStringLiteral("pushButton_197"));
-        pushButton_197->setGeometry(QRect(150, 70, 121, 35));
-        pushButton_197->setFont(font20);
-        pushButton_197->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
         label_413 = new QLabel(tab_9);
         label_413->setObjectName(QStringLiteral("label_413"));
         label_413->setGeometry(QRect(460, 240, 150, 30));
@@ -4059,6 +3926,59 @@ public:
         label_413->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border: 1px solid;"));
         label_413->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        label_439 = new QLabel(tab_9);
+        label_439->setObjectName(QStringLiteral("label_439"));
+        label_439->setGeometry(QRect(150, 20, 150, 35));
+        label_439->setFont(font);
+        label_439->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_441 = new QLabel(tab_9);
+        label_441->setObjectName(QStringLiteral("label_441"));
+        label_441->setGeometry(QRect(150, 80, 150, 35));
+        label_441->setFont(font);
+        label_441->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_442 = new QLabel(tab_9);
+        label_442->setObjectName(QStringLiteral("label_442"));
+        label_442->setGeometry(QRect(150, 140, 150, 35));
+        label_442->setFont(font);
+        label_442->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_443 = new QLabel(tab_9);
+        label_443->setObjectName(QStringLiteral("label_443"));
+        label_443->setGeometry(QRect(150, 200, 150, 35));
+        label_443->setFont(font);
+        label_443->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_444 = new QLabel(tab_9);
+        label_444->setObjectName(QStringLiteral("label_444"));
+        label_444->setGeometry(QRect(150, 320, 150, 35));
+        label_444->setFont(font);
+        label_444->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_445 = new QLabel(tab_9);
+        label_445->setObjectName(QStringLiteral("label_445"));
+        label_445->setGeometry(QRect(460, 70, 151, 35));
+        label_445->setFont(font);
+        label_445->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_446 = new QLabel(tab_9);
+        label_446->setObjectName(QStringLiteral("label_446"));
+        label_446->setGeometry(QRect(460, 130, 150, 35));
+        label_446->setFont(font);
+        label_446->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        label_447 = new QLabel(tab_9);
+        label_447->setObjectName(QStringLiteral("label_447"));
+        label_447->setGeometry(QRect(460, 185, 150, 35));
+        label_447->setFont(font);
+        label_447->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
+"border:1px solid black;"));
+        pushButton_147 = new QPushButton(tab_9);
+        pushButton_147->setObjectName(QStringLiteral("pushButton_147"));
+        pushButton_147->setGeometry(QRect(150, 260, 150, 35));
+        pushButton_147->setFont(font);
+        pushButton_147->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
         tabWidget_4->addTab(tab_9, QString());
         tab_10 = new QWidget();
         tab_10->setObjectName(QStringLiteral("tab_10"));
@@ -10824,14 +10744,14 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(14);
+        stackedWidget->setCurrentIndex(0);
         tabWidget->setCurrentIndex(1);
-        tabWidget_2->setCurrentIndex(0);
+        tabWidget_2->setCurrentIndex(1);
         comboBox_5->setCurrentIndex(0);
         tabWidget_6->setCurrentIndex(0);
-        tabWidget_4->setCurrentIndex(0);
+        tabWidget_4->setCurrentIndex(1);
         tabWidget_7->setCurrentIndex(0);
-        tabWidget_5->setCurrentIndex(2);
+        tabWidget_5->setCurrentIndex(0);
         tabWidget_3->setCurrentIndex(0);
         tabWidget_8->setCurrentIndex(0);
         stackedWidget_2->setCurrentIndex(2);
@@ -11129,32 +11049,9 @@ public:
         Unit_Lbl_3->setText(QApplication::translate("MainWindow", "Unit", nullptr));
         Temp_Lbl_2->setText(QApplication::translate("MainWindow", "Temperature", nullptr));
         label_23->setText(QApplication::translate("MainWindow", "Factor", nullptr));
-        WaveLength_Combo_2->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        WaveLength_Combo_2->setItemText(1, QApplication::translate("MainWindow", "700 nm", nullptr));
-        WaveLength_Combo_2->setItemText(2, QApplication::translate("MainWindow", "630 nm", nullptr));
-        WaveLength_Combo_2->setItemText(3, QApplication::translate("MainWindow", "570 nm", nullptr));
-        WaveLength_Combo_2->setItemText(4, QApplication::translate("MainWindow", "545 nm", nullptr));
-        WaveLength_Combo_2->setItemText(5, QApplication::translate("MainWindow", "505 nm", nullptr));
-        WaveLength_Combo_2->setItemText(6, QApplication::translate("MainWindow", "405 nm", nullptr));
-        WaveLength_Combo_2->setItemText(7, QApplication::translate("MainWindow", "340 nm", nullptr));
-
-        ReactionType_Combo_2->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        ReactionType_Combo_2->setItemText(1, QApplication::translate("MainWindow", "End point", nullptr));
-        ReactionType_Combo_2->setItemText(2, QApplication::translate("MainWindow", "Two point", nullptr));
-        ReactionType_Combo_2->setItemText(3, QApplication::translate("MainWindow", "Kinetic", nullptr));
-
-        Temp_Combo_2->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        Temp_Combo_2->setItemText(1, QApplication::translate("MainWindow", "37\302\260C", nullptr));
-
         label_36->setText(QApplication::translate("MainWindow", "Delay Time(S)", nullptr));
         label_38->setText(QApplication::translate("MainWindow", "Read Time(S)", nullptr));
-        lineEdit_32->setText(QString());
         label_42->setText(QApplication::translate("MainWindow", "Blank Type", nullptr));
-        BlankType_Combo_2->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        BlankType_Combo_2->setItemText(1, QApplication::translate("MainWindow", "Plain", nullptr));
-        BlankType_Combo_2->setItemText(2, QApplication::translate("MainWindow", "Distilled water", nullptr));
-        BlankType_Combo_2->setItemText(3, QApplication::translate("MainWindow", "Reagent blank", nullptr));
-
         label_55->setText(QApplication::translate("MainWindow", "Linear Range", nullptr));
         lineEdit_33->setText(QString());
         lineEdit_34->setText(QString());
@@ -11163,19 +11060,23 @@ public:
         label_56->setText(QApplication::translate("MainWindow", "Normal Range", nullptr));
         lineEdit_36->setText(QString());
         label_57->setText(QApplication::translate("MainWindow", "No.of readings", nullptr));
-        pushButton_142->setText(QString());
         pushButton_143->setText(QString());
         pushButton_144->setText(QString());
         pushButton_145->setText(QString());
         pushButton_146->setText(QString());
-        pushButton_147->setText(QString());
-        pushButton_148->setText(QString());
-        pushButton_149->setText(QString());
         lineEdit_35->setText(QString());
         pushButton_201->setText(QString());
         TestName_Lbl_6->setText(QApplication::translate("MainWindow", "Test Code", nullptr));
-        pushButton_197->setText(QString());
         label_413->setText(QString());
+        label_439->setText(QString());
+        label_441->setText(QString());
+        label_442->setText(QString());
+        label_443->setText(QString());
+        label_444->setText(QString());
+        label_445->setText(QString());
+        label_446->setText(QString());
+        label_447->setText(QString());
+        pushButton_147->setText(QString());
         tabWidget_4->setTabText(tabWidget_4->indexOf(tab_9), QApplication::translate("MainWindow", "INFO", nullptr));
         groupBox_3->setTitle(QString());
         label_27->setText(QApplication::translate("MainWindow", "No.of Std / Cal", nullptr));
