@@ -61,20 +61,16 @@ public:
     QPushButton *Logo_Btn_3;
     QWidget *page_2;
     QLabel *Status_Lbl;
-    QTabWidget *tabWidget;
-    QWidget *tab;
-    QScrollArea *scrollArea;
-    QWidget *scrollAreaWidgetContents;
-    QGridLayout *gridLayout_3;
-    QGridLayout *gridLayout;
-    QWidget *tab_1;
-    QScrollArea *scrollArea_2;
-    QWidget *scrollAreaWidgetContents_2;
-    QGridLayout *gridLayout_4;
-    QGridLayout *gridLayout_2;
     QFrame *frame_28;
     QPushButton *Home_Btn_2;
     QLabel *Home_Lbl_2;
+    QFrame *frame_9;
+    QScrollArea *scrollArea_7;
+    QWidget *scrollAreaWidgetContents_7;
+    QGridLayout *gridLayout_2;
+    QPushButton *pushButton_6;
+    QPushButton *pushButton_139;
+    QPushButton *pushButton_142;
     QWidget *page_3;
     QLabel *TestName_Lbl;
     QPushButton *RunBlank_Btn;
@@ -301,15 +297,6 @@ public:
     QLabel *TestConfig_Btn_2;
     QPushButton *Home_Btn_5;
     QPushButton *Save_Btn;
-    QWidget *page_17;
-    QLabel *Home_Lbl_4;
-    QPushButton *Home_Btn_9;
-    QTabWidget *tabWidget_6;
-    QWidget *tab_4;
-    QScrollArea *scrollArea_3;
-    QWidget *scrollAreaWidgetContents_3;
-    QGridLayout *gridLayout_5;
-    QGridLayout *gridLayout_6;
     QWidget *page_12;
     QTabWidget *tabWidget_4;
     QWidget *tab_9;
@@ -490,208 +477,6 @@ public:
     QLabel *TestConfig_Btn_4;
     QLabel *label_16;
     QPushButton *Update_Btn;
-    QWidget *page_18;
-    QLabel *Home_Lbl_5;
-    QPushButton *Home_Btn_10;
-    QTabWidget *tabWidget_7;
-    QWidget *tab_15;
-    QScrollArea *scrollArea_4;
-    QWidget *scrollAreaWidgetContents_4;
-    QGridLayout *gridLayout_7;
-    QGridLayout *gridLayout_8;
-    QWidget *page_13;
-    QLabel *TestConfig_Btn_7;
-    QPushButton *Home_Btn_8;
-    QTabWidget *tabWidget_5;
-    QWidget *tab_12;
-    QLabel *TestName_Lbl_4;
-    QLabel *label_15;
-    QLabel *ReactionType_Lbl_3;
-    QLabel *Unit_Lbl_4;
-    QLabel *Temp_Lbl_3;
-    QLabel *label_29;
-    QLineEdit *lineEdit_38;
-    QLineEdit *lineEdit_39;
-    QLineEdit *lineEdit_40;
-    QComboBox *WaveLength_Combo_3;
-    QComboBox *ReactionType_Combo_3;
-    QComboBox *Temp_Combo_3;
-    QLineEdit *lineEdit_41;
-    QLabel *label_58;
-    QLabel *label_59;
-    QLineEdit *lineEdit_54;
-    QLabel *label_60;
-    QComboBox *BlankType_Combo_3;
-    QLabel *label_69;
-    QLineEdit *lineEdit_55;
-    QLineEdit *lineEdit_56;
-    QLabel *To_Lbl_5;
-    QLabel *To_Lbl_6;
-    QLabel *label_70;
-    QLineEdit *lineEdit_57;
-    QLabel *label_71;
-    QLineEdit *lineEdit_64;
-    QPushButton *pushButton_151;
-    QPushButton *pushButton_152;
-    QPushButton *pushButton_153;
-    QPushButton *pushButton_154;
-    QPushButton *pushButton_155;
-    QPushButton *pushButton_156;
-    QPushButton *pushButton_157;
-    QPushButton *pushButton_158;
-    QPushButton *pushButton_165;
-    QLineEdit *lineEdit_65;
-    QPushButton *pushButton_239;
-    QLineEdit *lineEdit_44;
-    QLabel *TestName_Lbl_7;
-    QPushButton *pushButton_198;
-    QWidget *tab_13;
-    QGroupBox *groupBox_9;
-    QLabel *label_30;
-    QLabel *label_31;
-    QComboBox *comboBox_9;
-    QComboBox *comboBox_10;
-    QLabel *label_340;
-    QLineEdit *lineEdit_154;
-    QPushButton *pushButton_276;
-    QGroupBox *groupBox_22;
-    QLabel *label_166;
-    QLineEdit *lineEdit_120;
-    QLabel *label_167;
-    QLabel *label_168;
-    QLabel *label_169;
-    QLineEdit *lineEdit_121;
-    QLabel *label_170;
-    QLabel *label_171;
-    QLineEdit *lineEdit_122;
-    QLineEdit *lineEdit_123;
-    QLineEdit *lineEdit_124;
-    QLabel *label_172;
-    QLineEdit *lineEdit_125;
-    QLineEdit *lineEdit_126;
-    QLabel *label_173;
-    QLineEdit *lineEdit_127;
-    QGroupBox *groupBox_23;
-    QLineEdit *lineEdit_128;
-    QLabel *label_174;
-    QLabel *label_175;
-    QLineEdit *lineEdit_129;
-    QLabel *label_176;
-    QLabel *label_177;
-    QLineEdit *lineEdit_130;
-    QLineEdit *lineEdit_131;
-    QPushButton *pushButton_248;
-    QPushButton *pushButton_249;
-    QPushButton *pushButton_250;
-    QPushButton *pushButton_251;
-    QLabel *label_178;
-    QLineEdit *lineEdit_132;
-    QLineEdit *lineEdit_133;
-    QLabel *label_179;
-    QLabel *label_180;
-    QLabel *label_181;
-    QPushButton *pushButton_252;
-    QLineEdit *lineEdit_134;
-    QPushButton *pushButton_253;
-    QLineEdit *lineEdit_135;
-    QPushButton *pushButton_254;
-    QPushButton *pushButton_255;
-    QWidget *tab_14;
-    QGroupBox *groupBox_13;
-    QLabel *label_84;
-    QLineEdit *lineEdit_67;
-    QLabel *label_85;
-    QLineEdit *lineEdit_68;
-    QPushButton *pushButton_167;
-    QPushButton *pushButton_168;
-    QLineEdit *lineEdit_145;
-    QPushButton *pushButton_222;
-    QLabel *label_191;
-    QLabel *label_83;
-    QLabel *label_437;
-    QGroupBox *groupBox_14;
-    QLabel *label_87;
-    QLineEdit *lineEdit_70;
-    QLabel *label_88;
-    QLineEdit *lineEdit_71;
-    QPushButton *pushButton_170;
-    QPushButton *pushButton_171;
-    QLineEdit *lineEdit_146;
-    QPushButton *pushButton_223;
-    QLabel *label_192;
-    QLabel *label_86;
-    QLabel *label_438;
-    QWidget *tab_20;
-    QFrame *frame_23;
-    QLabel *label_341;
-    QLabel *label_342;
-    QLabel *label_343;
-    QLabel *label_344;
-    QLabel *label_345;
-    QLabel *label_346;
-    QLabel *label_347;
-    QLabel *label_348;
-    QLabel *label_349;
-    QLabel *label_350;
-    QLabel *label_351;
-    QFrame *frame_24;
-    QLabel *label_352;
-    QLabel *label_353;
-    QLabel *label_354;
-    QLabel *label_355;
-    QLabel *label_356;
-    QLabel *label_357;
-    QLabel *label_358;
-    QLabel *label_359;
-    QLabel *label_360;
-    QLabel *label_361;
-    QLabel *label_362;
-    QFrame *frame_25;
-    QLabel *label_363;
-    QLabel *label_364;
-    QLabel *label_365;
-    QLabel *label_366;
-    QLabel *label_367;
-    QLabel *label_368;
-    QLabel *label_369;
-    QLabel *label_370;
-    QLabel *label_371;
-    QLabel *label_372;
-    QLabel *label_373;
-    QFrame *frame_26;
-    QLabel *label_374;
-    QLabel *label_375;
-    QLabel *label_376;
-    QLabel *label_377;
-    QLabel *label_378;
-    QLabel *label_379;
-    QLabel *label_380;
-    QLabel *label_381;
-    QLabel *label_382;
-    QLabel *label_383;
-    QLabel *label_384;
-    QFrame *frame_27;
-    QLabel *label_385;
-    QLabel *label_386;
-    QLabel *label_387;
-    QLabel *label_388;
-    QLabel *label_389;
-    QLabel *label_390;
-    QLabel *label_391;
-    QLabel *label_392;
-    QLabel *label_393;
-    QLabel *label_394;
-    QLabel *label_395;
-    QPushButton *Delete_Btn;
-    QWidget *page_4;
-    QLabel *label_44;
-    QTabWidget *tabWidget_3;
-    QWidget *tab_2;
-    QScrollArea *scrollArea_5;
-    QWidget *scrollAreaWidgetContents_5;
-    QGridLayout *gridLayout_9;
-    QGridLayout *gridLayout_10;
-    QPushButton *Home_Btn_6;
     QWidget *page_8;
     QLabel *label_45;
     QToolButton *toolButton_12;
@@ -829,15 +614,6 @@ public:
     QPushButton *pushButton_294;
     QLabel *label_433;
     QPushButton *pushButton_330;
-    QWidget *page_28;
-    QTabWidget *tabWidget_8;
-    QWidget *tab_17;
-    QScrollArea *scrollArea_6;
-    QWidget *scrollAreaWidgetContents_6;
-    QGridLayout *gridLayout_11;
-    QGridLayout *gridLayout_12;
-    QLabel *label_211;
-    QToolButton *toolButton_24;
     QWidget *page_10;
     QLabel *label_73;
     QToolButton *toolButton_14;
@@ -863,114 +639,117 @@ public:
     QPushButton *pushButton_227;
     QPushButton *pushButton_258;
     QWidget *page_11;
-    QStackedWidget *stackedWidget_2;
-    QWidget *page_14;
-    QPushButton *pushButton_13;
-    QPushButton *pushButton_14;
-    QPushButton *pushButton_18;
-    QPushButton *pushButton_15;
-    QPushButton *pushButton_16;
-    QPushButton *pushButton_19;
-    QPushButton *pushButton_20;
+    QStackedWidget *stackedWidget_8;
+    QWidget *page_17;
+    QFrame *frame_24;
     QPushButton *pushButton_21;
-    QPushButton *pushButton_22;
-    QPushButton *pushButton_27;
-    QPushButton *pushButton_28;
-    QPushButton *pushButton_29;
-    QPushButton *pushButton_30;
+    QPushButton *pushButton_33;
+    QPushButton *pushButton_46;
+    QPushButton *pushButton_45;
+    QPushButton *pushButton_14;
+    QPushButton *pushButton_35;
     QPushButton *pushButton_31;
     QPushButton *pushButton_32;
-    QPushButton *pushButton_33;
-    QPushButton *pushButton_34;
-    QPushButton *pushButton_35;
-    QPushButton *pushButton_36;
-    QPushButton *pushButton_37;
-    QPushButton *pushButton_38;
     QPushButton *pushButton_39;
-    QPushButton *pushButton_40;
-    QPushButton *pushButton_41;
-    QPushButton *pushButton_42;
+    QPushButton *pushButton_15;
     QPushButton *pushButton_43;
-    QPushButton *pushButton_44;
-    QPushButton *pushButton_45;
-    QPushButton *pushButton_46;
-    QPushButton *pushButton_47;
-    QPushButton *pushButton_48;
-    QPushButton *pushButton_49;
+    QPushButton *pushButton_40;
+    QPushButton *pushButton_28;
+    QPushButton *pushButton_22;
+    QPushButton *pushButton_19;
     QPushButton *pushButton_50;
-    QWidget *page_15;
-    QPushButton *pushButton_51;
+    QPushButton *pushButton_37;
+    QPushButton *pushButton_30;
+    QPushButton *pushButton_18;
+    QPushButton *pushButton_42;
+    QPushButton *pushButton_16;
+    QPushButton *pushButton_38;
+    QPushButton *pushButton_13;
+    QPushButton *pushButton_34;
+    QPushButton *pushButton_27;
+    QPushButton *pushButton_49;
+    QPushButton *pushButton_47;
+    QPushButton *pushButton_41;
+    QPushButton *pushButton_29;
+    QPushButton *pushButton_44;
+    QPushButton *pushButton_48;
+    QPushButton *pushButton_20;
+    QPushButton *pushButton_36;
+    QWidget *page_14;
+    QFrame *frame_23;
     QPushButton *pushButton_52;
-    QPushButton *pushButton_17;
-    QPushButton *pushButton_53;
-    QPushButton *pushButton_54;
-    QPushButton *pushButton_55;
-    QPushButton *pushButton_56;
-    QPushButton *pushButton_57;
-    QPushButton *pushButton_58;
-    QPushButton *pushButton_59;
-    QPushButton *pushButton_60;
-    QPushButton *pushButton_61;
-    QPushButton *pushButton_62;
-    QPushButton *pushButton_63;
-    QPushButton *pushButton_64;
-    QPushButton *pushButton_65;
-    QPushButton *pushButton_66;
     QPushButton *pushButton_67;
-    QPushButton *pushButton_68;
-    QPushButton *pushButton_69;
-    QPushButton *pushButton_70;
+    QPushButton *pushButton_58;
+    QPushButton *pushButton_63;
     QPushButton *pushButton_71;
-    QPushButton *pushButton_72;
-    QPushButton *pushButton_73;
-    QPushButton *pushButton_74;
-    QPushButton *pushButton_75;
-    QPushButton *pushButton_76;
-    QPushButton *pushButton_77;
-    QPushButton *pushButton_78;
+    QPushButton *pushButton_65;
     QPushButton *pushButton_79;
+    QPushButton *pushButton_17;
+    QPushButton *pushButton_70;
+    QPushButton *pushButton_54;
+    QPushButton *pushButton_53;
+    QPushButton *pushButton_56;
+    QPushButton *pushButton_62;
+    QPushButton *pushButton_74;
+    QPushButton *pushButton_51;
+    QPushButton *pushButton_61;
+    QPushButton *pushButton_57;
+    QPushButton *pushButton_78;
+    QPushButton *pushButton_72;
     QPushButton *pushButton_80;
+    QPushButton *pushButton_68;
+    QPushButton *pushButton_59;
+    QPushButton *pushButton_64;
+    QPushButton *pushButton_75;
     QPushButton *pushButton_81;
+    QPushButton *pushButton_60;
+    QPushButton *pushButton_73;
+    QPushButton *pushButton_69;
+    QPushButton *pushButton_77;
+    QPushButton *pushButton_55;
+    QPushButton *pushButton_76;
+    QPushButton *pushButton_66;
     QPushButton *pushButton_82;
-    QWidget *page_16;
-    QPushButton *pushButton_83;
-    QPushButton *pushButton_84;
-    QPushButton *pushButton_85;
-    QPushButton *pushButton_86;
-    QPushButton *pushButton_87;
-    QPushButton *pushButton_88;
-    QPushButton *pushButton_89;
-    QPushButton *pushButton_90;
-    QPushButton *pushButton_91;
-    QPushButton *pushButton_92;
+    QWidget *page_15;
+    QFrame *frame_25;
+    QPushButton *pushButton_105;
+    QPushButton *pushButton_109;
     QPushButton *pushButton_93;
     QPushButton *pushButton_94;
-    QPushButton *pushButton_95;
-    QPushButton *pushButton_96;
-    QPushButton *pushButton_97;
-    QPushButton *pushButton_98;
-    QPushButton *pushButton_99;
+    QPushButton *pushButton_83;
     QPushButton *pushButton_100;
-    QPushButton *pushButton_101;
-    QPushButton *pushButton_102;
-    QPushButton *pushButton_103;
-    QPushButton *pushButton_104;
-    QPushButton *pushButton_105;
-    QPushButton *pushButton_106;
-    QPushButton *pushButton_107;
-    QPushButton *pushButton_108;
-    QPushButton *pushButton_109;
-    QPushButton *pushButton_110;
-    QPushButton *pushButton_111;
-    QPushButton *pushButton_112;
-    QPushButton *pushButton_113;
-    QPushButton *pushButton_114;
-    QPushButton *pushButton_115;
     QPushButton *pushButton_116;
+    QPushButton *pushButton_103;
+    QPushButton *pushButton_112;
+    QPushButton *pushButton_114;
+    QPushButton *pushButton_96;
+    QPushButton *pushButton_102;
+    QPushButton *pushButton_90;
+    QPushButton *pushButton_115;
+    QPushButton *pushButton_111;
+    QPushButton *pushButton_101;
+    QPushButton *pushButton_95;
+    QPushButton *pushButton_104;
+    QPushButton *pushButton_84;
+    QPushButton *pushButton_106;
+    QPushButton *pushButton_87;
+    QPushButton *pushButton_91;
+    QPushButton *pushButton_108;
+    QPushButton *pushButton_110;
+    QPushButton *pushButton_97;
+    QPushButton *pushButton_85;
+    QPushButton *pushButton_92;
+    QPushButton *pushButton_98;
     QPushButton *pushButton_244;
+    QPushButton *pushButton_89;
+    QPushButton *pushButton_88;
+    QPushButton *pushButton_86;
+    QPushButton *pushButton_113;
+    QPushButton *pushButton_107;
+    QPushButton *pushButton_99;
+    QPushButton *pushButton_135;
     QLineEdit *lineEdit;
     QLabel *label_4;
-    QPushButton *pushButton_135;
     QWidget *page_20;
     QLabel *label_107;
     QToolButton *toolButton_15;
@@ -1206,12 +985,13 @@ public:
     QPushButton *pushButton_327;
     QPushButton *Home_Btn_20;
     QWidget *page_46;
-    QLineEdit *lineEdit_97;
-    QLabel *label_338;
-    QPushButton *pushButton_298;
-    QLabel *label_421;
-    QPushButton *pushButton_299;
     QPushButton *Home_Btn_21;
+    QFrame *frame_26;
+    QLabel *label_421;
+    QLineEdit *lineEdit_97;
+    QPushButton *pushButton_299;
+    QPushButton *pushButton_298;
+    QLabel *label_338;
     QWidget *page_31;
     QPushButton *Home_Btn_13;
     QLineEdit *lineEdit_16;
@@ -1326,9 +1106,10 @@ public:
         MainWindow->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        centralWidget->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         stackedWidget = new QStackedWidget(centralWidget);
         stackedWidget->setObjectName(QStringLiteral("stackedWidget"));
-        stackedWidget->setGeometry(QRect(0, 0, 800, 480));
+        stackedWidget->setGeometry(QRect(0, 0, 800, 452));
         QFont font;
         font.setFamily(QStringLiteral("Liberation Sans"));
         font.setPointSize(12);
@@ -1580,142 +1361,6 @@ public:
         font6.setPointSize(11);
         Status_Lbl->setFont(font6);
         Status_Lbl->setStyleSheet(QStringLiteral(""));
-        tabWidget = new QTabWidget(page_2);
-        tabWidget->setObjectName(QStringLiteral("tabWidget"));
-        tabWidget->setGeometry(QRect(15, 60, 771, 385));
-        QFont font7;
-        font7.setFamily(QStringLiteral("Liberation Sans"));
-        font7.setPointSize(12);
-        font7.setBold(true);
-        font7.setWeight(75);
-        tabWidget->setFont(font7);
-        tabWidget->setStyleSheet(QLatin1String("QTabWidget\n"
-"{\n"
-"background-color: #f4f4fc;\n"
-"}\n"
-"QTabWidget:tab-bar\n"
-"{\n"
-"alignment:center;\n"
-"}\n"
-"QTabBar:tab\n"
-"{\n"
-"border: 1px solid #C4C4C3;\n"
-"         border-bottom-color: #C2C7CB; /* same as the pane color */\n"
-"         border-top-left-radius: 4px;\n"
-"         border-top-right-radius: 4px;\n"
-"        width:210px;\n"
-"height:35px;\n"
-"        padding: 2px;\n"
-"          background-color: #F7F7F7;\n"
-"\n"
-"/*width:210px;\n"
-"height:35px;\n"
-"color:rgb(12, 68, 145);*/\n"
-"\n"
-"}\n"
-"QTabBar:tab:!selected\n"
-"{\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid rgb(12, 68, 145);\n"
-"color:black;\n"
-"	background-color: rgb(202, 202, 202);\n"
-"}\n"
-"QTabBar:tab:selected\n"
-"{\n"
-" border-top-left-radius: 40px;\n"
-" border-top-right-radius: 40px;	\n"
-"border:1px solid green;\n"
-"color:rgb(12, 68, 145);\n"
-"\n"
-"}"));
-        tabWidget->setTabShape(QTabWidget::Triangular);
-        tabWidget->setIconSize(QSize(20, 20));
-        tabWidget->setTabsClosable(false);
-        tabWidget->setMovable(true);
-        tab = new QWidget();
-        tab->setObjectName(QStringLiteral("tab"));
-        tab->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea = new QScrollArea(tab);
-        scrollArea->setObjectName(QStringLiteral("scrollArea"));
-        scrollArea->setGeometry(QRect(10, 15, 751, 311));
-        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
-        sizePolicy.setHorizontalStretch(1);
-        sizePolicy.setVerticalStretch(1);
-        sizePolicy.setHeightForWidth(scrollArea->sizePolicy().hasHeightForWidth());
-        scrollArea->setSizePolicy(sizePolicy);
-        scrollArea->setMinimumSize(QSize(751, 311));
-        scrollArea->setSizeIncrement(QSize(1, 1));
-        scrollArea->setBaseSize(QSize(1, 1));
-        scrollArea->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
-        scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
-        scrollArea->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContentsOnFirstShow);
-        scrollArea->setWidgetResizable(true);
-        scrollAreaWidgetContents = new QWidget();
-        scrollAreaWidgetContents->setObjectName(QStringLiteral("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 749, 309));
-        scrollAreaWidgetContents->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"	font: 10pt \"Sans Serif\";\n"
-"}"));
-        gridLayout_3 = new QGridLayout(scrollAreaWidgetContents);
-        gridLayout_3->setSpacing(6);
-        gridLayout_3->setContentsMargins(11, 11, 11, 11);
-        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
-        gridLayout = new QGridLayout();
-        gridLayout->setSpacing(6);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
-        gridLayout->setContentsMargins(0, 0, 0, 0);
-
-        gridLayout_3->addLayout(gridLayout, 0, 0, 1, 1);
-
-        scrollArea->setWidget(scrollAreaWidgetContents);
-        tabWidget->addTab(tab, QString());
-        tab_1 = new QWidget();
-        tab_1->setObjectName(QStringLiteral("tab_1"));
-        tab_1->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_2 = new QScrollArea(tab_1);
-        scrollArea_2->setObjectName(QStringLiteral("scrollArea_2"));
-        scrollArea_2->setGeometry(QRect(10, 15, 751, 311));
-        sizePolicy.setHeightForWidth(scrollArea_2->sizePolicy().hasHeightForWidth());
-        scrollArea_2->setSizePolicy(sizePolicy);
-        scrollArea_2->setMinimumSize(QSize(751, 311));
-        scrollArea_2->setSizeIncrement(QSize(1, 1));
-        scrollArea_2->setBaseSize(QSize(1, 1));
-        scrollArea_2->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_2->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
-        scrollArea_2->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
-        scrollArea_2->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContentsOnFirstShow);
-        scrollArea_2->setWidgetResizable(true);
-        scrollAreaWidgetContents_2 = new QWidget();
-        scrollAreaWidgetContents_2->setObjectName(QStringLiteral("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 749, 309));
-        scrollAreaWidgetContents_2->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"	font: 10pt \"Sans Serif\";\n"
-"}"));
-        gridLayout_4 = new QGridLayout(scrollAreaWidgetContents_2);
-        gridLayout_4->setSpacing(6);
-        gridLayout_4->setContentsMargins(11, 11, 11, 11);
-        gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
-        gridLayout_2 = new QGridLayout();
-        gridLayout_2->setSpacing(6);
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
-        gridLayout_2->setContentsMargins(0, 0, 0, 0);
-
-        gridLayout_4->addLayout(gridLayout_2, 0, 0, 1, 1);
-
-        scrollArea_2->setWidget(scrollAreaWidgetContents_2);
-        tabWidget->addTab(tab_1, QString());
         frame_28 = new QFrame(page_2);
         frame_28->setObjectName(QStringLiteral("frame_28"));
         frame_28->setGeometry(QRect(0, 0, 800, 51));
@@ -1736,15 +1381,74 @@ public:
         Home_Lbl_2 = new QLabel(frame_28);
         Home_Lbl_2->setObjectName(QStringLiteral("Home_Lbl_2"));
         Home_Lbl_2->setGeometry(QRect(10, 10, 491, 30));
+        QFont font7;
+        font7.setFamily(QStringLiteral("Liberation Sans"));
+        font7.setPointSize(16);
+        font7.setBold(true);
+        font7.setItalic(false);
+        font7.setWeight(75);
+        font7.setKerning(true);
+        Home_Lbl_2->setFont(font7);
+        Home_Lbl_2->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
+        frame_9 = new QFrame(page_2);
+        frame_9->setObjectName(QStringLiteral("frame_9"));
+        frame_9->setGeometry(QRect(15, 95, 771, 351));
+        frame_9->setFrameShape(QFrame::StyledPanel);
+        frame_9->setFrameShadow(QFrame::Raised);
+        scrollArea_7 = new QScrollArea(frame_9);
+        scrollArea_7->setObjectName(QStringLiteral("scrollArea_7"));
+        scrollArea_7->setGeometry(QRect(10, 10, 751, 331));
+        scrollArea_7->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
+        scrollArea_7->setWidgetResizable(true);
+        scrollAreaWidgetContents_7 = new QWidget();
+        scrollAreaWidgetContents_7->setObjectName(QStringLiteral("scrollAreaWidgetContents_7"));
+        scrollAreaWidgetContents_7->setGeometry(QRect(0, 0, 749, 329));
+        gridLayout_2 = new QGridLayout(scrollAreaWidgetContents_7);
+        gridLayout_2->setSpacing(10);
+        gridLayout_2->setContentsMargins(11, 11, 11, 11);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        scrollArea_7->setWidget(scrollAreaWidgetContents_7);
+        pushButton_6 = new QPushButton(page_2);
+        pushButton_6->setObjectName(QStringLiteral("pushButton_6"));
+        pushButton_6->setGeometry(QRect(190, 55, 221, 41));
         QFont font8;
         font8.setFamily(QStringLiteral("Liberation Sans"));
-        font8.setPointSize(16);
+        font8.setPointSize(14);
         font8.setBold(true);
-        font8.setItalic(false);
         font8.setWeight(75);
-        font8.setKerning(true);
-        Home_Lbl_2->setFont(font8);
-        Home_Lbl_2->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
+        pushButton_6->setFont(font8);
+        pushButton_6->setStyleSheet(QLatin1String("QPushButton \n"
+"{\n"
+"     border: 2px solid #8f8f91;\n"
+"     border-top-left-radius:40px;\n"
+"	 border-top-right-radius:40px;\n"
+"     background-color: #f0f0f0;\n"
+"     padding: 10px; \n"
+"}"));
+        pushButton_139 = new QPushButton(page_2);
+        pushButton_139->setObjectName(QStringLiteral("pushButton_139"));
+        pushButton_139->setGeometry(QRect(410, 55, 221, 41));
+        pushButton_139->setFont(font8);
+        pushButton_139->setStyleSheet(QLatin1String("QPushButton \n"
+"{\n"
+"     border: 2px solid #8f8f91;\n"
+"     border-top-left-radius:40px;\n"
+"	 border-top-right-radius:40px;\n"
+"     background-color: #f0f0f0;\n"
+"     padding: 10px; \n"
+"}"));
+        pushButton_142 = new QPushButton(page_2);
+        pushButton_142->setObjectName(QStringLiteral("pushButton_142"));
+        pushButton_142->setGeometry(QRect(310, 55, 221, 41));
+        pushButton_142->setFont(font8);
+        pushButton_142->setStyleSheet(QLatin1String("QPushButton \n"
+"{\n"
+"     border: 2px solid #8f8f91;\n"
+"     border-top-left-radius:40px;\n"
+"	 border-top-right-radius:40px;\n"
+"     background-color: #f0f0f0;\n"
+"     padding: 10px; \n"
+"}"));
         stackedWidget->addWidget(page_2);
         page_3 = new QWidget();
         page_3->setObjectName(QStringLiteral("page_3"));
@@ -1756,14 +1460,17 @@ public:
         RunBlank_Btn = new QPushButton(page_3);
         RunBlank_Btn->setObjectName(QStringLiteral("RunBlank_Btn"));
         RunBlank_Btn->setGeometry(QRect(360, 20, 81, 81));
-        RunBlank_Btn->setFont(font7);
+        QFont font9;
+        font9.setFamily(QStringLiteral("Liberation Sans"));
+        font9.setPointSize(12);
+        font9.setBold(true);
+        font9.setWeight(75);
+        RunBlank_Btn->setFont(font9);
         RunBlank_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
@@ -1777,26 +1484,16 @@ public:
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         RunCal_Btn = new QPushButton(page_3);
         RunCal_Btn->setObjectName(QStringLiteral("RunCal_Btn"));
         RunCal_Btn->setGeometry(QRect(360, 120, 81, 81));
-        QFont font9;
-        font9.setFamily(QStringLiteral("Liberation Sans"));
-        font9.setPointSize(14);
-        font9.setBold(true);
-        font9.setWeight(75);
-        RunCal_Btn->setFont(font9);
+        RunCal_Btn->setFont(font8);
         RunCal_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
@@ -1810,34 +1507,26 @@ public:
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         RunSample_Btn = new QPushButton(page_3);
         RunSample_Btn->setObjectName(QStringLiteral("RunSample_Btn"));
         RunSample_Btn->setGeometry(QRect(360, 320, 91, 91));
-        RunSample_Btn->setFont(font7);
+        RunSample_Btn->setFont(font9);
         RunSample_Btn->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "\n"
 "QPushButton#RunSample_Btn:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         Print_Btn = new QPushButton(page_3);
         Print_Btn->setObjectName(QStringLiteral("Print_Btn"));
         Print_Btn->setGeometry(QRect(630, 330, 78, 71));
@@ -1848,14 +1537,13 @@ public:
         font10.setWeight(50);
         Print_Btn->setFont(font10);
         Print_Btn->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
-"QPushButton {\n"
-"    background-color: rgb(12, 68, 145);\n"
-"color: rgb(255, 255, 255);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"}\n"
+"QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled {\n"
 "    background-color: rgb(170, 170, 127);\n"
@@ -1985,16 +1673,13 @@ public:
         Save_Btn_5 = new QPushButton(page_3);
         Save_Btn_5->setObjectName(QStringLiteral("Save_Btn_5"));
         Save_Btn_5->setGeometry(QRect(600, 130, 81, 61));
-        Save_Btn_5->setFont(font9);
+        Save_Btn_5->setFont(font8);
         Save_Btn_5->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"  \n"
-"	background-color: rgb(19, 170, 87);\n"
+"  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00C0A3,stop: 0.5 #00C0A3,stop:1 #00C0A3);\n"
+"color: black;\n"
 "}\n"
 "QPushButton {\n"
-"     background-color: #00C0A3;\n"
-"color: black;\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00C0A3,stop: 0.5 #00C0A3,stop:1 #00C0A3);\n"
 "}\n"
 "\n"
 "QPushButton:disabled {\n"
@@ -2006,14 +1691,13 @@ public:
         Print_Btn_2->setGeometry(QRect(630, 330, 78, 71));
         Print_Btn_2->setFont(font10);
         Print_Btn_2->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
-"QPushButton {\n"
-"     background-color: rgb(12, 68, 145);\n"
-"color: rgb(255, 255, 255);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"}\n"
+"QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled {\n"
 "    background-color: rgb(170, 170, 127);\n"
@@ -2022,40 +1706,32 @@ public:
         RunSample_Btn_2 = new QPushButton(page_3);
         RunSample_Btn_2->setObjectName(QStringLiteral("RunSample_Btn_2"));
         RunSample_Btn_2->setGeometry(QRect(360, 320, 91, 91));
-        RunSample_Btn_2->setFont(font7);
+        RunSample_Btn_2->setFont(font9);
         RunSample_Btn_2->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         Save_Btn_6 = new QPushButton(page_3);
         Save_Btn_6->setObjectName(QStringLiteral("Save_Btn_6"));
         Save_Btn_6->setGeometry(QRect(600, 30, 81, 61));
         Save_Btn_6->setFont(font10);
         Save_Btn_6->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"  \n"
-"	background-color: rgb(19, 170, 87);\n"
+"  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00C0A3,stop: 0.5 #00C0A3,stop:1 #00C0A3);\n"
+"color: black;\n"
 "}\n"
 "QPushButton {\n"
-"       background-color: #00C0A3;\n"
-"color: black;\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00C0A3,stop: 0.5 #00C0A3,stop:1 #00C0A3);\n"
 "}\n"
 "\n"
 "QPushButton:disabled {\n"
@@ -2065,63 +1741,52 @@ public:
         RunCal_Btn_2 = new QPushButton(page_3);
         RunCal_Btn_2->setObjectName(QStringLiteral("RunCal_Btn_2"));
         RunCal_Btn_2->setGeometry(QRect(360, 20, 81, 81));
-        RunCal_Btn_2->setFont(font7);
+        RunCal_Btn_2->setFont(font9);
         RunCal_Btn_2->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#RunCal_Btn_2:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         RunSample_Btn_3 = new QPushButton(page_3);
         RunSample_Btn_3->setObjectName(QStringLiteral("RunSample_Btn_3"));
         RunSample_Btn_3->setGeometry(QRect(360, 320, 91, 91));
-        RunSample_Btn_3->setFont(font9);
+        RunSample_Btn_3->setFont(font8);
         RunSample_Btn_3->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         Print_Btn_3 = new QPushButton(page_3);
         Print_Btn_3->setObjectName(QStringLiteral("Print_Btn_3"));
         Print_Btn_3->setGeometry(QRect(630, 330, 78, 71));
-        Print_Btn_3->setFont(font9);
+        Print_Btn_3->setFont(font8);
         Print_Btn_3->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
-"QPushButton {\n"
-"     background-color: rgb(12, 68, 145);\n"
-"color: rgb(255, 255, 255);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"}\n"
+"QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled {\n"
 "    background-color: rgb(170, 170, 127);\n"
@@ -2130,16 +1795,13 @@ public:
         Save_Btn_7 = new QPushButton(page_3);
         Save_Btn_7->setObjectName(QStringLiteral("Save_Btn_7"));
         Save_Btn_7->setGeometry(QRect(600, 30, 81, 61));
-        Save_Btn_7->setFont(font9);
+        Save_Btn_7->setFont(font8);
         Save_Btn_7->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"  \n"
-"	background-color: rgb(19, 170, 87);\n"
+"  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00C0A3,stop: 0.5 #00C0A3,stop:1 #00C0A3);\n"
+"color: black;\n"
 "}\n"
 "QPushButton {\n"
-"    background-color: #00C0A3;\n"
-"color: black;\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 #00C0A3,stop: 0.5 #00C0A3,stop:1 #00C0A3);\n"
 "}\n"
 "\n"
 "QPushButton:disabled {\n"
@@ -2149,14 +1811,12 @@ public:
         RunCal_Btn_3 = new QPushButton(page_3);
         RunCal_Btn_3->setObjectName(QStringLiteral("RunCal_Btn_3"));
         RunCal_Btn_3->setGeometry(QRect(360, 20, 81, 81));
-        RunCal_Btn_3->setFont(font9);
+        RunCal_Btn_3->setFont(font8);
         RunCal_Btn_3->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
@@ -2165,10 +1825,7 @@ public:
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         label_12 = new QLabel(page_3);
         label_12->setObjectName(QStringLiteral("label_12"));
         label_12->setGeometry(QRect(10, 370, 61, 16));
@@ -2321,7 +1978,7 @@ public:
         comboBox->addItem(QString());
         comboBox->setObjectName(QStringLiteral("comboBox"));
         comboBox->setGeometry(QRect(360, 230, 81, 41));
-        comboBox->setFont(font9);
+        comboBox->setFont(font8);
         comboBox->setStyleSheet(QLatin1String("QComboBox#comboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -2347,51 +2004,40 @@ public:
         Retest = new QPushButton(page_3);
         Retest->setObjectName(QStringLiteral("Retest"));
         Retest->setGeometry(QRect(730, 130, 61, 45));
-        Retest->setFont(font9);
+        Retest->setFont(font8);
         Retest->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         E_QC_Check = new QPushButton(page_3);
         E_QC_Check->setObjectName(QStringLiteral("E_QC_Check"));
         E_QC_Check->setGeometry(QRect(450, 230, 71, 81));
-        E_QC_Check->setFont(font9);
+        E_QC_Check->setFont(font8);
         E_QC_Check->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         label_228 = new QLabel(page_3);
         label_228->setObjectName(QStringLiteral("label_228"));
         label_228->setGeometry(QRect(530, 230, 61, 35));
@@ -2419,51 +2065,40 @@ public:
         Retest_3 = new QPushButton(page_3);
         Retest_3->setObjectName(QStringLiteral("Retest_3"));
         Retest_3->setGeometry(QRect(730, 280, 61, 45));
-        Retest_3->setFont(font9);
+        Retest_3->setFont(font8);
         Retest_3->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         Retest_4 = new QPushButton(page_3);
         Retest_4->setObjectName(QStringLiteral("Retest_4"));
         Retest_4->setGeometry(QRect(730, 350, 61, 45));
-        Retest_4->setFont(font9);
+        Retest_4->setFont(font8);
         Retest_4->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         label_233 = new QLabel(page_3);
         label_233->setObjectName(QStringLiteral("label_233"));
         label_233->setGeometry(QRect(557, 375, 41, 20));
@@ -2473,16 +2108,13 @@ public:
         Stop_Btn = new QPushButton(page_3);
         Stop_Btn->setObjectName(QStringLiteral("Stop_Btn"));
         Stop_Btn->setGeometry(QRect(10, 390, 111, 51));
-        Stop_Btn->setFont(font7);
+        Stop_Btn->setFont(font9);
         Stop_Btn->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
 "QPushButton \n"
 "{\n"
-"	background-color: rgb(229, 28, 65);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(229, 28, 65),stop: 0.5 rgb(229, 28, 65),stop:1 rgb(229, 28, 65));\n"
 "}\n"
 "\n"
 "QPushButton:disabled \n"
@@ -2490,10 +2122,7 @@ public:
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"	background-color: rgb(225, 4, 8);\n"
-"}"));
+""));
         label_232 = new QLabel(page_3);
         label_232->setObjectName(QStringLiteral("label_232"));
         label_232->setGeometry(QRect(705, 240, 21, 31));
@@ -2523,7 +2152,7 @@ public:
         comboBox_2->addItem(QString());
         comboBox_2->setObjectName(QStringLiteral("comboBox_2"));
         comboBox_2->setGeometry(QRect(360, 160, 81, 41));
-        comboBox_2->setFont(font7);
+        comboBox_2->setFont(font9);
         comboBox_2->setStyleSheet(QLatin1String("QComboBox#comboBox_2\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -2544,27 +2173,21 @@ public:
         TP_QC_Check = new QPushButton(page_3);
         TP_QC_Check->setObjectName(QStringLiteral("TP_QC_Check"));
         TP_QC_Check->setGeometry(QRect(450, 160, 71, 91));
-        TP_QC_Check->setFont(font7);
+        TP_QC_Check->setFont(font9);
         TP_QC_Check->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         label_237 = new QLabel(page_3);
         label_237->setObjectName(QStringLiteral("label_237"));
         label_237->setGeometry(QRect(600, 215, 41, 31));
@@ -2579,10 +2202,10 @@ public:
         label_238->setAlignment(Qt::AlignCenter);
         label_239 = new QLabel(page_3);
         label_239->setObjectName(QStringLiteral("label_239"));
-        label_239->setGeometry(QRect(530, 40, 31, 31));
+        label_239->setGeometry(QRect(533, 40, 51, 31));
         label_239->setFont(font14);
         label_239->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        label_239->setAlignment(Qt::AlignCenter);
+        label_239->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         label_240 = new QLabel(page_3);
         label_240->setObjectName(QStringLiteral("label_240"));
         label_240->setGeometry(QRect(450, 30, 71, 51));
@@ -2629,7 +2252,7 @@ public:
         comboBox_3->addItem(QString());
         comboBox_3->setObjectName(QStringLiteral("comboBox_3"));
         comboBox_3->setGeometry(QRect(360, 160, 81, 41));
-        comboBox_3->setFont(font9);
+        comboBox_3->setFont(font8);
         comboBox_3->setStyleSheet(QLatin1String("QComboBox {\n"
 "background-color: rgb(12, 68, 145);\n"
 " border: 1px solid black;\n"
@@ -2649,27 +2272,22 @@ public:
         K_QC_Check = new QPushButton(page_3);
         K_QC_Check->setObjectName(QStringLiteral("K_QC_Check"));
         K_QC_Check->setGeometry(QRect(450, 160, 71, 91));
-        K_QC_Check->setFont(font9);
+        K_QC_Check->setFont(font8);
         K_QC_Check->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         label_252 = new QLabel(page_3);
         label_252->setObjectName(QStringLiteral("label_252"));
         label_252->setGeometry(QRect(640, 220, 151, 17));
@@ -2701,7 +2319,7 @@ public:
         label_272 = new QLabel(page_3);
         label_272->setObjectName(QStringLiteral("label_272"));
         label_272->setGeometry(QRect(543, 330, 72, 41));
-        label_272->setFont(font7);
+        label_272->setFont(font9);
         label_272->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border:1px solid;"));
         label_273 = new QLabel(page_3);
@@ -2743,16 +2361,13 @@ public:
         Stop_Btn_2 = new QPushButton(page_3);
         Stop_Btn_2->setObjectName(QStringLiteral("Stop_Btn_2"));
         Stop_Btn_2->setGeometry(QRect(10, 390, 111, 51));
-        Stop_Btn_2->setFont(font7);
+        Stop_Btn_2->setFont(font9);
         Stop_Btn_2->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
 "QPushButton \n"
 "{\n"
-"	background-color: rgb(229, 28, 65);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
+"	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(229, 28, 65),stop: 0.5 rgb(229, 28, 65),stop:1 rgb(229, 28, 65));\n"
 "}\n"
 "\n"
 "QPushButton:disabled \n"
@@ -2760,34 +2375,25 @@ public:
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"	background-color: rgb(225, 4, 8);\n"
-"}"));
+""));
         Retest_5 = new QPushButton(page_3);
         Retest_5->setObjectName(QStringLiteral("Retest_5"));
         Retest_5->setGeometry(QRect(510, 420, 131, 31));
-        Retest_5->setFont(font9);
+        Retest_5->setFont(font8);
         Retest_5->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
 "    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
 "}\n"
-"QPushButton \n"
+"QPushButton\n"
 "{\n"
-"    background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color:white;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QPushButton:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         stackedWidget->addWidget(page_3);
         E_QC_Check->raise();
         Retest_3->raise();
@@ -2889,12 +2495,19 @@ public:
         pushButton->setGeometry(QRect(310, 70, 241, 81));
         pushButton->setFont(font5);
         pushButton->setLayoutDirection(Qt::RightToLeft);
-        pushButton->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         QIcon icon10;
         icon10.addFile(QStringLiteral(":/img/add.png"), QSize(), QIcon::Normal, QIcon::Off);
@@ -2905,12 +2518,18 @@ public:
         pushButton_2->setGeometry(QRect(310, 190, 241, 81));
         pushButton_2->setFont(font5);
         pushButton_2->setLayoutDirection(Qt::RightToLeft);
-        pushButton_2->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_2->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         QIcon icon11;
         icon11.addFile(QStringLiteral(":/img/Edit.png"), QSize(), QIcon::Normal, QIcon::Off);
@@ -2921,12 +2540,18 @@ public:
         pushButton_3->setGeometry(QRect(310, 310, 241, 81));
         pushButton_3->setFont(font5);
         pushButton_3->setLayoutDirection(Qt::RightToLeft);
-        pushButton_3->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_3->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         QIcon icon12;
         icon12.addFile(QStringLiteral(":/img/delete.png"), QSize(), QIcon::Normal, QIcon::Off);
@@ -3023,7 +2648,7 @@ public:
         WaveLength_Combo->addItem(QString());
         WaveLength_Combo->setObjectName(QStringLiteral("WaveLength_Combo"));
         WaveLength_Combo->setGeometry(QRect(150, 130, 121, 35));
-        WaveLength_Combo->setFont(font7);
+        WaveLength_Combo->setFont(font9);
         WaveLength_Combo->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -3044,7 +2669,7 @@ public:
         ReactionType_Combo->addItem(QString());
         ReactionType_Combo->setObjectName(QStringLiteral("ReactionType_Combo"));
         ReactionType_Combo->setGeometry(QRect(150, 200, 121, 35));
-        ReactionType_Combo->setFont(font7);
+        ReactionType_Combo->setFont(font9);
         ReactionType_Combo->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -3063,7 +2688,7 @@ public:
         Temp_Combo->addItem(QString());
         Temp_Combo->setObjectName(QStringLiteral("Temp_Combo"));
         Temp_Combo->setGeometry(QRect(150, 330, 121, 35));
-        Temp_Combo->setFont(font7);
+        Temp_Combo->setFont(font9);
         Temp_Combo->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -3109,7 +2734,7 @@ public:
         BlankType_Combo->addItem(QString());
         BlankType_Combo->setObjectName(QStringLiteral("BlankType_Combo"));
         BlankType_Combo->setGeometry(QRect(460, 70, 150, 35));
-        BlankType_Combo->setFont(font7);
+        BlankType_Combo->setFont(font9);
         BlankType_Combo->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -3282,7 +2907,7 @@ public:
         comboBox_5->addItem(QString());
         comboBox_5->setObjectName(QStringLiteral("comboBox_5"));
         comboBox_5->setGeometry(QRect(160, 50, 51, 35));
-        comboBox_5->setFont(font7);
+        comboBox_5->setFont(font9);
         comboBox_5->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -3306,7 +2931,7 @@ public:
         comboBox_6->addItem(QString());
         comboBox_6->setObjectName(QStringLiteral("comboBox_6"));
         comboBox_6->setGeometry(QRect(160, 110, 51, 35));
-        comboBox_6->setFont(font7);
+        comboBox_6->setFont(font9);
         comboBox_6->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -3675,111 +3300,21 @@ public:
         Save_Btn = new QPushButton(page_5);
         Save_Btn->setObjectName(QStringLiteral("Save_Btn"));
         Save_Btn->setGeometry(QRect(695, 405, 101, 41));
-        Save_Btn->setFont(font7);
-        Save_Btn->setStyleSheet(QLatin1String("QPushButton\n"
+        Save_Btn->setFont(font9);
+        Save_Btn->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         stackedWidget->addWidget(page_5);
-        page_17 = new QWidget();
-        page_17->setObjectName(QStringLiteral("page_17"));
-        Home_Lbl_4 = new QLabel(page_17);
-        Home_Lbl_4->setObjectName(QStringLiteral("Home_Lbl_4"));
-        Home_Lbl_4->setGeometry(QRect(10, 10, 271, 30));
-        Home_Lbl_4->setFont(font5);
-        Home_Lbl_4->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        Home_Btn_9 = new QPushButton(page_17);
-        Home_Btn_9->setObjectName(QStringLiteral("Home_Btn_9"));
-        Home_Btn_9->setGeometry(QRect(740, 0, 61, 51));
-        Home_Btn_9->setFont(font6);
-        Home_Btn_9->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
-"border:none;\n"
-"border-radius:30%;"));
-        QIcon icon14;
-        icon14.addFile(QStringLiteral(":/img/output-onlinepngtools.png"), QSize(), QIcon::Normal, QIcon::Off);
-        Home_Btn_9->setIcon(icon14);
-        Home_Btn_9->setIconSize(QSize(50, 50));
-        tabWidget_6 = new QTabWidget(page_17);
-        tabWidget_6->setObjectName(QStringLiteral("tabWidget_6"));
-        tabWidget_6->setGeometry(QRect(10, 60, 771, 381));
-        tabWidget_6->setFont(font7);
-        tabWidget_6->setStyleSheet(QLatin1String("QTabWidget\n"
-"{\n"
-"background-color: #f4f4fc;\n"
-"}\n"
-"QTabWidget:tab-bar\n"
-"{\n"
-"alignment:center;\n"
-"}\n"
-"QTabBar:tab\n"
-"{\n"
-"border: 1px solid #C4C4C3;\n"
-"         border-bottom-color: #C2C7CB; /* same as the pane color */\n"
-"         border-top-left-radius: 4px;\n"
-"         border-top-right-radius: 4px;\n"
-"        width:210px;\n"
-"height:35px;\n"
-"        padding: 2px;\n"
-"          background-color: #F7F7F7;\n"
-"}\n"
-"QTabBar:tab:!selected\n"
-"{\n"
-"color:rgb(255,0,0);\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid rgb(12, 68, 145);\n"
-"}\n"
-"QTabBar:tab:selected\n"
-"{\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid green;\n"
-"color:rgb(12, 68, 145);\n"
-"}"));
-        tabWidget_6->setTabShape(QTabWidget::Triangular);
-        tab_4 = new QWidget();
-        tab_4->setObjectName(QStringLiteral("tab_4"));
-        tab_4->setFont(font6);
-        tab_4->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_3 = new QScrollArea(tab_4);
-        scrollArea_3->setObjectName(QStringLiteral("scrollArea_3"));
-        scrollArea_3->setGeometry(QRect(10, 15, 751, 311));
-        sizePolicy.setHeightForWidth(scrollArea_3->sizePolicy().hasHeightForWidth());
-        scrollArea_3->setSizePolicy(sizePolicy);
-        scrollArea_3->setMinimumSize(QSize(751, 311));
-        scrollArea_3->setSizeIncrement(QSize(1, 1));
-        scrollArea_3->setBaseSize(QSize(1, 1));
-        scrollArea_3->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_3->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContentsOnFirstShow);
-        scrollArea_3->setWidgetResizable(true);
-        scrollAreaWidgetContents_3 = new QWidget();
-        scrollAreaWidgetContents_3->setObjectName(QStringLiteral("scrollAreaWidgetContents_3"));
-        scrollAreaWidgetContents_3->setGeometry(QRect(0, 0, 749, 309));
-        scrollAreaWidgetContents_3->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"	font: 10pt \"Sans Serif\";\n"
-"}"));
-        gridLayout_5 = new QGridLayout(scrollAreaWidgetContents_3);
-        gridLayout_5->setSpacing(6);
-        gridLayout_5->setContentsMargins(11, 11, 11, 11);
-        gridLayout_5->setObjectName(QStringLiteral("gridLayout_5"));
-        gridLayout_6 = new QGridLayout();
-        gridLayout_6->setSpacing(6);
-        gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
-        gridLayout_6->setContentsMargins(0, 0, 0, 0);
-
-        gridLayout_5->addLayout(gridLayout_6, 0, 0, 1, 1);
-
-        scrollArea_3->setWidget(scrollAreaWidgetContents_3);
-        tabWidget_6->addTab(tab_4, QString());
-        stackedWidget->addWidget(page_17);
         page_12 = new QWidget();
         page_12->setObjectName(QStringLiteral("page_12"));
         tabWidget_4 = new QTabWidget(page_12);
@@ -3992,12 +3527,12 @@ public:
         label_27->setObjectName(QStringLiteral("label_27"));
         label_27->setGeometry(QRect(10, 43, 121, 30));
         label_27->setFont(font);
-        label_27->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
+        label_27->setStyleSheet(QStringLiteral(""));
         label_28 = new QLabel(groupBox_3);
         label_28->setObjectName(QStringLiteral("label_28"));
         label_28->setGeometry(QRect(10, 103, 61, 30));
         label_28->setFont(font);
-        label_28->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
+        label_28->setStyleSheet(QStringLiteral(""));
         comboBox_7 = new QComboBox(groupBox_3);
         comboBox_7->addItem(QString());
         comboBox_7->addItem(QString());
@@ -4009,7 +3544,7 @@ public:
         comboBox_7->addItem(QString());
         comboBox_7->setObjectName(QStringLiteral("comboBox_7"));
         comboBox_7->setGeometry(QRect(150, 40, 51, 35));
-        comboBox_7->setFont(font7);
+        comboBox_7->setFont(font9);
         comboBox_7->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -4032,7 +3567,7 @@ public:
         comboBox_8->addItem(QString());
         comboBox_8->setObjectName(QStringLiteral("comboBox_8"));
         comboBox_8->setGeometry(QRect(150, 100, 51, 35));
-        comboBox_8->setFont(font7);
+        comboBox_8->setFont(font9);
         comboBox_8->setStyleSheet(QLatin1String("QComboBox\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -4049,7 +3584,7 @@ public:
         label_339->setObjectName(QStringLiteral("label_339"));
         label_339->setGeometry(QRect(10, 170, 61, 30));
         label_339->setFont(font);
-        label_339->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
+        label_339->setStyleSheet(QStringLiteral(""));
         lineEdit_153 = new QLineEdit(groupBox_3);
         lineEdit_153->setObjectName(QStringLiteral("lineEdit_153"));
         lineEdit_153->setGeometry(QRect(100, 170, 121, 41));
@@ -4435,7 +3970,7 @@ public:
         label_52 = new QLabel(frame_18);
         label_52->setObjectName(QStringLiteral("label_52"));
         label_52->setGeometry(QRect(35, 10, 61, 21));
-        label_52->setFont(font7);
+        label_52->setFont(font9);
         label_52->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_296 = new QLabel(frame_18);
         label_296->setObjectName(QStringLiteral("label_296"));
@@ -4501,7 +4036,7 @@ public:
         label_283 = new QLabel(frame_19);
         label_283->setObjectName(QStringLiteral("label_283"));
         label_283->setGeometry(QRect(40, 10, 51, 21));
-        label_283->setFont(font7);
+        label_283->setFont(font9);
         label_283->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_300 = new QLabel(frame_19);
         label_300->setObjectName(QStringLiteral("label_300"));
@@ -4630,7 +4165,7 @@ public:
         label_284 = new QLabel(frame_20);
         label_284->setObjectName(QStringLiteral("label_284"));
         label_284->setGeometry(QRect(45, 10, 41, 21));
-        label_284->setFont(font7);
+        label_284->setFont(font9);
         label_284->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_304 = new QLabel(frame_20);
         label_304->setObjectName(QStringLiteral("label_304"));
@@ -4696,7 +4231,7 @@ public:
         label_285 = new QLabel(frame_21);
         label_285->setObjectName(QStringLiteral("label_285"));
         label_285->setGeometry(QRect(30, 10, 61, 17));
-        label_285->setFont(font7);
+        label_285->setFont(font9);
         label_285->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_298 = new QLabel(frame_21);
         label_298->setObjectName(QStringLiteral("label_298"));
@@ -4734,7 +4269,7 @@ public:
         label_286 = new QLabel(frame_22);
         label_286->setObjectName(QStringLiteral("label_286"));
         label_286->setGeometry(QRect(60, 10, 64, 21));
-        label_286->setFont(font7);
+        label_286->setFont(font9);
         label_286->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_312 = new QLabel(frame_22);
         label_312->setObjectName(QStringLiteral("label_312"));
@@ -4818,13 +4353,19 @@ public:
         Update_Btn = new QPushButton(page_12);
         Update_Btn->setObjectName(QStringLiteral("Update_Btn"));
         Update_Btn->setGeometry(QRect(695, 405, 101, 41));
-        Update_Btn->setFont(font7);
-        Update_Btn->setStyleSheet(QLatin1String("QPushButton\n"
+        Update_Btn->setFont(font9);
+        Update_Btn->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         stackedWidget->addWidget(page_12);
         Update_Btn->raise();
@@ -4832,1154 +4373,6 @@ public:
         Home_Btn_7->raise();
         TestConfig_Btn_4->raise();
         label_16->raise();
-        page_18 = new QWidget();
-        page_18->setObjectName(QStringLiteral("page_18"));
-        Home_Lbl_5 = new QLabel(page_18);
-        Home_Lbl_5->setObjectName(QStringLiteral("Home_Lbl_5"));
-        Home_Lbl_5->setGeometry(QRect(20, 10, 291, 30));
-        Home_Lbl_5->setFont(font5);
-        Home_Lbl_5->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        Home_Btn_10 = new QPushButton(page_18);
-        Home_Btn_10->setObjectName(QStringLiteral("Home_Btn_10"));
-        Home_Btn_10->setGeometry(QRect(740, 0, 61, 51));
-        Home_Btn_10->setFont(font6);
-        Home_Btn_10->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
-"border:none;\n"
-"border-radius:30%;\n"
-""));
-        Home_Btn_10->setIcon(icon9);
-        Home_Btn_10->setIconSize(QSize(50, 50));
-        tabWidget_7 = new QTabWidget(page_18);
-        tabWidget_7->setObjectName(QStringLiteral("tabWidget_7"));
-        tabWidget_7->setGeometry(QRect(10, 60, 771, 381));
-        tabWidget_7->setFont(font7);
-        tabWidget_7->setStyleSheet(QLatin1String("QTabWidget\n"
-"{\n"
-"background-color: #f4f4fc;\n"
-"}\n"
-"QTabWidget:tab-bar\n"
-"{\n"
-"alignment:center;\n"
-"}\n"
-"QTabBar:tab\n"
-"{\n"
-"border: 1px solid #C4C4C3;\n"
-"         border-bottom-color: #C2C7CB; /* same as the pane color */\n"
-"         border-top-left-radius: 4px;\n"
-"         border-top-right-radius: 4px;\n"
-"        width:210px;\n"
-"height:35px;\n"
-"        padding: 2px;\n"
-"          background-color: #F7F7F7;\n"
-"}\n"
-"QTabBar:tab:!selected\n"
-"{\n"
-"color:rgb(255,0,0);\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid rgb(12, 68, 145);\n"
-"}\n"
-"QTabBar:tab:selected\n"
-"{\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid green;\n"
-"color:rgb(12, 68, 145);\n"
-"}\n"
-""));
-        tabWidget_7->setTabPosition(QTabWidget::North);
-        tabWidget_7->setTabShape(QTabWidget::Triangular);
-        tabWidget_7->setIconSize(QSize(20, 40));
-        tab_15 = new QWidget();
-        tab_15->setObjectName(QStringLiteral("tab_15"));
-        tab_15->setFont(font6);
-        tab_15->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_4 = new QScrollArea(tab_15);
-        scrollArea_4->setObjectName(QStringLiteral("scrollArea_4"));
-        scrollArea_4->setGeometry(QRect(10, 15, 751, 311));
-        sizePolicy.setHeightForWidth(scrollArea_4->sizePolicy().hasHeightForWidth());
-        scrollArea_4->setSizePolicy(sizePolicy);
-        scrollArea_4->setMinimumSize(QSize(751, 311));
-        scrollArea_4->setSizeIncrement(QSize(1, 1));
-        scrollArea_4->setBaseSize(QSize(1, 1));
-        scrollArea_4->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_4->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContentsOnFirstShow);
-        scrollArea_4->setWidgetResizable(true);
-        scrollAreaWidgetContents_4 = new QWidget();
-        scrollAreaWidgetContents_4->setObjectName(QStringLiteral("scrollAreaWidgetContents_4"));
-        scrollAreaWidgetContents_4->setGeometry(QRect(0, 0, 749, 309));
-        scrollAreaWidgetContents_4->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"	font: 10pt \"Sans Serif\";\n"
-"}"));
-        gridLayout_7 = new QGridLayout(scrollAreaWidgetContents_4);
-        gridLayout_7->setSpacing(6);
-        gridLayout_7->setContentsMargins(11, 11, 11, 11);
-        gridLayout_7->setObjectName(QStringLiteral("gridLayout_7"));
-        gridLayout_8 = new QGridLayout();
-        gridLayout_8->setSpacing(6);
-        gridLayout_8->setObjectName(QStringLiteral("gridLayout_8"));
-        gridLayout_8->setContentsMargins(0, 0, 0, 0);
-
-        gridLayout_7->addLayout(gridLayout_8, 0, 0, 1, 1);
-
-        scrollArea_4->setWidget(scrollAreaWidgetContents_4);
-        tabWidget_7->addTab(tab_15, QString());
-        stackedWidget->addWidget(page_18);
-        page_13 = new QWidget();
-        page_13->setObjectName(QStringLiteral("page_13"));
-        TestConfig_Btn_7 = new QLabel(page_13);
-        TestConfig_Btn_7->setObjectName(QStringLiteral("TestConfig_Btn_7"));
-        TestConfig_Btn_7->setGeometry(QRect(10, 0, 201, 30));
-        TestConfig_Btn_7->setFont(font5);
-        TestConfig_Btn_7->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        Home_Btn_8 = new QPushButton(page_13);
-        Home_Btn_8->setObjectName(QStringLiteral("Home_Btn_8"));
-        Home_Btn_8->setGeometry(QRect(740, 0, 61, 51));
-        Home_Btn_8->setFont(font6);
-        Home_Btn_8->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
-"border:none;\n"
-"border-radius:30%;"));
-        Home_Btn_8->setIcon(icon9);
-        Home_Btn_8->setIconSize(QSize(50, 50));
-        tabWidget_5 = new QTabWidget(page_13);
-        tabWidget_5->setObjectName(QStringLiteral("tabWidget_5"));
-        tabWidget_5->setGeometry(QRect(0, 32, 691, 421));
-        tabWidget_5->setFont(font);
-        tabWidget_5->setStyleSheet(QStringLiteral(""));
-        tab_12 = new QWidget();
-        tab_12->setObjectName(QStringLiteral("tab_12"));
-        tab_12->setStyleSheet(QStringLiteral(""));
-        TestName_Lbl_4 = new QLabel(tab_12);
-        TestName_Lbl_4->setObjectName(QStringLiteral("TestName_Lbl_4"));
-        TestName_Lbl_4->setGeometry(QRect(20, 10, 91, 30));
-        TestName_Lbl_4->setFont(font);
-        label_15 = new QLabel(tab_12);
-        label_15->setObjectName(QStringLiteral("label_15"));
-        label_15->setGeometry(QRect(20, 130, 101, 30));
-        label_15->setFont(font);
-        ReactionType_Lbl_3 = new QLabel(tab_12);
-        ReactionType_Lbl_3->setObjectName(QStringLiteral("ReactionType_Lbl_3"));
-        ReactionType_Lbl_3->setGeometry(QRect(20, 205, 111, 30));
-        ReactionType_Lbl_3->setFont(font);
-        Unit_Lbl_4 = new QLabel(tab_12);
-        Unit_Lbl_4->setObjectName(QStringLiteral("Unit_Lbl_4"));
-        Unit_Lbl_4->setGeometry(QRect(20, 265, 61, 30));
-        Unit_Lbl_4->setFont(font);
-        Temp_Lbl_3 = new QLabel(tab_12);
-        Temp_Lbl_3->setObjectName(QStringLiteral("Temp_Lbl_3"));
-        Temp_Lbl_3->setGeometry(QRect(20, 330, 111, 30));
-        Temp_Lbl_3->setFont(font);
-        label_29 = new QLabel(tab_12);
-        label_29->setObjectName(QStringLiteral("label_29"));
-        label_29->setGeometry(QRect(300, 10, 61, 30));
-        label_29->setFont(font);
-        lineEdit_38 = new QLineEdit(tab_12);
-        lineEdit_38->setObjectName(QStringLiteral("lineEdit_38"));
-        lineEdit_38->setGeometry(QRect(150, 10, 121, 35));
-        lineEdit_38->setFont(font);
-        lineEdit_39 = new QLineEdit(tab_12);
-        lineEdit_39->setObjectName(QStringLiteral("lineEdit_39"));
-        lineEdit_39->setGeometry(QRect(150, 265, 121, 35));
-        lineEdit_39->setFont(font);
-        lineEdit_40 = new QLineEdit(tab_12);
-        lineEdit_40->setObjectName(QStringLiteral("lineEdit_40"));
-        lineEdit_40->setGeometry(QRect(460, 10, 151, 35));
-        lineEdit_40->setFont(font);
-        WaveLength_Combo_3 = new QComboBox(tab_12);
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->addItem(QString());
-        WaveLength_Combo_3->setObjectName(QStringLiteral("WaveLength_Combo_3"));
-        WaveLength_Combo_3->setGeometry(QRect(150, 130, 121, 35));
-        WaveLength_Combo_3->setFont(font7);
-        WaveLength_Combo_3->setStyleSheet(QLatin1String("\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
-        ReactionType_Combo_3 = new QComboBox(tab_12);
-        ReactionType_Combo_3->addItem(QString());
-        ReactionType_Combo_3->addItem(QString());
-        ReactionType_Combo_3->addItem(QString());
-        ReactionType_Combo_3->addItem(QString());
-        ReactionType_Combo_3->setObjectName(QStringLiteral("ReactionType_Combo_3"));
-        ReactionType_Combo_3->setGeometry(QRect(150, 205, 121, 35));
-        ReactionType_Combo_3->setFont(font7);
-        ReactionType_Combo_3->setStyleSheet(QLatin1String("\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
-        Temp_Combo_3 = new QComboBox(tab_12);
-        Temp_Combo_3->addItem(QString());
-        Temp_Combo_3->addItem(QString());
-        Temp_Combo_3->setObjectName(QStringLiteral("Temp_Combo_3"));
-        Temp_Combo_3->setGeometry(QRect(150, 330, 121, 35));
-        Temp_Combo_3->setFont(font7);
-        Temp_Combo_3->setStyleSheet(QLatin1String("\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
-        lineEdit_41 = new QLineEdit(tab_12);
-        lineEdit_41->setObjectName(QStringLiteral("lineEdit_41"));
-        lineEdit_41->setGeometry(QRect(460, 130, 150, 35));
-        lineEdit_41->setFont(font);
-        label_58 = new QLabel(tab_12);
-        label_58->setObjectName(QStringLiteral("label_58"));
-        label_58->setGeometry(QRect(300, 130, 111, 30));
-        label_58->setFont(font);
-        label_59 = new QLabel(tab_12);
-        label_59->setObjectName(QStringLiteral("label_59"));
-        label_59->setGeometry(QRect(300, 185, 151, 30));
-        label_59->setFont(font);
-        lineEdit_54 = new QLineEdit(tab_12);
-        lineEdit_54->setObjectName(QStringLiteral("lineEdit_54"));
-        lineEdit_54->setGeometry(QRect(460, 185, 150, 35));
-        lineEdit_54->setFont(font);
-        label_60 = new QLabel(tab_12);
-        label_60->setObjectName(QStringLiteral("label_60"));
-        label_60->setGeometry(QRect(300, 70, 91, 30));
-        label_60->setFont(font);
-        BlankType_Combo_3 = new QComboBox(tab_12);
-        BlankType_Combo_3->addItem(QString());
-        BlankType_Combo_3->addItem(QString());
-        BlankType_Combo_3->addItem(QString());
-        BlankType_Combo_3->addItem(QString());
-        BlankType_Combo_3->setObjectName(QStringLiteral("BlankType_Combo_3"));
-        BlankType_Combo_3->setGeometry(QRect(460, 70, 150, 35));
-        BlankType_Combo_3->setFont(font7);
-        BlankType_Combo_3->setStyleSheet(QLatin1String("\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
-        label_69 = new QLabel(tab_12);
-        label_69->setObjectName(QStringLiteral("label_69"));
-        label_69->setGeometry(QRect(300, 290, 101, 30));
-        label_69->setFont(font);
-        lineEdit_55 = new QLineEdit(tab_12);
-        lineEdit_55->setObjectName(QStringLiteral("lineEdit_55"));
-        lineEdit_55->setGeometry(QRect(460, 290, 91, 35));
-        lineEdit_55->setFont(font);
-        lineEdit_56 = new QLineEdit(tab_12);
-        lineEdit_56->setObjectName(QStringLiteral("lineEdit_56"));
-        lineEdit_56->setGeometry(QRect(590, 290, 91, 35));
-        lineEdit_56->setFont(font);
-        To_Lbl_5 = new QLabel(tab_12);
-        To_Lbl_5->setObjectName(QStringLiteral("To_Lbl_5"));
-        To_Lbl_5->setGeometry(QRect(560, 290, 17, 16));
-        To_Lbl_5->setFont(font);
-        To_Lbl_6 = new QLabel(tab_12);
-        To_Lbl_6->setObjectName(QStringLiteral("To_Lbl_6"));
-        To_Lbl_6->setGeometry(QRect(560, 340, 17, 35));
-        To_Lbl_6->setFont(font);
-        label_70 = new QLabel(tab_12);
-        label_70->setObjectName(QStringLiteral("label_70"));
-        label_70->setGeometry(QRect(300, 340, 111, 30));
-        label_70->setFont(font);
-        lineEdit_57 = new QLineEdit(tab_12);
-        lineEdit_57->setObjectName(QStringLiteral("lineEdit_57"));
-        lineEdit_57->setGeometry(QRect(460, 340, 91, 35));
-        lineEdit_57->setFont(font);
-        label_71 = new QLabel(tab_12);
-        label_71->setObjectName(QStringLiteral("label_71"));
-        label_71->setGeometry(QRect(300, 240, 100, 30));
-        label_71->setFont(font);
-        lineEdit_64 = new QLineEdit(tab_12);
-        lineEdit_64->setObjectName(QStringLiteral("lineEdit_64"));
-        lineEdit_64->setGeometry(QRect(460, 240, 150, 35));
-        lineEdit_64->setFont(font);
-        pushButton_151 = new QPushButton(tab_12);
-        pushButton_151->setObjectName(QStringLiteral("pushButton_151"));
-        pushButton_151->setGeometry(QRect(150, 10, 121, 35));
-        pushButton_151->setFont(font);
-        pushButton_151->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_152 = new QPushButton(tab_12);
-        pushButton_152->setObjectName(QStringLiteral("pushButton_152"));
-        pushButton_152->setGeometry(QRect(460, 10, 150, 35));
-        pushButton_152->setFont(font);
-        pushButton_152->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_153 = new QPushButton(tab_12);
-        pushButton_153->setObjectName(QStringLiteral("pushButton_153"));
-        pushButton_153->setGeometry(QRect(590, 290, 91, 35));
-        pushButton_153->setFont(font);
-        pushButton_153->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_154 = new QPushButton(tab_12);
-        pushButton_154->setObjectName(QStringLiteral("pushButton_154"));
-        pushButton_154->setGeometry(QRect(460, 290, 91, 35));
-        pushButton_154->setFont(font);
-        pushButton_154->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_155 = new QPushButton(tab_12);
-        pushButton_155->setObjectName(QStringLiteral("pushButton_155"));
-        pushButton_155->setGeometry(QRect(460, 340, 91, 35));
-        pushButton_155->setFont(font);
-        pushButton_155->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_156 = new QPushButton(tab_12);
-        pushButton_156->setObjectName(QStringLiteral("pushButton_156"));
-        pushButton_156->setGeometry(QRect(150, 265, 121, 35));
-        pushButton_156->setFont(font);
-        pushButton_156->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_157 = new QPushButton(tab_12);
-        pushButton_157->setObjectName(QStringLiteral("pushButton_157"));
-        pushButton_157->setGeometry(QRect(460, 130, 151, 35));
-        pushButton_157->setFont(font);
-        pushButton_157->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_158 = new QPushButton(tab_12);
-        pushButton_158->setObjectName(QStringLiteral("pushButton_158"));
-        pushButton_158->setGeometry(QRect(460, 185, 151, 35));
-        pushButton_158->setFont(font);
-        pushButton_158->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_165 = new QPushButton(tab_12);
-        pushButton_165->setObjectName(QStringLiteral("pushButton_165"));
-        pushButton_165->setGeometry(QRect(460, 240, 151, 35));
-        pushButton_165->setFont(font);
-        pushButton_165->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        lineEdit_65 = new QLineEdit(tab_12);
-        lineEdit_65->setObjectName(QStringLiteral("lineEdit_65"));
-        lineEdit_65->setGeometry(QRect(590, 340, 91, 35));
-        lineEdit_65->setFont(font);
-        pushButton_239 = new QPushButton(tab_12);
-        pushButton_239->setObjectName(QStringLiteral("pushButton_239"));
-        pushButton_239->setGeometry(QRect(590, 340, 91, 35));
-        pushButton_239->setFont(font);
-        pushButton_239->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        lineEdit_44 = new QLineEdit(tab_12);
-        lineEdit_44->setObjectName(QStringLiteral("lineEdit_44"));
-        lineEdit_44->setGeometry(QRect(150, 70, 121, 35));
-        lineEdit_44->setFont(font);
-        TestName_Lbl_7 = new QLabel(tab_12);
-        TestName_Lbl_7->setObjectName(QStringLiteral("TestName_Lbl_7"));
-        TestName_Lbl_7->setGeometry(QRect(20, 75, 91, 30));
-        TestName_Lbl_7->setFont(font);
-        pushButton_198 = new QPushButton(tab_12);
-        pushButton_198->setObjectName(QStringLiteral("pushButton_198"));
-        pushButton_198->setGeometry(QRect(150, 70, 121, 35));
-        pushButton_198->setFont(font);
-        pushButton_198->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        tabWidget_5->addTab(tab_12, QString());
-        tab_13 = new QWidget();
-        tab_13->setObjectName(QStringLiteral("tab_13"));
-        tab_13->setStyleSheet(QStringLiteral(""));
-        groupBox_9 = new QGroupBox(tab_13);
-        groupBox_9->setObjectName(QStringLiteral("groupBox_9"));
-        groupBox_9->setGeometry(QRect(10, 10, 231, 351));
-        groupBox_9->setFont(font);
-        groupBox_9->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        label_30 = new QLabel(groupBox_9);
-        label_30->setObjectName(QStringLiteral("label_30"));
-        label_30->setGeometry(QRect(10, 43, 121, 30));
-        label_30->setFont(font);
-        label_31 = new QLabel(groupBox_9);
-        label_31->setObjectName(QStringLiteral("label_31"));
-        label_31->setGeometry(QRect(10, 103, 61, 30));
-        label_31->setFont(font);
-        comboBox_9 = new QComboBox(groupBox_9);
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->addItem(QString());
-        comboBox_9->setObjectName(QStringLiteral("comboBox_9"));
-        comboBox_9->setGeometry(QRect(150, 40, 51, 35));
-        comboBox_9->setFont(font);
-        comboBox_9->setStyleSheet(QLatin1String("\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
-        comboBox_10 = new QComboBox(groupBox_9);
-        comboBox_10->addItem(QString());
-        comboBox_10->addItem(QString());
-        comboBox_10->addItem(QString());
-        comboBox_10->addItem(QString());
-        comboBox_10->addItem(QString());
-        comboBox_10->addItem(QString());
-        comboBox_10->addItem(QString());
-        comboBox_10->setObjectName(QStringLiteral("comboBox_10"));
-        comboBox_10->setGeometry(QRect(150, 100, 51, 35));
-        comboBox_10->setFont(font);
-        comboBox_10->setStyleSheet(QLatin1String("\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-""));
-        label_340 = new QLabel(groupBox_9);
-        label_340->setObjectName(QStringLiteral("label_340"));
-        label_340->setGeometry(QRect(10, 170, 71, 30));
-        label_340->setFont(font);
-        lineEdit_154 = new QLineEdit(groupBox_9);
-        lineEdit_154->setObjectName(QStringLiteral("lineEdit_154"));
-        lineEdit_154->setGeometry(QRect(100, 170, 121, 41));
-        lineEdit_154->setFont(font);
-        pushButton_276 = new QPushButton(groupBox_9);
-        pushButton_276->setObjectName(QStringLiteral("pushButton_276"));
-        pushButton_276->setGeometry(QRect(100, 170, 121, 41));
-        pushButton_276->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        groupBox_22 = new QGroupBox(tab_13);
-        groupBox_22->setObjectName(QStringLiteral("groupBox_22"));
-        groupBox_22->setGeometry(QRect(474, 10, 201, 351));
-        groupBox_22->setFont(font);
-        groupBox_22->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        label_166 = new QLabel(groupBox_22);
-        label_166->setObjectName(QStringLiteral("label_166"));
-        label_166->setGeometry(QRect(10, 310, 21, 30));
-        label_166->setFont(font);
-        lineEdit_120 = new QLineEdit(groupBox_22);
-        lineEdit_120->setObjectName(QStringLiteral("lineEdit_120"));
-        lineEdit_120->setGeometry(QRect(30, 40, 61, 35));
-        lineEdit_120->setFont(font);
-        label_167 = new QLabel(groupBox_22);
-        label_167->setObjectName(QStringLiteral("label_167"));
-        label_167->setGeometry(QRect(100, 130, 21, 30));
-        label_167->setFont(font);
-        label_168 = new QLabel(groupBox_22);
-        label_168->setObjectName(QStringLiteral("label_168"));
-        label_168->setGeometry(QRect(10, 40, 16, 30));
-        label_168->setFont(font);
-        label_169 = new QLabel(groupBox_22);
-        label_169->setObjectName(QStringLiteral("label_169"));
-        label_169->setGeometry(QRect(10, 220, 21, 30));
-        label_169->setFont(font);
-        lineEdit_121 = new QLineEdit(groupBox_22);
-        lineEdit_121->setObjectName(QStringLiteral("lineEdit_121"));
-        lineEdit_121->setGeometry(QRect(120, 130, 61, 35));
-        lineEdit_121->setFont(font);
-        label_170 = new QLabel(groupBox_22);
-        label_170->setObjectName(QStringLiteral("label_170"));
-        label_170->setGeometry(QRect(100, 40, 21, 30));
-        label_170->setFont(font);
-        label_171 = new QLabel(groupBox_22);
-        label_171->setObjectName(QStringLiteral("label_171"));
-        label_171->setGeometry(QRect(10, 130, 21, 30));
-        label_171->setFont(font);
-        lineEdit_122 = new QLineEdit(groupBox_22);
-        lineEdit_122->setObjectName(QStringLiteral("lineEdit_122"));
-        lineEdit_122->setGeometry(QRect(30, 310, 61, 35));
-        lineEdit_122->setFont(font);
-        lineEdit_123 = new QLineEdit(groupBox_22);
-        lineEdit_123->setObjectName(QStringLiteral("lineEdit_123"));
-        lineEdit_123->setGeometry(QRect(120, 215, 61, 35));
-        lineEdit_123->setFont(font);
-        lineEdit_124 = new QLineEdit(groupBox_22);
-        lineEdit_124->setObjectName(QStringLiteral("lineEdit_124"));
-        lineEdit_124->setGeometry(QRect(30, 130, 61, 35));
-        lineEdit_124->setFont(font);
-        label_172 = new QLabel(groupBox_22);
-        label_172->setObjectName(QStringLiteral("label_172"));
-        label_172->setGeometry(QRect(100, 220, 16, 30));
-        label_172->setFont(font);
-        lineEdit_125 = new QLineEdit(groupBox_22);
-        lineEdit_125->setObjectName(QStringLiteral("lineEdit_125"));
-        lineEdit_125->setGeometry(QRect(120, 310, 61, 35));
-        lineEdit_125->setFont(font);
-        lineEdit_126 = new QLineEdit(groupBox_22);
-        lineEdit_126->setObjectName(QStringLiteral("lineEdit_126"));
-        lineEdit_126->setGeometry(QRect(120, 40, 61, 35));
-        lineEdit_126->setFont(font);
-        label_173 = new QLabel(groupBox_22);
-        label_173->setObjectName(QStringLiteral("label_173"));
-        label_173->setGeometry(QRect(100, 310, 16, 30));
-        label_173->setFont(font);
-        lineEdit_127 = new QLineEdit(groupBox_22);
-        lineEdit_127->setObjectName(QStringLiteral("lineEdit_127"));
-        lineEdit_127->setGeometry(QRect(30, 215, 61, 35));
-        lineEdit_127->setFont(font);
-        groupBox_23 = new QGroupBox(tab_13);
-        groupBox_23->setObjectName(QStringLiteral("groupBox_23"));
-        groupBox_23->setGeometry(QRect(249, 10, 221, 351));
-        groupBox_23->setFont(font);
-        groupBox_23->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        lineEdit_128 = new QLineEdit(groupBox_23);
-        lineEdit_128->setObjectName(QStringLiteral("lineEdit_128"));
-        lineEdit_128->setGeometry(QRect(30, 40, 71, 35));
-        lineEdit_128->setFont(font);
-        label_174 = new QLabel(groupBox_23);
-        label_174->setObjectName(QStringLiteral("label_174"));
-        label_174->setGeometry(QRect(10, 40, 21, 30));
-        label_174->setFont(font);
-        label_175 = new QLabel(groupBox_23);
-        label_175->setObjectName(QStringLiteral("label_175"));
-        label_175->setGeometry(QRect(10, 130, 21, 30));
-        label_175->setFont(font);
-        lineEdit_129 = new QLineEdit(groupBox_23);
-        lineEdit_129->setObjectName(QStringLiteral("lineEdit_129"));
-        lineEdit_129->setGeometry(QRect(30, 130, 71, 35));
-        lineEdit_129->setFont(font);
-        label_176 = new QLabel(groupBox_23);
-        label_176->setObjectName(QStringLiteral("label_176"));
-        label_176->setGeometry(QRect(10, 220, 21, 30));
-        label_176->setFont(font);
-        label_177 = new QLabel(groupBox_23);
-        label_177->setObjectName(QStringLiteral("label_177"));
-        label_177->setGeometry(QRect(10, 310, 21, 30));
-        label_177->setFont(font);
-        lineEdit_130 = new QLineEdit(groupBox_23);
-        lineEdit_130->setObjectName(QStringLiteral("lineEdit_130"));
-        lineEdit_130->setGeometry(QRect(30, 215, 71, 35));
-        lineEdit_130->setFont(font);
-        lineEdit_131 = new QLineEdit(groupBox_23);
-        lineEdit_131->setObjectName(QStringLiteral("lineEdit_131"));
-        lineEdit_131->setGeometry(QRect(30, 310, 71, 35));
-        lineEdit_131->setFont(font);
-        pushButton_248 = new QPushButton(groupBox_23);
-        pushButton_248->setObjectName(QStringLiteral("pushButton_248"));
-        pushButton_248->setGeometry(QRect(30, 40, 71, 35));
-        pushButton_248->setFont(font);
-        pushButton_248->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_249 = new QPushButton(groupBox_23);
-        pushButton_249->setObjectName(QStringLiteral("pushButton_249"));
-        pushButton_249->setGeometry(QRect(30, 215, 71, 35));
-        pushButton_249->setFont(font);
-        pushButton_249->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_250 = new QPushButton(groupBox_23);
-        pushButton_250->setObjectName(QStringLiteral("pushButton_250"));
-        pushButton_250->setGeometry(QRect(30, 310, 71, 35));
-        pushButton_250->setFont(font);
-        pushButton_250->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_251 = new QPushButton(groupBox_23);
-        pushButton_251->setObjectName(QStringLiteral("pushButton_251"));
-        pushButton_251->setGeometry(QRect(30, 130, 71, 35));
-        pushButton_251->setFont(font);
-        pushButton_251->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        label_178 = new QLabel(groupBox_23);
-        label_178->setObjectName(QStringLiteral("label_178"));
-        label_178->setGeometry(QRect(110, 310, 21, 30));
-        label_178->setFont(font);
-        lineEdit_132 = new QLineEdit(groupBox_23);
-        lineEdit_132->setObjectName(QStringLiteral("lineEdit_132"));
-        lineEdit_132->setGeometry(QRect(130, 40, 71, 35));
-        lineEdit_132->setFont(font);
-        lineEdit_133 = new QLineEdit(groupBox_23);
-        lineEdit_133->setObjectName(QStringLiteral("lineEdit_133"));
-        lineEdit_133->setGeometry(QRect(130, 310, 71, 35));
-        lineEdit_133->setFont(font);
-        label_179 = new QLabel(groupBox_23);
-        label_179->setObjectName(QStringLiteral("label_179"));
-        label_179->setGeometry(QRect(110, 130, 21, 30));
-        label_179->setFont(font);
-        label_180 = new QLabel(groupBox_23);
-        label_180->setObjectName(QStringLiteral("label_180"));
-        label_180->setGeometry(QRect(110, 40, 21, 30));
-        label_180->setFont(font);
-        label_181 = new QLabel(groupBox_23);
-        label_181->setObjectName(QStringLiteral("label_181"));
-        label_181->setGeometry(QRect(110, 220, 21, 30));
-        label_181->setFont(font);
-        pushButton_252 = new QPushButton(groupBox_23);
-        pushButton_252->setObjectName(QStringLiteral("pushButton_252"));
-        pushButton_252->setGeometry(QRect(130, 310, 71, 35));
-        pushButton_252->setFont(font);
-        pushButton_252->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        lineEdit_134 = new QLineEdit(groupBox_23);
-        lineEdit_134->setObjectName(QStringLiteral("lineEdit_134"));
-        lineEdit_134->setGeometry(QRect(130, 215, 71, 35));
-        lineEdit_134->setFont(font);
-        pushButton_253 = new QPushButton(groupBox_23);
-        pushButton_253->setObjectName(QStringLiteral("pushButton_253"));
-        pushButton_253->setGeometry(QRect(130, 40, 71, 35));
-        pushButton_253->setFont(font);
-        pushButton_253->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        lineEdit_135 = new QLineEdit(groupBox_23);
-        lineEdit_135->setObjectName(QStringLiteral("lineEdit_135"));
-        lineEdit_135->setGeometry(QRect(130, 130, 71, 35));
-        lineEdit_135->setFont(font);
-        pushButton_254 = new QPushButton(groupBox_23);
-        pushButton_254->setObjectName(QStringLiteral("pushButton_254"));
-        pushButton_254->setGeometry(QRect(130, 215, 71, 35));
-        pushButton_254->setFont(font);
-        pushButton_254->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_255 = new QPushButton(groupBox_23);
-        pushButton_255->setObjectName(QStringLiteral("pushButton_255"));
-        pushButton_255->setGeometry(QRect(130, 130, 71, 35));
-        pushButton_255->setFont(font);
-        pushButton_255->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        tabWidget_5->addTab(tab_13, QString());
-        tab_14 = new QWidget();
-        tab_14->setObjectName(QStringLiteral("tab_14"));
-        tab_14->setStyleSheet(QStringLiteral(""));
-        groupBox_13 = new QGroupBox(tab_14);
-        groupBox_13->setObjectName(QStringLiteral("groupBox_13"));
-        groupBox_13->setGeometry(QRect(10, 20, 321, 321));
-        groupBox_13->setFont(font);
-        groupBox_13->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        label_84 = new QLabel(groupBox_13);
-        label_84->setObjectName(QStringLiteral("label_84"));
-        label_84->setGeometry(QRect(20, 50, 71, 30));
-        label_84->setFont(font);
-        lineEdit_67 = new QLineEdit(groupBox_13);
-        lineEdit_67->setObjectName(QStringLiteral("lineEdit_67"));
-        lineEdit_67->setGeometry(QRect(150, 50, 121, 35));
-        lineEdit_67->setFont(font);
-        label_85 = new QLabel(groupBox_13);
-        label_85->setObjectName(QStringLiteral("label_85"));
-        label_85->setGeometry(QRect(20, 260, 71, 30));
-        label_85->setFont(font);
-        lineEdit_68 = new QLineEdit(groupBox_13);
-        lineEdit_68->setObjectName(QStringLiteral("lineEdit_68"));
-        lineEdit_68->setGeometry(QRect(150, 260, 121, 35));
-        lineEdit_68->setFont(font);
-        pushButton_167 = new QPushButton(groupBox_13);
-        pushButton_167->setObjectName(QStringLiteral("pushButton_167"));
-        pushButton_167->setGeometry(QRect(150, 50, 121, 35));
-        pushButton_167->setFont(font);
-        pushButton_167->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_168 = new QPushButton(groupBox_13);
-        pushButton_168->setObjectName(QStringLiteral("pushButton_168"));
-        pushButton_168->setGeometry(QRect(150, 260, 121, 35));
-        pushButton_168->setFont(font);
-        pushButton_168->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        lineEdit_145 = new QLineEdit(groupBox_13);
-        lineEdit_145->setObjectName(QStringLiteral("lineEdit_145"));
-        lineEdit_145->setGeometry(QRect(150, 120, 121, 35));
-        lineEdit_145->setFont(font);
-        pushButton_222 = new QPushButton(groupBox_13);
-        pushButton_222->setObjectName(QStringLiteral("pushButton_222"));
-        pushButton_222->setGeometry(QRect(150, 120, 121, 35));
-        pushButton_222->setFont(font);
-        pushButton_222->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        label_191 = new QLabel(groupBox_13);
-        label_191->setObjectName(QStringLiteral("label_191"));
-        label_191->setGeometry(QRect(20, 120, 81, 30));
-        label_191->setFont(font);
-        label_83 = new QLabel(groupBox_13);
-        label_83->setObjectName(QStringLiteral("label_83"));
-        label_83->setGeometry(QRect(20, 190, 71, 30));
-        label_83->setFont(font);
-        label_437 = new QLabel(groupBox_13);
-        label_437->setObjectName(QStringLiteral("label_437"));
-        label_437->setGeometry(QRect(150, 190, 121, 35));
-        label_437->setFont(font);
-        label_437->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
-"border:1px solid black;"));
-        groupBox_14 = new QGroupBox(tab_14);
-        groupBox_14->setObjectName(QStringLiteral("groupBox_14"));
-        groupBox_14->setGeometry(QRect(350, 20, 321, 321));
-        groupBox_14->setFont(font);
-        groupBox_14->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        label_87 = new QLabel(groupBox_14);
-        label_87->setObjectName(QStringLiteral("label_87"));
-        label_87->setGeometry(QRect(20, 50, 71, 30));
-        label_87->setFont(font);
-        lineEdit_70 = new QLineEdit(groupBox_14);
-        lineEdit_70->setObjectName(QStringLiteral("lineEdit_70"));
-        lineEdit_70->setGeometry(QRect(150, 50, 121, 35));
-        lineEdit_70->setFont(font);
-        label_88 = new QLabel(groupBox_14);
-        label_88->setObjectName(QStringLiteral("label_88"));
-        label_88->setGeometry(QRect(20, 262, 71, 30));
-        label_88->setFont(font);
-        lineEdit_71 = new QLineEdit(groupBox_14);
-        lineEdit_71->setObjectName(QStringLiteral("lineEdit_71"));
-        lineEdit_71->setGeometry(QRect(150, 260, 121, 35));
-        lineEdit_71->setFont(font);
-        pushButton_170 = new QPushButton(groupBox_14);
-        pushButton_170->setObjectName(QStringLiteral("pushButton_170"));
-        pushButton_170->setGeometry(QRect(150, 50, 121, 35));
-        pushButton_170->setFont(font);
-        pushButton_170->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        pushButton_171 = new QPushButton(groupBox_14);
-        pushButton_171->setObjectName(QStringLiteral("pushButton_171"));
-        pushButton_171->setGeometry(QRect(150, 260, 121, 35));
-        pushButton_171->setFont(font);
-        pushButton_171->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        lineEdit_146 = new QLineEdit(groupBox_14);
-        lineEdit_146->setObjectName(QStringLiteral("lineEdit_146"));
-        lineEdit_146->setGeometry(QRect(150, 120, 121, 35));
-        lineEdit_146->setFont(font);
-        pushButton_223 = new QPushButton(groupBox_14);
-        pushButton_223->setObjectName(QStringLiteral("pushButton_223"));
-        pushButton_223->setGeometry(QRect(150, 120, 121, 35));
-        pushButton_223->setFont(font);
-        pushButton_223->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        label_192 = new QLabel(groupBox_14);
-        label_192->setObjectName(QStringLiteral("label_192"));
-        label_192->setGeometry(QRect(20, 120, 81, 30));
-        label_192->setFont(font);
-        label_86 = new QLabel(groupBox_14);
-        label_86->setObjectName(QStringLiteral("label_86"));
-        label_86->setGeometry(QRect(20, 190, 71, 30));
-        label_86->setFont(font);
-        label_438 = new QLabel(groupBox_14);
-        label_438->setObjectName(QStringLiteral("label_438"));
-        label_438->setGeometry(QRect(150, 190, 121, 35));
-        label_438->setFont(font);
-        label_438->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
-"border:1px solid black;"));
-        tabWidget_5->addTab(tab_14, QString());
-        tab_20 = new QWidget();
-        tab_20->setObjectName(QStringLiteral("tab_20"));
-        frame_23 = new QFrame(tab_20);
-        frame_23->setObjectName(QStringLiteral("frame_23"));
-        frame_23->setGeometry(QRect(390, 0, 120, 381));
-        frame_23->setFrameShape(QFrame::StyledPanel);
-        frame_23->setFrameShadow(QFrame::Raised);
-        label_341 = new QLabel(frame_23);
-        label_341->setObjectName(QStringLiteral("label_341"));
-        label_341->setGeometry(QRect(10, 146, 91, 25));
-        label_341->setFont(font);
-        label_341->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_341->setAlignment(Qt::AlignCenter);
-        label_342 = new QLabel(frame_23);
-        label_342->setObjectName(QStringLiteral("label_342"));
-        label_342->setGeometry(QRect(10, 180, 91, 25));
-        label_342->setFont(font);
-        label_342->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_342->setAlignment(Qt::AlignCenter);
-        label_343 = new QLabel(frame_23);
-        label_343->setObjectName(QStringLiteral("label_343"));
-        label_343->setGeometry(QRect(10, 350, 91, 25));
-        label_343->setFont(font);
-        label_343->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_343->setAlignment(Qt::AlignCenter);
-        label_344 = new QLabel(frame_23);
-        label_344->setObjectName(QStringLiteral("label_344"));
-        label_344->setGeometry(QRect(10, 316, 91, 25));
-        label_344->setFont(font);
-        label_344->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_344->setAlignment(Qt::AlignCenter);
-        label_345 = new QLabel(frame_23);
-        label_345->setObjectName(QStringLiteral("label_345"));
-        label_345->setGeometry(QRect(10, 44, 91, 25));
-        label_345->setFont(font);
-        label_345->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_345->setAlignment(Qt::AlignCenter);
-        label_346 = new QLabel(frame_23);
-        label_346->setObjectName(QStringLiteral("label_346"));
-        label_346->setGeometry(QRect(10, 78, 91, 25));
-        label_346->setFont(font);
-        label_346->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_346->setAlignment(Qt::AlignCenter);
-        label_347 = new QLabel(frame_23);
-        label_347->setObjectName(QStringLiteral("label_347"));
-        label_347->setGeometry(QRect(10, 214, 91, 25));
-        label_347->setFont(font);
-        label_347->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_347->setAlignment(Qt::AlignCenter);
-        label_348 = new QLabel(frame_23);
-        label_348->setObjectName(QStringLiteral("label_348"));
-        label_348->setGeometry(QRect(30, 10, 64, 17));
-        label_348->setFont(font7);
-        label_349 = new QLabel(frame_23);
-        label_349->setObjectName(QStringLiteral("label_349"));
-        label_349->setGeometry(QRect(10, 112, 91, 25));
-        label_349->setFont(font);
-        label_349->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_349->setAlignment(Qt::AlignCenter);
-        label_350 = new QLabel(frame_23);
-        label_350->setObjectName(QStringLiteral("label_350"));
-        label_350->setGeometry(QRect(10, 248, 91, 25));
-        label_350->setFont(font);
-        label_350->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_350->setAlignment(Qt::AlignCenter);
-        label_351 = new QLabel(frame_23);
-        label_351->setObjectName(QStringLiteral("label_351"));
-        label_351->setGeometry(QRect(10, 282, 91, 25));
-        label_351->setFont(font);
-        label_351->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_351->setAlignment(Qt::AlignCenter);
-        frame_24 = new QFrame(tab_20);
-        frame_24->setObjectName(QStringLiteral("frame_24"));
-        frame_24->setGeometry(QRect(0, 0, 120, 381));
-        frame_24->setFrameShape(QFrame::StyledPanel);
-        frame_24->setFrameShadow(QFrame::Raised);
-        label_352 = new QLabel(frame_24);
-        label_352->setObjectName(QStringLiteral("label_352"));
-        label_352->setGeometry(QRect(20, 146, 91, 25));
-        label_352->setFont(font);
-        label_352->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_352->setAlignment(Qt::AlignCenter);
-        label_353 = new QLabel(frame_24);
-        label_353->setObjectName(QStringLiteral("label_353"));
-        label_353->setGeometry(QRect(20, 214, 91, 25));
-        label_353->setFont(font);
-        label_353->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_353->setAlignment(Qt::AlignCenter);
-        label_354 = new QLabel(frame_24);
-        label_354->setObjectName(QStringLiteral("label_354"));
-        label_354->setGeometry(QRect(20, 248, 91, 25));
-        label_354->setFont(font);
-        label_354->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_354->setAlignment(Qt::AlignCenter);
-        label_355 = new QLabel(frame_24);
-        label_355->setObjectName(QStringLiteral("label_355"));
-        label_355->setGeometry(QRect(20, 350, 91, 25));
-        label_355->setFont(font);
-        label_355->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_355->setAlignment(Qt::AlignCenter);
-        label_356 = new QLabel(frame_24);
-        label_356->setObjectName(QStringLiteral("label_356"));
-        label_356->setGeometry(QRect(20, 6, 81, 21));
-        label_356->setFont(font7);
-        label_357 = new QLabel(frame_24);
-        label_357->setObjectName(QStringLiteral("label_357"));
-        label_357->setGeometry(QRect(20, 78, 91, 25));
-        label_357->setFont(font);
-        label_357->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_357->setAlignment(Qt::AlignCenter);
-        label_358 = new QLabel(frame_24);
-        label_358->setObjectName(QStringLiteral("label_358"));
-        label_358->setGeometry(QRect(20, 316, 91, 25));
-        label_358->setFont(font);
-        label_358->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_358->setAlignment(Qt::AlignCenter);
-        label_359 = new QLabel(frame_24);
-        label_359->setObjectName(QStringLiteral("label_359"));
-        label_359->setGeometry(QRect(20, 44, 91, 25));
-        label_359->setFont(font);
-        label_359->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_359->setAlignment(Qt::AlignCenter);
-        label_360 = new QLabel(frame_24);
-        label_360->setObjectName(QStringLiteral("label_360"));
-        label_360->setGeometry(QRect(20, 282, 91, 25));
-        label_360->setFont(font);
-        label_360->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_360->setAlignment(Qt::AlignCenter);
-        label_361 = new QLabel(frame_24);
-        label_361->setObjectName(QStringLiteral("label_361"));
-        label_361->setGeometry(QRect(20, 112, 91, 25));
-        label_361->setFont(font);
-        label_361->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_361->setAlignment(Qt::AlignCenter);
-        label_362 = new QLabel(frame_24);
-        label_362->setObjectName(QStringLiteral("label_362"));
-        label_362->setGeometry(QRect(20, 180, 91, 25));
-        label_362->setFont(font);
-        label_362->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_362->setAlignment(Qt::AlignCenter);
-        frame_25 = new QFrame(tab_20);
-        frame_25->setObjectName(QStringLiteral("frame_25"));
-        frame_25->setGeometry(QRect(520, 0, 161, 381));
-        frame_25->setFrameShape(QFrame::StyledPanel);
-        frame_25->setFrameShadow(QFrame::Raised);
-        label_363 = new QLabel(frame_25);
-        label_363->setObjectName(QStringLiteral("label_363"));
-        label_363->setGeometry(QRect(10, 44, 131, 25));
-        label_363->setFont(font);
-        label_363->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_363->setAlignment(Qt::AlignCenter);
-        label_364 = new QLabel(frame_25);
-        label_364->setObjectName(QStringLiteral("label_364"));
-        label_364->setGeometry(QRect(50, 10, 64, 17));
-        label_364->setFont(font7);
-        label_365 = new QLabel(frame_25);
-        label_365->setObjectName(QStringLiteral("label_365"));
-        label_365->setGeometry(QRect(10, 214, 131, 25));
-        label_365->setFont(font);
-        label_365->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_365->setAlignment(Qt::AlignCenter);
-        label_366 = new QLabel(frame_25);
-        label_366->setObjectName(QStringLiteral("label_366"));
-        label_366->setGeometry(QRect(10, 248, 131, 25));
-        label_366->setFont(font);
-        label_366->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_366->setAlignment(Qt::AlignCenter);
-        label_367 = new QLabel(frame_25);
-        label_367->setObjectName(QStringLiteral("label_367"));
-        label_367->setGeometry(QRect(10, 350, 131, 25));
-        label_367->setFont(font);
-        label_367->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_367->setAlignment(Qt::AlignCenter);
-        label_368 = new QLabel(frame_25);
-        label_368->setObjectName(QStringLiteral("label_368"));
-        label_368->setGeometry(QRect(10, 180, 131, 25));
-        label_368->setFont(font);
-        label_368->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_368->setAlignment(Qt::AlignCenter);
-        label_369 = new QLabel(frame_25);
-        label_369->setObjectName(QStringLiteral("label_369"));
-        label_369->setGeometry(QRect(10, 78, 131, 25));
-        label_369->setFont(font);
-        label_369->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_369->setAlignment(Qt::AlignCenter);
-        label_370 = new QLabel(frame_25);
-        label_370->setObjectName(QStringLiteral("label_370"));
-        label_370->setGeometry(QRect(10, 316, 131, 25));
-        label_370->setFont(font);
-        label_370->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_370->setAlignment(Qt::AlignCenter);
-        label_371 = new QLabel(frame_25);
-        label_371->setObjectName(QStringLiteral("label_371"));
-        label_371->setGeometry(QRect(10, 146, 131, 25));
-        label_371->setFont(font);
-        label_371->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_371->setAlignment(Qt::AlignCenter);
-        label_372 = new QLabel(frame_25);
-        label_372->setObjectName(QStringLiteral("label_372"));
-        label_372->setGeometry(QRect(10, 282, 131, 25));
-        label_372->setFont(font);
-        label_372->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_372->setAlignment(Qt::AlignCenter);
-        label_373 = new QLabel(frame_25);
-        label_373->setObjectName(QStringLiteral("label_373"));
-        label_373->setGeometry(QRect(10, 112, 131, 25));
-        label_373->setFont(font);
-        label_373->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_373->setAlignment(Qt::AlignCenter);
-        frame_26 = new QFrame(tab_20);
-        frame_26->setObjectName(QStringLiteral("frame_26"));
-        frame_26->setGeometry(QRect(130, 0, 120, 381));
-        frame_26->setFrameShape(QFrame::StyledPanel);
-        frame_26->setFrameShadow(QFrame::Raised);
-        label_374 = new QLabel(frame_26);
-        label_374->setObjectName(QStringLiteral("label_374"));
-        label_374->setGeometry(QRect(20, 78, 91, 25));
-        label_374->setFont(font);
-        label_374->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_374->setAlignment(Qt::AlignCenter);
-        label_375 = new QLabel(frame_26);
-        label_375->setObjectName(QStringLiteral("label_375"));
-        label_375->setGeometry(QRect(20, 180, 91, 25));
-        label_375->setFont(font);
-        label_375->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_375->setAlignment(Qt::AlignCenter);
-        label_376 = new QLabel(frame_26);
-        label_376->setObjectName(QStringLiteral("label_376"));
-        label_376->setGeometry(QRect(40, 8, 64, 17));
-        label_376->setFont(font7);
-        label_377 = new QLabel(frame_26);
-        label_377->setObjectName(QStringLiteral("label_377"));
-        label_377->setGeometry(QRect(20, 112, 91, 25));
-        label_377->setFont(font);
-        label_377->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_377->setAlignment(Qt::AlignCenter);
-        label_378 = new QLabel(frame_26);
-        label_378->setObjectName(QStringLiteral("label_378"));
-        label_378->setGeometry(QRect(20, 146, 91, 25));
-        label_378->setFont(font);
-        label_378->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_378->setAlignment(Qt::AlignCenter);
-        label_379 = new QLabel(frame_26);
-        label_379->setObjectName(QStringLiteral("label_379"));
-        label_379->setGeometry(QRect(20, 214, 91, 25));
-        label_379->setFont(font);
-        label_379->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_379->setAlignment(Qt::AlignCenter);
-        label_380 = new QLabel(frame_26);
-        label_380->setObjectName(QStringLiteral("label_380"));
-        label_380->setGeometry(QRect(20, 350, 91, 25));
-        label_380->setFont(font);
-        label_380->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_380->setAlignment(Qt::AlignCenter);
-        label_381 = new QLabel(frame_26);
-        label_381->setObjectName(QStringLiteral("label_381"));
-        label_381->setGeometry(QRect(20, 44, 91, 21));
-        label_381->setFont(font);
-        label_381->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_381->setAlignment(Qt::AlignCenter);
-        label_382 = new QLabel(frame_26);
-        label_382->setObjectName(QStringLiteral("label_382"));
-        label_382->setGeometry(QRect(20, 316, 91, 25));
-        label_382->setFont(font);
-        label_382->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_382->setAlignment(Qt::AlignCenter);
-        label_383 = new QLabel(frame_26);
-        label_383->setObjectName(QStringLiteral("label_383"));
-        label_383->setGeometry(QRect(20, 282, 91, 25));
-        label_383->setFont(font);
-        label_383->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_383->setAlignment(Qt::AlignCenter);
-        label_384 = new QLabel(frame_26);
-        label_384->setObjectName(QStringLiteral("label_384"));
-        label_384->setGeometry(QRect(20, 248, 91, 25));
-        label_384->setFont(font);
-        label_384->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_384->setAlignment(Qt::AlignCenter);
-        frame_27 = new QFrame(tab_20);
-        frame_27->setObjectName(QStringLiteral("frame_27"));
-        frame_27->setGeometry(QRect(260, 0, 120, 381));
-        frame_27->setFrameShape(QFrame::StyledPanel);
-        frame_27->setFrameShadow(QFrame::Raised);
-        label_385 = new QLabel(frame_27);
-        label_385->setObjectName(QStringLiteral("label_385"));
-        label_385->setGeometry(QRect(20, 282, 91, 25));
-        label_385->setFont(font);
-        label_385->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_385->setAlignment(Qt::AlignCenter);
-        label_386 = new QLabel(frame_27);
-        label_386->setObjectName(QStringLiteral("label_386"));
-        label_386->setGeometry(QRect(20, 316, 91, 25));
-        label_386->setFont(font);
-        label_386->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_386->setAlignment(Qt::AlignCenter);
-        label_387 = new QLabel(frame_27);
-        label_387->setObjectName(QStringLiteral("label_387"));
-        label_387->setGeometry(QRect(20, 180, 91, 25));
-        label_387->setFont(font);
-        label_387->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_387->setAlignment(Qt::AlignCenter);
-        label_388 = new QLabel(frame_27);
-        label_388->setObjectName(QStringLiteral("label_388"));
-        label_388->setGeometry(QRect(20, 78, 91, 25));
-        label_388->setFont(font);
-        label_388->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_388->setAlignment(Qt::AlignCenter);
-        label_389 = new QLabel(frame_27);
-        label_389->setObjectName(QStringLiteral("label_389"));
-        label_389->setGeometry(QRect(20, 214, 91, 25));
-        label_389->setFont(font);
-        label_389->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_389->setAlignment(Qt::AlignCenter);
-        label_390 = new QLabel(frame_27);
-        label_390->setObjectName(QStringLiteral("label_390"));
-        label_390->setGeometry(QRect(20, 112, 91, 25));
-        label_390->setFont(font);
-        label_390->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_390->setAlignment(Qt::AlignCenter);
-        label_391 = new QLabel(frame_27);
-        label_391->setObjectName(QStringLiteral("label_391"));
-        label_391->setGeometry(QRect(20, 44, 91, 25));
-        label_391->setFont(font);
-        label_391->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_391->setAlignment(Qt::AlignCenter);
-        label_392 = new QLabel(frame_27);
-        label_392->setObjectName(QStringLiteral("label_392"));
-        label_392->setGeometry(QRect(20, 248, 91, 25));
-        label_392->setFont(font);
-        label_392->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_392->setAlignment(Qt::AlignCenter);
-        label_393 = new QLabel(frame_27);
-        label_393->setObjectName(QStringLiteral("label_393"));
-        label_393->setGeometry(QRect(20, 350, 91, 25));
-        label_393->setFont(font);
-        label_393->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_393->setAlignment(Qt::AlignCenter);
-        label_394 = new QLabel(frame_27);
-        label_394->setObjectName(QStringLiteral("label_394"));
-        label_394->setGeometry(QRect(40, 10, 64, 17));
-        label_394->setFont(font7);
-        label_395 = new QLabel(frame_27);
-        label_395->setObjectName(QStringLiteral("label_395"));
-        label_395->setGeometry(QRect(20, 146, 91, 25));
-        label_395->setFont(font);
-        label_395->setStyleSheet(QStringLiteral("border:1px solid black;"));
-        label_395->setAlignment(Qt::AlignCenter);
-        tabWidget_5->addTab(tab_20, QString());
-        Delete_Btn = new QPushButton(page_13);
-        Delete_Btn->setObjectName(QStringLiteral("Delete_Btn"));
-        Delete_Btn->setGeometry(QRect(695, 405, 101, 41));
-        Delete_Btn->setFont(font7);
-        Delete_Btn->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
-        stackedWidget->addWidget(page_13);
-        page_4 = new QWidget();
-        page_4->setObjectName(QStringLiteral("page_4"));
-        label_44 = new QLabel(page_4);
-        label_44->setObjectName(QStringLiteral("label_44"));
-        label_44->setGeometry(QRect(10, 10, 451, 30));
-        label_44->setFont(font5);
-        label_44->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        tabWidget_3 = new QTabWidget(page_4);
-        tabWidget_3->setObjectName(QStringLiteral("tabWidget_3"));
-        tabWidget_3->setGeometry(QRect(10, 60, 771, 381));
-        tabWidget_3->setFont(font7);
-        tabWidget_3->setStyleSheet(QLatin1String("QTabWidget\n"
-"{\n"
-"background-color: #f4f4fc;\n"
-"}\n"
-"QTabWidget:tab-bar\n"
-"{\n"
-"alignment:center;\n"
-"}\n"
-"QTabBar:tab\n"
-"{\n"
-"border: 1px solid #C4C4C3;\n"
-"         border-bottom-color: #C2C7CB; /* same as the pane color */\n"
-"         border-top-left-radius: 4px;\n"
-"         border-top-right-radius: 4px;\n"
-"        width:210px;\n"
-"height:35px;\n"
-"        padding: 2px;\n"
-"          background-color: #F7F7F7;\n"
-"}\n"
-"QTabBar:tab:!selected\n"
-"{\n"
-"color:rgb(255,0,0);\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid rgb(12, 68, 145);\n"
-"}\n"
-"QTabBar:tab:selected\n"
-"{\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid green;\n"
-"color:rgb(12, 68, 145);\n"
-"}"));
-        tabWidget_3->setTabShape(QTabWidget::Triangular);
-        tab_2 = new QWidget();
-        tab_2->setObjectName(QStringLiteral("tab_2"));
-        tab_2->setFont(font6);
-        tab_2->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_5 = new QScrollArea(tab_2);
-        scrollArea_5->setObjectName(QStringLiteral("scrollArea_5"));
-        scrollArea_5->setGeometry(QRect(10, 15, 751, 311));
-        sizePolicy.setHeightForWidth(scrollArea_5->sizePolicy().hasHeightForWidth());
-        scrollArea_5->setSizePolicy(sizePolicy);
-        scrollArea_5->setMinimumSize(QSize(751, 311));
-        scrollArea_5->setSizeIncrement(QSize(1, 1));
-        scrollArea_5->setBaseSize(QSize(1, 1));
-        scrollArea_5->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_5->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContentsOnFirstShow);
-        scrollArea_5->setWidgetResizable(true);
-        scrollAreaWidgetContents_5 = new QWidget();
-        scrollAreaWidgetContents_5->setObjectName(QStringLiteral("scrollAreaWidgetContents_5"));
-        scrollAreaWidgetContents_5->setGeometry(QRect(0, 0, 749, 309));
-        scrollAreaWidgetContents_5->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"	font: 10pt \"Sans Serif\";\n"
-"}"));
-        gridLayout_9 = new QGridLayout(scrollAreaWidgetContents_5);
-        gridLayout_9->setSpacing(6);
-        gridLayout_9->setContentsMargins(11, 11, 11, 11);
-        gridLayout_9->setObjectName(QStringLiteral("gridLayout_9"));
-        gridLayout_10 = new QGridLayout();
-        gridLayout_10->setSpacing(6);
-        gridLayout_10->setObjectName(QStringLiteral("gridLayout_10"));
-        gridLayout_10->setContentsMargins(0, 0, 0, 0);
-
-        gridLayout_9->addLayout(gridLayout_10, 0, 0, 1, 1);
-
-        scrollArea_5->setWidget(scrollAreaWidgetContents_5);
-        tabWidget_3->addTab(tab_2, QString());
-        Home_Btn_6 = new QPushButton(page_4);
-        Home_Btn_6->setObjectName(QStringLiteral("Home_Btn_6"));
-        Home_Btn_6->setGeometry(QRect(738, 0, 61, 61));
-        Home_Btn_6->setFont(font6);
-        Home_Btn_6->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
-"border:none;\n"
-"border-radius:30%;"));
-        Home_Btn_6->setIcon(icon13);
-        Home_Btn_6->setIconSize(QSize(50, 50));
-        stackedWidget->addWidget(page_4);
         page_8 = new QWidget();
         page_8->setObjectName(QStringLiteral("page_8"));
         label_45 = new QLabel(page_8);
@@ -6031,7 +4424,7 @@ public:
         label_61 = new QLabel(frame_3);
         label_61->setObjectName(QStringLiteral("label_61"));
         label_61->setGeometry(QRect(10, 10, 81, 31));
-        label_61->setFont(font7);
+        label_61->setFont(font9);
         label_62 = new QLabel(frame_3);
         label_62->setObjectName(QStringLiteral("label_62"));
         label_62->setGeometry(QRect(10, 60, 87, 17));
@@ -6074,9 +4467,9 @@ public:
         pushButton_189 = new QPushButton(frame_4);
         pushButton_189->setObjectName(QStringLiteral("pushButton_189"));
         pushButton_189->setGeometry(QRect(10, 10, 31, 41));
-        QIcon icon15;
-        icon15.addFile(QStringLiteral(":/img/check-mark.png"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton_189->setIcon(icon15);
+        QIcon icon14;
+        icon14.addFile(QStringLiteral(":/img/check-mark.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_189->setIcon(icon14);
         pushButton_189->setIconSize(QSize(35, 35));
         label_259 = new QLabel(frame_4);
         label_259->setObjectName(QStringLiteral("label_259"));
@@ -6085,9 +4478,9 @@ public:
         pushButton_190 = new QPushButton(frame_4);
         pushButton_190->setObjectName(QStringLiteral("pushButton_190"));
         pushButton_190->setGeometry(QRect(10, 10, 31, 41));
-        QIcon icon16;
-        icon16.addFile(QStringLiteral(":/img/cancel.png"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton_190->setIcon(icon16);
+        QIcon icon15;
+        icon15.addFile(QStringLiteral(":/img/cancel.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_190->setIcon(icon15);
         pushButton_190->setIconSize(QSize(35, 35));
         pushButton_317 = new QPushButton(page_8);
         pushButton_317->setObjectName(QStringLiteral("pushButton_317"));
@@ -6157,38 +4550,57 @@ public:
         Load_Btn->setObjectName(QStringLiteral("Load_Btn"));
         Load_Btn->setGeometry(QRect(90, 170, 271, 81));
         Load_Btn->setFont(font5);
-        Load_Btn->setStyleSheet(QLatin1String("QPushButton\n"
+        Load_Btn->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}\n"
 "QScrollbar #Scrollbar\n"
 "{\n"
 "	color: blue;\n"
-"}"));
+"}\n"
+""));
         Load_Btn_2 = new QPushButton(page_9);
         Load_Btn_2->setObjectName(QStringLiteral("Load_Btn_2"));
         Load_Btn_2->setGeometry(QRect(450, 170, 271, 81));
         Load_Btn_2->setFont(font5);
-        Load_Btn_2->setStyleSheet(QLatin1String("QPushButton\n"
+        Load_Btn_2->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         Load_Btn_3 = new QPushButton(page_9);
         Load_Btn_3->setObjectName(QStringLiteral("Load_Btn_3"));
         Load_Btn_3->setGeometry(QRect(450, 170, 271, 81));
         Load_Btn_3->setFont(font5);
-        Load_Btn_3->setStyleSheet(QLatin1String("QPushButton\n"
+        Load_Btn_3->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
 "}"));
         stackedWidget->addWidget(page_9);
         Load_Btn->raise();
@@ -6201,11 +4613,11 @@ public:
         tableView = new QTableView(page_26);
         tableView->setObjectName(QStringLiteral("tableView"));
         tableView->setGeometry(QRect(20, 70, 761, 371));
-        QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
-        sizePolicy1.setHorizontalStretch(1);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(tableView->sizePolicy().hasHeightForWidth());
-        tableView->setSizePolicy(sizePolicy1);
+        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+        sizePolicy.setHorizontalStretch(1);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(tableView->sizePolicy().hasHeightForWidth());
+        tableView->setSizePolicy(sizePolicy);
         tableView->setMinimumSize(QSize(1, 1));
         tableView->setMaximumSize(QSize(16777215, 371));
         tableView->setSizeIncrement(QSize(1, 1));
@@ -6230,7 +4642,9 @@ public:
         toolButton_22->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_22->setIcon(icon14);
+        QIcon icon16;
+        icon16.addFile(QStringLiteral(":/img/output-onlinepngtools.png"), QSize(), QIcon::Normal, QIcon::Off);
+        toolButton_22->setIcon(icon16);
         toolButton_22->setIconSize(QSize(50, 50));
         label_93 = new QLabel(page_26);
         label_93->setObjectName(QStringLiteral("label_93"));
@@ -6253,7 +4667,7 @@ public:
         toolButton_23->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_23->setIcon(icon14);
+        toolButton_23->setIcon(icon16);
         toolButton_23->setIconSize(QSize(50, 50));
         frame_8 = new QFrame(page_27);
         frame_8->setObjectName(QStringLiteral("frame_8"));
@@ -6306,133 +4720,138 @@ public:
         Filter_Btn = new QRadioButton(frame_8);
         Filter_Btn->setObjectName(QStringLiteral("Filter_Btn"));
         Filter_Btn->setGeometry(QRect(20, 10, 91, 40));
-        Filter_Btn->setFont(font9);
+        Filter_Btn->setFont(font8);
         Filter_Btn_2 = new QRadioButton(frame_8);
         Filter_Btn_2->setObjectName(QStringLiteral("Filter_Btn_2"));
         Filter_Btn_2->setGeometry(QRect(20, 10, 81, 40));
-        Filter_Btn_2->setFont(font9);
+        Filter_Btn_2->setFont(font8);
         Data_Print_Btn_2 = new QRadioButton(frame_8);
         Data_Print_Btn_2->setObjectName(QStringLiteral("Data_Print_Btn_2"));
         Data_Print_Btn_2->setGeometry(QRect(20, 80, 71, 40));
-        Data_Print_Btn_2->setFont(font9);
+        Data_Print_Btn_2->setFont(font8);
         Data_Print_Btn = new QRadioButton(frame_8);
         Data_Print_Btn->setObjectName(QStringLiteral("Data_Print_Btn"));
         Data_Print_Btn->setGeometry(QRect(20, 80, 71, 40));
-        Data_Print_Btn->setFont(font9);
+        Data_Print_Btn->setFont(font8);
         Export_Btn = new QRadioButton(frame_8);
         Export_Btn->setObjectName(QStringLiteral("Export_Btn"));
         Export_Btn->setGeometry(QRect(20, 150, 91, 40));
-        Export_Btn->setFont(font9);
+        Export_Btn->setFont(font8);
         Export_Btn_2 = new QRadioButton(frame_8);
         Export_Btn_2->setObjectName(QStringLiteral("Export_Btn_2"));
         Export_Btn_2->setGeometry(QRect(20, 150, 91, 40));
-        Export_Btn_2->setFont(font9);
+        Export_Btn_2->setFont(font8);
         Data_Delete_Btn = new QRadioButton(frame_8);
         Data_Delete_Btn->setObjectName(QStringLiteral("Data_Delete_Btn"));
         Data_Delete_Btn->setGeometry(QRect(20, 220, 91, 40));
-        Data_Delete_Btn->setFont(font9);
+        Data_Delete_Btn->setFont(font8);
         Data_Delete_Btn_2 = new QRadioButton(frame_8);
         Data_Delete_Btn_2->setObjectName(QStringLiteral("Data_Delete_Btn_2"));
         Data_Delete_Btn_2->setGeometry(QRect(20, 220, 91, 40));
-        Data_Delete_Btn_2->setFont(font9);
+        Data_Delete_Btn_2->setFont(font8);
         Filt_TestName = new QRadioButton(frame_8);
         Filt_TestName->setObjectName(QStringLiteral("Filt_TestName"));
         Filt_TestName->setGeometry(QRect(20, 70, 181, 40));
-        Filt_TestName->setFont(font9);
+        Filt_TestName->setFont(font8);
         Filt_TestName_2 = new QRadioButton(frame_8);
         Filt_TestName_2->setObjectName(QStringLiteral("Filt_TestName_2"));
         Filt_TestName_2->setGeometry(QRect(20, 70, 181, 41));
-        Filt_TestName_2->setFont(font9);
+        Filt_TestName_2->setFont(font8);
         Filt_Sample_Id = new QRadioButton(frame_8);
         Filt_Sample_Id->setObjectName(QStringLiteral("Filt_Sample_Id"));
         Filt_Sample_Id->setGeometry(QRect(20, 135, 121, 40));
-        Filt_Sample_Id->setFont(font9);
+        Filt_Sample_Id->setFont(font8);
         Filt_Sample_Id_2 = new QRadioButton(frame_8);
         Filt_Sample_Id_2->setObjectName(QStringLiteral("Filt_Sample_Id_2"));
         Filt_Sample_Id_2->setGeometry(QRect(20, 130, 121, 40));
-        Filt_Sample_Id_2->setFont(font9);
+        Filt_Sample_Id_2->setFont(font8);
         Filt_Date = new QRadioButton(frame_8);
         Filt_Date->setObjectName(QStringLiteral("Filt_Date"));
         Filt_Date->setGeometry(QRect(20, 200, 71, 40));
-        Filt_Date->setFont(font9);
+        Filt_Date->setFont(font8);
         Filt_Date_2 = new QRadioButton(frame_8);
         Filt_Date_2->setObjectName(QStringLiteral("Filt_Date_2"));
         Filt_Date_2->setGeometry(QRect(20, 200, 71, 40));
-        Filt_Date_2->setFont(font9);
+        Filt_Date_2->setFont(font8);
         Internal_Print_All_data_2 = new QRadioButton(frame_8);
         Internal_Print_All_data_2->setObjectName(QStringLiteral("Internal_Print_All_data_2"));
         Internal_Print_All_data_2->setGeometry(QRect(20, 200, 101, 40));
-        Internal_Print_All_data_2->setFont(font9);
+        Internal_Print_All_data_2->setFont(font8);
         Print_All_data = new QRadioButton(frame_8);
         Print_All_data->setObjectName(QStringLiteral("Print_All_data"));
         Print_All_data->setGeometry(QRect(20, 200, 101, 40));
-        Print_All_data->setFont(font9);
+        Print_All_data->setFont(font8);
         Export_CSV = new QRadioButton(frame_8);
         Export_CSV->setObjectName(QStringLiteral("Export_CSV"));
         Export_CSV->setGeometry(QRect(20, 210, 151, 40));
-        Export_CSV->setFont(font9);
+        Export_CSV->setFont(font8);
         Export_CSV_2 = new QRadioButton(frame_8);
         Export_CSV_2->setObjectName(QStringLiteral("Export_CSV_2"));
         Export_CSV_2->setGeometry(QRect(20, 210, 151, 40));
-        Export_CSV_2->setFont(font9);
+        Export_CSV_2->setFont(font8);
         Export_Pendrive = new QRadioButton(frame_8);
         Export_Pendrive->setObjectName(QStringLiteral("Export_Pendrive"));
         Export_Pendrive->setGeometry(QRect(20, 270, 161, 40));
-        Export_Pendrive->setFont(font9);
+        Export_Pendrive->setFont(font8);
         Export_Pendrive_2 = new QRadioButton(frame_8);
         Export_Pendrive_2->setObjectName(QStringLiteral("Export_Pendrive_2"));
         Export_Pendrive_2->setGeometry(QRect(20, 270, 161, 40));
-        Export_Pendrive_2->setFont(font9);
+        Export_Pendrive_2->setFont(font8);
         Print_Individual_Data = new QRadioButton(frame_8);
         Print_Individual_Data->setObjectName(QStringLiteral("Print_Individual_Data"));
         Print_Individual_Data->setGeometry(QRect(20, 140, 211, 40));
-        Print_Individual_Data->setFont(font9);
+        Print_Individual_Data->setFont(font8);
         Internal_Print_Individual_Data_2 = new QRadioButton(frame_8);
         Internal_Print_Individual_Data_2->setObjectName(QStringLiteral("Internal_Print_Individual_Data_2"));
         Internal_Print_Individual_Data_2->setGeometry(QRect(20, 140, 211, 40));
-        Internal_Print_Individual_Data_2->setFont(font9);
+        Internal_Print_Individual_Data_2->setFont(font8);
         Data_Select_Delete_2 = new QRadioButton(frame_8);
         Data_Select_Delete_2->setObjectName(QStringLiteral("Data_Select_Delete_2"));
         Data_Select_Delete_2->setGeometry(QRect(20, 270, 211, 40));
-        Data_Select_Delete_2->setFont(font9);
+        Data_Select_Delete_2->setFont(font8);
         Data_Select_Delete = new QRadioButton(frame_8);
         Data_Select_Delete->setObjectName(QStringLiteral("Data_Select_Delete"));
         Data_Select_Delete->setGeometry(QRect(20, 270, 211, 40));
-        Data_Select_Delete->setFont(font9);
+        Data_Select_Delete->setFont(font8);
         Data_Delete_All = new QRadioButton(frame_8);
         Data_Delete_All->setObjectName(QStringLiteral("Data_Delete_All"));
         Data_Delete_All->setGeometry(QRect(20, 329, 111, 31));
-        Data_Delete_All->setFont(font9);
+        Data_Delete_All->setFont(font8);
         Data_Delete_All_2 = new QRadioButton(frame_8);
         Data_Delete_All_2->setObjectName(QStringLiteral("Data_Delete_All_2"));
         Data_Delete_All_2->setGeometry(QRect(20, 330, 121, 31));
-        Data_Delete_All_2->setFont(font9);
+        Data_Delete_All_2->setFont(font8);
         pushButton_199 = new QPushButton(frame_8);
         pushButton_199->setObjectName(QStringLiteral("pushButton_199"));
         pushButton_199->setGeometry(QRect(50, 130, 171, 40));
-        pushButton_199->setFont(font9);
-        pushButton_199->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_199->setFont(font8);
+        pushButton_199->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_313 = new QPushButton(frame_8);
         pushButton_313->setObjectName(QStringLiteral("pushButton_313"));
         pushButton_313->setGeometry(QRect(50, 130, 171, 40));
-        pushButton_313->setFont(font9);
-        pushButton_313->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_313->setFont(font8);
+        pushButton_313->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         LIS = new QRadioButton(frame_8);
         LIS->setObjectName(QStringLiteral("LIS"));
         LIS->setGeometry(QRect(20, 290, 91, 40));
-        LIS->setFont(font9);
+        LIS->setFont(font8);
         LIS_Back_Btn = new QPushButton(frame_8);
         LIS_Back_Btn->setObjectName(QStringLiteral("LIS_Back_Btn"));
         LIS_Back_Btn->setGeometry(QRect(200, 290, 51, 41));
@@ -6479,22 +4898,25 @@ public:
         label_213 = new QLabel(page_27);
         label_213->setObjectName(QStringLiteral("label_213"));
         label_213->setGeometry(QRect(135, 50, 221, 31));
-        label_213->setFont(font7);
+        label_213->setFont(font9);
         pushButton_310 = new QPushButton(page_27);
         pushButton_310->setObjectName(QStringLiteral("pushButton_310"));
         pushButton_310->setGeometry(QRect(510, 40, 80, 41));
-        pushButton_310->setFont(font9);
-        pushButton_310->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_310->setFont(font8);
+        pushButton_310->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_311 = new QPushButton(page_27);
         pushButton_311->setObjectName(QStringLiteral("pushButton_311"));
         pushButton_311->setGeometry(QRect(150, 40, 80, 40));
-        pushButton_311->setFont(font9);
+        pushButton_311->setFont(font8);
         pushButton_311->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -6510,107 +4932,107 @@ public:
         PID_lbl = new QLabel(page_27);
         PID_lbl->setObjectName(QStringLiteral("PID_lbl"));
         PID_lbl->setGeometry(QRect(20, 180, 64, 25));
-        PID_lbl->setFont(font7);
+        PID_lbl->setFont(font9);
         PName_lbl = new QLabel(page_27);
         PName_lbl->setObjectName(QStringLiteral("PName_lbl"));
         PName_lbl->setGeometry(QRect(20, 220, 64, 25));
-        PName_lbl->setFont(font7);
+        PName_lbl->setFont(font9);
         PAge_lbl = new QLabel(page_27);
         PAge_lbl->setObjectName(QStringLiteral("PAge_lbl"));
         PAge_lbl->setGeometry(QRect(20, 270, 64, 25));
-        PAge_lbl->setFont(font7);
+        PAge_lbl->setFont(font9);
         PGender_lbl = new QLabel(page_27);
         PGender_lbl->setObjectName(QStringLiteral("PGender_lbl"));
         PGender_lbl->setGeometry(QRect(20, 310, 81, 25));
-        PGender_lbl->setFont(font7);
+        PGender_lbl->setFont(font9);
         TName_lbl = new QLabel(page_27);
         TName_lbl->setObjectName(QStringLiteral("TName_lbl"));
         TName_lbl->setGeometry(QRect(20, 360, 64, 25));
-        TName_lbl->setFont(font7);
+        TName_lbl->setFont(font9);
         ANrmlRang_lbl = new QLabel(page_27);
         ANrmlRang_lbl->setObjectName(QStringLiteral("ANrmlRang_lbl"));
         ANrmlRang_lbl->setGeometry(QRect(20, 400, 101, 25));
-        ANrmlRang_lbl->setFont(font7);
+        ANrmlRang_lbl->setFont(font9);
         ODVal_lbl = new QLabel(page_27);
         ODVal_lbl->setObjectName(QStringLiteral("ODVal_lbl"));
         ODVal_lbl->setGeometry(QRect(280, 220, 64, 25));
-        ODVal_lbl->setFont(font7);
+        ODVal_lbl->setFont(font9);
         ResultOD_lbl = new QLabel(page_27);
         ResultOD_lbl->setObjectName(QStringLiteral("ResultOD_lbl"));
         ResultOD_lbl->setGeometry(QRect(280, 260, 81, 25));
-        ResultOD_lbl->setFont(font7);
+        ResultOD_lbl->setFont(font9);
         Date_lbl = new QLabel(page_27);
         Date_lbl->setObjectName(QStringLiteral("Date_lbl"));
         Date_lbl->setGeometry(QRect(280, 360, 64, 25));
-        Date_lbl->setFont(font7);
+        Date_lbl->setFont(font9);
         Time_lbl = new QLabel(page_27);
         Time_lbl->setObjectName(QStringLiteral("Time_lbl"));
         Time_lbl->setGeometry(QRect(280, 400, 64, 25));
-        Time_lbl->setFont(font7);
+        Time_lbl->setFont(font9);
         BNrmlRang_lbl = new QLabel(page_27);
         BNrmlRang_lbl->setObjectName(QStringLiteral("BNrmlRang_lbl"));
         BNrmlRang_lbl->setGeometry(QRect(280, 180, 101, 25));
-        BNrmlRang_lbl->setFont(font7);
+        BNrmlRang_lbl->setFont(font9);
         PID_lineEdit = new QLineEdit(page_27);
         PID_lineEdit->setObjectName(QStringLiteral("PID_lineEdit"));
         PID_lineEdit->setGeometry(QRect(120, 180, 131, 30));
-        PID_lineEdit->setFont(font7);
+        PID_lineEdit->setFont(font9);
         PName_lineEdit = new QLineEdit(page_27);
         PName_lineEdit->setObjectName(QStringLiteral("PName_lineEdit"));
         PName_lineEdit->setGeometry(QRect(120, 220, 131, 30));
-        PName_lineEdit->setFont(font7);
+        PName_lineEdit->setFont(font9);
         PAge_lineEdit = new QLineEdit(page_27);
         PAge_lineEdit->setObjectName(QStringLiteral("PAge_lineEdit"));
         PAge_lineEdit->setGeometry(QRect(120, 270, 131, 30));
-        PAge_lineEdit->setFont(font7);
+        PAge_lineEdit->setFont(font9);
         PGender_lineEdit = new QLineEdit(page_27);
         PGender_lineEdit->setObjectName(QStringLiteral("PGender_lineEdit"));
         PGender_lineEdit->setGeometry(QRect(120, 310, 131, 30));
-        PGender_lineEdit->setFont(font7);
+        PGender_lineEdit->setFont(font9);
         TName_lineEdit = new QLineEdit(page_27);
         TName_lineEdit->setObjectName(QStringLiteral("TName_lineEdit"));
         TName_lineEdit->setGeometry(QRect(120, 360, 131, 30));
-        TName_lineEdit->setFont(font7);
+        TName_lineEdit->setFont(font9);
         ANrmlRang_lineEdit = new QLineEdit(page_27);
         ANrmlRang_lineEdit->setObjectName(QStringLiteral("ANrmlRang_lineEdit"));
         ANrmlRang_lineEdit->setGeometry(QRect(120, 400, 131, 30));
-        ANrmlRang_lineEdit->setFont(font7);
+        ANrmlRang_lineEdit->setFont(font9);
         BNrmlRang_lineEdit = new QLineEdit(page_27);
         BNrmlRang_lineEdit->setObjectName(QStringLiteral("BNrmlRang_lineEdit"));
         BNrmlRang_lineEdit->setGeometry(QRect(390, 180, 113, 30));
-        BNrmlRang_lineEdit->setFont(font7);
+        BNrmlRang_lineEdit->setFont(font9);
         ODVal_lineEdit = new QLineEdit(page_27);
         ODVal_lineEdit->setObjectName(QStringLiteral("ODVal_lineEdit"));
         ODVal_lineEdit->setGeometry(QRect(390, 220, 113, 30));
-        ODVal_lineEdit->setFont(font7);
+        ODVal_lineEdit->setFont(font9);
         ResultOD_lineEdit = new QLineEdit(page_27);
         ResultOD_lineEdit->setObjectName(QStringLiteral("ResultOD_lineEdit"));
         ResultOD_lineEdit->setGeometry(QRect(390, 260, 113, 30));
-        ResultOD_lineEdit->setFont(font7);
+        ResultOD_lineEdit->setFont(font9);
         Date_lineEdit = new QLineEdit(page_27);
         Date_lineEdit->setObjectName(QStringLiteral("Date_lineEdit"));
         Date_lineEdit->setGeometry(QRect(390, 360, 113, 30));
-        Date_lineEdit->setFont(font7);
+        Date_lineEdit->setFont(font9);
         Time_lineEdit = new QLineEdit(page_27);
         Time_lineEdit->setObjectName(QStringLiteral("Time_lineEdit"));
         Time_lineEdit->setGeometry(QRect(390, 400, 113, 30));
-        Time_lineEdit->setFont(font7);
+        Time_lineEdit->setFont(font9);
         label_217 = new QLabel(page_27);
         label_217->setObjectName(QStringLiteral("label_217"));
         label_217->setGeometry(QRect(10, 50, 71, 31));
-        label_217->setFont(font7);
+        label_217->setFont(font9);
         Unit_lineEdit1 = new QLineEdit(page_27);
         Unit_lineEdit1->setObjectName(QStringLiteral("Unit_lineEdit1"));
         Unit_lineEdit1->setGeometry(QRect(390, 310, 113, 30));
-        Unit_lineEdit1->setFont(font7);
+        Unit_lineEdit1->setFont(font9);
         Unit_lineEdit1lbl = new QLabel(page_27);
         Unit_lineEdit1lbl->setObjectName(QStringLiteral("Unit_lineEdit1lbl"));
         Unit_lineEdit1lbl->setGeometry(QRect(280, 310, 81, 25));
-        Unit_lineEdit1lbl->setFont(font7);
+        Unit_lineEdit1lbl->setFont(font9);
         Delete_Individual_Btn = new QPushButton(page_27);
         Delete_Individual_Btn->setObjectName(QStringLiteral("Delete_Individual_Btn"));
         Delete_Individual_Btn->setGeometry(QRect(160, 40, 111, 40));
-        Delete_Individual_Btn->setFont(font9);
+        Delete_Individual_Btn->setFont(font8);
         Delete_Individual_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -6621,7 +5043,7 @@ public:
         comboBox_11 = new QComboBox(page_27);
         comboBox_11->setObjectName(QStringLiteral("comboBox_11"));
         comboBox_11->setGeometry(QRect(110, 30, 71, 35));
-        comboBox_11->setFont(font9);
+        comboBox_11->setFont(font8);
         comboBox_11->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
 "border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -6630,21 +5052,23 @@ public:
         pushButton_312 = new QPushButton(page_27);
         pushButton_312->setObjectName(QStringLiteral("pushButton_312"));
         pushButton_312->setGeometry(QRect(510, 40, 80, 41));
-        pushButton_312->setFont(font9);
-        pushButton_312->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_312->setFont(font8);
+        pushButton_312->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         comboBox_14 = new QComboBox(page_27);
         comboBox_14->addItem(QString());
         comboBox_14->addItem(QString());
         comboBox_14->addItem(QString());
         comboBox_14->setObjectName(QStringLiteral("comboBox_14"));
         comboBox_14->setGeometry(QRect(10, 40, 151, 41));
-        comboBox_14->setFont(font9);
+        comboBox_14->setFont(font8);
         comboBox_14->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
 "border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -6653,25 +5077,29 @@ public:
         pushButton_314 = new QPushButton(page_27);
         pushButton_314->setObjectName(QStringLiteral("pushButton_314"));
         pushButton_314->setGeometry(QRect(370, 40, 80, 41));
-        pushButton_314->setFont(font9);
-        pushButton_314->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_314->setFont(font8);
+        pushButton_314->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         pushButton_322 = new QPushButton(page_27);
         pushButton_322->setObjectName(QStringLiteral("pushButton_322"));
         pushButton_322->setGeometry(QRect(370, 40, 80, 41));
-        pushButton_322->setFont(font9);
-        pushButton_322->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_322->setFont(font8);
+        pushButton_322->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         frame_13 = new QFrame(page_27);
         frame_13->setObjectName(QStringLiteral("frame_13"));
         frame_13->setGeometry(QRect(170, 30, 181, 51));
@@ -6689,21 +5117,23 @@ public:
         pushButton_325 = new QPushButton(page_27);
         pushButton_325->setObjectName(QStringLiteral("pushButton_325"));
         pushButton_325->setGeometry(QRect(370, 40, 80, 41));
-        pushButton_325->setFont(font9);
-        pushButton_325->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_325->setFont(font8);
+        pushButton_325->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         comboBox_20 = new QComboBox(page_27);
         comboBox_20->addItem(QString());
         comboBox_20->addItem(QString());
         comboBox_20->addItem(QString());
         comboBox_20->setObjectName(QStringLiteral("comboBox_20"));
         comboBox_20->setGeometry(QRect(10, 40, 151, 41));
-        comboBox_20->setFont(font9);
+        comboBox_20->setFont(font8);
         comboBox_20->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
 "border: 1px solid black;\n"
 "border-radius: 5px;\n"
@@ -6712,14 +5142,16 @@ public:
         pushButton_326 = new QPushButton(page_27);
         pushButton_326->setObjectName(QStringLiteral("pushButton_326"));
         pushButton_326->setGeometry(QRect(370, 40, 80, 41));
-        pushButton_326->setFont(font9);
-        pushButton_326->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_326->setFont(font8);
+        pushButton_326->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         lineEdit_98 = new QLineEdit(page_27);
         lineEdit_98->setObjectName(QStringLiteral("lineEdit_98"));
         lineEdit_98->setGeometry(QRect(80, 40, 61, 40));
@@ -6745,7 +5177,7 @@ public:
         label_422 = new QLabel(page_27);
         label_422->setObjectName(QStringLiteral("label_422"));
         label_422->setGeometry(QRect(10, 50, 111, 31));
-        label_422->setFont(font9);
+        label_422->setFont(font8);
         frame_12 = new QFrame(page_27);
         frame_12->setObjectName(QStringLiteral("frame_12"));
         frame_12->setGeometry(QRect(180, 30, 181, 51));
@@ -6795,7 +5227,7 @@ public:
         label_431 = new QLabel(page_27);
         label_431->setObjectName(QStringLiteral("label_431"));
         label_431->setGeometry(QRect(80, 40, 121, 41));
-        label_431->setFont(font7);
+        label_431->setFont(font9);
         label_431->setStyleSheet(QStringLiteral("border:1px solid black;"));
         pushButton_293 = new QPushButton(page_27);
         pushButton_293->setObjectName(QStringLiteral("pushButton_293"));
@@ -6818,114 +5250,22 @@ public:
         label_433 = new QLabel(page_27);
         label_433->setObjectName(QStringLiteral("label_433"));
         label_433->setGeometry(QRect(320, 40, 121, 41));
-        label_433->setFont(font7);
+        label_433->setFont(font9);
         label_433->setStyleSheet(QStringLiteral("border:1px solid black;"));
         pushButton_330 = new QPushButton(page_27);
         pushButton_330->setObjectName(QStringLiteral("pushButton_330"));
         pushButton_330->setGeometry(QRect(220, 40, 111, 41));
-        pushButton_330->setFont(font9);
-        pushButton_330->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_330->setFont(font8);
+        pushButton_330->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         stackedWidget->addWidget(page_27);
-        page_28 = new QWidget();
-        page_28->setObjectName(QStringLiteral("page_28"));
-        tabWidget_8 = new QTabWidget(page_28);
-        tabWidget_8->setObjectName(QStringLiteral("tabWidget_8"));
-        tabWidget_8->setGeometry(QRect(10, 60, 771, 381));
-        tabWidget_8->setFont(font7);
-        tabWidget_8->setStyleSheet(QLatin1String("QTabWidget\n"
-"{\n"
-"background-color: #f4f4fc;\n"
-"}\n"
-"QTabWidget:tab-bar\n"
-"{\n"
-"alignment:center;\n"
-"}\n"
-"QTabBar:tab\n"
-"{\n"
-"border: 1px solid #C4C4C3;\n"
-"         border-bottom-color: #C2C7CB; /* same as the pane color */\n"
-"         border-top-left-radius: 4px;\n"
-"         border-top-right-radius: 4px;\n"
-"        width:210px;\n"
-"height:35px;\n"
-"        padding: 2px;\n"
-"          background-color: #F7F7F7;\n"
-"}\n"
-"QTabBar:tab:!selected\n"
-"{\n"
-"color:rgb(255,0,0);\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid rgb(12, 68, 145);\n"
-"}\n"
-"QTabBar:tab:selected\n"
-"{\n"
-"border-top-right-radius: 40px;\n"
-"border-top-left-radius: 40px;\n"
-"border:1px solid green;\n"
-"color:rgb(12, 68, 145);\n"
-"}"));
-        tabWidget_8->setTabShape(QTabWidget::Triangular);
-        tab_17 = new QWidget();
-        tab_17->setObjectName(QStringLiteral("tab_17"));
-        tab_17->setFont(font6);
-        tab_17->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_6 = new QScrollArea(tab_17);
-        scrollArea_6->setObjectName(QStringLiteral("scrollArea_6"));
-        scrollArea_6->setGeometry(QRect(10, 15, 751, 311));
-        sizePolicy.setHeightForWidth(scrollArea_6->sizePolicy().hasHeightForWidth());
-        scrollArea_6->setSizePolicy(sizePolicy);
-        scrollArea_6->setMinimumSize(QSize(751, 311));
-        scrollArea_6->setSizeIncrement(QSize(1, 1));
-        scrollArea_6->setBaseSize(QSize(1, 1));
-        scrollArea_6->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
-        scrollArea_6->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContentsOnFirstShow);
-        scrollArea_6->setWidgetResizable(true);
-        scrollAreaWidgetContents_6 = new QWidget();
-        scrollAreaWidgetContents_6->setObjectName(QStringLiteral("scrollAreaWidgetContents_6"));
-        scrollAreaWidgetContents_6->setGeometry(QRect(0, 0, 749, 309));
-        scrollAreaWidgetContents_6->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"	font: 10pt \"Sans Serif\";\n"
-"}"));
-        gridLayout_11 = new QGridLayout(scrollAreaWidgetContents_6);
-        gridLayout_11->setSpacing(6);
-        gridLayout_11->setContentsMargins(11, 11, 11, 11);
-        gridLayout_11->setObjectName(QStringLiteral("gridLayout_11"));
-        gridLayout_12 = new QGridLayout();
-        gridLayout_12->setSpacing(6);
-        gridLayout_12->setObjectName(QStringLiteral("gridLayout_12"));
-        gridLayout_12->setContentsMargins(0, 0, 0, 0);
-
-        gridLayout_11->addLayout(gridLayout_12, 0, 0, 1, 1);
-
-        scrollArea_6->setWidget(scrollAreaWidgetContents_6);
-        tabWidget_8->addTab(tab_17, QString());
-        label_211 = new QLabel(page_28);
-        label_211->setObjectName(QStringLiteral("label_211"));
-        label_211->setGeometry(QRect(10, 10, 201, 30));
-        label_211->setFont(font21);
-        label_211->setStyleSheet(QStringLiteral(""));
-        toolButton_24 = new QToolButton(page_28);
-        toolButton_24->setObjectName(QStringLiteral("toolButton_24"));
-        toolButton_24->setGeometry(QRect(740, 0, 61, 51));
-        toolButton_24->setFont(font6);
-        toolButton_24->setStyleSheet(QLatin1String("\n"
-"border:none;\n"
-"border-radius:30%;"));
-        toolButton_24->setIcon(icon14);
-        toolButton_24->setIconSize(QSize(50, 50));
-        stackedWidget->addWidget(page_28);
         page_10 = new QWidget();
         page_10->setObjectName(QStringLiteral("page_10"));
         label_73 = new QLabel(page_10);
@@ -6946,58 +5286,72 @@ public:
         pushButton_10 = new QPushButton(page_10);
         pushButton_10->setObjectName(QStringLiteral("pushButton_10"));
         pushButton_10->setGeometry(QRect(50, 130, 250, 55));
-        pushButton_10->setFont(font9);
-        pushButton_10->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_10->setFont(font8);
+        pushButton_10->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-"border: 1px solid black;\n"
-"border-radius: 15px;   \n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         toolButton = new QToolButton(page_10);
         toolButton->setObjectName(QStringLiteral("toolButton"));
         toolButton->setGeometry(QRect(50, 250, 250, 55));
-        toolButton->setFont(font9);
-        toolButton->setStyleSheet(QLatin1String("QToolButton\n"
+        toolButton->setFont(font8);
+        toolButton->setStyleSheet(QLatin1String("QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         pushButton_11 = new QPushButton(page_10);
         pushButton_11->setObjectName(QStringLiteral("pushButton_11"));
         pushButton_11->setGeometry(QRect(290, 190, 250, 55));
-        pushButton_11->setFont(font9);
-        pushButton_11->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_11->setFont(font8);
+        pushButton_11->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_5 = new QPushButton(page_10);
         pushButton_5->setObjectName(QStringLiteral("pushButton_5"));
         pushButton_5->setGeometry(QRect(50, 370, 250, 55));
-        pushButton_5->setFont(font9);
-        pushButton_5->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_5->setFont(font8);
+        pushButton_5->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_231 = new QPushButton(page_10);
         pushButton_231->setObjectName(QStringLiteral("pushButton_231"));
         pushButton_231->setGeometry(QRect(270, 300, 261, 81));
         pushButton_231->setFont(font5);
-        pushButton_231->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_231->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         QIcon icon19;
         icon19.addFile(QStringLiteral(":/img/Accesskey.png"), QSize(), QIcon::Normal, QIcon::Off);
         pushButton_231->setIcon(icon19);
@@ -7005,41 +5359,49 @@ public:
         pushButton_131 = new QPushButton(page_10);
         pushButton_131->setObjectName(QStringLiteral("pushButton_131"));
         pushButton_131->setGeometry(QRect(290, 290, 250, 55));
-        pushButton_131->setFont(font9);
-        pushButton_131->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_131->setFont(font8);
+        pushButton_131->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_134 = new QPushButton(page_10);
         pushButton_134->setObjectName(QStringLiteral("pushButton_134"));
         pushButton_134->setGeometry(QRect(490, 130, 250, 55));
-        pushButton_134->setFont(font9);
-        pushButton_134->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_134->setFont(font8);
+        pushButton_134->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_4 = new QPushButton(page_10);
         pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
         pushButton_4->setGeometry(QRect(490, 250, 250, 55));
-        pushButton_4->setFont(font9);
-        pushButton_4->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_4->setFont(font8);
+        pushButton_4->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         label_206 = new QLabel(page_10);
         label_206->setObjectName(QStringLiteral("label_206"));
         label_206->setGeometry(QRect(220, 190, 121, 41));
-        label_206->setFont(font7);
+        label_206->setFont(font9);
         lineEdit_148 = new QLineEdit(page_10);
         lineEdit_148->setObjectName(QStringLiteral("lineEdit_148"));
         lineEdit_148->setGeometry(QRect(430, 190, 181, 40));
@@ -7048,14 +5410,16 @@ public:
         pushButton_7 = new QPushButton(page_10);
         pushButton_7->setObjectName(QStringLiteral("pushButton_7"));
         pushButton_7->setGeometry(QRect(290, 100, 250, 55));
-        pushButton_7->setFont(font9);
-        pushButton_7->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_7->setFont(font8);
+        pushButton_7->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+""));
         pushButton_230 = new QPushButton(page_10);
         pushButton_230->setObjectName(QStringLiteral("pushButton_230"));
         pushButton_230->setGeometry(QRect(430, 190, 181, 40));
@@ -7148,25 +5512,31 @@ public:
         pushButton_227 = new QPushButton(page_10);
         pushButton_227->setObjectName(QStringLiteral("pushButton_227"));
         pushButton_227->setGeometry(QRect(290, 390, 250, 55));
-        pushButton_227->setFont(font9);
-        pushButton_227->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_227->setFont(font8);
+        pushButton_227->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         pushButton_258 = new QPushButton(page_10);
         pushButton_258->setObjectName(QStringLiteral("pushButton_258"));
         pushButton_258->setGeometry(QRect(490, 370, 250, 55));
-        pushButton_258->setFont(font9);
-        pushButton_258->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_258->setFont(font8);
+        pushButton_258->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"    border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"}"));
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+""));
         stackedWidget->addWidget(page_10);
         pushButton_4->raise();
         label_73->raise();
@@ -7193,658 +5563,1359 @@ public:
         pushButton_258->raise();
         page_11 = new QWidget();
         page_11->setObjectName(QStringLiteral("page_11"));
-        stackedWidget_2 = new QStackedWidget(page_11);
-        stackedWidget_2->setObjectName(QStringLiteral("stackedWidget_2"));
-        stackedWidget_2->setGeometry(QRect(22, 170, 741, 271));
-        stackedWidget_2->setFont(font9);
-        stackedWidget_2->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}"));
-        page_14 = new QWidget();
-        page_14->setObjectName(QStringLiteral("page_14"));
-        page_14->setStyleSheet(QLatin1String("QPushButton\n"
-"{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}"));
-        pushButton_13 = new QPushButton(page_14);
-        pushButton_13->setObjectName(QStringLiteral("pushButton_13"));
-        pushButton_13->setGeometry(QRect(29, 30, 61, 50));
-        pushButton_13->setFont(font5);
-        pushButton_13->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_14 = new QPushButton(page_14);
-        pushButton_14->setObjectName(QStringLiteral("pushButton_14"));
-        pushButton_14->setGeometry(QRect(100, 30, 61, 50));
-        pushButton_14->setFont(font5);
-        pushButton_14->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_18 = new QPushButton(page_14);
-        pushButton_18->setObjectName(QStringLiteral("pushButton_18"));
-        pushButton_18->setGeometry(QRect(620, 210, 101, 50));
-        pushButton_18->setFont(font5);
-        pushButton_18->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_15 = new QPushButton(page_14);
-        pushButton_15->setObjectName(QStringLiteral("pushButton_15"));
-        pushButton_15->setGeometry(QRect(170, 30, 61, 50));
-        pushButton_15->setFont(font5);
-        pushButton_15->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_16 = new QPushButton(page_14);
-        pushButton_16->setObjectName(QStringLiteral("pushButton_16"));
-        pushButton_16->setGeometry(QRect(479, 150, 61, 50));
-        pushButton_16->setFont(font5);
-        pushButton_16->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_19 = new QPushButton(page_14);
-        pushButton_19->setObjectName(QStringLiteral("pushButton_19"));
-        pushButton_19->setGeometry(QRect(340, 90, 61, 50));
-        pushButton_19->setFont(font5);
-        pushButton_19->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_20 = new QPushButton(page_14);
-        pushButton_20->setObjectName(QStringLiteral("pushButton_20"));
-        pushButton_20->setGeometry(QRect(480, 90, 61, 50));
-        pushButton_20->setFont(font5);
-        pushButton_20->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_21 = new QPushButton(page_14);
+        stackedWidget_8 = new QStackedWidget(page_11);
+        stackedWidget_8->setObjectName(QStringLiteral("stackedWidget_8"));
+        stackedWidget_8->setGeometry(QRect(40, 170, 751, 270));
+        page_17 = new QWidget();
+        page_17->setObjectName(QStringLiteral("page_17"));
+        frame_24 = new QFrame(page_17);
+        frame_24->setObjectName(QStringLiteral("frame_24"));
+        frame_24->setGeometry(QRect(0, 10, 731, 253));
+        frame_24->setFrameShape(QFrame::StyledPanel);
+        frame_24->setFrameShadow(QFrame::Raised);
+        pushButton_21 = new QPushButton(frame_24);
         pushButton_21->setObjectName(QStringLiteral("pushButton_21"));
-        pushButton_21->setGeometry(QRect(130, 90, 61, 50));
+        pushButton_21->setGeometry(QRect(120, 70, 61, 50));
         pushButton_21->setFont(font5);
-        pushButton_21->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_22 = new QPushButton(page_14);
-        pushButton_22->setObjectName(QStringLiteral("pushButton_22"));
-        pushButton_22->setGeometry(QRect(240, 30, 61, 50));
-        pushButton_22->setFont(font5);
-        pushButton_22->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_27 = new QPushButton(page_14);
-        pushButton_27->setObjectName(QStringLiteral("pushButton_27"));
-        pushButton_27->setGeometry(QRect(59, 90, 61, 50));
-        pushButton_27->setFont(font5);
-        pushButton_27->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_28 = new QPushButton(page_14);
-        pushButton_28->setObjectName(QStringLiteral("pushButton_28"));
-        pushButton_28->setGeometry(QRect(620, 90, 61, 50));
-        pushButton_28->setFont(font5);
-        pushButton_28->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_29 = new QPushButton(page_14);
-        pushButton_29->setObjectName(QStringLiteral("pushButton_29"));
-        pushButton_29->setGeometry(QRect(660, 30, 61, 50));
-        pushButton_29->setFont(font5);
-        pushButton_29->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_30 = new QPushButton(page_14);
-        pushButton_30->setObjectName(QStringLiteral("pushButton_30"));
-        pushButton_30->setGeometry(QRect(550, 90, 61, 50));
-        pushButton_30->setFont(font5);
-        pushButton_30->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_31 = new QPushButton(page_14);
-        pushButton_31->setObjectName(QStringLiteral("pushButton_31"));
-        pushButton_31->setGeometry(QRect(200, 90, 61, 50));
-        pushButton_31->setFont(font5);
-        pushButton_31->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_32 = new QPushButton(page_14);
-        pushButton_32->setObjectName(QStringLiteral("pushButton_32"));
-        pushButton_32->setGeometry(QRect(410, 90, 61, 50));
-        pushButton_32->setFont(font5);
-        pushButton_32->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_33 = new QPushButton(page_14);
+        pushButton_21->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_33 = new QPushButton(frame_24);
         pushButton_33->setObjectName(QStringLiteral("pushButton_33"));
-        pushButton_33->setGeometry(QRect(590, 30, 61, 50));
+        pushButton_33->setGeometry(QRect(580, 10, 61, 50));
         pushButton_33->setFont(font5);
-        pushButton_33->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_34 = new QPushButton(page_14);
-        pushButton_34->setObjectName(QStringLiteral("pushButton_34"));
-        pushButton_34->setGeometry(QRect(520, 30, 61, 50));
-        pushButton_34->setFont(font5);
-        pushButton_34->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_35 = new QPushButton(page_14);
-        pushButton_35->setObjectName(QStringLiteral("pushButton_35"));
-        pushButton_35->setGeometry(QRect(450, 30, 61, 50));
-        pushButton_35->setFont(font5);
-        pushButton_35->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_36 = new QPushButton(page_14);
-        pushButton_36->setObjectName(QStringLiteral("pushButton_36"));
-        pushButton_36->setGeometry(QRect(380, 30, 61, 50));
-        pushButton_36->setFont(font5);
-        pushButton_36->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_37 = new QPushButton(page_14);
-        pushButton_37->setObjectName(QStringLiteral("pushButton_37"));
-        pushButton_37->setGeometry(QRect(310, 30, 61, 50));
-        pushButton_37->setFont(font5);
-        pushButton_37->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_38 = new QPushButton(page_14);
-        pushButton_38->setObjectName(QStringLiteral("pushButton_38"));
-        pushButton_38->setGeometry(QRect(269, 150, 61, 50));
-        pushButton_38->setFont(font5);
-        pushButton_38->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_39 = new QPushButton(page_14);
-        pushButton_39->setObjectName(QStringLiteral("pushButton_39"));
-        pushButton_39->setGeometry(QRect(199, 150, 61, 50));
-        pushButton_39->setFont(font5);
-        pushButton_39->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_40 = new QPushButton(page_14);
-        pushButton_40->setObjectName(QStringLiteral("pushButton_40"));
-        pushButton_40->setGeometry(QRect(129, 150, 61, 50));
-        pushButton_40->setFont(font5);
-        pushButton_40->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_41 = new QPushButton(page_14);
-        pushButton_41->setObjectName(QStringLiteral("pushButton_41"));
-        pushButton_41->setGeometry(QRect(270, 90, 61, 50));
-        pushButton_41->setFont(font5);
-        pushButton_41->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_42 = new QPushButton(page_14);
-        pushButton_42->setObjectName(QStringLiteral("pushButton_42"));
-        pushButton_42->setGeometry(QRect(339, 150, 61, 50));
-        pushButton_42->setFont(font5);
-        pushButton_42->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_43 = new QPushButton(page_14);
-        pushButton_43->setObjectName(QStringLiteral("pushButton_43"));
-        pushButton_43->setGeometry(QRect(410, 150, 61, 50));
-        pushButton_43->setFont(font5);
-        pushButton_43->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_44 = new QPushButton(page_14);
-        pushButton_44->setObjectName(QStringLiteral("pushButton_44"));
-        pushButton_44->setGeometry(QRect(549, 150, 61, 50));
-        pushButton_44->setFont(font5);
-        pushButton_44->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_45 = new QPushButton(page_14);
-        pushButton_45->setObjectName(QStringLiteral("pushButton_45"));
-        pushButton_45->setGeometry(QRect(620, 150, 101, 50));
-        pushButton_45->setFont(font5);
-        pushButton_45->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_46 = new QPushButton(page_14);
+        pushButton_33->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_46 = new QPushButton(frame_24);
         pushButton_46->setObjectName(QStringLiteral("pushButton_46"));
-        pushButton_46->setGeometry(QRect(29, 150, 91, 50));
+        pushButton_46->setGeometry(QRect(19, 130, 91, 50));
         pushButton_46->setFont(font5);
         pushButton_46->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
-"}\n"
-"QPushButton#pushButton_46:disabled \n"
-"{\n"
-"    background-color: rgb(170, 170, 127);\n"
-"color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_47 = new QPushButton(page_14);
-        pushButton_47->setObjectName(QStringLiteral("pushButton_47"));
-        pushButton_47->setGeometry(QRect(30, 210, 91, 50));
-        pushButton_47->setFont(font5);
-        pushButton_47->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_48 = new QPushButton(page_14);
-        pushButton_48->setObjectName(QStringLiteral("pushButton_48"));
-        pushButton_48->setGeometry(QRect(549, 210, 61, 50));
-        pushButton_48->setFont(font5);
-        pushButton_48->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_49 = new QPushButton(page_14);
-        pushButton_49->setObjectName(QStringLiteral("pushButton_49"));
-        pushButton_49->setGeometry(QRect(130, 210, 61, 50));
-        pushButton_49->setFont(font5);
-        pushButton_49->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_50 = new QPushButton(page_14);
+        pushButton_45 = new QPushButton(frame_24);
+        pushButton_45->setObjectName(QStringLiteral("pushButton_45"));
+        pushButton_45->setGeometry(QRect(610, 130, 101, 50));
+        pushButton_45->setFont(font5);
+        pushButton_45->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_14 = new QPushButton(frame_24);
+        pushButton_14->setObjectName(QStringLiteral("pushButton_14"));
+        pushButton_14->setGeometry(QRect(90, 10, 61, 50));
+        pushButton_14->setFont(font5);
+        pushButton_14->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_35 = new QPushButton(frame_24);
+        pushButton_35->setObjectName(QStringLiteral("pushButton_35"));
+        pushButton_35->setGeometry(QRect(440, 10, 61, 50));
+        pushButton_35->setFont(font5);
+        pushButton_35->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_31 = new QPushButton(frame_24);
+        pushButton_31->setObjectName(QStringLiteral("pushButton_31"));
+        pushButton_31->setGeometry(QRect(190, 70, 61, 50));
+        pushButton_31->setFont(font5);
+        pushButton_31->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_32 = new QPushButton(frame_24);
+        pushButton_32->setObjectName(QStringLiteral("pushButton_32"));
+        pushButton_32->setGeometry(QRect(400, 70, 61, 50));
+        pushButton_32->setFont(font5);
+        pushButton_32->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_39 = new QPushButton(frame_24);
+        pushButton_39->setObjectName(QStringLiteral("pushButton_39"));
+        pushButton_39->setGeometry(QRect(189, 130, 61, 50));
+        pushButton_39->setFont(font5);
+        pushButton_39->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_15 = new QPushButton(frame_24);
+        pushButton_15->setObjectName(QStringLiteral("pushButton_15"));
+        pushButton_15->setGeometry(QRect(160, 10, 61, 50));
+        pushButton_15->setFont(font5);
+        pushButton_15->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_43 = new QPushButton(frame_24);
+        pushButton_43->setObjectName(QStringLiteral("pushButton_43"));
+        pushButton_43->setGeometry(QRect(400, 130, 61, 50));
+        pushButton_43->setFont(font5);
+        pushButton_43->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_40 = new QPushButton(frame_24);
+        pushButton_40->setObjectName(QStringLiteral("pushButton_40"));
+        pushButton_40->setGeometry(QRect(119, 130, 61, 50));
+        pushButton_40->setFont(font5);
+        pushButton_40->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_28 = new QPushButton(frame_24);
+        pushButton_28->setObjectName(QStringLiteral("pushButton_28"));
+        pushButton_28->setGeometry(QRect(610, 70, 61, 50));
+        pushButton_28->setFont(font5);
+        pushButton_28->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_22 = new QPushButton(frame_24);
+        pushButton_22->setObjectName(QStringLiteral("pushButton_22"));
+        pushButton_22->setGeometry(QRect(230, 10, 61, 50));
+        pushButton_22->setFont(font5);
+        pushButton_22->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_19 = new QPushButton(frame_24);
+        pushButton_19->setObjectName(QStringLiteral("pushButton_19"));
+        pushButton_19->setGeometry(QRect(330, 70, 61, 50));
+        pushButton_19->setFont(font5);
+        pushButton_19->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_50 = new QPushButton(frame_24);
         pushButton_50->setObjectName(QStringLiteral("pushButton_50"));
-        pushButton_50->setGeometry(QRect(200, 210, 341, 50));
+        pushButton_50->setGeometry(QRect(190, 190, 341, 50));
         pushButton_50->setFont(font5);
-        pushButton_50->setStyleSheet(QStringLiteral("font-style:bold;"));
-        stackedWidget_2->addWidget(page_14);
+        pushButton_50->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_37 = new QPushButton(frame_24);
+        pushButton_37->setObjectName(QStringLiteral("pushButton_37"));
+        pushButton_37->setGeometry(QRect(300, 10, 61, 50));
+        pushButton_37->setFont(font5);
+        pushButton_37->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_30 = new QPushButton(frame_24);
+        pushButton_30->setObjectName(QStringLiteral("pushButton_30"));
+        pushButton_30->setGeometry(QRect(540, 70, 61, 50));
+        pushButton_30->setFont(font5);
+        pushButton_30->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_18 = new QPushButton(frame_24);
+        pushButton_18->setObjectName(QStringLiteral("pushButton_18"));
+        pushButton_18->setGeometry(QRect(610, 190, 101, 50));
+        pushButton_18->setFont(font5);
+        pushButton_18->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_42 = new QPushButton(frame_24);
+        pushButton_42->setObjectName(QStringLiteral("pushButton_42"));
+        pushButton_42->setGeometry(QRect(329, 130, 61, 50));
+        pushButton_42->setFont(font5);
+        pushButton_42->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_16 = new QPushButton(frame_24);
+        pushButton_16->setObjectName(QStringLiteral("pushButton_16"));
+        pushButton_16->setGeometry(QRect(469, 130, 61, 50));
+        pushButton_16->setFont(font5);
+        pushButton_16->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_38 = new QPushButton(frame_24);
+        pushButton_38->setObjectName(QStringLiteral("pushButton_38"));
+        pushButton_38->setGeometry(QRect(259, 130, 61, 50));
+        pushButton_38->setFont(font5);
+        pushButton_38->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_13 = new QPushButton(frame_24);
+        pushButton_13->setObjectName(QStringLiteral("pushButton_13"));
+        pushButton_13->setGeometry(QRect(19, 10, 61, 50));
+        pushButton_13->setFont(font5);
+        pushButton_13->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_34 = new QPushButton(frame_24);
+        pushButton_34->setObjectName(QStringLiteral("pushButton_34"));
+        pushButton_34->setGeometry(QRect(510, 10, 61, 50));
+        pushButton_34->setFont(font5);
+        pushButton_34->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_27 = new QPushButton(frame_24);
+        pushButton_27->setObjectName(QStringLiteral("pushButton_27"));
+        pushButton_27->setGeometry(QRect(49, 70, 61, 50));
+        pushButton_27->setFont(font5);
+        pushButton_27->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_49 = new QPushButton(frame_24);
+        pushButton_49->setObjectName(QStringLiteral("pushButton_49"));
+        pushButton_49->setGeometry(QRect(120, 190, 61, 50));
+        pushButton_49->setFont(font5);
+        pushButton_49->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_47 = new QPushButton(frame_24);
+        pushButton_47->setObjectName(QStringLiteral("pushButton_47"));
+        pushButton_47->setGeometry(QRect(20, 190, 91, 50));
+        pushButton_47->setFont(font5);
+        pushButton_47->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_41 = new QPushButton(frame_24);
+        pushButton_41->setObjectName(QStringLiteral("pushButton_41"));
+        pushButton_41->setGeometry(QRect(260, 70, 61, 50));
+        pushButton_41->setFont(font5);
+        pushButton_41->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_29 = new QPushButton(frame_24);
+        pushButton_29->setObjectName(QStringLiteral("pushButton_29"));
+        pushButton_29->setGeometry(QRect(650, 10, 61, 50));
+        pushButton_29->setFont(font5);
+        pushButton_29->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_44 = new QPushButton(frame_24);
+        pushButton_44->setObjectName(QStringLiteral("pushButton_44"));
+        pushButton_44->setGeometry(QRect(539, 130, 61, 50));
+        pushButton_44->setFont(font5);
+        pushButton_44->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_48 = new QPushButton(frame_24);
+        pushButton_48->setObjectName(QStringLiteral("pushButton_48"));
+        pushButton_48->setGeometry(QRect(539, 190, 61, 50));
+        pushButton_48->setFont(font5);
+        pushButton_48->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_20 = new QPushButton(frame_24);
+        pushButton_20->setObjectName(QStringLiteral("pushButton_20"));
+        pushButton_20->setGeometry(QRect(470, 70, 61, 50));
+        pushButton_20->setFont(font5);
+        pushButton_20->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_36 = new QPushButton(frame_24);
+        pushButton_36->setObjectName(QStringLiteral("pushButton_36"));
+        pushButton_36->setGeometry(QRect(370, 10, 61, 50));
+        pushButton_36->setFont(font5);
+        pushButton_36->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        stackedWidget_8->addWidget(page_17);
+        page_14 = new QWidget();
+        page_14->setObjectName(QStringLiteral("page_14"));
+        frame_23 = new QFrame(page_14);
+        frame_23->setObjectName(QStringLiteral("frame_23"));
+        frame_23->setGeometry(QRect(0, 10, 731, 253));
+        frame_23->setFrameShape(QFrame::StyledPanel);
+        frame_23->setFrameShadow(QFrame::Raised);
+        pushButton_52 = new QPushButton(frame_23);
+        pushButton_52->setObjectName(QStringLiteral("pushButton_52"));
+        pushButton_52->setGeometry(QRect(610, 70, 61, 50));
+        pushButton_52->setFont(font5);
+        pushButton_52->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_67 = new QPushButton(frame_23);
+        pushButton_67->setObjectName(QStringLiteral("pushButton_67"));
+        pushButton_67->setGeometry(QRect(610, 190, 101, 50));
+        pushButton_67->setFont(font5);
+        pushButton_67->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_58 = new QPushButton(frame_23);
+        pushButton_58->setObjectName(QStringLiteral("pushButton_58"));
+        pushButton_58->setGeometry(QRect(580, 10, 61, 50));
+        pushButton_58->setFont(font5);
+        pushButton_58->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_63 = new QPushButton(frame_23);
+        pushButton_63->setObjectName(QStringLiteral("pushButton_63"));
+        pushButton_63->setGeometry(QRect(120, 70, 61, 50));
+        pushButton_63->setFont(font5);
+        pushButton_63->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_71 = new QPushButton(frame_23);
+        pushButton_71->setObjectName(QStringLiteral("pushButton_71"));
+        pushButton_71->setGeometry(QRect(20, 190, 91, 50));
+        pushButton_71->setFont(font5);
+        pushButton_71->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_65 = new QPushButton(frame_23);
+        pushButton_65->setObjectName(QStringLiteral("pushButton_65"));
+        pushButton_65->setGeometry(QRect(119, 130, 61, 50));
+        pushButton_65->setFont(font5);
+        pushButton_65->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_79 = new QPushButton(frame_23);
+        pushButton_79->setObjectName(QStringLiteral("pushButton_79"));
+        pushButton_79->setGeometry(QRect(650, 10, 61, 50));
+        pushButton_79->setFont(font5);
+        pushButton_79->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_17 = new QPushButton(frame_23);
+        pushButton_17->setObjectName(QStringLiteral("pushButton_17"));
+        pushButton_17->setGeometry(QRect(90, 10, 61, 50));
+        pushButton_17->setFont(font5);
+        pushButton_17->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_70 = new QPushButton(frame_23);
+        pushButton_70->setObjectName(QStringLiteral("pushButton_70"));
+        pushButton_70->setGeometry(QRect(539, 190, 61, 50));
+        pushButton_70->setFont(font5);
+        pushButton_70->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_54 = new QPushButton(frame_23);
+        pushButton_54->setObjectName(QStringLiteral("pushButton_54"));
+        pushButton_54->setGeometry(QRect(120, 190, 61, 50));
+        pushButton_54->setFont(font5);
+        pushButton_54->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_53 = new QPushButton(frame_23);
+        pushButton_53->setObjectName(QStringLiteral("pushButton_53"));
+        pushButton_53->setGeometry(QRect(189, 130, 61, 50));
+        pushButton_53->setFont(font5);
+        pushButton_53->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_56 = new QPushButton(frame_23);
+        pushButton_56->setObjectName(QStringLiteral("pushButton_56"));
+        pushButton_56->setGeometry(QRect(19, 130, 91, 50));
+        pushButton_56->setFont(font5);
+        pushButton_56->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_62 = new QPushButton(frame_23);
+        pushButton_62->setObjectName(QStringLiteral("pushButton_62"));
+        pushButton_62->setGeometry(QRect(330, 70, 61, 50));
+        pushButton_62->setFont(font5);
+        pushButton_62->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_74 = new QPushButton(frame_23);
+        pushButton_74->setObjectName(QStringLiteral("pushButton_74"));
+        pushButton_74->setGeometry(QRect(469, 130, 61, 50));
+        pushButton_74->setFont(font5);
+        pushButton_74->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_51 = new QPushButton(frame_23);
+        pushButton_51->setObjectName(QStringLiteral("pushButton_51"));
+        pushButton_51->setGeometry(QRect(370, 10, 61, 50));
+        pushButton_51->setFont(font5);
+        pushButton_51->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_61 = new QPushButton(frame_23);
+        pushButton_61->setObjectName(QStringLiteral("pushButton_61"));
+        pushButton_61->setGeometry(QRect(510, 10, 61, 50));
+        pushButton_61->setFont(font5);
+        pushButton_61->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_57 = new QPushButton(frame_23);
+        pushButton_57->setObjectName(QStringLiteral("pushButton_57"));
+        pushButton_57->setGeometry(QRect(539, 130, 61, 50));
+        pushButton_57->setFont(font5);
+        pushButton_57->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_78 = new QPushButton(frame_23);
+        pushButton_78->setObjectName(QStringLiteral("pushButton_78"));
+        pushButton_78->setGeometry(QRect(470, 70, 61, 50));
+        pushButton_78->setFont(font5);
+        pushButton_78->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_72 = new QPushButton(frame_23);
+        pushButton_72->setObjectName(QStringLiteral("pushButton_72"));
+        pushButton_72->setGeometry(QRect(190, 190, 341, 50));
+        pushButton_72->setFont(font5);
+        pushButton_72->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_80 = new QPushButton(frame_23);
+        pushButton_80->setObjectName(QStringLiteral("pushButton_80"));
+        pushButton_80->setGeometry(QRect(19, 10, 61, 50));
+        pushButton_80->setFont(font5);
+        pushButton_80->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_68 = new QPushButton(frame_23);
+        pushButton_68->setObjectName(QStringLiteral("pushButton_68"));
+        pushButton_68->setGeometry(QRect(540, 70, 61, 50));
+        pushButton_68->setFont(font5);
+        pushButton_68->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_59 = new QPushButton(frame_23);
+        pushButton_59->setObjectName(QStringLiteral("pushButton_59"));
+        pushButton_59->setGeometry(QRect(160, 10, 61, 50));
+        pushButton_59->setFont(font5);
+        pushButton_59->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_64 = new QPushButton(frame_23);
+        pushButton_64->setObjectName(QStringLiteral("pushButton_64"));
+        pushButton_64->setGeometry(QRect(329, 130, 61, 50));
+        pushButton_64->setFont(font5);
+        pushButton_64->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_75 = new QPushButton(frame_23);
+        pushButton_75->setObjectName(QStringLiteral("pushButton_75"));
+        pushButton_75->setGeometry(QRect(259, 130, 61, 50));
+        pushButton_75->setFont(font5);
+        pushButton_75->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_81 = new QPushButton(frame_23);
+        pushButton_81->setObjectName(QStringLiteral("pushButton_81"));
+        pushButton_81->setGeometry(QRect(230, 10, 61, 50));
+        pushButton_81->setFont(font5);
+        pushButton_81->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_60 = new QPushButton(frame_23);
+        pushButton_60->setObjectName(QStringLiteral("pushButton_60"));
+        pushButton_60->setGeometry(QRect(610, 130, 101, 50));
+        pushButton_60->setFont(font5);
+        pushButton_60->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_73 = new QPushButton(frame_23);
+        pushButton_73->setObjectName(QStringLiteral("pushButton_73"));
+        pushButton_73->setGeometry(QRect(49, 70, 61, 50));
+        pushButton_73->setFont(font5);
+        pushButton_73->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_69 = new QPushButton(frame_23);
+        pushButton_69->setObjectName(QStringLiteral("pushButton_69"));
+        pushButton_69->setGeometry(QRect(399, 130, 61, 50));
+        pushButton_69->setFont(font5);
+        pushButton_69->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_77 = new QPushButton(frame_23);
+        pushButton_77->setObjectName(QStringLiteral("pushButton_77"));
+        pushButton_77->setGeometry(QRect(400, 70, 61, 50));
+        pushButton_77->setFont(font5);
+        pushButton_77->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_55 = new QPushButton(frame_23);
+        pushButton_55->setObjectName(QStringLiteral("pushButton_55"));
+        pushButton_55->setGeometry(QRect(440, 10, 61, 50));
+        pushButton_55->setFont(font5);
+        pushButton_55->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_76 = new QPushButton(frame_23);
+        pushButton_76->setObjectName(QStringLiteral("pushButton_76"));
+        pushButton_76->setGeometry(QRect(260, 70, 61, 50));
+        pushButton_76->setFont(font5);
+        pushButton_76->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_66 = new QPushButton(frame_23);
+        pushButton_66->setObjectName(QStringLiteral("pushButton_66"));
+        pushButton_66->setGeometry(QRect(190, 70, 61, 50));
+        pushButton_66->setFont(font5);
+        pushButton_66->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_82 = new QPushButton(frame_23);
+        pushButton_82->setObjectName(QStringLiteral("pushButton_82"));
+        pushButton_82->setGeometry(QRect(300, 10, 61, 50));
+        pushButton_82->setFont(font5);
+        pushButton_82->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        stackedWidget_8->addWidget(page_14);
         page_15 = new QWidget();
         page_15->setObjectName(QStringLiteral("page_15"));
-        page_15->setStyleSheet(QLatin1String("QPushButton\n"
+        frame_25 = new QFrame(page_15);
+        frame_25->setObjectName(QStringLiteral("frame_25"));
+        frame_25->setGeometry(QRect(0, 10, 731, 253));
+        frame_25->setFrameShape(QFrame::StyledPanel);
+        frame_25->setFrameShadow(QFrame::Raised);
+        pushButton_105 = new QPushButton(frame_25);
+        pushButton_105->setObjectName(QStringLiteral("pushButton_105"));
+        pushButton_105->setGeometry(QRect(300, 130, 61, 50));
+        pushButton_105->setFont(font5);
+        pushButton_105->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_51 = new QPushButton(page_15);
-        pushButton_51->setObjectName(QStringLiteral("pushButton_51"));
-        pushButton_51->setGeometry(QRect(380, 30, 61, 50));
-        pushButton_51->setFont(font5);
-        pushButton_51->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_52 = new QPushButton(page_15);
-        pushButton_52->setObjectName(QStringLiteral("pushButton_52"));
-        pushButton_52->setGeometry(QRect(620, 90, 61, 50));
-        pushButton_52->setFont(font5);
-        pushButton_52->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_17 = new QPushButton(page_15);
-        pushButton_17->setObjectName(QStringLiteral("pushButton_17"));
-        pushButton_17->setGeometry(QRect(100, 30, 61, 50));
-        pushButton_17->setFont(font5);
-        pushButton_17->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_53 = new QPushButton(page_15);
-        pushButton_53->setObjectName(QStringLiteral("pushButton_53"));
-        pushButton_53->setGeometry(QRect(199, 150, 61, 50));
-        pushButton_53->setFont(font5);
-        pushButton_53->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_54 = new QPushButton(page_15);
-        pushButton_54->setObjectName(QStringLiteral("pushButton_54"));
-        pushButton_54->setGeometry(QRect(130, 210, 61, 50));
-        pushButton_54->setFont(font5);
-        pushButton_54->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_55 = new QPushButton(page_15);
-        pushButton_55->setObjectName(QStringLiteral("pushButton_55"));
-        pushButton_55->setGeometry(QRect(450, 30, 61, 50));
-        pushButton_55->setFont(font5);
-        pushButton_55->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_56 = new QPushButton(page_15);
-        pushButton_56->setObjectName(QStringLiteral("pushButton_56"));
-        pushButton_56->setGeometry(QRect(29, 150, 91, 50));
-        pushButton_56->setFont(font5);
-        pushButton_56->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_57 = new QPushButton(page_15);
-        pushButton_57->setObjectName(QStringLiteral("pushButton_57"));
-        pushButton_57->setGeometry(QRect(549, 150, 61, 50));
-        pushButton_57->setFont(font5);
-        pushButton_57->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_58 = new QPushButton(page_15);
-        pushButton_58->setObjectName(QStringLiteral("pushButton_58"));
-        pushButton_58->setGeometry(QRect(590, 30, 61, 50));
-        pushButton_58->setFont(font5);
-        pushButton_58->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_59 = new QPushButton(page_15);
-        pushButton_59->setObjectName(QStringLiteral("pushButton_59"));
-        pushButton_59->setGeometry(QRect(170, 30, 61, 50));
-        pushButton_59->setFont(font5);
-        pushButton_59->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_60 = new QPushButton(page_15);
-        pushButton_60->setObjectName(QStringLiteral("pushButton_60"));
-        pushButton_60->setGeometry(QRect(620, 150, 101, 50));
-        pushButton_60->setFont(font5);
-        pushButton_60->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_61 = new QPushButton(page_15);
-        pushButton_61->setObjectName(QStringLiteral("pushButton_61"));
-        pushButton_61->setGeometry(QRect(520, 30, 61, 50));
-        pushButton_61->setFont(font5);
-        pushButton_61->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_62 = new QPushButton(page_15);
-        pushButton_62->setObjectName(QStringLiteral("pushButton_62"));
-        pushButton_62->setGeometry(QRect(340, 90, 61, 50));
-        pushButton_62->setFont(font5);
-        pushButton_62->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_63 = new QPushButton(page_15);
-        pushButton_63->setObjectName(QStringLiteral("pushButton_63"));
-        pushButton_63->setGeometry(QRect(130, 90, 61, 50));
-        pushButton_63->setFont(font5);
-        pushButton_63->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_64 = new QPushButton(page_15);
-        pushButton_64->setObjectName(QStringLiteral("pushButton_64"));
-        pushButton_64->setGeometry(QRect(339, 150, 61, 50));
-        pushButton_64->setFont(font5);
-        pushButton_64->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_65 = new QPushButton(page_15);
-        pushButton_65->setObjectName(QStringLiteral("pushButton_65"));
-        pushButton_65->setGeometry(QRect(129, 150, 61, 50));
-        pushButton_65->setFont(font5);
-        pushButton_65->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_66 = new QPushButton(page_15);
-        pushButton_66->setObjectName(QStringLiteral("pushButton_66"));
-        pushButton_66->setGeometry(QRect(200, 90, 61, 50));
-        pushButton_66->setFont(font5);
-        pushButton_66->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_67 = new QPushButton(page_15);
-        pushButton_67->setObjectName(QStringLiteral("pushButton_67"));
-        pushButton_67->setGeometry(QRect(620, 210, 101, 50));
-        pushButton_67->setFont(font5);
-        pushButton_67->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_68 = new QPushButton(page_15);
-        pushButton_68->setObjectName(QStringLiteral("pushButton_68"));
-        pushButton_68->setGeometry(QRect(550, 90, 61, 50));
-        pushButton_68->setFont(font5);
-        pushButton_68->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_69 = new QPushButton(page_15);
-        pushButton_69->setObjectName(QStringLiteral("pushButton_69"));
-        pushButton_69->setGeometry(QRect(409, 150, 61, 50));
-        pushButton_69->setFont(font5);
-        pushButton_69->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_70 = new QPushButton(page_15);
-        pushButton_70->setObjectName(QStringLiteral("pushButton_70"));
-        pushButton_70->setGeometry(QRect(549, 210, 61, 50));
-        pushButton_70->setFont(font5);
-        pushButton_70->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_71 = new QPushButton(page_15);
-        pushButton_71->setObjectName(QStringLiteral("pushButton_71"));
-        pushButton_71->setGeometry(QRect(30, 210, 91, 50));
-        pushButton_71->setFont(font5);
-        pushButton_71->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_72 = new QPushButton(page_15);
-        pushButton_72->setObjectName(QStringLiteral("pushButton_72"));
-        pushButton_72->setGeometry(QRect(200, 210, 341, 50));
-        pushButton_72->setFont(font5);
-        pushButton_72->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_73 = new QPushButton(page_15);
-        pushButton_73->setObjectName(QStringLiteral("pushButton_73"));
-        pushButton_73->setGeometry(QRect(59, 90, 61, 50));
-        pushButton_73->setFont(font5);
-        pushButton_73->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_74 = new QPushButton(page_15);
-        pushButton_74->setObjectName(QStringLiteral("pushButton_74"));
-        pushButton_74->setGeometry(QRect(479, 150, 61, 50));
-        pushButton_74->setFont(font5);
-        pushButton_74->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_75 = new QPushButton(page_15);
-        pushButton_75->setObjectName(QStringLiteral("pushButton_75"));
-        pushButton_75->setGeometry(QRect(269, 150, 61, 50));
-        pushButton_75->setFont(font5);
-        pushButton_75->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_76 = new QPushButton(page_15);
-        pushButton_76->setObjectName(QStringLiteral("pushButton_76"));
-        pushButton_76->setGeometry(QRect(270, 90, 61, 50));
-        pushButton_76->setFont(font5);
-        pushButton_76->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_77 = new QPushButton(page_15);
-        pushButton_77->setObjectName(QStringLiteral("pushButton_77"));
-        pushButton_77->setGeometry(QRect(410, 90, 61, 50));
-        pushButton_77->setFont(font5);
-        pushButton_77->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_78 = new QPushButton(page_15);
-        pushButton_78->setObjectName(QStringLiteral("pushButton_78"));
-        pushButton_78->setGeometry(QRect(480, 90, 61, 50));
-        pushButton_78->setFont(font5);
-        pushButton_78->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_79 = new QPushButton(page_15);
-        pushButton_79->setObjectName(QStringLiteral("pushButton_79"));
-        pushButton_79->setGeometry(QRect(660, 30, 61, 50));
-        pushButton_79->setFont(font5);
-        pushButton_79->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_80 = new QPushButton(page_15);
-        pushButton_80->setObjectName(QStringLiteral("pushButton_80"));
-        pushButton_80->setGeometry(QRect(29, 30, 61, 50));
-        pushButton_80->setFont(font5);
-        pushButton_80->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_81 = new QPushButton(page_15);
-        pushButton_81->setObjectName(QStringLiteral("pushButton_81"));
-        pushButton_81->setGeometry(QRect(240, 30, 61, 50));
-        pushButton_81->setFont(font5);
-        pushButton_81->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_82 = new QPushButton(page_15);
-        pushButton_82->setObjectName(QStringLiteral("pushButton_82"));
-        pushButton_82->setGeometry(QRect(310, 30, 61, 50));
-        pushButton_82->setFont(font5);
-        pushButton_82->setStyleSheet(QStringLiteral("font-style:bold;"));
-        stackedWidget_2->addWidget(page_15);
-        page_16 = new QWidget();
-        page_16->setObjectName(QStringLiteral("page_16"));
-        page_16->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_109 = new QPushButton(frame_25);
+        pushButton_109->setObjectName(QStringLiteral("pushButton_109"));
+        pushButton_109->setGeometry(QRect(440, 10, 61, 50));
+        pushButton_109->setFont(font5);
+        pushButton_109->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_83 = new QPushButton(page_16);
+        pushButton_93 = new QPushButton(frame_25);
+        pushButton_93->setObjectName(QStringLiteral("pushButton_93"));
+        pushButton_93->setGeometry(QRect(610, 190, 101, 50));
+        pushButton_93->setFont(font5);
+        pushButton_93->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_94 = new QPushButton(frame_25);
+        pushButton_94->setObjectName(QStringLiteral("pushButton_94"));
+        pushButton_94->setGeometry(QRect(370, 70, 61, 50));
+        pushButton_94->setFont(font5);
+        pushButton_94->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_83 = new QPushButton(frame_25);
         pushButton_83->setObjectName(QStringLiteral("pushButton_83"));
-        pushButton_83->setGeometry(QRect(520, 90, 61, 50));
+        pushButton_83->setGeometry(QRect(510, 70, 61, 50));
         pushButton_83->setFont(font5);
         pushButton_83->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_84 = new QPushButton(page_16);
+        pushButton_100 = new QPushButton(frame_25);
+        pushButton_100->setObjectName(QStringLiteral("pushButton_100"));
+        pushButton_100->setGeometry(QRect(230, 70, 61, 50));
+        pushButton_100->setFont(font5);
+        pushButton_100->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_116 = new QPushButton(frame_25);
+        pushButton_116->setObjectName(QStringLiteral("pushButton_116"));
+        pushButton_116->setGeometry(QRect(650, 70, 61, 50));
+        pushButton_116->setFont(font5);
+        pushButton_116->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_103 = new QPushButton(frame_25);
+        pushButton_103->setObjectName(QStringLiteral("pushButton_103"));
+        pushButton_103->setGeometry(QRect(190, 190, 341, 50));
+        pushButton_103->setFont(font5);
+        pushButton_103->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_112 = new QPushButton(frame_25);
+        pushButton_112->setObjectName(QStringLiteral("pushButton_112"));
+        pushButton_112->setGeometry(QRect(20, 70, 61, 50));
+        pushButton_112->setFont(font5);
+        pushButton_112->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_114 = new QPushButton(frame_25);
+        pushButton_114->setObjectName(QStringLiteral("pushButton_114"));
+        pushButton_114->setGeometry(QRect(20, 190, 91, 50));
+        pushButton_114->setFont(font5);
+        pushButton_114->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_96 = new QPushButton(frame_25);
+        pushButton_96->setObjectName(QStringLiteral("pushButton_96"));
+        pushButton_96->setGeometry(QRect(580, 10, 61, 50));
+        pushButton_96->setFont(font5);
+        pushButton_96->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_102 = new QPushButton(frame_25);
+        pushButton_102->setObjectName(QStringLiteral("pushButton_102"));
+        pushButton_102->setGeometry(QRect(230, 130, 61, 50));
+        pushButton_102->setFont(font5);
+        pushButton_102->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_90 = new QPushButton(frame_25);
+        pushButton_90->setObjectName(QStringLiteral("pushButton_90"));
+        pushButton_90->setGeometry(QRect(370, 130, 61, 50));
+        pushButton_90->setFont(font5);
+        pushButton_90->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_115 = new QPushButton(frame_25);
+        pushButton_115->setObjectName(QStringLiteral("pushButton_115"));
+        pushButton_115->setGeometry(QRect(90, 130, 61, 50));
+        pushButton_115->setFont(font5);
+        pushButton_115->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_111 = new QPushButton(frame_25);
+        pushButton_111->setObjectName(QStringLiteral("pushButton_111"));
+        pushButton_111->setGeometry(QRect(650, 10, 61, 50));
+        pushButton_111->setFont(font5);
+        pushButton_111->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_101 = new QPushButton(frame_25);
+        pushButton_101->setObjectName(QStringLiteral("pushButton_101"));
+        pushButton_101->setGeometry(QRect(370, 10, 61, 50));
+        pushButton_101->setFont(font5);
+        pushButton_101->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_95 = new QPushButton(frame_25);
+        pushButton_95->setObjectName(QStringLiteral("pushButton_95"));
+        pushButton_95->setGeometry(QRect(160, 70, 61, 50));
+        pushButton_95->setFont(font5);
+        pushButton_95->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_104 = new QPushButton(frame_25);
+        pushButton_104->setObjectName(QStringLiteral("pushButton_104"));
+        pushButton_104->setGeometry(QRect(20, 10, 61, 50));
+        pushButton_104->setFont(font5);
+        pushButton_104->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_84 = new QPushButton(frame_25);
         pushButton_84->setObjectName(QStringLiteral("pushButton_84"));
-        pushButton_84->setGeometry(QRect(549, 210, 61, 50));
+        pushButton_84->setGeometry(QRect(540, 190, 61, 50));
         pushButton_84->setFont(font5);
-        pushButton_84->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_85 = new QPushButton(page_16);
+        pushButton_84->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_106 = new QPushButton(frame_25);
+        pushButton_106->setObjectName(QStringLiteral("pushButton_106"));
+        pushButton_106->setGeometry(QRect(510, 10, 61, 50));
+        pushButton_106->setFont(font5);
+        pushButton_106->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_87 = new QPushButton(frame_25);
+        pushButton_87->setObjectName(QStringLiteral("pushButton_87"));
+        pushButton_87->setGeometry(QRect(580, 70, 61, 50));
+        pushButton_87->setFont(font5);
+        pushButton_87->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_91 = new QPushButton(frame_25);
+        pushButton_91->setObjectName(QStringLiteral("pushButton_91"));
+        pushButton_91->setGeometry(QRect(300, 10, 61, 50));
+        pushButton_91->setFont(font5);
+        pushButton_91->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_108 = new QPushButton(frame_25);
+        pushButton_108->setObjectName(QStringLiteral("pushButton_108"));
+        pushButton_108->setGeometry(QRect(160, 130, 61, 50));
+        pushButton_108->setFont(font5);
+        pushButton_108->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_110 = new QPushButton(frame_25);
+        pushButton_110->setObjectName(QStringLiteral("pushButton_110"));
+        pushButton_110->setGeometry(QRect(19, 130, 61, 50));
+        pushButton_110->setFont(font5);
+        pushButton_110->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_97 = new QPushButton(frame_25);
+        pushButton_97->setObjectName(QStringLiteral("pushButton_97"));
+        pushButton_97->setGeometry(QRect(90, 70, 61, 50));
+        pushButton_97->setFont(font5);
+        pushButton_97->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_85 = new QPushButton(frame_25);
         pushButton_85->setObjectName(QStringLiteral("pushButton_85"));
-        pushButton_85->setGeometry(QRect(310, 90, 61, 50));
+        pushButton_85->setGeometry(QRect(300, 70, 61, 50));
         pushButton_85->setFont(font5);
-        pushButton_85->setStyleSheet(QStringLiteral("font-style:bold;"));
+        pushButton_85->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         QIcon icon20;
         icon20.addFile(QStringLiteral(":/img/amp.png"), QSize(), QIcon::Normal, QIcon::Off);
         pushButton_85->setIcon(icon20);
         pushButton_85->setIconSize(QSize(35, 35));
-        pushButton_86 = new QPushButton(page_16);
-        pushButton_86->setObjectName(QStringLiteral("pushButton_86"));
-        pushButton_86->setGeometry(QRect(240, 30, 61, 50));
-        pushButton_86->setFont(font5);
-        pushButton_86->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_87 = new QPushButton(page_16);
-        pushButton_87->setObjectName(QStringLiteral("pushButton_87"));
-        pushButton_87->setGeometry(QRect(590, 90, 61, 50));
-        pushButton_87->setFont(font5);
-        pushButton_87->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_88 = new QPushButton(page_16);
-        pushButton_88->setObjectName(QStringLiteral("pushButton_88"));
-        pushButton_88->setGeometry(QRect(520, 150, 61, 50));
-        pushButton_88->setFont(font5);
-        pushButton_88->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_89 = new QPushButton(page_16);
-        pushButton_89->setObjectName(QStringLiteral("pushButton_89"));
-        pushButton_89->setGeometry(QRect(660, 150, 61, 50));
-        pushButton_89->setFont(font5);
-        pushButton_89->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_90 = new QPushButton(page_16);
-        pushButton_90->setObjectName(QStringLiteral("pushButton_90"));
-        pushButton_90->setGeometry(QRect(380, 150, 61, 50));
-        pushButton_90->setFont(font5);
-        pushButton_90->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_91 = new QPushButton(page_16);
-        pushButton_91->setObjectName(QStringLiteral("pushButton_91"));
-        pushButton_91->setGeometry(QRect(310, 30, 61, 50));
-        pushButton_91->setFont(font5);
-        pushButton_91->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_92 = new QPushButton(page_16);
+        pushButton_92 = new QPushButton(frame_25);
         pushButton_92->setObjectName(QStringLiteral("pushButton_92"));
-        pushButton_92->setGeometry(QRect(450, 90, 61, 50));
+        pushButton_92->setGeometry(QRect(440, 70, 61, 50));
         pushButton_92->setFont(font5);
         pushButton_92->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_93 = new QPushButton(page_16);
-        pushButton_93->setObjectName(QStringLiteral("pushButton_93"));
-        pushButton_93->setGeometry(QRect(620, 210, 101, 50));
-        pushButton_93->setFont(font5);
-        pushButton_93->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_94 = new QPushButton(page_16);
-        pushButton_94->setObjectName(QStringLiteral("pushButton_94"));
-        pushButton_94->setGeometry(QRect(380, 90, 61, 50));
-        pushButton_94->setFont(font5);
-        pushButton_94->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_95 = new QPushButton(page_16);
-        pushButton_95->setObjectName(QStringLiteral("pushButton_95"));
-        pushButton_95->setGeometry(QRect(170, 90, 61, 50));
-        pushButton_95->setFont(font5);
-        pushButton_95->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_96 = new QPushButton(page_16);
-        pushButton_96->setObjectName(QStringLiteral("pushButton_96"));
-        pushButton_96->setGeometry(QRect(590, 30, 61, 50));
-        pushButton_96->setFont(font5);
-        pushButton_96->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_97 = new QPushButton(page_16);
-        pushButton_97->setObjectName(QStringLiteral("pushButton_97"));
-        pushButton_97->setGeometry(QRect(100, 90, 61, 50));
-        pushButton_97->setFont(font5);
-        pushButton_97->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_98 = new QPushButton(page_16);
+        pushButton_98 = new QPushButton(frame_25);
         pushButton_98->setObjectName(QStringLiteral("pushButton_98"));
-        pushButton_98->setGeometry(QRect(450, 150, 61, 50));
+        pushButton_98->setGeometry(QRect(440, 130, 61, 50));
         pushButton_98->setFont(font5);
-        pushButton_98->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_99 = new QPushButton(page_16);
-        pushButton_99->setObjectName(QStringLiteral("pushButton_99"));
-        pushButton_99->setGeometry(QRect(100, 30, 61, 50));
-        pushButton_99->setFont(font5);
-        pushButton_99->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_98->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_100 = new QPushButton(page_16);
-        pushButton_100->setObjectName(QStringLiteral("pushButton_100"));
-        pushButton_100->setGeometry(QRect(240, 90, 61, 50));
-        pushButton_100->setFont(font5);
-        pushButton_100->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_101 = new QPushButton(page_16);
-        pushButton_101->setObjectName(QStringLiteral("pushButton_101"));
-        pushButton_101->setGeometry(QRect(380, 30, 61, 50));
-        pushButton_101->setFont(font5);
-        pushButton_101->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_102 = new QPushButton(page_16);
-        pushButton_102->setObjectName(QStringLiteral("pushButton_102"));
-        pushButton_102->setGeometry(QRect(240, 150, 61, 50));
-        pushButton_102->setFont(font5);
-        pushButton_102->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_103 = new QPushButton(page_16);
-        pushButton_103->setObjectName(QStringLiteral("pushButton_103"));
-        pushButton_103->setGeometry(QRect(200, 210, 341, 50));
-        pushButton_103->setFont(font5);
-        pushButton_103->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_244 = new QPushButton(frame_25);
+        pushButton_244->setObjectName(QStringLiteral("pushButton_244"));
+        pushButton_244->setGeometry(QRect(580, 130, 61, 50));
+        pushButton_244->setFont(font5);
+        pushButton_244->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 25px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_104 = new QPushButton(page_16);
-        pushButton_104->setObjectName(QStringLiteral("pushButton_104"));
-        pushButton_104->setGeometry(QRect(29, 30, 61, 50));
-        pushButton_104->setFont(font5);
-        pushButton_104->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_89 = new QPushButton(frame_25);
+        pushButton_89->setObjectName(QStringLiteral("pushButton_89"));
+        pushButton_89->setGeometry(QRect(650, 130, 61, 50));
+        pushButton_89->setFont(font5);
+        pushButton_89->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_105 = new QPushButton(page_16);
-        pushButton_105->setObjectName(QStringLiteral("pushButton_105"));
-        pushButton_105->setGeometry(QRect(310, 150, 61, 50));
-        pushButton_105->setFont(font5);
-        pushButton_105->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_106 = new QPushButton(page_16);
-        pushButton_106->setObjectName(QStringLiteral("pushButton_106"));
-        pushButton_106->setGeometry(QRect(520, 30, 61, 50));
-        pushButton_106->setFont(font5);
-        pushButton_106->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_107 = new QPushButton(page_16);
+        pushButton_88 = new QPushButton(frame_25);
+        pushButton_88->setObjectName(QStringLiteral("pushButton_88"));
+        pushButton_88->setGeometry(QRect(510, 130, 61, 50));
+        pushButton_88->setFont(font5);
+        pushButton_88->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_86 = new QPushButton(frame_25);
+        pushButton_86->setObjectName(QStringLiteral("pushButton_86"));
+        pushButton_86->setGeometry(QRect(230, 10, 61, 50));
+        pushButton_86->setFont(font5);
+        pushButton_86->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_113 = new QPushButton(frame_25);
+        pushButton_113->setObjectName(QStringLiteral("pushButton_113"));
+        pushButton_113->setGeometry(QRect(120, 190, 61, 50));
+        pushButton_113->setFont(font5);
+        pushButton_113->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_107 = new QPushButton(frame_25);
         pushButton_107->setObjectName(QStringLiteral("pushButton_107"));
-        pushButton_107->setGeometry(QRect(170, 30, 61, 50));
+        pushButton_107->setGeometry(QRect(160, 10, 61, 50));
         pushButton_107->setFont(font5);
         pushButton_107->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
-        pushButton_108 = new QPushButton(page_16);
-        pushButton_108->setObjectName(QStringLiteral("pushButton_108"));
-        pushButton_108->setGeometry(QRect(170, 150, 61, 50));
-        pushButton_108->setFont(font5);
-        pushButton_108->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_109 = new QPushButton(page_16);
-        pushButton_109->setObjectName(QStringLiteral("pushButton_109"));
-        pushButton_109->setGeometry(QRect(450, 30, 61, 50));
-        pushButton_109->setFont(font5);
-        pushButton_109->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_110 = new QPushButton(page_16);
-        pushButton_110->setObjectName(QStringLiteral("pushButton_110"));
-        pushButton_110->setGeometry(QRect(29, 150, 61, 50));
-        pushButton_110->setFont(font5);
-        pushButton_110->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_111 = new QPushButton(page_16);
-        pushButton_111->setObjectName(QStringLiteral("pushButton_111"));
-        pushButton_111->setGeometry(QRect(660, 30, 61, 50));
-        pushButton_111->setFont(font5);
-        pushButton_111->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_112 = new QPushButton(page_16);
-        pushButton_112->setObjectName(QStringLiteral("pushButton_112"));
-        pushButton_112->setGeometry(QRect(30, 90, 61, 50));
-        pushButton_112->setFont(font5);
-        pushButton_112->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_113 = new QPushButton(page_16);
-        pushButton_113->setObjectName(QStringLiteral("pushButton_113"));
-        pushButton_113->setGeometry(QRect(130, 210, 61, 50));
-        pushButton_113->setFont(font5);
-        pushButton_113->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_114 = new QPushButton(page_16);
-        pushButton_114->setObjectName(QStringLiteral("pushButton_114"));
-        pushButton_114->setGeometry(QRect(30, 210, 91, 50));
-        pushButton_114->setFont(font5);
-        pushButton_114->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_115 = new QPushButton(page_16);
-        pushButton_115->setObjectName(QStringLiteral("pushButton_115"));
-        pushButton_115->setGeometry(QRect(100, 150, 61, 50));
-        pushButton_115->setFont(font5);
-        pushButton_115->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_116 = new QPushButton(page_16);
-        pushButton_116->setObjectName(QStringLiteral("pushButton_116"));
-        pushButton_116->setGeometry(QRect(660, 90, 61, 50));
-        pushButton_116->setFont(font5);
-        pushButton_116->setStyleSheet(QStringLiteral("font-style:bold;"));
-        pushButton_244 = new QPushButton(page_16);
-        pushButton_244->setObjectName(QStringLiteral("pushButton_244"));
-        pushButton_244->setGeometry(QRect(590, 150, 61, 50));
-        pushButton_244->setFont(font5);
-        pushButton_244->setStyleSheet(QStringLiteral("font-style:bold;"));
-        stackedWidget_2->addWidget(page_16);
-        pushButton_111->raise();
-        pushButton_83->raise();
-        pushButton_84->raise();
-        pushButton_85->raise();
-        pushButton_86->raise();
-        pushButton_87->raise();
-        pushButton_88->raise();
-        pushButton_89->raise();
-        pushButton_90->raise();
-        pushButton_91->raise();
-        pushButton_92->raise();
-        pushButton_93->raise();
-        pushButton_94->raise();
-        pushButton_95->raise();
-        pushButton_96->raise();
-        pushButton_97->raise();
-        pushButton_98->raise();
-        pushButton_99->raise();
-        pushButton_100->raise();
-        pushButton_101->raise();
-        pushButton_102->raise();
-        pushButton_103->raise();
-        pushButton_104->raise();
-        pushButton_105->raise();
-        pushButton_106->raise();
-        pushButton_107->raise();
-        pushButton_108->raise();
-        pushButton_109->raise();
-        pushButton_110->raise();
-        pushButton_112->raise();
-        pushButton_113->raise();
-        pushButton_114->raise();
-        pushButton_115->raise();
-        pushButton_116->raise();
-        pushButton_244->raise();
+        pushButton_99 = new QPushButton(frame_25);
+        pushButton_99->setObjectName(QStringLiteral("pushButton_99"));
+        pushButton_99->setGeometry(QRect(90, 10, 61, 50));
+        pushButton_99->setFont(font5);
+        pushButton_99->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        stackedWidget_8->addWidget(page_15);
+        pushButton_135 = new QPushButton(page_11);
+        pushButton_135->setObjectName(QStringLiteral("pushButton_135"));
+        pushButton_135->setGeometry(QRect(530, 110, 51, 51));
+        pushButton_135->setStyleSheet(QStringLiteral("border:none;"));
+        pushButton_135->setIcon(icon3);
+        pushButton_135->setIconSize(QSize(40, 40));
         lineEdit = new QLineEdit(page_11);
         lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(290, 110, 219, 51));
+        lineEdit->setGeometry(QRect(310, 110, 219, 51));
         QFont font25;
         font25.setPointSize(12);
         lineEdit->setFont(font25);
@@ -7856,12 +6927,6 @@ public:
         label_4->setFont(font25);
         label_4->setStyleSheet(QStringLiteral(""));
         label_4->setAlignment(Qt::AlignCenter);
-        pushButton_135 = new QPushButton(page_11);
-        pushButton_135->setObjectName(QStringLiteral("pushButton_135"));
-        pushButton_135->setGeometry(QRect(510, 110, 51, 51));
-        pushButton_135->setStyleSheet(QStringLiteral("border:none;"));
-        pushButton_135->setIcon(icon3);
-        pushButton_135->setIconSize(QSize(40, 40));
         stackedWidget->addWidget(page_11);
         page_20 = new QWidget();
         page_20->setObjectName(QStringLiteral("page_20"));
@@ -7877,7 +6942,7 @@ public:
         toolButton_15->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_15->setIcon(icon14);
+        toolButton_15->setIcon(icon16);
         toolButton_15->setIconSize(QSize(50, 50));
         stackedWidget_5 = new QStackedWidget(page_20);
         stackedWidget_5->setObjectName(QStringLiteral("stackedWidget_5"));
@@ -7953,22 +7018,17 @@ public:
         pushButton_271->setFont(font4);
         pushButton_271->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_12:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         pushButton_272 = new QPushButton(frame_30);
         pushButton_272->setObjectName(QStringLiteral("pushButton_272"));
@@ -8000,23 +7060,19 @@ public:
         pushButton_12->setFont(font4);
         pushButton_12->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_12:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         label_130 = new QLabel(frame_29);
         label_130->setObjectName(QStringLiteral("label_130"));
         label_130->setGeometry(QRect(10, 230, 93, 20));
@@ -8101,7 +7157,7 @@ public:
         toolButton_21->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_21->setIcon(icon14);
+        toolButton_21->setIcon(icon16);
         toolButton_21->setIconSize(QSize(50, 50));
         stackedWidget->addWidget(page_20);
         page_25 = new QWidget();
@@ -8118,7 +7174,7 @@ public:
         toolButton_20->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_20->setIcon(icon14);
+        toolButton_20->setIcon(icon16);
         toolButton_20->setIconSize(QSize(50, 50));
         label_131 = new QLabel(page_25);
         label_131->setObjectName(QStringLiteral("label_131"));
@@ -8235,17 +7291,15 @@ public:
         pushButton_8 = new QPushButton(page_25);
         pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
         pushButton_8->setGeometry(QRect(250, 110, 121, 35));
-        pushButton_8->setFont(font9);
+        pushButton_8->setFont(font8);
         pushButton_8->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -8257,147 +7311,117 @@ public:
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         pushButton_9 = new QPushButton(page_25);
         pushButton_9->setObjectName(QStringLiteral("pushButton_9"));
         pushButton_9->setGeometry(QRect(250, 160, 121, 35));
-        pushButton_9->setFont(font9);
+        pushButton_9->setFont(font8);
         pushButton_9->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_9:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         pushButton_24 = new QPushButton(page_25);
         pushButton_24->setObjectName(QStringLiteral("pushButton_24"));
         pushButton_24->setGeometry(QRect(250, 210, 121, 35));
-        pushButton_24->setFont(font9);
+        pushButton_24->setFont(font8);
         pushButton_24->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_24:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         pushButton_26 = new QPushButton(page_25);
         pushButton_26->setObjectName(QStringLiteral("pushButton_26"));
         pushButton_26->setGeometry(QRect(250, 260, 121, 35));
-        pushButton_26->setFont(font9);
+        pushButton_26->setFont(font8);
         pushButton_26->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_26:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         pushButton_128 = new QPushButton(page_25);
         pushButton_128->setObjectName(QStringLiteral("pushButton_128"));
         pushButton_128->setGeometry(QRect(250, 310, 121, 35));
-        pushButton_128->setFont(font9);
+        pushButton_128->setFont(font8);
         pushButton_128->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_128:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         pushButton_129 = new QPushButton(page_25);
         pushButton_129->setObjectName(QStringLiteral("pushButton_129"));
         pushButton_129->setGeometry(QRect(250, 360, 121, 35));
-        pushButton_129->setFont(font9);
+        pushButton_129->setFont(font8);
         pushButton_129->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_129:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         pushButton_130 = new QPushButton(page_25);
         pushButton_130->setObjectName(QStringLiteral("pushButton_130"));
         pushButton_130->setGeometry(QRect(250, 410, 121, 35));
-        pushButton_130->setFont(font9);
+        pushButton_130->setFont(font8);
         pushButton_130->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton#pushButton_130:disabled \n"
 "{\n"
 "    background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         label_114 = new QLabel(page_25);
         label_114->setObjectName(QStringLiteral("label_114"));
@@ -8592,36 +7616,38 @@ public:
         toolButton_17->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_17->setIcon(icon14);
+        toolButton_17->setIcon(icon16);
         toolButton_17->setIconSize(QSize(50, 50));
         groupBox = new QGroupBox(page_22);
         groupBox->setObjectName(QStringLiteral("groupBox"));
         groupBox->setGeometry(QRect(60, 80, 471, 361));
-        groupBox->setFont(font9);
+        groupBox->setFont(font8);
         groupBox->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         toolButton_11 = new QToolButton(groupBox);
         toolButton_11->setObjectName(QStringLiteral("toolButton_11"));
         toolButton_11->setGeometry(QRect(250, 230, 141, 51));
-        toolButton_11->setFont(font9);
+        toolButton_11->setFont(font8);
         toolButton_11->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         toolButton_27 = new QToolButton(groupBox);
         toolButton_27->setObjectName(QStringLiteral("toolButton_27"));
         toolButton_27->setGeometry(QRect(20, 290, 111, 41));
-        toolButton_27->setFont(font9);
+        toolButton_27->setFont(font8);
         toolButton_27->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         Patient_Info_Lbl_5 = new QLabel(groupBox);
         Patient_Info_Lbl_5->setObjectName(QStringLiteral("Patient_Info_Lbl_5"));
@@ -8669,14 +7695,11 @@ public:
         toolButton_2 = new QToolButton(groupBox);
         toolButton_2->setObjectName(QStringLiteral("toolButton_2"));
         toolButton_2->setGeometry(QRect(150, 250, 141, 51));
-        toolButton_2->setFont(font9);
+        toolButton_2->setFont(font8);
         toolButton_2->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "\n"
 "QToolButton:pressed {\n"
@@ -8690,23 +7713,15 @@ public:
         toolButton_26 = new QToolButton(groupBox);
         toolButton_26->setObjectName(QStringLiteral("toolButton_26"));
         toolButton_26->setGeometry(QRect(150, 250, 141, 51));
-        toolButton_26->setFont(font9);
+        toolButton_26->setFont(font8);
         toolButton_26->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 "\n"
 "QToolButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
-"}\n"
-"QToolButton:disabled \n"
-"{\n"
-"    background-color: rgb(170, 170, 127);\n"
-"	color:black;\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         frame_42 = new QFrame(page_22);
         frame_42->setObjectName(QStringLiteral("frame_42"));
@@ -8716,26 +7731,28 @@ public:
         toolButton_10 = new QToolButton(frame_42);
         toolButton_10->setObjectName(QStringLiteral("toolButton_10"));
         toolButton_10->setGeometry(QRect(30, 20, 161, 61));
-        toolButton_10->setFont(font9);
+        toolButton_10->setFont(font8);
         toolButton_10->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         toolButton_25 = new QToolButton(frame_42);
         toolButton_25->setObjectName(QStringLiteral("toolButton_25"));
         toolButton_25->setGeometry(QRect(30, 100, 161, 71));
-        toolButton_25->setFont(font9);
+        toolButton_25->setFont(font8);
         toolButton_25->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         stackedWidget->addWidget(page_22);
         page_23 = new QWidget();
@@ -8752,7 +7769,7 @@ public:
         toolButton_18->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_18->setIcon(icon14);
+        toolButton_18->setIcon(icon16);
         toolButton_18->setIconSize(QSize(50, 50));
         lineEdit_147 = new QLineEdit(page_23);
         lineEdit_147->setObjectName(QStringLiteral("lineEdit_147"));
@@ -8766,14 +7783,15 @@ public:
         toolButton_3 = new QToolButton(page_23);
         toolButton_3->setObjectName(QStringLiteral("toolButton_3"));
         toolButton_3->setGeometry(QRect(450, 240, 111, 51));
-        toolButton_3->setFont(font7);
+        toolButton_3->setFont(font9);
         toolButton_3->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         stackedWidget->addWidget(page_23);
         page = new QWidget();
@@ -8785,26 +7803,34 @@ public:
         toolButton_19->setStyleSheet(QLatin1String("\n"
 "border:none;\n"
 "border-radius:30%;"));
-        toolButton_19->setIcon(icon14);
+        toolButton_19->setIcon(icon16);
         toolButton_19->setIconSize(QSize(50, 50));
         pushButton_132 = new QPushButton(page);
         pushButton_132->setObjectName(QStringLiteral("pushButton_132"));
         pushButton_132->setGeometry(QRect(100, 180, 270, 80));
-        pushButton_132->setFont(font9);
-        pushButton_132->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;"));
+        pushButton_132->setFont(font8);
+        pushButton_132->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         pushButton_133 = new QPushButton(page);
         pushButton_133->setObjectName(QStringLiteral("pushButton_133"));
         pushButton_133->setGeometry(QRect(450, 180, 270, 80));
-        pushButton_133->setFont(font9);
-        pushButton_133->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;"));
+        pushButton_133->setFont(font8);
+        pushButton_133->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         stackedWidget->addWidget(page);
         page_29 = new QWidget();
         page_29->setObjectName(QStringLiteral("page_29"));
@@ -8817,7 +7843,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_11->setIcon(icon14);
+        Home_Btn_11->setIcon(icon16);
         Home_Btn_11->setIconSize(QSize(50, 50));
         label_267 = new QLabel(page_29);
         label_267->setObjectName(QStringLiteral("label_267"));
@@ -8869,21 +7895,19 @@ public:
         radioButton_5 = new QRadioButton(frame_11);
         radioButton_5->setObjectName(QStringLiteral("radioButton_5"));
         radioButton_5->setGeometry(QRect(220, 235, 81, 23));
-        radioButton_5->setFont(font9);
+        radioButton_5->setFont(font8);
         Kinetic_Print_Btn = new QPushButton(frame_11);
         Kinetic_Print_Btn->setObjectName(QStringLiteral("Kinetic_Print_Btn"));
         Kinetic_Print_Btn->setGeometry(QRect(489, 320, 261, 71));
         Kinetic_Print_Btn->setFont(font5);
         Kinetic_Print_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -8894,34 +7918,28 @@ public:
 "{\n"
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         Kinetic_Print_Btn->setIconSize(QSize(18, 18));
         radioButton_6 = new QRadioButton(frame_11);
         radioButton_6->setObjectName(QStringLiteral("radioButton_6"));
         radioButton_6->setGeometry(QRect(220, 290, 91, 23));
-        radioButton_6->setFont(font9);
+        radioButton_6->setFont(font8);
         radioButton_7 = new QRadioButton(frame_11);
         radioButton_7->setObjectName(QStringLiteral("radioButton_7"));
         radioButton_7->setGeometry(QRect(220, 350, 141, 23));
-        radioButton_7->setFont(font9);
+        radioButton_7->setFont(font8);
         TwoPoint_Print_Btn = new QPushButton(frame_11);
         TwoPoint_Print_Btn->setObjectName(QStringLiteral("TwoPoint_Print_Btn"));
         TwoPoint_Print_Btn->setGeometry(QRect(489, 320, 261, 71));
         TwoPoint_Print_Btn->setFont(font5);
         TwoPoint_Print_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -8932,10 +7950,6 @@ public:
 "{\n"
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         TwoPoint_Print_Btn->setIconSize(QSize(18, 18));
         PatientInfo_LineEdit = new QLineEdit(frame_11);
@@ -8980,14 +7994,12 @@ public:
         EndPoint_Print_Btn->setFont(font5);
         EndPoint_Print_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -8999,10 +8011,7 @@ public:
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
 "}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
-"}"));
+""));
         EndPoint_Print_Btn->setIconSize(QSize(18, 18));
         label_199 = new QLabel(frame_11);
         label_199->setObjectName(QStringLiteral("label_199"));
@@ -9019,14 +8028,12 @@ public:
         EndPoint_Save_Btn->setFont(font27);
         EndPoint_Save_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -9037,10 +8044,6 @@ public:
 "{\n"
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         EndPoint_Save_Btn->setIconSize(QSize(18, 18));
         TwoPoint_Save_Btn = new QPushButton(frame_11);
@@ -9049,14 +8052,12 @@ public:
         TwoPoint_Save_Btn->setFont(font27);
         TwoPoint_Save_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -9067,10 +8068,6 @@ public:
 "{\n"
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         TwoPoint_Save_Btn->setIconSize(QSize(18, 18));
         Kinetic_Save_Btn = new QPushButton(frame_11);
@@ -9079,14 +8076,12 @@ public:
         Kinetic_Save_Btn->setFont(font27);
         Kinetic_Save_Btn->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 15px;\n"
-"color: rgb(255, 255, 255);\n"
-"font-style:bold;\n"
-"}\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
 "QPushButton:pressed {\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}\n"
 "QPushButton:disabled \n"
 "{\n"
@@ -9097,10 +8092,6 @@ public:
 "{\n"
 "	 background-color: rgb(170, 170, 127);\n"
 "color:black;\n"
-"}\n"
-"QPushButton:hover{\n"
-"    color: rgb(255, 255, 255);\n"
-"background-color: rgb(12, 68, 145);\n"
 "}"));
         Kinetic_Save_Btn->setIconSize(QSize(18, 18));
         label_205 = new QLabel(page_29);
@@ -9116,7 +8107,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_18->setIcon(icon14);
+        Home_Btn_18->setIcon(icon16);
         Home_Btn_18->setIconSize(QSize(50, 50));
         Home_Btn_19 = new QPushButton(page_29);
         Home_Btn_19->setObjectName(QStringLiteral("Home_Btn_19"));
@@ -9127,7 +8118,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_19->setIcon(icon14);
+        Home_Btn_19->setIcon(icon16);
         Home_Btn_19->setIconSize(QSize(50, 50));
         stackedWidget->addWidget(page_29);
         page_19 = new QWidget();
@@ -9267,15 +8258,15 @@ public:
         pushButton_279->setObjectName(QStringLiteral("pushButton_279"));
         pushButton_279->setGeometry(QRect(410, 290, 151, 61));
         pushButton_279->setFont(font5);
-        pushButton_279->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_279->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         label_8 = new QLabel(frame_32);
         label_8->setObjectName(QStringLiteral("label_8"));
         label_8->setGeometry(QRect(110, 20, 521, 81));
@@ -9321,7 +8312,7 @@ public:
         label_264 = new QLabel(frame_32);
         label_264->setObjectName(QStringLiteral("label_264"));
         label_264->setGeometry(QRect(10, 320, 191, 41));
-        label_264->setFont(font7);
+        label_264->setFont(font9);
         stackedWidget_6->addWidget(page_44);
         page_48 = new QWidget();
         page_48->setObjectName(QStringLiteral("page_48"));
@@ -9349,7 +8340,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_12->setIcon(icon14);
+        Home_Btn_12->setIcon(icon16);
         Home_Btn_12->setIconSize(QSize(50, 50));
         stackedWidget_4 = new QStackedWidget(page_24);
         stackedWidget_4->setObjectName(QStringLiteral("stackedWidget_4"));
@@ -9359,45 +8350,45 @@ public:
         pushButton_263 = new QPushButton(page_39);
         pushButton_263->setObjectName(QStringLiteral("pushButton_263"));
         pushButton_263->setGeometry(QRect(120, 150, 201, 61));
-        pushButton_263->setFont(font9);
-        pushButton_263->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_263->setFont(font8);
+        pushButton_263->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         pushButton_264 = new QPushButton(page_39);
         pushButton_264->setObjectName(QStringLiteral("pushButton_264"));
         pushButton_264->setGeometry(QRect(410, 150, 191, 61));
-        pushButton_264->setFont(font9);
-        pushButton_264->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_264->setFont(font8);
+        pushButton_264->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         stackedWidget_4->addWidget(page_39);
         page_33 = new QWidget();
         page_33->setObjectName(QStringLiteral("page_33"));
         pushButton_256 = new QPushButton(page_33);
         pushButton_256->setObjectName(QStringLiteral("pushButton_256"));
         pushButton_256->setGeometry(QRect(270, 330, 201, 51));
-        pushButton_256->setFont(font9);
-        pushButton_256->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_256->setFont(font8);
+        pushButton_256->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         frame_16 = new QFrame(page_33);
         frame_16->setObjectName(QStringLiteral("frame_16"));
         frame_16->setGeometry(QRect(230, 30, 291, 291));
@@ -9527,7 +8518,7 @@ public:
         label_427 = new QLabel(frame_38);
         label_427->setObjectName(QStringLiteral("label_427"));
         label_427->setGeometry(QRect(20, 10, 141, 51));
-        label_427->setFont(font7);
+        label_427->setFont(font9);
         label_427->setStyleSheet(QStringLiteral("border:1px solid black;"));
         pushButton_295 = new QPushButton(frame_38);
         pushButton_295->setObjectName(QStringLiteral("pushButton_295"));
@@ -9549,17 +8540,17 @@ public:
         page_38->setObjectName(QStringLiteral("page_38"));
         pushButton_226 = new QPushButton(page_38);
         pushButton_226->setObjectName(QStringLiteral("pushButton_226"));
-        pushButton_226->setGeometry(QRect(350, 320, 181, 61));
-        pushButton_226->setFont(font9);
-        pushButton_226->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_226->setGeometry(QRect(300, 320, 181, 61));
+        pushButton_226->setFont(font8);
+        pushButton_226->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         timeZoneComboBox_2 = new QComboBox(page_38);
         timeZoneComboBox_2->addItem(QString());
         timeZoneComboBox_2->addItem(QString());
@@ -9645,7 +8636,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_17->setIcon(icon14);
+        Home_Btn_17->setIcon(icon16);
         Home_Btn_17->setIconSize(QSize(50, 50));
         stackedWidget->addWidget(page_24);
         page_30 = new QWidget();
@@ -9682,16 +8673,16 @@ public:
         pushButton_297 = new QPushButton(frame_34);
         pushButton_297->setObjectName(QStringLiteral("pushButton_297"));
         pushButton_297->setGeometry(QRect(230, 280, 181, 61));
-        pushButton_297->setFont(font9);
-        pushButton_297->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_297->setFont(font8);
+        pushButton_297->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         pushButton_324 = new QPushButton(frame_34);
         pushButton_324->setObjectName(QStringLiteral("pushButton_324"));
         pushButton_324->setGeometry(QRect(515, 165, 41, 41));
@@ -9716,42 +8707,11 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_20->setIcon(icon14);
+        Home_Btn_20->setIcon(icon16);
         Home_Btn_20->setIconSize(QSize(50, 50));
         stackedWidget_7->addWidget(page_45);
         page_46 = new QWidget();
         page_46->setObjectName(QStringLiteral("page_46"));
-        lineEdit_97 = new QLineEdit(page_46);
-        lineEdit_97->setObjectName(QStringLiteral("lineEdit_97"));
-        lineEdit_97->setGeometry(QRect(390, 170, 131, 51));
-        lineEdit_97->setFont(font23);
-        lineEdit_97->setAlignment(Qt::AlignCenter);
-        label_338 = new QLabel(page_46);
-        label_338->setObjectName(QStringLiteral("label_338"));
-        label_338->setGeometry(QRect(320, 50, 181, 71));
-        label_338->setFont(font5);
-        pushButton_298 = new QPushButton(page_46);
-        pushButton_298->setObjectName(QStringLiteral("pushButton_298"));
-        pushButton_298->setGeometry(QRect(390, 170, 131, 51));
-        pushButton_298->setFont(font);
-        pushButton_298->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
-        label_421 = new QLabel(page_46);
-        label_421->setObjectName(QStringLiteral("label_421"));
-        label_421->setGeometry(QRect(240, 160, 101, 61));
-        label_421->setFont(font22);
-        pushButton_299 = new QPushButton(page_46);
-        pushButton_299->setObjectName(QStringLiteral("pushButton_299"));
-        pushButton_299->setGeometry(QRect(310, 290, 181, 61));
-        pushButton_299->setFont(font9);
-        pushButton_299->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
         Home_Btn_21 = new QPushButton(page_46);
         Home_Btn_21->setObjectName(QStringLiteral("Home_Btn_21"));
         Home_Btn_21->setGeometry(QRect(740, 0, 61, 51));
@@ -9761,8 +8721,44 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_21->setIcon(icon14);
+        Home_Btn_21->setIcon(icon16);
         Home_Btn_21->setIconSize(QSize(50, 50));
+        frame_26 = new QFrame(page_46);
+        frame_26->setObjectName(QStringLiteral("frame_26"));
+        frame_26->setGeometry(QRect(220, 70, 401, 341));
+        frame_26->setFrameShape(QFrame::StyledPanel);
+        frame_26->setFrameShadow(QFrame::Raised);
+        label_421 = new QLabel(frame_26);
+        label_421->setObjectName(QStringLiteral("label_421"));
+        label_421->setGeometry(QRect(50, 120, 101, 61));
+        label_421->setFont(font22);
+        lineEdit_97 = new QLineEdit(frame_26);
+        lineEdit_97->setObjectName(QStringLiteral("lineEdit_97"));
+        lineEdit_97->setGeometry(QRect(200, 130, 131, 51));
+        lineEdit_97->setFont(font23);
+        lineEdit_97->setAlignment(Qt::AlignCenter);
+        pushButton_299 = new QPushButton(frame_26);
+        pushButton_299->setObjectName(QStringLiteral("pushButton_299"));
+        pushButton_299->setGeometry(QRect(120, 250, 181, 61));
+        pushButton_299->setFont(font8);
+        pushButton_299->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
+        pushButton_298 = new QPushButton(frame_26);
+        pushButton_298->setObjectName(QStringLiteral("pushButton_298"));
+        pushButton_298->setGeometry(QRect(200, 130, 131, 51));
+        pushButton_298->setFont(font);
+        pushButton_298->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
+        label_338 = new QLabel(frame_26);
+        label_338->setObjectName(QStringLiteral("label_338"));
+        label_338->setGeometry(QRect(130, 10, 181, 71));
+        label_338->setFont(font5);
         stackedWidget_7->addWidget(page_46);
         stackedWidget->addWidget(page_30);
         page_31 = new QWidget();
@@ -9776,7 +8772,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_13->setIcon(icon14);
+        Home_Btn_13->setIcon(icon16);
         Home_Btn_13->setIconSize(QSize(50, 50));
         lineEdit_16 = new QLineEdit(page_31);
         lineEdit_16->setObjectName(QStringLiteral("lineEdit_16"));
@@ -9876,16 +8872,16 @@ public:
         pushButton_240 = new QPushButton(frame_33);
         pushButton_240->setObjectName(QStringLiteral("pushButton_240"));
         pushButton_240->setGeometry(QRect(490, 20, 121, 51));
-        pushButton_240->setFont(font9);
-        pushButton_240->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 20px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_240->setFont(font8);
+        pushButton_240->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         label_246 = new QLabel(frame_33);
         label_246->setObjectName(QStringLiteral("label_246"));
         label_246->setGeometry(QRect(70, 110, 150, 30));
@@ -10024,11 +9020,11 @@ public:
         label_214 = new QLabel(frame_33);
         label_214->setObjectName(QStringLiteral("label_214"));
         label_214->setGeometry(QRect(295, 300, 31, 21));
-        label_214->setFont(font9);
+        label_214->setFont(font8);
         label_424 = new QLabel(frame_33);
         label_424->setObjectName(QStringLiteral("label_424"));
         label_424->setGeometry(QRect(400, 300, 51, 21));
-        label_424->setFont(font9);
+        label_424->setFont(font8);
         label_215 = new QLabel(page_31);
         label_215->setObjectName(QStringLiteral("label_215"));
         label_215->setGeometry(QRect(10, -1, 441, 61));
@@ -10043,7 +9039,7 @@ public:
 "color: rgb(255, 255, 255);\n"
 "border-radius:30%;\n"
 ""));
-        Home_Btn_23->setIcon(icon14);
+        Home_Btn_23->setIcon(icon16);
         Home_Btn_23->setIconSize(QSize(50, 50));
         stackedWidget->addWidget(page_31);
         page_32 = new QWidget();
@@ -10081,16 +9077,16 @@ public:
         pushButton_191 = new QPushButton(frame_6);
         pushButton_191->setObjectName(QStringLiteral("pushButton_191"));
         pushButton_191->setGeometry(QRect(70, 90, 201, 61));
-        pushButton_191->setFont(font9);
-        pushButton_191->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_191->setFont(font8);
+        pushButton_191->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         label_46 = new QLabel(frame_6);
         label_46->setObjectName(QStringLiteral("label_46"));
         label_46->setGeometry(QRect(140, 10, 51, 41));
@@ -10098,16 +9094,16 @@ public:
         pushButton_192 = new QPushButton(frame_6);
         pushButton_192->setObjectName(QStringLiteral("pushButton_192"));
         pushButton_192->setGeometry(QRect(70, 190, 201, 61));
-        pushButton_192->setFont(font9);
-        pushButton_192->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_192->setFont(font8);
+        pushButton_192->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         frame_7 = new QFrame(page_35);
         frame_7->setObjectName(QStringLiteral("frame_7"));
         frame_7->setGeometry(QRect(400, 80, 341, 291));
@@ -10116,16 +9112,16 @@ public:
         pushButton_194 = new QPushButton(frame_7);
         pushButton_194->setObjectName(QStringLiteral("pushButton_194"));
         pushButton_194->setGeometry(QRect(80, 90, 201, 61));
-        pushButton_194->setFont(font9);
-        pushButton_194->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_194->setFont(font8);
+        pushButton_194->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         label_47 = new QLabel(frame_7);
         label_47->setObjectName(QStringLiteral("label_47"));
         label_47->setGeometry(QRect(150, 10, 51, 41));
@@ -10133,16 +9129,16 @@ public:
         pushButton_193 = new QPushButton(frame_7);
         pushButton_193->setObjectName(QStringLiteral("pushButton_193"));
         pushButton_193->setGeometry(QRect(80, 190, 201, 61));
-        pushButton_193->setFont(font9);
-        pushButton_193->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        pushButton_193->setFont(font8);
+        pushButton_193->setStyleSheet(QLatin1String("QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         Home_Btn_16 = new QPushButton(page_35);
         Home_Btn_16->setObjectName(QStringLiteral("Home_Btn_16"));
         Home_Btn_16->setGeometry(QRect(740, 0, 61, 51));
@@ -10160,7 +9156,7 @@ public:
         tableView_3->setGeometry(QRect(10, 75, 581, 371));
         Home_Btn_14 = new QPushButton(page_36);
         Home_Btn_14->setObjectName(QStringLiteral("Home_Btn_14"));
-        Home_Btn_14->setGeometry(QRect(740, 0, 61, 61));
+        Home_Btn_14->setGeometry(QRect(740, 0, 61, 51));
         Home_Btn_14->setFont(font6);
         Home_Btn_14->setStyleSheet(QLatin1String("border:none;\n"
 "border-radius:30%;\n"
@@ -10178,7 +9174,7 @@ public:
         label_440 = new QLabel(page_36);
         label_440->setObjectName(QStringLiteral("label_440"));
         label_440->setGeometry(QRect(600, 230, 121, 41));
-        label_440->setFont(font7);
+        label_440->setFont(font9);
         label_440->setStyleSheet(QStringLiteral("border:1px solid black;"));
         label_440->setAlignment(Qt::AlignCenter);
         label_261 = new QLabel(page_36);
@@ -10188,19 +9184,21 @@ public:
         label_430 = new QLabel(page_36);
         label_430->setObjectName(QStringLiteral("label_430"));
         label_430->setGeometry(QRect(600, 120, 121, 41));
-        label_430->setFont(font7);
+        label_430->setFont(font9);
         label_430->setStyleSheet(QStringLiteral("border:1px solid black;"));
         label_430->setAlignment(Qt::AlignCenter);
         pushButton_316 = new QPushButton(page_36);
         pushButton_316->setObjectName(QStringLiteral("pushButton_316"));
         pushButton_316->setGeometry(QRect(620, 310, 111, 41));
-        pushButton_316->setFont(font);
+        pushButton_316->setFont(font8);
         pushButton_316->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         pushButton_292 = new QPushButton(page_36);
         pushButton_292->setObjectName(QStringLiteral("pushButton_292"));
@@ -10211,13 +9209,15 @@ public:
         pushButton_309 = new QPushButton(page_36);
         pushButton_309->setObjectName(QStringLiteral("pushButton_309"));
         pushButton_309->setGeometry(QRect(620, 310, 111, 41));
-        pushButton_309->setFont(font);
+        pushButton_309->setFont(font8);
         pushButton_309->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         pushButton_338 = new QPushButton(page_36);
         pushButton_338->setObjectName(QStringLiteral("pushButton_338"));
@@ -10250,7 +9250,7 @@ public:
         label_425 = new QLabel(page_37);
         label_425->setObjectName(QStringLiteral("label_425"));
         label_425->setGeometry(QRect(620, 140, 121, 41));
-        label_425->setFont(font7);
+        label_425->setFont(font9);
         label_425->setStyleSheet(QStringLiteral("border:1px solid black;"));
         label_262 = new QLabel(page_37);
         label_262->setObjectName(QStringLiteral("label_262"));
@@ -10269,29 +9269,33 @@ public:
         label_426 = new QLabel(page_37);
         label_426->setObjectName(QStringLiteral("label_426"));
         label_426->setGeometry(QRect(620, 250, 121, 41));
-        label_426->setFont(font7);
+        label_426->setFont(font9);
         label_426->setStyleSheet(QStringLiteral("border:1px solid black;"));
         pushButton_315 = new QPushButton(page_37);
         pushButton_315->setObjectName(QStringLiteral("pushButton_315"));
         pushButton_315->setGeometry(QRect(650, 320, 111, 41));
-        pushButton_315->setFont(font9);
+        pushButton_315->setFont(font8);
         pushButton_315->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         pushButton_321 = new QPushButton(page_37);
         pushButton_321->setObjectName(QStringLiteral("pushButton_321"));
         pushButton_321->setGeometry(QRect(650, 320, 111, 41));
-        pushButton_321->setFont(font9);
+        pushButton_321->setFont(font8);
         pushButton_321->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         customPlot_3 = new QCustomPlot(page_37);
         customPlot_3->setObjectName(QStringLiteral("customPlot_3"));
@@ -10301,7 +9305,7 @@ public:
         comboBox_16 = new QComboBox(page_37);
         comboBox_16->setObjectName(QStringLiteral("comboBox_16"));
         comboBox_16->setGeometry(QRect(140, 60, 121, 41));
-        comboBox_16->setFont(font7);
+        comboBox_16->setFont(font9);
         comboBox_16->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
 " border: 1px solid black;\n"
 "     border-radius: 10px;\n"
@@ -10309,18 +9313,20 @@ public:
         pushButton_328 = new QPushButton(page_37);
         pushButton_328->setObjectName(QStringLiteral("pushButton_328"));
         pushButton_328->setGeometry(QRect(290, 55, 111, 45));
-        pushButton_328->setFont(font9);
+        pushButton_328->setFont(font8);
         pushButton_328->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         comboBox_15 = new QComboBox(page_37);
         comboBox_15->setObjectName(QStringLiteral("comboBox_15"));
         comboBox_15->setGeometry(QRect(140, 60, 121, 41));
-        comboBox_15->setFont(font7);
+        comboBox_15->setFont(font9);
         comboBox_15->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
 " border: 1px solid black;\n"
 "     border-radius: 10px;\n"
@@ -10332,13 +9338,15 @@ public:
         pushButton_329 = new QPushButton(page_37);
         pushButton_329->setObjectName(QStringLiteral("pushButton_329"));
         pushButton_329->setGeometry(QRect(290, 55, 111, 45));
-        pushButton_329->setFont(font9);
+        pushButton_329->setFont(font8);
         pushButton_329->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
-"background-color: rgb(12, 68, 145);\n"
-" border: 1px solid black;\n"
-"     border-radius: 10px;\n"
-"color: rgb(255, 255, 255);\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
 "}"));
         stackedWidget_3->addWidget(page_37);
         stackedWidget->addWidget(page_34);
@@ -10383,7 +9391,7 @@ public:
         calendarWidget = new QCalendarWidget(frame_35);
         calendarWidget->setObjectName(QStringLiteral("calendarWidget"));
         calendarWidget->setGeometry(QRect(10, 10, 441, 311));
-        calendarWidget->setFont(font7);
+        calendarWidget->setFont(font9);
         calendarWidget->setStyleSheet(QLatin1String("/* Style for header area #######################*/\n"
 "#calendarWidget QWidget\n"
 "{\n"
@@ -10614,15 +9622,15 @@ public:
         toolButton_4->setObjectName(QStringLiteral("toolButton_4"));
         toolButton_4->setGeometry(QRect(150, 330, 201, 51));
         toolButton_4->setFont(font5);
-        toolButton_4->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        toolButton_4->setStyleSheet(QLatin1String("QToolButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         stackedWidget->addWidget(page_47);
         page_49 = new QWidget();
         page_49->setObjectName(QStringLiteral("page_49"));
@@ -10648,15 +9656,15 @@ public:
         toolButton_5->setObjectName(QStringLiteral("toolButton_5"));
         toolButton_5->setGeometry(QRect(300, 280, 201, 51));
         toolButton_5->setFont(font5);
-        toolButton_5->setStyleSheet(QLatin1String("background-color: rgb(12, 68, 145);\n"
-"border-width: 1px;\n"
-"border-radius: 25px;\n"
-"padding: 3px;\n"
-"text-align:center;\n"
-"padding-left:0px;\n"
-"padding-right: 5px;\n"
-"	color: rgb(255, 255, 255);\n"
-"border: 1px solid black;"));
+        toolButton_5->setStyleSheet(QLatin1String("QToolButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
+"\n"
+"QToolButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}"));
         Home_Btn_22 = new QPushButton(page_49);
         Home_Btn_22->setObjectName(QStringLiteral("Home_Btn_22"));
         Home_Btn_22->setGeometry(QRect(740, 0, 61, 61));
@@ -10669,7 +9677,7 @@ public:
         stackedWidget->addWidget(page_49);
         frame_5 = new QFrame(centralWidget);
         frame_5->setObjectName(QStringLiteral("frame_5"));
-        frame_5->setGeometry(QRect(-1, 452, 801, 25));
+        frame_5->setGeometry(QRect(0, 453, 801, 25));
         frame_5->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border:none;"));
         frame_5->setFrameShape(QFrame::StyledPanel);
@@ -10734,32 +9742,20 @@ public:
         label_81->setBuddy(lineEdit_28);
         label_82->setBuddy(lineEdit_29);
         label_190->setBuddy(lineEdit_23);
-        label_84->setBuddy(lineEdit_23);
-        label_85->setBuddy(lineEdit_26);
-        label_191->setBuddy(lineEdit_23);
-        label_87->setBuddy(lineEdit_28);
-        label_88->setBuddy(lineEdit_29);
-        label_192->setBuddy(lineEdit_23);
 #endif // QT_NO_SHORTCUT
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
-        tabWidget->setCurrentIndex(1);
-        tabWidget_2->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(12);
+        tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
-        tabWidget_6->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(1);
-        tabWidget_7->setCurrentIndex(0);
-        tabWidget_5->setCurrentIndex(0);
-        tabWidget_3->setCurrentIndex(0);
-        tabWidget_8->setCurrentIndex(0);
-        stackedWidget_2->setCurrentIndex(2);
+        stackedWidget_8->setCurrentIndex(1);
         stackedWidget_5->setCurrentIndex(0);
         stackedWidget_6->setCurrentIndex(1);
-        stackedWidget_4->setCurrentIndex(0);
+        stackedWidget_4->setCurrentIndex(1);
         stackedWidget_7->setCurrentIndex(1);
-        stackedWidget_3->setCurrentIndex(1);
+        stackedWidget_3->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -10784,12 +9780,11 @@ public:
 " History", nullptr));
         Logo_Btn_3->setText(QString());
         Status_Lbl->setText(QString());
-        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        tabWidget->setTabToolTip(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab_1), QApplication::translate("MainWindow", "Recently Used", nullptr));
-        tabWidget->setTabToolTip(tabWidget->indexOf(tab_1), QApplication::translate("MainWindow", "Recently Used", nullptr));
         Home_Btn_2->setText(QString());
         Home_Lbl_2->setText(QApplication::translate("MainWindow", "Select parameter to test", nullptr));
+        pushButton_6->setText(QApplication::translate("MainWindow", "All Parameters", nullptr));
+        pushButton_139->setText(QApplication::translate("MainWindow", "Recently Used", nullptr));
+        pushButton_142->setText(QApplication::translate("MainWindow", "All Parameters", nullptr));
         TestName_Lbl->setText(QApplication::translate("MainWindow", "Test Name", nullptr));
         RunBlank_Btn->setText(QApplication::translate("MainWindow", "Run\n"
 "Blank", nullptr));
@@ -10922,7 +9917,7 @@ public:
 
         ReactionType_Combo->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
         ReactionType_Combo->setItemText(1, QApplication::translate("MainWindow", "End point", nullptr));
-        ReactionType_Combo->setItemText(2, QApplication::translate("MainWindow", "Two point", nullptr));
+        ReactionType_Combo->setItemText(2, QApplication::translate("MainWindow", "Fixed Kinetic", nullptr));
         ReactionType_Combo->setItemText(3, QApplication::translate("MainWindow", "Kinetic", nullptr));
 
         Temp_Combo->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
@@ -11039,10 +10034,6 @@ public:
         TestConfig_Btn_2->setText(QApplication::translate("MainWindow", "Test Configuration", nullptr));
         Home_Btn_5->setText(QString());
         Save_Btn->setText(QApplication::translate("MainWindow", "Save", nullptr));
-        Home_Lbl_4->setText(QApplication::translate("MainWindow", "Select parameter to edit", nullptr));
-        Home_Btn_9->setText(QString());
-        tabWidget_6->setTabText(tabWidget_6->indexOf(tab_4), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        tabWidget_6->setTabToolTip(tabWidget_6->indexOf(tab_4), QApplication::translate("MainWindow", "All Parameters", nullptr));
         TestName_Lbl_3->setText(QApplication::translate("MainWindow", "Test Name", nullptr));
         label_14->setText(QApplication::translate("MainWindow", "Wavelength", nullptr));
         ReactionType_Lbl_2->setText(QApplication::translate("MainWindow", "Reaction Type", nullptr));
@@ -11216,198 +10207,6 @@ public:
         TestConfig_Btn_4->setText(QApplication::translate("MainWindow", "Test Configuration - ", nullptr));
         label_16->setText(QString());
         Update_Btn->setText(QApplication::translate("MainWindow", "Update", nullptr));
-        Home_Lbl_5->setText(QApplication::translate("MainWindow", "Select parameter to delete", nullptr));
-        Home_Btn_10->setText(QString());
-        tabWidget_7->setTabText(tabWidget_7->indexOf(tab_15), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        tabWidget_7->setTabToolTip(tabWidget_7->indexOf(tab_15), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        TestConfig_Btn_7->setText(QApplication::translate("MainWindow", "Test Configuration", nullptr));
-        Home_Btn_8->setText(QString());
-        TestName_Lbl_4->setText(QApplication::translate("MainWindow", "Test Name", nullptr));
-        label_15->setText(QApplication::translate("MainWindow", "Wavelength", nullptr));
-        ReactionType_Lbl_3->setText(QApplication::translate("MainWindow", "Reaction Type", nullptr));
-        Unit_Lbl_4->setText(QApplication::translate("MainWindow", "Unit", nullptr));
-        Temp_Lbl_3->setText(QApplication::translate("MainWindow", "Temperature", nullptr));
-        label_29->setText(QApplication::translate("MainWindow", "Factor", nullptr));
-        WaveLength_Combo_3->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        WaveLength_Combo_3->setItemText(1, QApplication::translate("MainWindow", "700 nm", nullptr));
-        WaveLength_Combo_3->setItemText(2, QApplication::translate("MainWindow", "630 nm", nullptr));
-        WaveLength_Combo_3->setItemText(3, QApplication::translate("MainWindow", "570 nm", nullptr));
-        WaveLength_Combo_3->setItemText(4, QApplication::translate("MainWindow", "545 nm", nullptr));
-        WaveLength_Combo_3->setItemText(5, QApplication::translate("MainWindow", "505 nm", nullptr));
-        WaveLength_Combo_3->setItemText(6, QApplication::translate("MainWindow", "405 nm", nullptr));
-        WaveLength_Combo_3->setItemText(7, QApplication::translate("MainWindow", "340 nm", nullptr));
-
-        ReactionType_Combo_3->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        ReactionType_Combo_3->setItemText(1, QApplication::translate("MainWindow", "EndPoint", nullptr));
-        ReactionType_Combo_3->setItemText(2, QApplication::translate("MainWindow", "TwoPoint", nullptr));
-        ReactionType_Combo_3->setItemText(3, QApplication::translate("MainWindow", "Kinetic", nullptr));
-
-        Temp_Combo_3->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        Temp_Combo_3->setItemText(1, QApplication::translate("MainWindow", "37", nullptr));
-
-        label_58->setText(QApplication::translate("MainWindow", "Delay Time(S)", nullptr));
-        label_59->setText(QApplication::translate("MainWindow", "Incubation Time(S)", nullptr));
-        lineEdit_54->setText(QString());
-        label_60->setText(QApplication::translate("MainWindow", "Blank Type", nullptr));
-        BlankType_Combo_3->setItemText(0, QApplication::translate("MainWindow", "--Select--", nullptr));
-        BlankType_Combo_3->setItemText(1, QApplication::translate("MainWindow", "Plain", nullptr));
-        BlankType_Combo_3->setItemText(2, QApplication::translate("MainWindow", "DistilledWater", nullptr));
-        BlankType_Combo_3->setItemText(3, QApplication::translate("MainWindow", "ReagentBlank", nullptr));
-
-        label_69->setText(QApplication::translate("MainWindow", "Linear Range", nullptr));
-        lineEdit_55->setText(QString());
-        lineEdit_56->setText(QString());
-        To_Lbl_5->setText(QApplication::translate("MainWindow", "To", nullptr));
-        To_Lbl_6->setText(QApplication::translate("MainWindow", "To", nullptr));
-        label_70->setText(QApplication::translate("MainWindow", "Normal Range", nullptr));
-        lineEdit_57->setText(QString());
-        label_71->setText(QApplication::translate("MainWindow", "Lag Time(S)", nullptr));
-        lineEdit_64->setText(QString());
-        pushButton_151->setText(QString());
-        pushButton_152->setText(QString());
-        pushButton_153->setText(QString());
-        pushButton_154->setText(QString());
-        pushButton_155->setText(QString());
-        pushButton_156->setText(QString());
-        pushButton_157->setText(QString());
-        pushButton_158->setText(QString());
-        pushButton_165->setText(QString());
-        lineEdit_65->setText(QString());
-        pushButton_239->setText(QString());
-        TestName_Lbl_7->setText(QApplication::translate("MainWindow", "Test Code", nullptr));
-        pushButton_198->setText(QString());
-        tabWidget_5->setTabText(tabWidget_5->indexOf(tab_12), QApplication::translate("MainWindow", "INFO", nullptr));
-        groupBox_9->setTitle(QString());
-        label_30->setText(QApplication::translate("MainWindow", "No.of Std / Cal", nullptr));
-        label_31->setText(QApplication::translate("MainWindow", "Repeat", nullptr));
-        comboBox_9->setItemText(0, QApplication::translate("MainWindow", "1", nullptr));
-        comboBox_9->setItemText(1, QApplication::translate("MainWindow", "2", nullptr));
-        comboBox_9->setItemText(2, QApplication::translate("MainWindow", "3", nullptr));
-        comboBox_9->setItemText(3, QApplication::translate("MainWindow", "4", nullptr));
-        comboBox_9->setItemText(4, QApplication::translate("MainWindow", "5", nullptr));
-        comboBox_9->setItemText(5, QApplication::translate("MainWindow", "6", nullptr));
-        comboBox_9->setItemText(6, QApplication::translate("MainWindow", "7", nullptr));
-        comboBox_9->setItemText(7, QApplication::translate("MainWindow", "8", nullptr));
-
-        comboBox_10->setItemText(0, QApplication::translate("MainWindow", "--", nullptr));
-        comboBox_10->setItemText(1, QApplication::translate("MainWindow", "0", nullptr));
-        comboBox_10->setItemText(2, QApplication::translate("MainWindow", "1", nullptr));
-        comboBox_10->setItemText(3, QApplication::translate("MainWindow", "2", nullptr));
-        comboBox_10->setItemText(4, QApplication::translate("MainWindow", "3", nullptr));
-        comboBox_10->setItemText(5, QApplication::translate("MainWindow", "4", nullptr));
-        comboBox_10->setItemText(6, QApplication::translate("MainWindow", "5", nullptr));
-
-        label_340->setText(QApplication::translate("MainWindow", "Lot No", nullptr));
-        pushButton_276->setText(QString());
-        groupBox_22->setTitle(QApplication::translate("MainWindow", "Abs", nullptr));
-        label_166->setText(QApplication::translate("MainWindow", "7.", nullptr));
-        label_167->setText(QApplication::translate("MainWindow", "4.", nullptr));
-        label_168->setText(QApplication::translate("MainWindow", "1.", nullptr));
-        label_169->setText(QApplication::translate("MainWindow", "5.", nullptr));
-        label_170->setText(QApplication::translate("MainWindow", "2.", nullptr));
-        label_171->setText(QApplication::translate("MainWindow", "3.", nullptr));
-        label_172->setText(QApplication::translate("MainWindow", "6.", nullptr));
-        label_173->setText(QApplication::translate("MainWindow", "8.", nullptr));
-        groupBox_23->setTitle(QApplication::translate("MainWindow", "Conc", nullptr));
-        label_174->setText(QApplication::translate("MainWindow", "1.", nullptr));
-        label_175->setText(QApplication::translate("MainWindow", "3.", nullptr));
-        label_176->setText(QApplication::translate("MainWindow", "5.", nullptr));
-        label_177->setText(QApplication::translate("MainWindow", "7.", nullptr));
-        pushButton_248->setText(QString());
-        pushButton_249->setText(QString());
-        pushButton_250->setText(QString());
-        pushButton_251->setText(QString());
-        label_178->setText(QApplication::translate("MainWindow", "8.", nullptr));
-        label_179->setText(QApplication::translate("MainWindow", "4.", nullptr));
-        label_180->setText(QApplication::translate("MainWindow", "2.", nullptr));
-        label_181->setText(QApplication::translate("MainWindow", "6.", nullptr));
-        pushButton_252->setText(QString());
-        pushButton_253->setText(QString());
-        pushButton_254->setText(QString());
-        pushButton_255->setText(QString());
-        tabWidget_5->setTabText(tabWidget_5->indexOf(tab_13), QApplication::translate("MainWindow", "CALIBRATION", nullptr));
-        groupBox_13->setTitle(QApplication::translate("MainWindow", "Control 1", nullptr));
-        label_84->setText(QApplication::translate("MainWindow", "Minimum", nullptr));
-        label_85->setText(QApplication::translate("MainWindow", "Lot No.", nullptr));
-        pushButton_167->setText(QString());
-        pushButton_168->setText(QString());
-        lineEdit_145->setText(QString());
-        pushButton_222->setText(QString());
-        label_191->setText(QApplication::translate("MainWindow", "Maximum", nullptr));
-        label_83->setText(QApplication::translate("MainWindow", "Average", nullptr));
-        label_437->setText(QString());
-        groupBox_14->setTitle(QApplication::translate("MainWindow", "Control 2", nullptr));
-        label_87->setText(QApplication::translate("MainWindow", "Minimum", nullptr));
-        label_88->setText(QApplication::translate("MainWindow", "Lot No.", nullptr));
-        pushButton_170->setText(QString());
-        pushButton_171->setText(QString());
-        lineEdit_146->setText(QString());
-        pushButton_223->setText(QString());
-        label_192->setText(QApplication::translate("MainWindow", "Maximum", nullptr));
-        label_86->setText(QApplication::translate("MainWindow", "Average", nullptr));
-        label_438->setText(QString());
-        tabWidget_5->setTabText(tabWidget_5->indexOf(tab_14), QApplication::translate("MainWindow", "CONTROL", nullptr));
-        label_341->setText(QString());
-        label_342->setText(QString());
-        label_343->setText(QString());
-        label_344->setText(QString());
-        label_345->setText(QString());
-        label_346->setText(QString());
-        label_347->setText(QString());
-        label_348->setText(QApplication::translate("MainWindow", "Factor", nullptr));
-        label_349->setText(QString());
-        label_350->setText(QString());
-        label_351->setText(QString());
-        label_352->setText(QString());
-        label_353->setText(QString());
-        label_354->setText(QString());
-        label_355->setText(QString());
-        label_356->setText(QApplication::translate("MainWindow", "Lot No", nullptr));
-        label_357->setText(QString());
-        label_358->setText(QString());
-        label_359->setText(QString());
-        label_360->setText(QString());
-        label_361->setText(QString());
-        label_362->setText(QString());
-        label_363->setText(QString());
-        label_364->setText(QApplication::translate("MainWindow", "Date", nullptr));
-        label_365->setText(QString());
-        label_366->setText(QString());
-        label_367->setText(QString());
-        label_368->setText(QString());
-        label_369->setText(QString());
-        label_370->setText(QString());
-        label_371->setText(QString());
-        label_372->setText(QString());
-        label_373->setText(QString());
-        label_374->setText(QString());
-        label_375->setText(QString());
-        label_376->setText(QApplication::translate("MainWindow", "Conc.", nullptr));
-        label_377->setText(QString());
-        label_378->setText(QString());
-        label_379->setText(QString());
-        label_380->setText(QString());
-        label_381->setText(QString());
-        label_382->setText(QString());
-        label_383->setText(QString());
-        label_384->setText(QString());
-        label_385->setText(QString());
-        label_386->setText(QString());
-        label_387->setText(QString());
-        label_388->setText(QString());
-        label_389->setText(QString());
-        label_390->setText(QString());
-        label_391->setText(QString());
-        label_392->setText(QString());
-        label_393->setText(QString());
-        label_394->setText(QApplication::translate("MainWindow", "ABS", nullptr));
-        label_395->setText(QString());
-        tabWidget_5->setTabText(tabWidget_5->indexOf(tab_20), QApplication::translate("MainWindow", "CALIBRATION HISTORY", nullptr));
-        Delete_Btn->setText(QApplication::translate("MainWindow", "Delete", nullptr));
-        label_44->setText(QApplication::translate("MainWindow", "Select parameter to view its control values", nullptr));
-        tabWidget_3->setTabText(tabWidget_3->indexOf(tab_2), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        tabWidget_3->setTabToolTip(tabWidget_3->indexOf(tab_2), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        Home_Btn_6->setText(QString());
         label_45->setText(QString());
         toolButton_12->setText(QApplication::translate("MainWindow", "Home", nullptr));
         pushButton_307->setText(QApplication::translate("MainWindow", "QC-1", nullptr));
@@ -11520,14 +10319,10 @@ public:
         pushButton_294->setText(QString());
         label_433->setText(QString());
         pushButton_330->setText(QApplication::translate("MainWindow", "LIS", nullptr));
-        tabWidget_8->setTabText(tabWidget_8->indexOf(tab_17), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        tabWidget_8->setTabToolTip(tabWidget_8->indexOf(tab_17), QApplication::translate("MainWindow", "All Parameters", nullptr));
-        label_211->setText(QApplication::translate("MainWindow", "Filter by parameter", nullptr));
-        toolButton_24->setText(QApplication::translate("MainWindow", "Home", nullptr));
         label_73->setText(QApplication::translate("MainWindow", "Settings", nullptr));
         toolButton_14->setText(QString());
         pushButton_10->setText(QApplication::translate("MainWindow", "Date and Time Change", nullptr));
-        toolButton->setText(QApplication::translate("MainWindow", "Printer setup", nullptr));
+        toolButton->setText(QApplication::translate("MainWindow", "Printer Setup", nullptr));
         pushButton_11->setText(QApplication::translate("MainWindow", "Software Upgrade", nullptr));
         pushButton_5->setText(QApplication::translate("MainWindow", "Data Backup", nullptr));
         pushButton_231->setText(QApplication::translate("MainWindow", "ACCESS NOW", nullptr));
@@ -11546,110 +10341,110 @@ public:
         Settings_Back_Btn_2->setText(QString());
         pushButton_227->setText(QApplication::translate("MainWindow", "Distributor Code ", nullptr));
         pushButton_258->setText(QApplication::translate("MainWindow", "Brightness", nullptr));
-        pushButton_13->setText(QApplication::translate("MainWindow", "q", nullptr));
-        pushButton_14->setText(QApplication::translate("MainWindow", "w", nullptr));
-        pushButton_18->setText(QApplication::translate("MainWindow", "\342\206\265", nullptr));
-        pushButton_15->setText(QApplication::translate("MainWindow", "e", nullptr));
-        pushButton_16->setText(QApplication::translate("MainWindow", "n", nullptr));
-        pushButton_19->setText(QApplication::translate("MainWindow", "g", nullptr));
-        pushButton_20->setText(QApplication::translate("MainWindow", "j", nullptr));
         pushButton_21->setText(QApplication::translate("MainWindow", "s", nullptr));
-        pushButton_22->setText(QApplication::translate("MainWindow", "r", nullptr));
-        pushButton_27->setText(QApplication::translate("MainWindow", "a", nullptr));
-        pushButton_28->setText(QApplication::translate("MainWindow", "l", nullptr));
-        pushButton_29->setText(QApplication::translate("MainWindow", "p", nullptr));
-        pushButton_30->setText(QApplication::translate("MainWindow", "k", nullptr));
+        pushButton_33->setText(QApplication::translate("MainWindow", "o", nullptr));
+        pushButton_46->setText(QApplication::translate("MainWindow", "\342\207\247", nullptr));
+        pushButton_45->setText(QApplication::translate("MainWindow", "\342\214\253 ", nullptr));
+        pushButton_14->setText(QApplication::translate("MainWindow", "w", nullptr));
+        pushButton_35->setText(QApplication::translate("MainWindow", "u", nullptr));
         pushButton_31->setText(QApplication::translate("MainWindow", "d", nullptr));
         pushButton_32->setText(QApplication::translate("MainWindow", "h", nullptr));
-        pushButton_33->setText(QApplication::translate("MainWindow", "o", nullptr));
-        pushButton_34->setText(QApplication::translate("MainWindow", "i", nullptr));
-        pushButton_35->setText(QApplication::translate("MainWindow", "u", nullptr));
-        pushButton_36->setText(QApplication::translate("MainWindow", "y", nullptr));
-        pushButton_37->setText(QApplication::translate("MainWindow", "t", nullptr));
-        pushButton_38->setText(QApplication::translate("MainWindow", "c", nullptr));
         pushButton_39->setText(QApplication::translate("MainWindow", "x", nullptr));
-        pushButton_40->setText(QApplication::translate("MainWindow", "z", nullptr));
-        pushButton_41->setText(QApplication::translate("MainWindow", "f", nullptr));
-        pushButton_42->setText(QApplication::translate("MainWindow", "v", nullptr));
+        pushButton_15->setText(QApplication::translate("MainWindow", "e", nullptr));
         pushButton_43->setText(QApplication::translate("MainWindow", "b", nullptr));
-        pushButton_44->setText(QApplication::translate("MainWindow", "m", nullptr));
-        pushButton_45->setText(QApplication::translate("MainWindow", "\342\214\253 ", nullptr));
-        pushButton_46->setText(QApplication::translate("MainWindow", "\342\207\247", nullptr));
-        pushButton_47->setText(QApplication::translate("MainWindow", "123", nullptr));
-        pushButton_48->setText(QApplication::translate("MainWindow", ".", nullptr));
-        pushButton_49->setText(QApplication::translate("MainWindow", ",", nullptr));
+        pushButton_40->setText(QApplication::translate("MainWindow", "z", nullptr));
+        pushButton_28->setText(QApplication::translate("MainWindow", "l", nullptr));
+        pushButton_22->setText(QApplication::translate("MainWindow", "r", nullptr));
+        pushButton_19->setText(QApplication::translate("MainWindow", "g", nullptr));
         pushButton_50->setText(QString());
-        pushButton_51->setText(QApplication::translate("MainWindow", "Y", nullptr));
+        pushButton_37->setText(QApplication::translate("MainWindow", "t", nullptr));
+        pushButton_30->setText(QApplication::translate("MainWindow", "k", nullptr));
+        pushButton_18->setText(QApplication::translate("MainWindow", "\342\206\265", nullptr));
+        pushButton_42->setText(QApplication::translate("MainWindow", "v", nullptr));
+        pushButton_16->setText(QApplication::translate("MainWindow", "n", nullptr));
+        pushButton_38->setText(QApplication::translate("MainWindow", "c", nullptr));
+        pushButton_13->setText(QApplication::translate("MainWindow", "q", nullptr));
+        pushButton_34->setText(QApplication::translate("MainWindow", "i", nullptr));
+        pushButton_27->setText(QApplication::translate("MainWindow", "a", nullptr));
+        pushButton_49->setText(QApplication::translate("MainWindow", ",", nullptr));
+        pushButton_47->setText(QApplication::translate("MainWindow", "123", nullptr));
+        pushButton_41->setText(QApplication::translate("MainWindow", "f", nullptr));
+        pushButton_29->setText(QApplication::translate("MainWindow", "p", nullptr));
+        pushButton_44->setText(QApplication::translate("MainWindow", "m", nullptr));
+        pushButton_48->setText(QApplication::translate("MainWindow", ".", nullptr));
+        pushButton_20->setText(QApplication::translate("MainWindow", "j", nullptr));
+        pushButton_36->setText(QApplication::translate("MainWindow", "y", nullptr));
         pushButton_52->setText(QApplication::translate("MainWindow", "L", nullptr));
-        pushButton_17->setText(QApplication::translate("MainWindow", "W", nullptr));
-        pushButton_53->setText(QApplication::translate("MainWindow", "X", nullptr));
-        pushButton_54->setText(QApplication::translate("MainWindow", ",", nullptr));
-        pushButton_55->setText(QApplication::translate("MainWindow", "U", nullptr));
-        pushButton_56->setText(QApplication::translate("MainWindow", "\342\207\247", nullptr));
-        pushButton_57->setText(QApplication::translate("MainWindow", "M", nullptr));
-        pushButton_58->setText(QApplication::translate("MainWindow", "O", nullptr));
-        pushButton_59->setText(QApplication::translate("MainWindow", "E", nullptr));
-        pushButton_60->setText(QApplication::translate("MainWindow", "\342\214\253 ", nullptr));
-        pushButton_61->setText(QApplication::translate("MainWindow", "I", nullptr));
-        pushButton_62->setText(QApplication::translate("MainWindow", "G", nullptr));
-        pushButton_63->setText(QApplication::translate("MainWindow", "S", nullptr));
-        pushButton_64->setText(QApplication::translate("MainWindow", "V", nullptr));
-        pushButton_65->setText(QApplication::translate("MainWindow", "Z", nullptr));
-        pushButton_66->setText(QApplication::translate("MainWindow", "D", nullptr));
         pushButton_67->setText(QApplication::translate("MainWindow", "\342\206\265", nullptr));
-        pushButton_68->setText(QApplication::translate("MainWindow", "K", nullptr));
-        pushButton_69->setText(QApplication::translate("MainWindow", "B", nullptr));
-        pushButton_70->setText(QApplication::translate("MainWindow", ".", nullptr));
+        pushButton_58->setText(QApplication::translate("MainWindow", "O", nullptr));
+        pushButton_63->setText(QApplication::translate("MainWindow", "S", nullptr));
         pushButton_71->setText(QApplication::translate("MainWindow", "123", nullptr));
-        pushButton_72->setText(QString());
-        pushButton_73->setText(QApplication::translate("MainWindow", "A", nullptr));
-        pushButton_74->setText(QApplication::translate("MainWindow", "N", nullptr));
-        pushButton_75->setText(QApplication::translate("MainWindow", "C", nullptr));
-        pushButton_76->setText(QApplication::translate("MainWindow", "F", nullptr));
-        pushButton_77->setText(QApplication::translate("MainWindow", "H", nullptr));
-        pushButton_78->setText(QApplication::translate("MainWindow", "J", nullptr));
+        pushButton_65->setText(QApplication::translate("MainWindow", "Z", nullptr));
         pushButton_79->setText(QApplication::translate("MainWindow", "P", nullptr));
+        pushButton_17->setText(QApplication::translate("MainWindow", "W", nullptr));
+        pushButton_70->setText(QApplication::translate("MainWindow", ".", nullptr));
+        pushButton_54->setText(QApplication::translate("MainWindow", ",", nullptr));
+        pushButton_53->setText(QApplication::translate("MainWindow", "X", nullptr));
+        pushButton_56->setText(QApplication::translate("MainWindow", "\342\207\247", nullptr));
+        pushButton_62->setText(QApplication::translate("MainWindow", "G", nullptr));
+        pushButton_74->setText(QApplication::translate("MainWindow", "N", nullptr));
+        pushButton_51->setText(QApplication::translate("MainWindow", "Y", nullptr));
+        pushButton_61->setText(QApplication::translate("MainWindow", "I", nullptr));
+        pushButton_57->setText(QApplication::translate("MainWindow", "M", nullptr));
+        pushButton_78->setText(QApplication::translate("MainWindow", "J", nullptr));
+        pushButton_72->setText(QString());
         pushButton_80->setText(QApplication::translate("MainWindow", "Q", nullptr));
+        pushButton_68->setText(QApplication::translate("MainWindow", "K", nullptr));
+        pushButton_59->setText(QApplication::translate("MainWindow", "E", nullptr));
+        pushButton_64->setText(QApplication::translate("MainWindow", "V", nullptr));
+        pushButton_75->setText(QApplication::translate("MainWindow", "C", nullptr));
         pushButton_81->setText(QApplication::translate("MainWindow", "R", nullptr));
+        pushButton_60->setText(QApplication::translate("MainWindow", "\342\214\253 ", nullptr));
+        pushButton_73->setText(QApplication::translate("MainWindow", "A", nullptr));
+        pushButton_69->setText(QApplication::translate("MainWindow", "B", nullptr));
+        pushButton_77->setText(QApplication::translate("MainWindow", "H", nullptr));
+        pushButton_55->setText(QApplication::translate("MainWindow", "U", nullptr));
+        pushButton_76->setText(QApplication::translate("MainWindow", "F", nullptr));
+        pushButton_66->setText(QApplication::translate("MainWindow", "D", nullptr));
         pushButton_82->setText(QApplication::translate("MainWindow", "T", nullptr));
-        pushButton_83->setText(QApplication::translate("MainWindow", "(", nullptr));
-        pushButton_84->setText(QApplication::translate("MainWindow", ".", nullptr));
-        pushButton_85->setText(QString());
-        pushButton_86->setText(QApplication::translate("MainWindow", "4", nullptr));
-        pushButton_87->setText(QApplication::translate("MainWindow", ")", nullptr));
-        pushButton_88->setText(QApplication::translate("MainWindow", "?", nullptr));
-        pushButton_89->setText(QApplication::translate("MainWindow", "\342\214\253 ", nullptr));
-        pushButton_90->setText(QApplication::translate("MainWindow", ";", nullptr));
-        pushButton_91->setText(QApplication::translate("MainWindow", "5", nullptr));
-        pushButton_92->setText(QApplication::translate("MainWindow", "+", nullptr));
+        pushButton_105->setText(QApplication::translate("MainWindow", ":", nullptr));
+        pushButton_109->setText(QApplication::translate("MainWindow", "7", nullptr));
         pushButton_93->setText(QApplication::translate("MainWindow", "\342\206\265", nullptr));
         pushButton_94->setText(QApplication::translate("MainWindow", "-", nullptr));
-        pushButton_95->setText(QApplication::translate("MainWindow", "$", nullptr));
-        pushButton_96->setText(QApplication::translate("MainWindow", "9", nullptr));
-        pushButton_97->setText(QApplication::translate("MainWindow", "#", nullptr));
-        pushButton_98->setText(QApplication::translate("MainWindow", "!", nullptr));
-        pushButton_99->setText(QApplication::translate("MainWindow", "2", nullptr));
+        pushButton_83->setText(QApplication::translate("MainWindow", "(", nullptr));
         pushButton_100->setText(QApplication::translate("MainWindow", "_", nullptr));
-        pushButton_101->setText(QApplication::translate("MainWindow", "6", nullptr));
-        pushButton_102->setText(QApplication::translate("MainWindow", "'", nullptr));
-        pushButton_103->setText(QString());
-        pushButton_104->setText(QApplication::translate("MainWindow", "1", nullptr));
-        pushButton_105->setText(QApplication::translate("MainWindow", ":", nullptr));
-        pushButton_106->setText(QApplication::translate("MainWindow", "8", nullptr));
-        pushButton_107->setText(QApplication::translate("MainWindow", "3", nullptr));
-        pushButton_108->setText(QApplication::translate("MainWindow", "\"", nullptr));
-        pushButton_109->setText(QApplication::translate("MainWindow", "7", nullptr));
-        pushButton_110->setText(QApplication::translate("MainWindow", "%", nullptr));
-        pushButton_111->setText(QApplication::translate("MainWindow", "0", nullptr));
-        pushButton_112->setText(QApplication::translate("MainWindow", "@", nullptr));
-        pushButton_113->setText(QApplication::translate("MainWindow", ",", nullptr));
-        pushButton_114->setText(QApplication::translate("MainWindow", "abc", nullptr));
-        pushButton_115->setText(QApplication::translate("MainWindow", "*", nullptr));
         pushButton_116->setText(QApplication::translate("MainWindow", "/", nullptr));
+        pushButton_103->setText(QString());
+        pushButton_112->setText(QApplication::translate("MainWindow", "@", nullptr));
+        pushButton_114->setText(QApplication::translate("MainWindow", "abc", nullptr));
+        pushButton_96->setText(QApplication::translate("MainWindow", "9", nullptr));
+        pushButton_102->setText(QApplication::translate("MainWindow", "'", nullptr));
+        pushButton_90->setText(QApplication::translate("MainWindow", ";", nullptr));
+        pushButton_115->setText(QApplication::translate("MainWindow", "*", nullptr));
+        pushButton_111->setText(QApplication::translate("MainWindow", "0", nullptr));
+        pushButton_101->setText(QApplication::translate("MainWindow", "6", nullptr));
+        pushButton_95->setText(QApplication::translate("MainWindow", "$", nullptr));
+        pushButton_104->setText(QApplication::translate("MainWindow", "1", nullptr));
+        pushButton_84->setText(QApplication::translate("MainWindow", ".", nullptr));
+        pushButton_106->setText(QApplication::translate("MainWindow", "8", nullptr));
+        pushButton_87->setText(QApplication::translate("MainWindow", ")", nullptr));
+        pushButton_91->setText(QApplication::translate("MainWindow", "5", nullptr));
+        pushButton_108->setText(QApplication::translate("MainWindow", "\"", nullptr));
+        pushButton_110->setText(QApplication::translate("MainWindow", "%", nullptr));
+        pushButton_97->setText(QApplication::translate("MainWindow", "#", nullptr));
+        pushButton_85->setText(QString());
+        pushButton_92->setText(QApplication::translate("MainWindow", "+", nullptr));
+        pushButton_98->setText(QApplication::translate("MainWindow", "!", nullptr));
         pushButton_244->setText(QApplication::translate("MainWindow", "\302\265", nullptr));
+        pushButton_89->setText(QApplication::translate("MainWindow", "\342\214\253 ", nullptr));
+        pushButton_88->setText(QApplication::translate("MainWindow", "?", nullptr));
+        pushButton_86->setText(QApplication::translate("MainWindow", "4", nullptr));
+        pushButton_113->setText(QApplication::translate("MainWindow", ",", nullptr));
+        pushButton_107->setText(QApplication::translate("MainWindow", "3", nullptr));
+        pushButton_99->setText(QApplication::translate("MainWindow", "2", nullptr));
+        pushButton_135->setText(QString());
         lineEdit->setText(QString());
         label_4->setText(QString());
-        pushButton_135->setText(QString());
         label_107->setText(QApplication::translate("MainWindow", "Wifi Setup", nullptr));
         toolButton_15->setText(QString());
         label_414->setText(QApplication::translate("MainWindow", "Status : ", nullptr));
@@ -11785,7 +10580,7 @@ public:
         label_95->setText(QString());
         label_92->setText(QApplication::translate("MainWindow", "LIS Interface ", nullptr));
         IPAddress->setText(QApplication::translate("MainWindow", " Address", nullptr));
-        pushButton_279->setText(QApplication::translate("MainWindow", "Save", nullptr));
+        pushButton_279->setText(QApplication::translate("MainWindow", "Connect", nullptr));
         label_8->setText(QString());
         label_265->setText(QApplication::translate("MainWindow", "LIS Communication settings", nullptr));
         Port->setText(QApplication::translate("MainWindow", "Port", nullptr));
@@ -11865,12 +10660,12 @@ public:
         pushButton_324->setText(QString());
         pushButton_327->setText(QString());
         Home_Btn_20->setText(QString());
-        lineEdit_97->setText(QString());
-        label_338->setText(QApplication::translate("MainWindow", "Distributor Code", nullptr));
-        pushButton_298->setText(QString());
-        label_421->setText(QApplication::translate("MainWindow", "Code", nullptr));
-        pushButton_299->setText(QApplication::translate("MainWindow", "Set", nullptr));
         Home_Btn_21->setText(QString());
+        label_421->setText(QApplication::translate("MainWindow", "Code", nullptr));
+        lineEdit_97->setText(QString());
+        pushButton_299->setText(QApplication::translate("MainWindow", "Set", nullptr));
+        pushButton_298->setText(QString());
+        label_338->setText(QApplication::translate("MainWindow", "Distributor Code", nullptr));
         Home_Btn_13->setText(QString());
         label_222->setText(QApplication::translate("MainWindow", "State Code", nullptr));
         lineEdit_18->setText(QString());
@@ -11914,9 +10709,9 @@ public:
         label_440->setText(QString());
         label_261->setText(QApplication::translate("MainWindow", "To", nullptr));
         label_430->setText(QString());
-        pushButton_316->setText(QApplication::translate("MainWindow", "UPDATE", nullptr));
+        pushButton_316->setText(QApplication::translate("MainWindow", "Update", nullptr));
         pushButton_292->setText(QString());
-        pushButton_309->setText(QApplication::translate("MainWindow", "UPDATE", nullptr));
+        pushButton_309->setText(QApplication::translate("MainWindow", "Update", nullptr));
         pushButton_338->setText(QString());
         Home_Btn_15->setText(QString());
         label_48->setText(QString());
