@@ -6869,7 +6869,7 @@ public:
         page_41->setObjectName(QStringLiteral("page_41"));
         frame_30 = new QFrame(page_41);
         frame_30->setObjectName(QStringLiteral("frame_30"));
-        frame_30->setGeometry(QRect(150, 10, 521, 371));
+        frame_30->setGeometry(QRect(130, 10, 501, 371));
         frame_30->setFrameShape(QFrame::StyledPanel);
         frame_30->setFrameShadow(QFrame::Raised);
         label_414 = new QLabel(frame_30);
@@ -6969,7 +6969,7 @@ public:
         page_42->setObjectName(QStringLiteral("page_42"));
         frame_29 = new QFrame(page_42);
         frame_29->setObjectName(QStringLiteral("frame_29"));
-        frame_29->setGeometry(QRect(140, 10, 521, 381));
+        frame_29->setGeometry(QRect(120, 10, 521, 381));
         frame_29->setFrameShape(QFrame::StyledPanel);
         frame_29->setFrameShadow(QFrame::Raised);
         pushButton_12 = new QPushButton(frame_29);
@@ -9717,7 +9717,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(4);
+        stackedWidget->setCurrentIndex(12);
         tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
@@ -10191,7 +10191,7 @@ public:
         label_255->setText(QString());
         label_258->setText(QString());
         pushButton_189->setText(QString());
-        label_259->setText(QApplication::translate("MainWindow", "mg/dL", nullptr));
+        label_259->setText(QString());
         pushButton_190->setText(QString());
         pushButton_317->setText(QApplication::translate("MainWindow", "QC-1", nullptr));
         pushButton_318->setText(QApplication::translate("MainWindow", "QC-2", nullptr));
