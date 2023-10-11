@@ -1785,7 +1785,7 @@ public:
 ""));
         label_229 = new QLabel(page_3);
         label_229->setObjectName(QStringLiteral("label_229"));
-        label_229->setGeometry(QRect(595, 235, 31, 21));
+        label_229->setGeometry(QRect(605, 235, 31, 21));
         label_229->setFont(font14);
         label_229->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_229->setAlignment(Qt::AlignCenter);
@@ -1967,7 +1967,7 @@ public:
         label_193->setAlignment(Qt::AlignCenter);
         label_238 = new QLabel(page_3);
         label_238->setObjectName(QStringLiteral("label_238"));
-        label_238->setGeometry(QRect(595, 170, 31, 21));
+        label_238->setGeometry(QRect(605, 170, 31, 21));
         label_238->setFont(font14);
         label_238->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_238->setAlignment(Qt::AlignCenter);
@@ -1979,7 +1979,7 @@ public:
         label_241->setAlignment(Qt::AlignCenter);
         label_273 = new QLabel(page_3);
         label_273->setObjectName(QStringLiteral("label_273"));
-        label_273->setGeometry(QRect(530, 270, 61, 35));
+        label_273->setGeometry(QRect(530, 270, 71, 35));
         label_273->setFont(font);
         label_273->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border:1px solid;"));
@@ -2040,7 +2040,7 @@ public:
         label_232->setAlignment(Qt::AlignCenter);
         label_234 = new QLabel(page_3);
         label_234->setObjectName(QStringLiteral("label_234"));
-        label_234->setGeometry(QRect(530, 165, 61, 35));
+        label_234->setGeometry(QRect(530, 165, 71, 35));
         label_234->setFont(font);
         label_234->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border:1px solid;"));
@@ -2162,7 +2162,7 @@ public:
         label_236->setAlignment(Qt::AlignCenter);
         label_276 = new QLabel(page_3);
         label_276->setObjectName(QStringLiteral("label_276"));
-        label_276->setGeometry(QRect(530, 212, 61, 35));
+        label_276->setGeometry(QRect(530, 212, 71, 35));
         label_276->setFont(font);
         label_276->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border:1px solid;"));
@@ -2330,7 +2330,7 @@ public:
 "}"));
         label_230 = new QLabel(page_3);
         label_230->setObjectName(QStringLiteral("label_230"));
-        label_230->setGeometry(QRect(595, 275, 41, 21));
+        label_230->setGeometry(QRect(605, 275, 41, 21));
         label_230->setFont(font14);
         label_230->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_230->setAlignment(Qt::AlignCenter);
@@ -2355,7 +2355,7 @@ public:
 ""));
         label_237 = new QLabel(page_3);
         label_237->setObjectName(QStringLiteral("label_237"));
-        label_237->setGeometry(QRect(595, 225, 41, 21));
+        label_237->setGeometry(QRect(605, 225, 41, 21));
         label_237->setFont(font14);
         label_237->setStyleSheet(QStringLiteral("background-color: #f4f4fc;"));
         label_237->setAlignment(Qt::AlignCenter);
@@ -2367,7 +2367,7 @@ public:
 "border:1px solid;"));
         label_228 = new QLabel(page_3);
         label_228->setObjectName(QStringLiteral("label_228"));
-        label_228->setGeometry(QRect(530, 230, 61, 35));
+        label_228->setGeometry(QRect(530, 230, 71, 35));
         label_228->setFont(font);
         label_228->setStyleSheet(QLatin1String("background-color: #f4f4fc;\n"
 "border:1px solid;"));
@@ -9827,7 +9827,7 @@ public:
         RunCal_Btn_2->setText(QApplication::translate("MainWindow", "Run \n"
 " Std / Cal", nullptr));
         label_232->setText(QApplication::translate("MainWindow", "to", nullptr));
-        label_234->setText(QString());
+        label_234->setText(QApplication::translate("MainWindow", "0.0356", nullptr));
         label_196->setText(QString());
         label_235->setText(QApplication::translate("MainWindow", "Ref.", nullptr));
         label_239->setText(QApplication::translate("MainWindow", "Abs", nullptr));
@@ -10711,9 +10711,9 @@ public:
         label_54->setText(QString());
         toolButton_5->setText(QApplication::translate("MainWindow", "Set", nullptr));
         Home_Btn_22->setText(QString());
-        IncuBlock_Lbl_2->setText(QApplication::translate("MainWindow", "37.0", nullptr));
+        IncuBlock_Lbl_2->setText(QString());
         SysDate_Lbl->setText(QString());
-        ReadBlock_Lbl_2->setText(QApplication::translate("MainWindow", "37.1", nullptr));
+        ReadBlock_Lbl_2->setText(QString());
         IncuBlock_Lbl->setText(QApplication::translate("MainWindow", "Incubator Block :", nullptr));
         ReadBlock_Lbl->setText(QApplication::translate("MainWindow", "Reading Block :", nullptr));
         SysTime_Lbl->setText(QString());

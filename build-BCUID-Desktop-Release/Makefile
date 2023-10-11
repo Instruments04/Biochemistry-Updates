@@ -504,6 +504,7 @@ moc_mainwindow.cpp: ../BCUID/pi2c.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		../BCUID/printer.h \
 		../BCUID/mainwindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
@@ -548,7 +549,8 @@ main.o: ../BCUID/main.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../BCUID/main.cpp
 
 mainwindow.o: ../BCUID/mainwindow.cpp ../BCUID/mainwindow.h \
@@ -597,7 +599,8 @@ qc.o: ../BCUID/qc.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qc.o ../BCUID/qc.cpp
 
 qcustomplot.o: ../BCUID/qcustomplot.cpp ../BCUID/qcustomplot.h
@@ -610,7 +613,8 @@ test.o: ../BCUID/test.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o test.o ../BCUID/test.cpp
 
 testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
@@ -620,7 +624,8 @@ testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testconfig.o ../BCUID/testconfig.cpp
 
 twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
@@ -641,7 +646,8 @@ wifi-setup.o: ../BCUID/wifi-setup.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o wifi-setup.o ../BCUID/wifi-setup.cpp
 
 keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
@@ -651,7 +657,8 @@ keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../BCUID/keyboard.cpp
 
 adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
@@ -661,7 +668,8 @@ adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adgain.o ../BCUID/adgain.cpp
 
 dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
@@ -671,7 +679,8 @@ dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dbbackrest.o ../BCUID/dbbackrest.cpp
 
 printingbtns.o: ../BCUID/printingbtns.cpp ../BCUID/mainwindow.h \
@@ -703,7 +712,8 @@ datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datetimechange.o ../BCUID/datetimechange.cpp
 
 endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
@@ -713,7 +723,8 @@ endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc1.o ../BCUID/endqc1.cpp
 
 endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
@@ -723,7 +734,8 @@ endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc2.o ../BCUID/endqc2.cpp
 
 twoqc1.o: ../BCUID/twoqc1.cpp ../BCUID/mainwindow.h \
@@ -733,7 +745,8 @@ twoqc1.o: ../BCUID/twoqc1.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twoqc1.o ../BCUID/twoqc1.cpp
 
 twoqc2.o: ../BCUID/twoqc2.cpp ../BCUID/mainwindow.h \
@@ -743,7 +756,8 @@ twoqc2.o: ../BCUID/twoqc2.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twoqc2.o ../BCUID/twoqc2.cpp
 
 kineticqc1.o: ../BCUID/kineticqc1.cpp ../BCUID/mainwindow.h \
@@ -753,7 +767,8 @@ kineticqc1.o: ../BCUID/kineticqc1.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kineticqc1.o ../BCUID/kineticqc1.cpp
 
 kineticqc2.o: ../BCUID/kineticqc2.cpp ../BCUID/mainwindow.h \
@@ -763,7 +778,8 @@ kineticqc2.o: ../BCUID/kineticqc2.cpp ../BCUID/mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h
+		../BCUID/HL7Exception.h \
+		../BCUID/printer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kineticqc2.o ../BCUID/kineticqc2.cpp
 
 qrc_icons.o: qrc_icons.cpp 
