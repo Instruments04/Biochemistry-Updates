@@ -9731,7 +9731,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(12);
+        stackedWidget->setCurrentIndex(2);
         tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
@@ -9841,7 +9841,7 @@ public:
         RunCal_Btn_2->setText(QApplication::translate("MainWindow", "Run \n"
 " Std / Cal", nullptr));
         label_232->setText(QApplication::translate("MainWindow", "to", nullptr));
-        label_234->setText(QApplication::translate("MainWindow", "0.0356", nullptr));
+        label_234->setText(QString());
         label_196->setText(QString());
         label_235->setText(QApplication::translate("MainWindow", "Ref.", nullptr));
         label_239->setText(QApplication::translate("MainWindow", "Abs", nullptr));
