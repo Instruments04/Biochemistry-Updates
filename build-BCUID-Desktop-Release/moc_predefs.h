@@ -404,6 +404,7 @@
 #define __LLFRACT_IBIT__ 0
 #define __INT8_MAX__ 0x7f
 #define __LONG_WIDTH__ 32
+#define __OPTIMIZE_SIZE__ 1
 #define __UINT_FAST32_TYPE__ unsigned int
 #define __CHAR32_TYPE__ unsigned int
 #define __FLT_MAX__ 3.4028234663852886e+38F

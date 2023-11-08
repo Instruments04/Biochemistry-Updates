@@ -13,8 +13,8 @@ MAKEFILE      = Makefile
 CC            = gcc
 CXX           = g++
 DEFINES       = -DQT_DEPRECATED_WARNINGS -DQEXTSERIALPORT_USING_SHARED -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
-CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
-CXXFLAGS      = -pipe -O2 -std=gnu++1y -Wall -W -D_REENTRANT -fPIC $(DEFINES)
+CFLAGS        = -pipe -Wall -W -D_REENTRANT -fPIC $(DEFINES)
+CXXFLAGS      = -pipe -O2 -Os -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 INCPATH       = -I../BCUID -I. -isystem /usr/local/include -isystem /usr/include/arm-linux-gnueabihf/qt5/QtExtSerialPort -isystem /usr/include/arm-linux-gnueabihf/qt5 -isystem /usr/include/arm-linux-gnueabihf/qt5/QtPrintSupport -isystem /usr/include/arm-linux-gnueabihf/qt5/QtWidgets -isystem /usr/include/arm-linux-gnueabihf/qt5/QtGui -isystem /usr/include/arm-linux-gnueabihf/qt5/QtSql -isystem /usr/include/arm-linux-gnueabihf/qt5/QtNetwork -isystem /usr/include/arm-linux-gnueabihf/qt5/QtCore -I. -I. -I/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++
 QMAKE         = /usr/lib/qt5/bin/qmake
 DEL_FILE      = rm -f
@@ -69,11 +69,7 @@ SOURCES       = ../BCUID/main.cpp \
 		../BCUID/datahistry.cpp \
 		../BCUID/datetimechange.cpp \
 		../BCUID/endqc1.cpp \
-		../BCUID/endqc2.cpp \
-		../BCUID/twoqc1.cpp \
-		../BCUID/twoqc2.cpp \
-		../BCUID/kineticqc1.cpp \
-		../BCUID/kineticqc2.cpp qrc_icons.cpp \
+		../BCUID/endqc2.cpp qrc_icons.cpp \
 		moc_mainwindow.cpp \
 		moc_printer.cpp \
 		moc_qcustomplot.cpp
@@ -97,10 +93,6 @@ OBJECTS       = main.o \
 		datetimechange.o \
 		endqc1.o \
 		endqc2.o \
-		twoqc1.o \
-		twoqc2.o \
-		kineticqc1.o \
-		kineticqc2.o \
 		qrc_icons.o \
 		moc_mainwindow.o \
 		moc_printer.o \
@@ -207,11 +199,7 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/datahistry.cpp \
 		../BCUID/datetimechange.cpp \
 		../BCUID/endqc1.cpp \
-		../BCUID/endqc2.cpp \
-		../BCUID/twoqc1.cpp \
-		../BCUID/twoqc2.cpp \
-		../BCUID/kineticqc1.cpp \
-		../BCUID/kineticqc2.cpp
+		../BCUID/endqc2.cpp
 QMAKE_TARGET  = BCUID
 DESTDIR       = 
 TARGET        = BCUID
@@ -409,7 +397,7 @@ distdir: FORCE
 	$(COPY_FILE) --parents ../BCUID/icons.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.h ../BCUID/printer.h ../BCUID/pi2c.h ../BCUID/qcustomplot.h ../BCUID/hl7socket.h ../BCUID/HL7Object.h ../BCUID/hl7mllp.h ../BCUID/HL7Exception.h ../BCUID/Util.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp ../BCUID/endqc1.cpp ../BCUID/endqc2.cpp ../BCUID/twoqc1.cpp ../BCUID/twoqc2.cpp ../BCUID/kineticqc1.cpp ../BCUID/kineticqc2.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp ../BCUID/endqc1.cpp ../BCUID/endqc2.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/mainwindow.ui $(DISTDIR)/
 
 
@@ -492,14 +480,12 @@ compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) moc_predefs.h
 moc_predefs.h: /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
-	g++ -pipe -O2 -std=gnu++1y -Wall -W -dM -E -o moc_predefs.h /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
+	g++ -pipe -O2 -Os -Wall -W -dM -E -o moc_predefs.h /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
 
 compiler_moc_header_make_all: moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp
 moc_mainwindow.cpp: ../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
@@ -544,8 +530,6 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_heade
 
 main.o: ../BCUID/main.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
@@ -555,13 +539,12 @@ main.o: ../BCUID/main.cpp ../BCUID/mainwindow.h \
 
 mainwindow.o: ../BCUID/mainwindow.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../BCUID/mainwindow.cpp
 
 printer.o: ../BCUID/printer.cpp ../BCUID/printer.h
@@ -569,24 +552,22 @@ printer.o: ../BCUID/printer.cpp ../BCUID/printer.h
 
 endpoint.o: ../BCUID/endpoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endpoint.o ../BCUID/endpoint.cpp
 
 kinetic.o: ../BCUID/kinetic.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kinetic.o ../BCUID/kinetic.cpp
 
 pi2c.o: ../BCUID/pi2c.cpp ../BCUID/pi2c.h
@@ -594,13 +575,12 @@ pi2c.o: ../BCUID/pi2c.cpp ../BCUID/pi2c.h
 
 qc.o: ../BCUID/qc.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qc.o ../BCUID/qc.cpp
 
 qcustomplot.o: ../BCUID/qcustomplot.cpp ../BCUID/qcustomplot.h
@@ -608,179 +588,123 @@ qcustomplot.o: ../BCUID/qcustomplot.cpp ../BCUID/qcustomplot.h
 
 test.o: ../BCUID/test.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o test.o ../BCUID/test.cpp
 
 testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testconfig.o ../BCUID/testconfig.cpp
 
 twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twopoint.o ../BCUID/twopoint.cpp
 
 wifi-setup.o: ../BCUID/wifi-setup.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o wifi-setup.o ../BCUID/wifi-setup.cpp
 
 keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../BCUID/keyboard.cpp
 
 adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adgain.o ../BCUID/adgain.cpp
 
 dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dbbackrest.o ../BCUID/dbbackrest.cpp
 
 printingbtns.o: ../BCUID/printingbtns.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o printingbtns.o ../BCUID/printingbtns.cpp
 
 datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datahistry.o ../BCUID/datahistry.cpp
 
 datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datetimechange.o ../BCUID/datetimechange.cpp
 
 endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc1.o ../BCUID/endqc1.cpp
 
 endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
 		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc2.o ../BCUID/endqc2.cpp
-
-twoqc1.o: ../BCUID/twoqc1.cpp ../BCUID/mainwindow.h \
-		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
-		../BCUID/qcustomplot.h \
-		../BCUID/hl7mllp.h \
-		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twoqc1.o ../BCUID/twoqc1.cpp
-
-twoqc2.o: ../BCUID/twoqc2.cpp ../BCUID/mainwindow.h \
-		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
-		../BCUID/qcustomplot.h \
-		../BCUID/hl7mllp.h \
-		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twoqc2.o ../BCUID/twoqc2.cpp
-
-kineticqc1.o: ../BCUID/kineticqc1.cpp ../BCUID/mainwindow.h \
-		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
-		../BCUID/qcustomplot.h \
-		../BCUID/hl7mllp.h \
-		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kineticqc1.o ../BCUID/kineticqc1.cpp
-
-kineticqc2.o: ../BCUID/kineticqc2.cpp ../BCUID/mainwindow.h \
-		../BCUID/pi2c.h \
-		../BCUID/kboard.h \
-		ui_mainwindow.h \
-		../BCUID/qcustomplot.h \
-		../BCUID/hl7mllp.h \
-		../BCUID/hl7socket.h \
-		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kineticqc2.o ../BCUID/kineticqc2.cpp
 
 qrc_icons.o: qrc_icons.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_icons.o qrc_icons.cpp
