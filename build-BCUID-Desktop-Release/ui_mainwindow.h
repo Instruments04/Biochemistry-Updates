@@ -641,6 +641,7 @@ public:
     QLabel *label_220;
     QRadioButton *radioButton;
     QRadioButton *radioButton_2;
+    QLabel *label_31;
     QWidget *page_11;
     QStackedWidget *stackedWidget_8;
     QWidget *page_17;
@@ -5502,6 +5503,9 @@ public:
 " /*   background-color:       black;*/\n"
 "    border:                 2px solid black;\n"
 "}"));
+        label_31 = new QLabel(page_10);
+        label_31->setObjectName(QStringLiteral("label_31"));
+        label_31->setGeometry(QRect(10, 310, 64, 17));
         stackedWidget->addWidget(page_10);
         pushButton_4->raise();
         label_73->raise();
@@ -5529,6 +5533,7 @@ public:
         label_220->raise();
         radioButton->raise();
         radioButton_2->raise();
+        label_31->raise();
         page_11 = new QWidget();
         page_11->setObjectName(QStringLiteral("page_11"));
         stackedWidget_8 = new QStackedWidget(page_11);
@@ -10546,6 +10551,7 @@ public:
         label_220->setText(QString());
         radioButton->setText(QApplication::translate("MainWindow", " User", nullptr));
         radioButton_2->setText(QApplication::translate("MainWindow", " Service", nullptr));
+        label_31->setText(QString());
         pushButton_21->setText(QApplication::translate("MainWindow", "s", nullptr));
         pushButton_33->setText(QApplication::translate("MainWindow", "o", nullptr));
         pushButton_46->setText(QApplication::translate("MainWindow", "\342\207\247", nullptr));
