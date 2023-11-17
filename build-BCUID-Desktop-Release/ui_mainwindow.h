@@ -614,6 +614,11 @@ public:
     QPushButton *pushButton_330;
     QPushButton *pushButton_313;
     QPushButton *pushButton_199;
+    QFrame *frame_47;
+    QLineEdit *lineEdit_51;
+    QPushButton *pushButton_248;
+    QLabel *label_438;
+    QPushButton *pushButton_331;
     QWidget *page_10;
     QLabel *label_73;
     QToolButton *toolButton_14;
@@ -5206,6 +5211,39 @@ public:
 "background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
 " color: white;}\n"
 "\n"
+""));
+        frame_47 = new QFrame(page_27);
+        frame_47->setObjectName(QStringLiteral("frame_47"));
+        frame_47->setGeometry(QRect(212, 30, 181, 53));
+        frame_47->setFrameShape(QFrame::StyledPanel);
+        frame_47->setFrameShadow(QFrame::Raised);
+        lineEdit_51 = new QLineEdit(frame_47);
+        lineEdit_51->setObjectName(QStringLiteral("lineEdit_51"));
+        lineEdit_51->setGeometry(QRect(10, 6, 161, 40));
+        lineEdit_51->setFont(font);
+        lineEdit_51->setAlignment(Qt::AlignCenter);
+        pushButton_248 = new QPushButton(frame_47);
+        pushButton_248->setObjectName(QStringLiteral("pushButton_248"));
+        pushButton_248->setGeometry(QRect(10, 6, 161, 40));
+        pushButton_248->setFont(font);
+        pushButton_248->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
+        label_438 = new QLabel(page_27);
+        label_438->setObjectName(QStringLiteral("label_438"));
+        label_438->setGeometry(QRect(10, 30, 202, 51));
+        label_438->setFont(font17);
+        label_438->setStyleSheet(QStringLiteral(""));
+        pushButton_331 = new QPushButton(page_27);
+        pushButton_331->setObjectName(QStringLiteral("pushButton_331"));
+        pushButton_331->setGeometry(QRect(400, 30, 141, 51));
+        pushButton_331->setFont(font8);
+        pushButton_331->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;\n"
+"}\n"
+"QPushButton\n"
+"{\n"
+"background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
+" color: white;}\n"
 ""));
         stackedWidget->addWidget(page_27);
         page_10 = new QWidget();
@@ -9952,17 +9990,17 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(12);
+        stackedWidget->setCurrentIndex(24);
         tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
         stackedWidget_8->setCurrentIndex(1);
-        stackedWidget_5->setCurrentIndex(0);
+        stackedWidget_5->setCurrentIndex(1);
         stackedWidget_2->setCurrentIndex(1);
         stackedWidget_6->setCurrentIndex(1);
         stackedWidget_4->setCurrentIndex(2);
         stackedWidget_7->setCurrentIndex(1);
-        stackedWidget_3->setCurrentIndex(0);
+        stackedWidget_3->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -10526,6 +10564,9 @@ public:
         pushButton_330->setText(QApplication::translate("MainWindow", "Export Result to LIS", nullptr));
         pushButton_313->setText(QApplication::translate("MainWindow", "Print", nullptr));
         pushButton_199->setText(QApplication::translate("MainWindow", "Print", nullptr));
+        pushButton_248->setText(QString());
+        label_438->setText(QApplication::translate("MainWindow", "Enter a file name to export :", nullptr));
+        pushButton_331->setText(QApplication::translate("MainWindow", "Export to CSV", nullptr));
         label_73->setText(QApplication::translate("MainWindow", "Settings", nullptr));
         toolButton_14->setText(QString());
         pushButton_10->setText(QApplication::translate("MainWindow", "Date and Time Change", nullptr));
