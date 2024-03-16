@@ -436,6 +436,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/ML.png \
 		../BCUID/img/add.png \
 		../BCUID/img/backu.png \
+		../BCUID/img/left-chevron.png \
 		../BCUID/img/delline.png \
 		../BCUID/img/rss.png \
 		../BCUID/img/Stable.gif \
