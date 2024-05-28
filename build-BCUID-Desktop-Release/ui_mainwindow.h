@@ -8342,28 +8342,40 @@ public:
         pushButton_333->setObjectName(QStringLiteral("pushButton_333"));
         pushButton_333->setGeometry(QRect(10, 70, 151, 41));
         pushButton_333->setFont(font8);
-        pushButton_333->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_333->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"}\n"
+"QPushButton\n"
 "{\n"
 "background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
 " color: white;}\n"
 "\n"
-"QPushButton:pressed {\n"
-"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
-" color: white;\n"
-"}"));
+"\n"
+"QPushButton:disabled \n"
+"{\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
+"}\n"
+""));
         pushButton_331 = new QPushButton(frame_47);
         pushButton_331->setObjectName(QStringLiteral("pushButton_331"));
         pushButton_331->setGeometry(QRect(10, 10, 151, 41));
         pushButton_331->setFont(font8);
-        pushButton_331->setStyleSheet(QLatin1String("QPushButton\n"
+        pushButton_331->setStyleSheet(QLatin1String("QPushButton:pressed {\n"
+"    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,   stop:0 rgba(60, 186, 162, 255), stop:1 rgba(98, 211, 162, 255))\n"
+"}\n"
+"QPushButton\n"
 "{\n"
 "background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
 " color: white;}\n"
 "\n"
-"QPushButton:pressed {\n"
-"   background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop: 0 rgb(12, 68, 145), stop: 0.5 rgb(12, 68, 145),  stop:1 rgb(12, 68, 145));\n"
-" color: white;\n"
-"}"));
+"\n"
+"QPushButton:disabled \n"
+"{\n"
+"    background-color: rgb(170, 170, 127);\n"
+"color:black;\n"
+"}\n"
+""));
         frame_57 = new QFrame(page_37);
         frame_57->setObjectName(QStringLiteral("frame_57"));
         frame_57->setGeometry(QRect(620, 110, 171, 201));
@@ -9304,7 +9316,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(24);
         tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
