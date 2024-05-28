@@ -69,10 +69,12 @@ SOURCES       = ../BCUID/main.cpp \
 		../BCUID/datahistry.cpp \
 		../BCUID/datetimechange.cpp \
 		../BCUID/endqc1.cpp \
-		../BCUID/endqc2.cpp qrc_icons.cpp \
+		../BCUID/endqc2.cpp \
+		../BCUID/virtual_keyboard.cpp qrc_icons.cpp \
 		moc_mainwindow.cpp \
 		moc_printer.cpp \
-		moc_qcustomplot.cpp
+		moc_qcustomplot.cpp \
+		moc_virtual_keyboard.cpp
 OBJECTS       = main.o \
 		mainwindow.o \
 		printer.o \
@@ -93,10 +95,12 @@ OBJECTS       = main.o \
 		datetimechange.o \
 		endqc1.o \
 		endqc2.o \
+		virtual_keyboard.o \
 		qrc_icons.o \
 		moc_mainwindow.o \
 		moc_printer.o \
-		moc_qcustomplot.o
+		moc_qcustomplot.o \
+		moc_virtual_keyboard.o
 DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/common/unix.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/common/linux.conf \
@@ -153,6 +157,7 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf \
+		../BCUID/.qmake.stash \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf \
@@ -180,7 +185,8 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/HL7Object.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/Util.h ../BCUID/main.cpp \
+		../BCUID/Util.h \
+		../BCUID/virtual_keyboard.h ../BCUID/main.cpp \
 		../BCUID/mainwindow.cpp \
 		../BCUID/printer.cpp \
 		../BCUID/endpoint.cpp \
@@ -199,7 +205,8 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		../BCUID/datahistry.cpp \
 		../BCUID/datetimechange.cpp \
 		../BCUID/endqc1.cpp \
-		../BCUID/endqc2.cpp
+		../BCUID/endqc2.cpp \
+		../BCUID/virtual_keyboard.cpp
 QMAKE_TARGET  = BCUID
 DESTDIR       = 
 TARGET        = BCUID
@@ -208,7 +215,7 @@ TARGET        = BCUID
 first: all
 ####### Build rules
 
-$(TARGET): ui_mainwindow.h $(OBJECTS)  
+$(TARGET): ui_mainwindow.h ui_virtual_keyboard.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: ../BCUID/BCUID.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
@@ -267,6 +274,7 @@ Makefile: ../BCUID/BCUID.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf \
@@ -352,6 +360,7 @@ Makefile: ../BCUID/BCUID.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf:
@@ -396,9 +405,9 @@ distdir: FORCE
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../BCUID/icons.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/mainwindow.h ../BCUID/printer.h ../BCUID/pi2c.h ../BCUID/qcustomplot.h ../BCUID/hl7socket.h ../BCUID/HL7Object.h ../BCUID/hl7mllp.h ../BCUID/HL7Exception.h ../BCUID/Util.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp ../BCUID/endqc1.cpp ../BCUID/endqc2.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../BCUID/mainwindow.ui $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/mainwindow.h ../BCUID/printer.h ../BCUID/pi2c.h ../BCUID/qcustomplot.h ../BCUID/hl7socket.h ../BCUID/HL7Object.h ../BCUID/hl7mllp.h ../BCUID/HL7Exception.h ../BCUID/Util.h ../BCUID/virtual_keyboard.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/main.cpp ../BCUID/mainwindow.cpp ../BCUID/printer.cpp ../BCUID/endpoint.cpp ../BCUID/kinetic.cpp ../BCUID/pi2c.cpp ../BCUID/qc.cpp ../BCUID/qcustomplot.cpp ../BCUID/test.cpp ../BCUID/testconfig.cpp ../BCUID/twopoint.cpp ../BCUID/wifi-setup.cpp ../BCUID/keyboard.cpp ../BCUID/adgain.cpp ../BCUID/dbbackrest.cpp ../BCUID/printingbtns.cpp ../BCUID/datahistry.cpp ../BCUID/datetimechange.cpp ../BCUID/endqc1.cpp ../BCUID/endqc2.cpp ../BCUID/virtual_keyboard.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../BCUID/mainwindow.ui ../BCUID/virtual_keyboard.ui $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -436,7 +445,6 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/ML.png \
 		../BCUID/img/add.png \
 		../BCUID/img/backu.png \
-		../BCUID/img/left-chevron.png \
 		../BCUID/img/delline.png \
 		../BCUID/img/rss.png \
 		../BCUID/img/Stable.gif \
@@ -452,6 +460,7 @@ qrc_icons.cpp: ../BCUID/icons.qrc \
 		../BCUID/img/databack.png \
 		../BCUID/img/output-onlinepngtools.png \
 		../BCUID/img/833.gif \
+		../BCUID/img/usb-flash-drive.png \
 		../BCUID/img/output-onlinepngtools \
 		../BCUID/img/preview.gif \
 		../BCUID/img/no-wifi.png \
@@ -483,15 +492,16 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
 	g++ -pipe -O2 -Os -Wall -W -dM -E -o moc_predefs.h /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp
+compiler_moc_header_make_all: moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp moc_virtual_keyboard.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp
+	-$(DEL_FILE) moc_mainwindow.cpp moc_printer.cpp moc_qcustomplot.cpp moc_virtual_keyboard.cpp
 moc_mainwindow.cpp: ../BCUID/pi2c.h \
 		../BCUID/qcustomplot.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		../BCUID/mainwindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
@@ -507,17 +517,26 @@ moc_qcustomplot.cpp: ../BCUID/qcustomplot.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/pi/git/Biochemistry-Updates/build-BCUID-Desktop-Release/moc_predefs.h -I/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++ -I/home/pi/git/Biochemistry-Updates/BCUID -I/usr/local/include -I/usr/include/arm-linux-gnueabihf/qt5/QtExtSerialPort -I/usr/include/arm-linux-gnueabihf/qt5 -I/usr/include/arm-linux-gnueabihf/qt5/QtPrintSupport -I/usr/include/arm-linux-gnueabihf/qt5/QtWidgets -I/usr/include/arm-linux-gnueabihf/qt5/QtGui -I/usr/include/arm-linux-gnueabihf/qt5/QtSql -I/usr/include/arm-linux-gnueabihf/qt5/QtNetwork -I/usr/include/arm-linux-gnueabihf/qt5/QtCore -I. -I/usr/include/c++/8 -I/usr/include/arm-linux-gnueabihf/c++/8 -I/usr/include/c++/8/backward -I/usr/lib/gcc/arm-linux-gnueabihf/8/include -I/usr/local/include -I/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed -I/usr/include/arm-linux-gnueabihf -I/usr/include ../BCUID/qcustomplot.h -o moc_qcustomplot.cpp
 
+moc_virtual_keyboard.cpp: ../BCUID/virtual_keyboard.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/pi/git/Biochemistry-Updates/build-BCUID-Desktop-Release/moc_predefs.h -I/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++ -I/home/pi/git/Biochemistry-Updates/BCUID -I/usr/local/include -I/usr/include/arm-linux-gnueabihf/qt5/QtExtSerialPort -I/usr/include/arm-linux-gnueabihf/qt5 -I/usr/include/arm-linux-gnueabihf/qt5/QtPrintSupport -I/usr/include/arm-linux-gnueabihf/qt5/QtWidgets -I/usr/include/arm-linux-gnueabihf/qt5/QtGui -I/usr/include/arm-linux-gnueabihf/qt5/QtSql -I/usr/include/arm-linux-gnueabihf/qt5/QtNetwork -I/usr/include/arm-linux-gnueabihf/qt5/QtCore -I. -I/usr/include/c++/8 -I/usr/include/arm-linux-gnueabihf/c++/8 -I/usr/include/c++/8/backward -I/usr/lib/gcc/arm-linux-gnueabihf/8/include -I/usr/local/include -I/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed -I/usr/include/arm-linux-gnueabihf -I/usr/include ../BCUID/virtual_keyboard.h -o moc_virtual_keyboard.cpp
+
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_mainwindow.h
+compiler_uic_make_all: ui_mainwindow.h ui_virtual_keyboard.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_mainwindow.h
+	-$(DEL_FILE) ui_mainwindow.h ui_virtual_keyboard.h
 ui_mainwindow.h: ../BCUID/mainwindow.ui \
 		/usr/lib/qt5/bin/uic \
 		../BCUID/qcustomplot.h
 	/usr/lib/qt5/bin/uic ../BCUID/mainwindow.ui -o ui_mainwindow.h
+
+ui_virtual_keyboard.h: ../BCUID/virtual_keyboard.ui \
+		/usr/lib/qt5/bin/uic
+	/usr/lib/qt5/bin/uic ../BCUID/virtual_keyboard.ui -o ui_virtual_keyboard.h
 
 compiler_yacc_decl_make_all:
 compiler_yacc_decl_clean:
@@ -535,7 +554,8 @@ main.o: ../BCUID/main.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
-		../BCUID/printer.h
+		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../BCUID/main.cpp
 
 mainwindow.o: ../BCUID/mainwindow.cpp ../BCUID/mainwindow.h \
@@ -545,6 +565,7 @@ mainwindow.o: ../BCUID/mainwindow.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../BCUID/mainwindow.cpp
 
@@ -558,6 +579,7 @@ endpoint.o: ../BCUID/endpoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endpoint.o ../BCUID/endpoint.cpp
 
@@ -568,6 +590,7 @@ kinetic.o: ../BCUID/kinetic.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kinetic.o ../BCUID/kinetic.cpp
 
@@ -581,6 +604,7 @@ qc.o: ../BCUID/qc.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qc.o ../BCUID/qc.cpp
 
@@ -594,6 +618,7 @@ test.o: ../BCUID/test.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o test.o ../BCUID/test.cpp
 
@@ -604,6 +629,7 @@ testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testconfig.o ../BCUID/testconfig.cpp
 
@@ -614,6 +640,7 @@ twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twopoint.o ../BCUID/twopoint.cpp
 
@@ -624,6 +651,7 @@ wifi-setup.o: ../BCUID/wifi-setup.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o wifi-setup.o ../BCUID/wifi-setup.cpp
 
@@ -634,6 +662,7 @@ keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../BCUID/keyboard.cpp
 
@@ -644,6 +673,7 @@ adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adgain.o ../BCUID/adgain.cpp
 
@@ -654,6 +684,7 @@ dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dbbackrest.o ../BCUID/dbbackrest.cpp
 
@@ -664,6 +695,7 @@ printingbtns.o: ../BCUID/printingbtns.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o printingbtns.o ../BCUID/printingbtns.cpp
 
@@ -674,6 +706,7 @@ datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datahistry.o ../BCUID/datahistry.cpp
 
@@ -684,6 +717,7 @@ datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datetimechange.o ../BCUID/datetimechange.cpp
 
@@ -694,6 +728,7 @@ endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc1.o ../BCUID/endqc1.cpp
 
@@ -704,8 +739,13 @@ endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
 		../BCUID/printer.h \
+		../BCUID/virtual_keyboard.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc2.o ../BCUID/endqc2.cpp
+
+virtual_keyboard.o: ../BCUID/virtual_keyboard.cpp ../BCUID/virtual_keyboard.h \
+		ui_virtual_keyboard.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o virtual_keyboard.o ../BCUID/virtual_keyboard.cpp
 
 qrc_icons.o: qrc_icons.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_icons.o qrc_icons.cpp
@@ -718,6 +758,9 @@ moc_printer.o: moc_printer.cpp
 
 moc_qcustomplot.o: moc_qcustomplot.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_qcustomplot.o moc_qcustomplot.cpp
+
+moc_virtual_keyboard.o: moc_virtual_keyboard.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_virtual_keyboard.o moc_virtual_keyboard.cpp
 
 ####### Install
 
