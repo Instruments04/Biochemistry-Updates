@@ -157,7 +157,6 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf \
-		../BCUID/.qmake.stash \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf \
@@ -274,7 +273,6 @@ Makefile: ../BCUID/BCUID.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf \
@@ -360,7 +358,6 @@ Makefile: ../BCUID/BCUID.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf:
-.qmake.stash:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf:
@@ -500,6 +497,7 @@ moc_mainwindow.cpp: ../BCUID/pi2c.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
 		../BCUID/virtual_keyboard.h \
 		../BCUID/mainwindow.h \
@@ -554,6 +552,7 @@ main.o: ../BCUID/main.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
 		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../BCUID/main.cpp
@@ -564,9 +563,9 @@ mainwindow.o: ../BCUID/mainwindow.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../BCUID/mainwindow.cpp
 
 printer.o: ../BCUID/printer.cpp ../BCUID/printer.h
@@ -578,9 +577,9 @@ endpoint.o: ../BCUID/endpoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endpoint.o ../BCUID/endpoint.cpp
 
 kinetic.o: ../BCUID/kinetic.cpp ../BCUID/mainwindow.h \
@@ -589,9 +588,9 @@ kinetic.o: ../BCUID/kinetic.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o kinetic.o ../BCUID/kinetic.cpp
 
 pi2c.o: ../BCUID/pi2c.cpp ../BCUID/pi2c.h
@@ -603,9 +602,9 @@ qc.o: ../BCUID/qc.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qc.o ../BCUID/qc.cpp
 
 qcustomplot.o: ../BCUID/qcustomplot.cpp ../BCUID/qcustomplot.h
@@ -617,9 +616,9 @@ test.o: ../BCUID/test.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o test.o ../BCUID/test.cpp
 
 testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
@@ -628,9 +627,9 @@ testconfig.o: ../BCUID/testconfig.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testconfig.o ../BCUID/testconfig.cpp
 
 twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
@@ -639,9 +638,9 @@ twopoint.o: ../BCUID/twopoint.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o twopoint.o ../BCUID/twopoint.cpp
 
 wifi-setup.o: ../BCUID/wifi-setup.cpp ../BCUID/mainwindow.h \
@@ -650,9 +649,9 @@ wifi-setup.o: ../BCUID/wifi-setup.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o wifi-setup.o ../BCUID/wifi-setup.cpp
 
 keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
@@ -661,9 +660,9 @@ keyboard.o: ../BCUID/keyboard.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../BCUID/keyboard.cpp
 
 adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
@@ -672,9 +671,9 @@ adgain.o: ../BCUID/adgain.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adgain.o ../BCUID/adgain.cpp
 
 dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
@@ -683,9 +682,9 @@ dbbackrest.o: ../BCUID/dbbackrest.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dbbackrest.o ../BCUID/dbbackrest.cpp
 
 printingbtns.o: ../BCUID/printingbtns.cpp ../BCUID/mainwindow.h \
@@ -694,9 +693,9 @@ printingbtns.o: ../BCUID/printingbtns.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o printingbtns.o ../BCUID/printingbtns.cpp
 
 datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
@@ -705,9 +704,9 @@ datahistry.o: ../BCUID/datahistry.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datahistry.o ../BCUID/datahistry.cpp
 
 datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
@@ -716,9 +715,9 @@ datetimechange.o: ../BCUID/datetimechange.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o datetimechange.o ../BCUID/datetimechange.cpp
 
 endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
@@ -727,9 +726,9 @@ endqc1.o: ../BCUID/endqc1.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc1.o ../BCUID/endqc1.cpp
 
 endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
@@ -738,9 +737,9 @@ endqc2.o: ../BCUID/endqc2.cpp ../BCUID/mainwindow.h \
 		../BCUID/hl7mllp.h \
 		../BCUID/hl7socket.h \
 		../BCUID/HL7Exception.h \
+		ui_mainwindow.h \
 		../BCUID/printer.h \
-		../BCUID/virtual_keyboard.h \
-		ui_mainwindow.h
+		../BCUID/virtual_keyboard.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o endqc2.o ../BCUID/endqc2.cpp
 
 virtual_keyboard.o: ../BCUID/virtual_keyboard.cpp ../BCUID/virtual_keyboard.h \
