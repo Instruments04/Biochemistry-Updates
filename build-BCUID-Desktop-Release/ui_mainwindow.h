@@ -8334,7 +8334,7 @@ public:
         customPlot_3 = new QCustomPlot(page_37);
         customPlot_3->setObjectName(QStringLiteral("customPlot_3"));
         customPlot_3->setGeometry(QRect(10, 110, 601, 331));
-        customPlot_3->setFont(font);
+        customPlot_3->setFont(font23);
         customPlot_3->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
         frame_47 = new QFrame(page_37);
         frame_47->setObjectName(QStringLiteral("frame_47"));
@@ -9141,6 +9141,7 @@ public:
         tableView_5 = new QTableView(frame_53);
         tableView_5->setObjectName(QStringLiteral("tableView_5"));
         tableView_5->setGeometry(QRect(5, 5, 761, 301));
+        tableView_5->setFont(font23);
         tableView_5->setStyleSheet(QLatin1String("background-color:white;\n"
 "color:black;"));
         toolButton_40 = new QToolButton(page_52);
@@ -9319,7 +9320,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(12);
+        stackedWidget->setCurrentIndex(0);
         tabWidget_2->setCurrentIndex(1);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
@@ -9330,7 +9331,7 @@ public:
         stackedWidget_4->setCurrentIndex(1);
         stackedWidget_7->setCurrentIndex(0);
         stackedWidget_3->setCurrentIndex(2);
-        stackedWidget_8->setCurrentIndex(0);
+        stackedWidget_8->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
