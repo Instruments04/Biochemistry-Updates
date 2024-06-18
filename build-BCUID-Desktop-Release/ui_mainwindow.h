@@ -4806,94 +4806,485 @@ public:
         Filter_Btn->setObjectName(QStringLiteral("Filter_Btn"));
         Filter_Btn->setGeometry(QRect(20, 10, 91, 40));
         Filter_Btn->setFont(font8);
+        Filter_Btn->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filter_Btn_2 = new QRadioButton(frame_8);
         Filter_Btn_2->setObjectName(QStringLiteral("Filter_Btn_2"));
         Filter_Btn_2->setGeometry(QRect(20, 10, 81, 40));
         Filter_Btn_2->setFont(font8);
+        Filter_Btn_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Print_Btn_2 = new QRadioButton(frame_8);
         Data_Print_Btn_2->setObjectName(QStringLiteral("Data_Print_Btn_2"));
         Data_Print_Btn_2->setGeometry(QRect(20, 80, 71, 40));
         Data_Print_Btn_2->setFont(font8);
+        Data_Print_Btn_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Print_Btn = new QRadioButton(frame_8);
         Data_Print_Btn->setObjectName(QStringLiteral("Data_Print_Btn"));
         Data_Print_Btn->setGeometry(QRect(20, 80, 71, 40));
         Data_Print_Btn->setFont(font8);
+        Data_Print_Btn->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Export_Btn = new QRadioButton(frame_8);
         Export_Btn->setObjectName(QStringLiteral("Export_Btn"));
         Export_Btn->setGeometry(QRect(20, 150, 91, 40));
         Export_Btn->setFont(font8);
+        Export_Btn->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Export_Btn_2 = new QRadioButton(frame_8);
         Export_Btn_2->setObjectName(QStringLiteral("Export_Btn_2"));
         Export_Btn_2->setGeometry(QRect(20, 150, 91, 40));
         Export_Btn_2->setFont(font8);
+        Export_Btn_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Delete_Btn = new QRadioButton(frame_8);
         Data_Delete_Btn->setObjectName(QStringLiteral("Data_Delete_Btn"));
         Data_Delete_Btn->setGeometry(QRect(20, 220, 91, 40));
         Data_Delete_Btn->setFont(font8);
+        Data_Delete_Btn->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Delete_Btn_2 = new QRadioButton(frame_8);
         Data_Delete_Btn_2->setObjectName(QStringLiteral("Data_Delete_Btn_2"));
         Data_Delete_Btn_2->setGeometry(QRect(20, 220, 91, 40));
         Data_Delete_Btn_2->setFont(font8);
+        Data_Delete_Btn_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filt_TestName = new QRadioButton(frame_8);
         Filt_TestName->setObjectName(QStringLiteral("Filt_TestName"));
         Filt_TestName->setGeometry(QRect(20, 70, 181, 40));
         Filt_TestName->setFont(font8);
+        Filt_TestName->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filt_TestName_2 = new QRadioButton(frame_8);
         Filt_TestName_2->setObjectName(QStringLiteral("Filt_TestName_2"));
         Filt_TestName_2->setGeometry(QRect(20, 70, 181, 41));
         Filt_TestName_2->setFont(font8);
+        Filt_TestName_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filt_Sample_Id = new QRadioButton(frame_8);
         Filt_Sample_Id->setObjectName(QStringLiteral("Filt_Sample_Id"));
         Filt_Sample_Id->setGeometry(QRect(20, 135, 121, 40));
         Filt_Sample_Id->setFont(font8);
+        Filt_Sample_Id->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filt_Sample_Id_2 = new QRadioButton(frame_8);
         Filt_Sample_Id_2->setObjectName(QStringLiteral("Filt_Sample_Id_2"));
         Filt_Sample_Id_2->setGeometry(QRect(20, 130, 121, 40));
         Filt_Sample_Id_2->setFont(font8);
+        Filt_Sample_Id_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filt_Date = new QRadioButton(frame_8);
         Filt_Date->setObjectName(QStringLiteral("Filt_Date"));
         Filt_Date->setGeometry(QRect(20, 200, 71, 40));
         Filt_Date->setFont(font8);
+        Filt_Date->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Filt_Date_2 = new QRadioButton(frame_8);
         Filt_Date_2->setObjectName(QStringLiteral("Filt_Date_2"));
         Filt_Date_2->setGeometry(QRect(20, 200, 71, 40));
         Filt_Date_2->setFont(font8);
+        Filt_Date_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Internal_Print_All_data_2 = new QRadioButton(frame_8);
         Internal_Print_All_data_2->setObjectName(QStringLiteral("Internal_Print_All_data_2"));
         Internal_Print_All_data_2->setGeometry(QRect(20, 200, 101, 40));
         Internal_Print_All_data_2->setFont(font8);
+        Internal_Print_All_data_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Print_All_data = new QRadioButton(frame_8);
         Print_All_data->setObjectName(QStringLiteral("Print_All_data"));
         Print_All_data->setGeometry(QRect(20, 200, 101, 40));
         Print_All_data->setFont(font8);
+        Print_All_data->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Print_Individual_Data = new QRadioButton(frame_8);
         Print_Individual_Data->setObjectName(QStringLiteral("Print_Individual_Data"));
         Print_Individual_Data->setGeometry(QRect(20, 140, 211, 40));
         Print_Individual_Data->setFont(font8);
+        Print_Individual_Data->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Internal_Print_Individual_Data_2 = new QRadioButton(frame_8);
         Internal_Print_Individual_Data_2->setObjectName(QStringLiteral("Internal_Print_Individual_Data_2"));
         Internal_Print_Individual_Data_2->setGeometry(QRect(20, 140, 211, 40));
         Internal_Print_Individual_Data_2->setFont(font8);
+        Internal_Print_Individual_Data_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Select_Delete_2 = new QRadioButton(frame_8);
         Data_Select_Delete_2->setObjectName(QStringLiteral("Data_Select_Delete_2"));
         Data_Select_Delete_2->setGeometry(QRect(20, 270, 211, 40));
         Data_Select_Delete_2->setFont(font8);
+        Data_Select_Delete_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Select_Delete = new QRadioButton(frame_8);
         Data_Select_Delete->setObjectName(QStringLiteral("Data_Select_Delete"));
         Data_Select_Delete->setGeometry(QRect(20, 270, 211, 40));
         Data_Select_Delete->setFont(font8);
+        Data_Select_Delete->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Delete_All = new QRadioButton(frame_8);
         Data_Delete_All->setObjectName(QStringLiteral("Data_Delete_All"));
         Data_Delete_All->setGeometry(QRect(20, 329, 111, 31));
         Data_Delete_All->setFont(font8);
+        Data_Delete_All->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Data_Delete_All_2 = new QRadioButton(frame_8);
         Data_Delete_All_2->setObjectName(QStringLiteral("Data_Delete_All_2"));
         Data_Delete_All_2->setGeometry(QRect(20, 330, 121, 31));
         Data_Delete_All_2->setFont(font8);
+        Data_Delete_All_2->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         LIS = new QRadioButton(frame_8);
         LIS->setObjectName(QStringLiteral("LIS"));
         LIS->setGeometry(QRect(20, 290, 91, 40));
         LIS->setFont(font8);
+        LIS->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         LIS_Back_Btn = new QPushButton(frame_8);
         LIS_Back_Btn->setObjectName(QStringLiteral("LIS_Back_Btn"));
         LIS_Back_Btn->setGeometry(QRect(200, 290, 51, 41));
@@ -6516,6 +6907,23 @@ public:
         radioButton_3->setObjectName(QStringLiteral("radioButton_3"));
         radioButton_3->setGeometry(QRect(130, 30, 221, 51));
         radioButton_3->setFont(font25);
+        radioButton_3->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         toolButton_26 = new QToolButton(frame_46);
         toolButton_26->setObjectName(QStringLiteral("toolButton_26"));
         toolButton_26->setGeometry(QRect(160, 210, 141, 51));
@@ -6586,6 +6994,23 @@ public:
         radioButton_4->setObjectName(QStringLiteral("radioButton_4"));
         radioButton_4->setGeometry(QRect(130, 120, 231, 51));
         radioButton_4->setFont(font25);
+        radioButton_4->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         stackedWidget_2->addWidget(page_4);
         page_13 = new QWidget();
         page_13->setObjectName(QStringLiteral("page_13"));
@@ -6839,6 +7264,23 @@ public:
         radioButton_5->setObjectName(QStringLiteral("radioButton_5"));
         radioButton_5->setGeometry(QRect(220, 235, 81, 23));
         radioButton_5->setFont(font8);
+        radioButton_5->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         Kinetic_Print_Btn = new QPushButton(frame_11);
         Kinetic_Print_Btn->setObjectName(QStringLiteral("Kinetic_Print_Btn"));
         Kinetic_Print_Btn->setGeometry(QRect(489, 320, 261, 71));
@@ -6865,12 +7307,46 @@ public:
         Kinetic_Print_Btn->setIconSize(QSize(18, 18));
         radioButton_6 = new QRadioButton(frame_11);
         radioButton_6->setObjectName(QStringLiteral("radioButton_6"));
-        radioButton_6->setGeometry(QRect(220, 290, 91, 23));
+        radioButton_6->setGeometry(QRect(220, 290, 121, 23));
         radioButton_6->setFont(font8);
+        radioButton_6->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         radioButton_7 = new QRadioButton(frame_11);
         radioButton_7->setObjectName(QStringLiteral("radioButton_7"));
-        radioButton_7->setGeometry(QRect(220, 350, 141, 23));
+        radioButton_7->setGeometry(QRect(220, 350, 171, 23));
         radioButton_7->setFont(font8);
+        radioButton_7->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         TwoPoint_Print_Btn = new QPushButton(frame_11);
         TwoPoint_Print_Btn->setObjectName(QStringLiteral("TwoPoint_Print_Btn"));
         TwoPoint_Print_Btn->setGeometry(QRect(489, 320, 261, 71));
@@ -7191,10 +7667,44 @@ public:
         font34.setBold(false);
         font34.setWeight(50);
         radioButton_8->setFont(font34);
+        radioButton_8->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         radioButton_9 = new QRadioButton(frame_44);
         radioButton_9->setObjectName(QStringLiteral("radioButton_9"));
         radioButton_9->setGeometry(QRect(70, 110, 141, 41));
         radioButton_9->setFont(font34);
+        radioButton_9->setStyleSheet(QLatin1String("QRadioButton::indicator\n"
+" {\n"
+"            width: 20px;\n"
+"            height: 20px;\n"
+" 			border-radius: 10px;\n"
+"			\n"
+" }\n"
+" QRadioButton::indicator::unchecked \n"
+"{\n"
+"			background-color:none;\n"
+" 			border: 1px solid black;\n"
+"}\n"
+"QRadioButton::indicator::checked\n"
+" {\n"
+"			background-color:gray;\n"
+" 			border: 1px solid black;\n"
+" }"));
         stackedWidget_6->addWidget(page_43);
         page_44 = new QWidget();
         page_44->setObjectName(QStringLiteral("page_44"));
@@ -8719,7 +9229,36 @@ public:
         page_49->setObjectName(QStringLiteral("page_49"));
         horizontalSlider = new QSlider(page_49);
         horizontalSlider->setObjectName(QStringLiteral("horizontalSlider"));
-        horizontalSlider->setGeometry(QRect(230, 160, 341, 55));
+        horizontalSlider->setGeometry(QRect(240, 170, 341, 55));
+        horizontalSlider->setStyleSheet(QLatin1String("QSlider::groove:horizontal {\n"
+"       height: 20px;\n"
+"       background: #cccccc;\n"
+"       border: 1px solid #999999;\n"
+"       border-radius: 5px;\n"
+"    }\n"
+"    QSlider::handle:horizontal \n"
+"{\n"
+"       \n"
+"	background-color: rgb(41, 128, 203);\n"
+"      border: 1px solid #5c5c5c;\n"
+"      width: 25px;\n"
+"       height: 25px;\n"
+"       margin: -3px 0;\n"
+"       border-radius: 12px;\n"
+"    }\n"
+"QSlider::sub-page:horizontal {\n"
+"       background: rgb(41, 128, 203);\n"
+"        border: 1px solid #777777;\n"
+"        height: 20px;\n"
+"        border-radius: 5px;\n"
+"    }\n"
+"\n"
+"    QSlider::add-page:horizontal {\n"
+"        background: #cccccc;\n"
+"        border: 1px solid #777777;\n"
+"        height: 20px;\n"
+"        border-radius: 5px;\n"
+"    }"));
         horizontalSlider->setOrientation(Qt::Horizontal);
         label_53 = new QLabel(page_49);
         label_53->setObjectName(QStringLiteral("label_53"));
@@ -8727,7 +9266,7 @@ public:
         label_53->setFont(font28);
         label_54 = new QLabel(page_49);
         label_54->setObjectName(QStringLiteral("label_54"));
-        label_54->setGeometry(QRect(380, 210, 41, 41));
+        label_54->setGeometry(QRect(380, 230, 41, 41));
         QFont font36;
         font36.setFamily(QStringLiteral("Liberation Serif"));
         font36.setPointSize(18);
@@ -8737,7 +9276,7 @@ public:
         label_54->setAlignment(Qt::AlignCenter);
         toolButton_5 = new QToolButton(page_49);
         toolButton_5->setObjectName(QStringLiteral("toolButton_5"));
-        toolButton_5->setGeometry(QRect(300, 280, 201, 51));
+        toolButton_5->setGeometry(QRect(300, 290, 201, 51));
         toolButton_5->setFont(font5);
         toolButton_5->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
@@ -8750,7 +9289,7 @@ public:
 "}"));
         Home_Btn_22 = new QPushButton(page_49);
         Home_Btn_22->setObjectName(QStringLiteral("Home_Btn_22"));
-        Home_Btn_22->setGeometry(QRect(740, 0, 61, 61));
+        Home_Btn_22->setGeometry(QRect(740, 0, 61, 51));
         Home_Btn_22->setFont(font6);
         Home_Btn_22->setStyleSheet(QLatin1String("border:none;\n"
 "border-radius:30%;\n"
@@ -9320,15 +9859,15 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
-        tabWidget_2->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(2);
+        tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
-        stackedWidget_9->setCurrentIndex(1);
+        stackedWidget_9->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
-        stackedWidget_2->setCurrentIndex(1);
+        stackedWidget_2->setCurrentIndex(0);
         stackedWidget_6->setCurrentIndex(0);
-        stackedWidget_4->setCurrentIndex(1);
+        stackedWidget_4->setCurrentIndex(0);
         stackedWidget_7->setCurrentIndex(0);
         stackedWidget_3->setCurrentIndex(2);
         stackedWidget_8->setCurrentIndex(1);
@@ -10036,11 +10575,11 @@ public:
         label_267->setText(QString());
         label_268->setText(QApplication::translate("MainWindow", "Conc.", nullptr));
         label_50->setText(QString());
-        Unit_lineEdit_8->setText(QApplication::translate("MainWindow", "mg/dL", nullptr));
-        radioButton_5->setText(QApplication::translate("MainWindow", "Male", nullptr));
+        Unit_lineEdit_8->setText(QString());
+        radioButton_5->setText(QApplication::translate("MainWindow", " Male", nullptr));
         Kinetic_Print_Btn->setText(QApplication::translate("MainWindow", "Print", nullptr));
-        radioButton_6->setText(QApplication::translate("MainWindow", "Female", nullptr));
-        radioButton_7->setText(QApplication::translate("MainWindow", "Transgender", nullptr));
+        radioButton_6->setText(QApplication::translate("MainWindow", " Female", nullptr));
+        radioButton_7->setText(QApplication::translate("MainWindow", " Others", nullptr));
         TwoPoint_Print_Btn->setText(QApplication::translate("MainWindow", "Print", nullptr));
         label_94->setText(QApplication::translate("MainWindow", "Name", nullptr));
         Patient_Age_Btn->setText(QString());
@@ -10069,8 +10608,8 @@ public:
         label_91->setText(QApplication::translate("MainWindow", "LIS SETUP", nullptr));
         toolButton_16->setText(QString());
         label_92->setText(QApplication::translate("MainWindow", "LIS Interface ", nullptr));
-        radioButton_8->setText(QApplication::translate("MainWindow", "Enable", nullptr));
-        radioButton_9->setText(QApplication::translate("MainWindow", "Disable", nullptr));
+        radioButton_8->setText(QApplication::translate("MainWindow", "  Enable", nullptr));
+        radioButton_9->setText(QApplication::translate("MainWindow", "  Disable", nullptr));
         label_264->setText(QString());
         IPAddress_2->setText(QApplication::translate("MainWindow", "Client IP Address", nullptr));
         Port->setText(QApplication::translate("MainWindow", "Port Number", nullptr));
