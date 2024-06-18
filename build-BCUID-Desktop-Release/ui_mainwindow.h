@@ -4592,7 +4592,7 @@ public:
         pushButton_319 = new QPushButton(page_8);
         pushButton_319->setObjectName(QStringLiteral("pushButton_319"));
         pushButton_319->setGeometry(QRect(120, 340, 91, 51));
-        pushButton_319->setFont(font);
+        pushButton_319->setFont(font13);
         pushButton_319->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -4603,7 +4603,7 @@ public:
         pushButton_320 = new QPushButton(page_8);
         pushButton_320->setObjectName(QStringLiteral("pushButton_320"));
         pushButton_320->setGeometry(QRect(10, 340, 91, 51));
-        pushButton_320->setFont(font);
+        pushButton_320->setFont(font13);
         pushButton_320->setStyleSheet(QLatin1String("QPushButton\n"
 "{\n"
 "background-color: rgb(12, 68, 145);\n"
@@ -9859,7 +9859,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(2);
+        stackedWidget->setCurrentIndex(1);
         tabWidget_2->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(0);
@@ -10332,10 +10332,10 @@ public:
         label_65->setText(QString());
         label_66->setText(QString());
         label_255->setText(QString());
-        label_258->setText(QApplication::translate("MainWindow", "25.35", nullptr));
+        label_258->setText(QString());
         pushButton_189->setText(QString());
         pushButton_190->setText(QString());
-        label_259->setText(QApplication::translate("MainWindow", "mg/dl", nullptr));
+        label_259->setText(QString());
         pushButton_317->setText(QApplication::translate("MainWindow", "QC-1", nullptr));
         pushButton_318->setText(QApplication::translate("MainWindow", "QC-2", nullptr));
         pushButton_319->setText(QApplication::translate("MainWindow", "QC-2", nullptr));
